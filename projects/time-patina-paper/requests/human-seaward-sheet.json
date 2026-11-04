@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 8,
+  "projectSlug": "time-patina-paper",
+  "assetId": "human-seaward-sheet",
+  "capability": "image",
+  "output": "public/projects/time-patina-paper/assets/human-seaward-sheet.png",
+  "prompt": "Use aged paper, restrained sepia color, halftone print texture, and archival cutout framing.\nTreat photographs and documents as tactile evidence layers with legible hierarchy.\nAvoid: Glossy modern gradients, neon color, and playful preschool proportions.\nComposition: Organize evidence in measured overlapping planes with one dominant archival focal point.\nComposition: Preserve readable margins, captions, and document edges instead of filling every gap.\nUse case: illustration-story. Asset type: registered animation pose sheet for an elegant melancholic music video. Reference image: immutable character identity and printed paper material. Create ONE complete square 2x2 sheet at least 1024x1024 with true transparent background. Three occupied equal cells: top-left, top-right, bottom-left. Bottom-right entirely empty transparent. No grid lines, borders, labels or text. Same anonymous slim adult man as reference: short dark wavy hair, knee-length indigo coat, brown waistcoat, ivory shirt and trousers, dark flat shoes, understated face, warm cream cut-paper outline, detailed fine sepia halftone and tactile vintage print. Maintain one consistent head size and anatomy across ALL cells. No costume changes. Each cell has generous clear margin; every figure and all shoes entirely inside its own cell. Put the contact baseline at 88% of cell height, horizontally centered at 50%. Standing equivalent height 74% of cell; seated figures naturally shorter, never enlarge seated heads to fill the cell. All internal spaces show real alpha, no checkerboard, ground shadow, background or glow. Exactly two arms and two legs per figure. Quiet, beautiful, mature album illustration; no glossy rendering, neon, caricature or child proportions. All three full-body figures stand still with IDENTICAL feet, legs, pelvis and body scale, in a graceful three-quarter profile facing to image RIGHT. Top-left: looking quietly right toward the horizon, arms relaxed down, shoulders a little closed. Top-right: feet and lower body stay fixed facing right while head and shoulders gently turn back toward the viewer LEFT, an expressive looking-back gesture, anatomically natural neck, no exaggerated twist. Bottom-left: gently returns gaze to the RIGHT and lifts chin slightly, shoulders relaxed and open, right hand lightly resting on coat lapel. Maintain the same coat silhouette except tiny natural cloth differences. No letter, book, props or scenery.",
+  "styleProfileBinding": {
+    "schemaVersion": 1,
+    "id": "archival-collage",
+    "catalogVersion": "2026-07-30.2",
+    "profileFingerprint": "03374c56e20183c3e8d4ddb0e4883a50e7ecdb7ca207711e786cbd2106415885",
+    "directives": [
+      "Use aged paper, restrained sepia color, halftone print texture, and archival cutout framing.",
+      "Treat photographs and documents as tactile evidence layers with legible hierarchy.",
+      "Avoid: Glossy modern gradients, neon color, and playful preschool proportions.",
+      "Composition: Organize evidence in measured overlapping planes with one dominant archival focal point.",
+      "Composition: Preserve readable margins, captions, and document edges instead of filling every gap."
+    ]
+  },
+  "outputSurface": {
+    "mode": "alpha"
+  },
+  "compositionBinding": {
+    "sceneId": "balanced-scene-03",
+    "nodeId": "paper-person",
+    "pattern": "state-sequence",
+    "outputRole": "state-sheet",
+    "canvas": {
+      "width": 1024,
+      "height": 1024
+    },
+    "derivation": {
+      "method": "provider-generation"
+    },
+    "registrationId": "human-seaward-registration",
+    "sourceMasterAssetId": "human-seaward-sheet"
+  },
+  "semanticBinding": {
+    "riskClass": "identity-critical",
+    "contractIds": [
+      "paper-person-identity",
+      "paper-person-topology"
+    ],
+    "generationFamily": {
+      "familyId": "human-seaward",
+      "identityMemberIds": [
+        "paper-person"
+      ],
+      "referenceAssetIds": [
+        "paper-person-reference"
+      ],
+      "stateMemberIds": [
+        "sea-profile",
+        "sea-lookback",
+        "sea-lift"
+      ]
+    }
+  },
+  "quality": {
+    "requiredChecks": [
+      "no-text",
+      "no-watermark",
+      "style-consistent",
+      "style-profile-conformant",
+      "subject-complete",
+      "identity-family-consistent",
+      "silhouette-fidelity",
+      "negative-space-clean",
+      "background-leak-free",
+      "cell-separation"
+    ]
+  },
+  "stateSheetBinding": {
+    "poseFamilyId": "human-seaward",
+    "registrationId": "human-seaward-registration",
+    "sourceMasterAssetId": "human-seaward-sheet",
+    "identityReferenceAssetId": "paper-person-reference",
+    "anchorPolicy": {
+      "requiredAnchorIds": [
+        "contact"
+      ],
+      "maximumDrift": 0.07
+    },
+    "layout": {
+      "columns": 2,
+      "rows": 2
+    },
+    "states": [
+      {
+        "stateId": "sea-profile",
+        "row": 0,
+        "column": 0,
+        "facing": "right",
+        "anchors": [
+          {
+            "id": "contact",
+            "x": 0.5,
+            "y": 0.88
+          }
+        ]
+      },
+      {
+        "stateId": "sea-lookback",
+        "row": 0,
+        "column": 1,
+        "facing": "right",
+        "anchors": [
+          {
+            "id": "contact",
+            "x": 0.5,
+            "y": 0.88
+          }
+        ]
+      },
+      {
+        "stateId": "sea-lift",
+        "row": 1,
+        "column": 0,
+        "facing": "right",
+        "anchors": [
+          {
+            "id": "contact",
+            "x": 0.5,
+            "y": 0.88
+          }
+        ]
+      }
+    ],
+    "recoveryPolicy": {
+      "strategy": "preserve-sheet-context",
+      "localDeterministicFixFirst": true,
+      "isolatedCellGeneration": "forbidden",
+      "fallback": "full-sheet-regeneration"
+    }
+  }
+}

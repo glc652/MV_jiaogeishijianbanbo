@@ -1,0 +1,11 @@
+import fs from 'node:fs/promises';
+import {REGISTERED_FAMILY_RECOVERY_POLICY} from '../../scripts/registered-family-lib.mjs';
+const dir=new URL('./',import.meta.url);
+const request=JSON.parse(await fs.readFile(new URL('requests/rain-window-master.json',dir),'utf8'));
+const b=request.layerPackageBinding;
+const family={schemaVersion:2,projectSlug:'time-patina-paper',sceneId:'balanced-scene-01',groupId:'world-1',familyId:'rain-window-family',pattern:b.pattern,motionCapability:b.motionCapability,sourcePackageId:b.sourcePackageId,sourceStrategy:b.sourceStrategy,revealEnvelope:Object.fromEntries(['16:9','9:16','1:1'].map(k=>[k,{x:0.025,y:0.015,scale:0.035,rotationDegrees:0.7}])),registration:{id:b.registrationId,sourceMasterAssetId:b.sourceMasterAssetId,canvas:b.canvas,origin:'top-left'},members:['support-rear','subject','support-front'].map((role,i)=>({assetId:b.memberAssetIds[i]+'-registered',nodeId:['rear','subject','front'][i],role,slot:role,completeness:['clean-plate','full-silhouette','full-overlay'][i],output:`public/projects/time-patina-paper/assets/${b.memberAssetIds[i]}-registered.png`,source:{kind:'layer-package-member',assetId:b.memberAssetIds[i]},derivation:{}})),recoveryPolicy:REGISTERED_FAMILY_RECOVERY_POLICY,applyToProject:false};
+await fs.writeFile(new URL('rain-family.json',dir),JSON.stringify(family,null,2));
+const sheet=JSON.parse(await fs.readFile(new URL('requests/human-release-sheet.json',dir),'utf8'));
+const sb=sheet.stateSheetBinding;
+const spec={schemaVersion:1,projectSlug:'time-patina-paper',sceneId:'balanced-scene-07',nodeId:'paper-person',poseFamilyId:sb.poseFamilyId,sourceAssetId:sheet.assetId,input:sheet.output,outputDirectory:'public/projects/time-patina-paper/assets/person-states',layout:sb.layout,registration:{id:sb.registrationId,sourceMasterAssetId:sb.sourceMasterAssetId},identityReference:{assetId:sb.identityReferenceAssetId},anchorPolicy:sb.anchorPolicy,states:sb.states.map(({stateId,...s})=>({id:stateId,...s})),keying:{keyColor:'#00ff00',transparentThreshold:0,opaqueThreshold:1,edgeFeather:0,matteErode:0,edgePadding:2}};
+await fs.writeFile(new URL('person-sheet-process.json',dir),JSON.stringify(spec,null,2));

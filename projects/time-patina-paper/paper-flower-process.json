@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "projectSlug": "time-patina-paper",
+  "sceneId": "balanced-scene-04",
+  "nodeId": "flower",
+  "poseFamilyId": "paper-flower",
+  "sourceAssetId": "paper-flower-sheet",
+  "input": "public/projects/time-patina-paper/assets/paper-flower-sheet.png",
+  "outputDirectory": "public/projects/time-patina-paper/assets/paper-flower-states",
+  "layout": {
+    "columns": 2,
+    "rows": 2
+  },
+  "registration": {
+    "id": "paper-flower-registration",
+    "sourceMasterAssetId": "paper-flower-sheet"
+  },
+  "identityReference": {
+    "assetId": "paper-flower-reference"
+  },
+  "anchorPolicy": {
+    "requiredAnchorIds": [
+      "contact"
+    ],
+    "maximumDrift": 0.07
+  },
+  "states": [
+    {
+      "id": "bud",
+      "row": 0,
+      "column": 0,
+      "facing": "front",
+      "anchors": [
+        {
+          "id": "contact",
+          "x": 0.5,
+          "y": 0.88
+        }
+      ],
+      "registrationTransform": {
+        "scale": 0.83,
+        "anchorId": "contact",
+        "sourceContact": {
+          "x": 0.5582137161084529,
+          "y": 0.9856459330143541
+        }
+      }
+    },
+    {
+      "id": "opening",
+      "row": 0,
+      "column": 1,
+      "facing": "front",
+      "anchors": [
+        {
+          "id": "contact",
+          "x": 0.5,
+          "y": 0.88
+        }
+      ],
+      "registrationTransform": {
+        "scale": 0.83,
+        "anchorId": "contact",
+        "sourceContact": {
+          "x": 0.47527910685805425,
+          "y": 0.9856459330143541
+        }
+      }
+    },
+    {
+      "id": "bloom",
+      "row": 1,
+      "column": 0,
+      "facing": "front",
+      "anchors": [
+        {
+          "id": "contact",
+          "x": 0.5,
+          "y": 0.88
+        }
+      ],
+      "registrationTransform": {
+        "scale": 0.83,
+        "anchorId": "contact",
+        "sourceContact": {
+          "x": 0.5502392344497608,
+          "y": 0.960127591706539
+        }
+      }
+    }
+  ],
+  "keying": {
+    "keyColor": "#00ff00",
+    "transparentThreshold": 0,
+    "opaqueThreshold": 1,
+    "edgeFeather": 0,
+    "matteErode": 0,
+    "edgePadding": 2
+  }
+}

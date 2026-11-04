@@ -1,0 +1,454 @@
+
+> paper-collage-video-workspace@0.19.1-dev.1 project:resume
+> node scripts/project-status.mjs --resume-json time-patina-paper
+
+{
+  "slug": "time-patina-paper",
+  "stage": "style-review",
+  "productionProfile": "balanced",
+  "storyboard": {
+    "status": "ready",
+    "arc": "保留整首原曲与全部歌词，制作深度只影响纸片动画和分层密度，不删减音乐。 从雨中的旧信，到碎片拼合，再到花开和释怀。",
+    "sceneCount": 8,
+    "transitionCount": 7,
+    "scenes": [
+      {
+        "id": "balanced-scene-01",
+        "title": "雨落旧信",
+        "narrativeRole": "开篇",
+        "blueprint": "transformation-tableau",
+        "patterns": [
+          "free",
+          "registered-depth-stack"
+        ],
+        "treatmentCount": 8,
+        "riskScore": 18,
+        "beatCount": 3,
+        "evidenceBoundBeatCount": 3,
+        "proofCount": 3
+      },
+      {
+        "id": "balanced-scene-02",
+        "title": "折起昨日",
+        "narrativeRole": "情绪发展",
+        "blueprint": "archive-stack",
+        "patterns": [
+          "free"
+        ],
+        "treatmentCount": 4,
+        "riskScore": 12,
+        "beatCount": 3,
+        "evidenceBoundBeatCount": 3,
+        "proofCount": 3
+      },
+      {
+        "id": "balanced-scene-03",
+        "title": "风翻记忆",
+        "narrativeRole": "情绪发展",
+        "blueprint": "archive-stack",
+        "patterns": [
+          "free"
+        ],
+        "treatmentCount": 3,
+        "riskScore": 12,
+        "beatCount": 3,
+        "evidenceBoundBeatCount": 3,
+        "proofCount": 3
+      },
+      {
+        "id": "balanced-scene-04",
+        "title": "花开如初",
+        "narrativeRole": "情绪发展",
+        "blueprint": "transformation-tableau",
+        "patterns": [
+          "free",
+          "registered-depth-stack"
+        ],
+        "treatmentCount": 7,
+        "riskScore": 18,
+        "beatCount": 3,
+        "evidenceBoundBeatCount": 3,
+        "proofCount": 3
+      },
+      {
+        "id": "balanced-scene-05",
+        "title": "留白的海",
+        "narrativeRole": "情绪发展",
+        "blueprint": "archive-stack",
+        "patterns": [
+          "free"
+        ],
+        "treatmentCount": 3,
+        "riskScore": 12,
+        "beatCount": 3,
+        "evidenceBoundBeatCount": 3,
+        "proofCount": 3
+      },
+      {
+        "id": "balanced-scene-06",
+        "title": "重新拼合",
+        "narrativeRole": "情绪发展",
+        "blueprint": "layered-reveal",
+        "patterns": [
+          "free",
+          "registered-depth-stack"
+        ],
+        "treatmentCount": 5,
+        "riskScore": 18,
+        "beatCount": 3,
+        "evidenceBoundBeatCount": 3,
+        "proofCount": 3
+      },
+      {
+        "id": "balanced-scene-07",
+        "title": "放过自己",
+        "narrativeRole": "情绪发展",
+        "blueprint": "transformation-tableau",
+        "patterns": [
+          "free",
+          "registered-depth-stack"
+        ],
+        "treatmentCount": 7,
+        "riskScore": 38,
+        "beatCount": 3,
+        "evidenceBoundBeatCount": 3,
+        "proofCount": 3
+      },
+      {
+        "id": "balanced-scene-08",
+        "title": "交给时间",
+        "narrativeRole": "释怀",
+        "blueprint": "quiet-lockup",
+        "patterns": [
+          "free"
+        ],
+        "treatmentCount": 3,
+        "riskScore": 12,
+        "beatCount": 3,
+        "evidenceBoundBeatCount": 3,
+        "proofCount": 3
+      }
+    ],
+    "directing": {
+      "fingerprint": "79431499139bc37193f83f292cde38de9afe903c02a8139a47983a1de51277a8",
+      "motionContract": {
+        "summary": "以缓慢建立、纸片或形态转变、情绪落定构成每幕，副歌展开纵深与暖光。",
+        "approvalFingerprint": "3238027a004e7fe7b19a05bdb6bebb4184774d63c8a174f1ffa6c02b7779ce1e",
+        "executionFingerprint": "a223dde51c18312de0e9db63ac212ce47b479f42cab434bd8bdd2fc9043ac9af"
+      },
+      "styleProofPlan": {
+        "requiredCoverage": [
+          "motion:bounded-relative-layers",
+          "motion:motif-field",
+          "motion:state-sequence",
+          "relationship:coupled",
+          "relationship:registered-depth-stack",
+          "semantic:identity"
+        ],
+        "targets": [
+          {
+            "sceneId": "balanced-scene-01",
+            "treatmentId": "balanced-scene-01-layer-package",
+            "targetId": "world-1",
+            "proofTimeId": "established",
+            "riskScore": 18,
+            "directingFingerprint": "8a4e2b7094719d86e00ef2fa7efea5b1de2a0cfeaf380812be53ed98c12c9f5b",
+            "sourceFamilyKey": "target:world-1",
+            "coverage": [
+              "motion:bounded-relative-layers",
+              "relationship:coupled",
+              "relationship:registered-depth-stack"
+            ]
+          },
+          {
+            "sceneId": "balanced-scene-07",
+            "treatmentId": "balanced-scene-07-human-release-curled",
+            "targetId": "paper-person",
+            "proofTimeId": "established",
+            "riskScore": 38,
+            "directingFingerprint": "64113eef8682a865b22bd507f3dee34ae12482f7b37b859700d4b27964dab7ed",
+            "sourceFamilyKey": "pose-family:human-release",
+            "coverage": [
+              "motion:state-sequence",
+              "semantic:identity"
+            ]
+          },
+          {
+            "sceneId": "balanced-scene-01",
+            "treatmentId": "balanced-scene-01-paper-dust",
+            "targetId": "dust-0",
+            "proofTimeId": "transforming",
+            "riskScore": 10,
+            "directingFingerprint": "8a4e2b7094719d86e00ef2fa7efea5b1de2a0cfeaf380812be53ed98c12c9f5b",
+            "sourceFamilyKey": "motif-field:dust-0",
+            "coverage": [
+              "motion:motif-field"
+            ]
+          }
+        ],
+        "sourceFamilyKeys": [
+          "motif-field:dust-0",
+          "pose-family:human-release",
+          "target:world-1"
+        ],
+        "motionContractFingerprint": "a223dde51c18312de0e9db63ac212ce47b479f42cab434bd8bdd2fc9043ac9af",
+        "fingerprint": "b9e7dd1c7ebbdef96a887ec56526eec66977cd05e8c793e9d95210d157202522"
+      },
+      "estimatedPoseSheetCalls": 3,
+      "avoidedIsolatedStateCalls": 6,
+      "generationBudget": {
+        "requiredProviderImageCalls": 19,
+        "expectedProviderImageCalls": 19,
+        "sourcePackageProviderCalls": 16,
+        "poseSheetProviderCalls": 3,
+        "localDerivatives": 12,
+        "avoidedCalls": 0,
+        "hardCeiling": 49,
+        "sourcePackagePlans": [
+          {
+            "id": "balanced-source-1",
+            "treatmentId": "balanced-scene-01-layer-package",
+            "sceneId": "balanced-scene-01",
+            "targetId": "world-1",
+            "pattern": "registered-depth-stack",
+            "motionCapability": "bounded-relative",
+            "sourceStrategy": "context-preserving-layer-edits",
+            "layers": [
+              {
+                "id": "rear",
+                "role": "support-rear",
+                "completeness": "clean-plate",
+                "depth": -0.7
+              },
+              {
+                "id": "subject",
+                "role": "subject",
+                "completeness": "full-silhouette",
+                "depth": 0
+              },
+              {
+                "id": "front",
+                "role": "support-front",
+                "completeness": "full-overlay",
+                "depth": 0.7
+              }
+            ],
+            "revealEnvelope": {
+              "16:9": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              },
+              "9:16": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              },
+              "1:1": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              }
+            },
+            "subjectTravelEnvelope": null,
+            "providerImageCalls": 4,
+            "localDerivatives": 3,
+            "avoidedCalls": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "id": "balanced-source-4",
+            "treatmentId": "balanced-scene-04-layer-package",
+            "sceneId": "balanced-scene-04",
+            "targetId": "world-4",
+            "pattern": "registered-depth-stack",
+            "motionCapability": "bounded-relative",
+            "sourceStrategy": "context-preserving-layer-edits",
+            "layers": [
+              {
+                "id": "rear",
+                "role": "support-rear",
+                "completeness": "clean-plate",
+                "depth": -0.7
+              },
+              {
+                "id": "subject",
+                "role": "subject",
+                "completeness": "full-silhouette",
+                "depth": 0
+              },
+              {
+                "id": "front",
+                "role": "support-front",
+                "completeness": "full-overlay",
+                "depth": 0.7
+              }
+            ],
+            "revealEnvelope": {
+              "16:9": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              },
+              "9:16": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              },
+              "1:1": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              }
+            },
+            "subjectTravelEnvelope": null,
+            "providerImageCalls": 4,
+            "localDerivatives": 3,
+            "avoidedCalls": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "id": "balanced-source-6",
+            "treatmentId": "balanced-scene-06-layer-package",
+            "sceneId": "balanced-scene-06",
+            "targetId": "world-6",
+            "pattern": "registered-depth-stack",
+            "motionCapability": "bounded-relative",
+            "sourceStrategy": "context-preserving-layer-edits",
+            "layers": [
+              {
+                "id": "rear",
+                "role": "support-rear",
+                "completeness": "clean-plate",
+                "depth": -0.7
+              },
+              {
+                "id": "subject",
+                "role": "subject",
+                "completeness": "full-silhouette",
+                "depth": 0
+              },
+              {
+                "id": "front",
+                "role": "support-front",
+                "completeness": "full-overlay",
+                "depth": 0.7
+              }
+            ],
+            "revealEnvelope": {
+              "16:9": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              },
+              "9:16": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              },
+              "1:1": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              }
+            },
+            "subjectTravelEnvelope": null,
+            "providerImageCalls": 4,
+            "localDerivatives": 3,
+            "avoidedCalls": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "id": "balanced-source-7",
+            "treatmentId": "balanced-scene-07-layer-package",
+            "sceneId": "balanced-scene-07",
+            "targetId": "world-7",
+            "pattern": "registered-depth-stack",
+            "motionCapability": "bounded-relative",
+            "sourceStrategy": "context-preserving-layer-edits",
+            "layers": [
+              {
+                "id": "rear",
+                "role": "support-rear",
+                "completeness": "clean-plate",
+                "depth": -0.7
+              },
+              {
+                "id": "subject",
+                "role": "subject",
+                "completeness": "full-silhouette",
+                "depth": 0
+              },
+              {
+                "id": "front",
+                "role": "support-front",
+                "completeness": "full-overlay",
+                "depth": 0.7
+              }
+            ],
+            "revealEnvelope": {
+              "16:9": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              },
+              "9:16": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              },
+              "1:1": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              }
+            },
+            "subjectTravelEnvelope": null,
+            "providerImageCalls": 4,
+            "localDerivatives": 3,
+            "avoidedCalls": 0,
+            "proofTimeId": "established"
+          }
+        ]
+      }
+    }
+  },
+  "control": {
+    "mode": "wait-human",
+    "gate": "styleAndVoice",
+    "requiredDecision": "请明确批准故事专属风格样张、全片动作语言、虚构音色和 3–5 秒运动/拓扑证明，或给出修改意见。",
+    "nextCommand": null,
+    "expectedArtifacts": [
+      "storySpecificStyleSample",
+      "motionLanguageCard",
+      "voiceAudition",
+      "motionProof3To5Seconds",
+      "topologyProofWhenRequired"
+    ],
+    "workItems": {
+      "counts": {
+        "pending": 0,
+        "in-progress": 0,
+        "completed": 0,
+        "blocked": 0
+      },
+      "remaining": []
+    }
+  },
+  "handoff": {
+    "allowed": true,
+    "reason": "wait-human"
+  }
+}

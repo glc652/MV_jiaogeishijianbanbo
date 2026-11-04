@@ -1,0 +1,47 @@
+{
+  "source": "user-provided-LRC",
+  "sourceFile": "inputs/original-lyrics.lrc",
+  "songOffsetSeconds": 105.96666666666667,
+  "cues": [
+    {
+      "startSeconds": 0.013333333333335418,
+      "endSeconds": 3.393333333333331,
+      "text": "大胆一点 跳过某些选择"
+    },
+    {
+      "startSeconds": 3.393333333333331,
+      "endSeconds": 7.00333333333333,
+      "text": "放松一点 别再被爱挑拨"
+    },
+    {
+      "startSeconds": 7.00333333333333,
+      "endSeconds": 12.023333333333326,
+      "text": "我的一切 正如春风拂山坡"
+    },
+    {
+      "startSeconds": 12.023333333333326,
+      "endSeconds": 14.173333333333332,
+      "text": "开出自由的花朵"
+    },
+    {
+      "startSeconds": 14.733333333333334,
+      "endSeconds": 17.97333333333333,
+      "text": "后来懂得 关于离别 关于失落"
+    },
+    {
+      "startSeconds": 17.97333333333333,
+      "endSeconds": 21.563333333333333,
+      "text": "伤口愈合 关于执着 关于错过"
+    },
+    {
+      "startSeconds": 21.563333333333333,
+      "endSeconds": 25.143333333333345,
+      "text": "有些故事注定没有结果"
+    },
+    {
+      "startSeconds": 25.143333333333345,
+      "endSeconds": 27.543333333333322,
+      "text": "交给时间斑驳"
+    }
+  ]
+}

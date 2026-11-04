@@ -1,0 +1,22 @@
+{
+  "version": 7,
+  "kind": "final",
+  "file": "dist/time-patina-paper/交给时间斑驳_场景扩充版_v7_1080p.mp4",
+  "completedAt": "2026-10-12T07:56:40.008Z",
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "durationSeconds": 193.466667,
+  "sizeBytes": 278025894,
+  "sha256": "6435904cbe51246e6525466c6f9ed0ededa269f8787882560e9f0ff5364c4dfc",
+  "technicalPassed": true,
+  "continuityPassed": true,
+  "subtitlesPassed": true,
+  "fullDecodePassed": true,
+  "visualReview": {
+    "encodedSamples": 70,
+    "insertBoundaries": 20,
+    "note": "Inspected final encoded contact sheets and subtitle evidence. Sea wipes contain complete image coverage; new settings and story poses match the approved v7 preview."
+  },
+  "humanApproval": "2026-10-12：可以，导出来吧；授权本机浏览器连接。"
+}

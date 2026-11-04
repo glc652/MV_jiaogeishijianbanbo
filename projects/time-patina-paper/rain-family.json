@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 2,
+  "projectSlug": "time-patina-paper",
+  "sceneId": "balanced-scene-01",
+  "groupId": "world-1",
+  "familyId": "rain-window-family",
+  "pattern": "registered-depth-stack",
+  "motionCapability": "bounded-relative",
+  "sourcePackageId": "balanced-source-1",
+  "sourceStrategy": "context-preserving-layer-edits",
+  "revealEnvelope": {
+    "16:9": {
+      "x": 0.025,
+      "y": 0.015,
+      "scale": 0.035,
+      "rotationDegrees": 0.7
+    },
+    "9:16": {
+      "x": 0.025,
+      "y": 0.015,
+      "scale": 0.035,
+      "rotationDegrees": 0.7
+    },
+    "1:1": {
+      "x": 0.025,
+      "y": 0.015,
+      "scale": 0.035,
+      "rotationDegrees": 0.7
+    }
+  },
+  "registration": {
+    "id": "rain-window-family",
+    "sourceMasterAssetId": "rain-window-master",
+    "canvas": {
+      "width": 1672,
+      "height": 941
+    },
+    "origin": "top-left"
+  },
+  "members": [
+    {
+      "assetId": "rain-window-rear-registered",
+      "nodeId": "rear",
+      "role": "support-rear",
+      "slot": "support-rear",
+      "completeness": "clean-plate",
+      "output": "public/projects/time-patina-paper/assets/rain-window-rear-registered.png",
+      "source": {
+        "kind": "layer-package-member",
+        "assetId": "rain-window-rear"
+      },
+      "derivation": {}
+    },
+    {
+      "assetId": "rain-window-subject-registered",
+      "nodeId": "subject",
+      "role": "subject",
+      "slot": "subject",
+      "completeness": "full-silhouette",
+      "output": "public/projects/time-patina-paper/assets/rain-window-subject-registered.png",
+      "source": {
+        "kind": "layer-package-member",
+        "assetId": "rain-window-subject"
+      },
+      "derivation": {}
+    },
+    {
+      "assetId": "rain-window-front-registered",
+      "nodeId": "front",
+      "role": "support-front",
+      "slot": "support-front",
+      "completeness": "full-overlay",
+      "output": "public/projects/time-patina-paper/assets/rain-window-front-registered.png",
+      "source": {
+        "kind": "layer-package-member",
+        "assetId": "rain-window-front"
+      },
+      "derivation": {}
+    }
+  ],
+  "recoveryPolicy": {
+    "strategy": "preserve-family-context",
+    "localDeterministicFixFirst": true,
+    "isolatedMemberGeneration": "forbidden",
+    "providerRepair": "masked-complete-source-edit",
+    "fallback": "full-source-regeneration"
+  },
+  "applyToProject": false
+}

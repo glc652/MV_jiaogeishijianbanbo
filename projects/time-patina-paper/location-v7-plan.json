@@ -1,0 +1,183 @@
+{
+  "version": 7,
+  "authorization": "用户认可 v6，明确要求在保留动画和故事基础上增加实际场景。",
+  "unchangedStoryChapters": 8,
+  "newLocations": 3,
+  "locationInserts": 10,
+  "visualSegments": 28,
+  "sourceBackgroundCount": 11,
+  "imageAttemptsAdded": 3,
+  "sourceTreatment": "全画幅独立环境；不把单张不透明图冒充可独立移动的多层环境。",
+  "shots": [
+    {
+      "id": "location-shot-1",
+      "sceneId": "balanced-scene-01",
+      "chapter": 1,
+      "asset": "rain-station-v7",
+      "label": "雨夜站台：读完旧信，想起那次等待",
+      "startSeconds": 11.9,
+      "endSeconds": 14.4,
+      "localStart": 11.9,
+      "localEnd": 14.4,
+      "transition": "dissolve",
+      "proofSeconds": [
+        13,
+        13.15,
+        13.3
+      ]
+    },
+    {
+      "id": "location-shot-2",
+      "sceneId": "balanced-scene-02",
+      "chapter": 2,
+      "asset": "rain-station-v7",
+      "label": "站台灯火：尚未问出口的离别",
+      "startSeconds": 24.03333333333333,
+      "endSeconds": 28.833333333333332,
+      "localStart": 5.2,
+      "localEnd": 10,
+      "transition": "wipe-left",
+      "proofSeconds": [
+        25.133333333333333,
+        26.43333333333333,
+        27.73333333333333
+      ]
+    },
+    {
+      "id": "location-shot-3",
+      "sceneId": "balanced-scene-02",
+      "chapter": 2,
+      "asset": "coastal-train-v7",
+      "label": "车窗旅途：把照片里的海变成目的地",
+      "startSeconds": 36.53333333333333,
+      "endSeconds": 40.53333333333333,
+      "localStart": 17.7,
+      "localEnd": 21.7,
+      "transition": "wipe-left",
+      "proofSeconds": [
+        37.63333333333333,
+        38.53333333333333,
+        39.43333333333333
+      ]
+    },
+    {
+      "id": "location-shot-4",
+      "sceneId": "balanced-scene-04",
+      "chapter": 4,
+      "asset": "morning-room-v7",
+      "label": "晨光旧屋：花与相册的来处",
+      "startSeconds": 67.23333333333333,
+      "endSeconds": 72.63333333333333,
+      "localStart": 5.3,
+      "localEnd": 10.7,
+      "transition": "dissolve",
+      "proofSeconds": [
+        68.33333333333333,
+        69.93333333333334,
+        71.53333333333333
+      ]
+    },
+    {
+      "id": "location-shot-5",
+      "sceneId": "balanced-scene-05",
+      "chapter": 5,
+      "asset": "wind-memory",
+      "label": "海边小径：在间奏中向前",
+      "startSeconds": 95.03333333333333,
+      "endSeconds": 99.03333333333333,
+      "localStart": 2.6,
+      "localEnd": 6.6,
+      "transition": "wipe-up",
+      "proofSeconds": [
+        96.13333333333333,
+        97.03333333333333,
+        97.93333333333334
+      ]
+    },
+    {
+      "id": "location-shot-6",
+      "sceneId": "balanced-scene-06",
+      "chapter": 6,
+      "asset": "morning-room-v7",
+      "label": "回到旧屋：让回忆找到归处",
+      "startSeconds": 110.76666666666667,
+      "endSeconds": 116.56666666666666,
+      "localStart": 4.8,
+      "localEnd": 10.6,
+      "transition": "dissolve",
+      "proofSeconds": [
+        111.86666666666666,
+        113.66666666666667,
+        115.46666666666667
+      ]
+    },
+    {
+      "id": "location-shot-7",
+      "sceneId": "balanced-scene-06",
+      "chapter": 6,
+      "asset": "folded-yesterday",
+      "label": "桌边旧信：曾经追问的答案",
+      "startSeconds": 124.96666666666667,
+      "endSeconds": 127.76666666666667,
+      "localStart": 19,
+      "localEnd": 21.8,
+      "transition": "wipe-left",
+      "proofSeconds": [
+        126.06666666666666,
+        126.36666666666667,
+        126.66666666666667
+      ]
+    },
+    {
+      "id": "location-shot-8",
+      "sceneId": "balanced-scene-07",
+      "chapter": 7,
+      "asset": "flower-garden-master",
+      "label": "花坡再访：季节已悄悄改变",
+      "startSeconds": 140.53333333333333,
+      "endSeconds": 145.93333333333334,
+      "localStart": 5.7,
+      "localEnd": 11.1,
+      "transition": "dissolve",
+      "proofSeconds": [
+        141.63333333333333,
+        143.23333333333335,
+        144.83333333333334
+      ]
+    },
+    {
+      "id": "location-shot-9",
+      "sceneId": "balanced-scene-07",
+      "chapter": 7,
+      "asset": "wind-memory",
+      "label": "通向远方的海径：给放下留一段路",
+      "startSeconds": 154.73333333333335,
+      "endSeconds": 158.53333333333333,
+      "localStart": 19.9,
+      "localEnd": 23.7,
+      "transition": "wipe-left",
+      "proofSeconds": [
+        155.83333333333334,
+        156.63333333333333,
+        157.43333333333334
+      ]
+    },
+    {
+      "id": "location-shot-10",
+      "sceneId": "balanced-scene-08",
+      "chapter": 8,
+      "asset": "morning-room-v7",
+      "label": "晨光收束：回忆安放，生活继续",
+      "startSeconds": 172.3,
+      "endSeconds": 175.9,
+      "localStart": 5.4,
+      "localEnd": 9,
+      "transition": "dissolve",
+      "proofSeconds": [
+        173.4,
+        174.1,
+        174.8
+      ]
+    }
+  ]
+}

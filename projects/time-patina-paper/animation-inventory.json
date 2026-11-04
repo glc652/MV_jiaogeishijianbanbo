@@ -1,0 +1,1278 @@
+{
+  "newAssets": [
+    "cloud",
+    "plane",
+    "leaf",
+    "petal",
+    "wave",
+    "boat",
+    "wing-left",
+    "wing-right",
+    "bird-body",
+    "butterfly",
+    "letter",
+    "clock",
+    "clock-hand",
+    "rain",
+    "star",
+    "photo-0",
+    "photo-1",
+    "photo-2"
+  ],
+  "animatedActors": 179,
+  "actors": [
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "rain-0",
+      "asset": "rain",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "rain-1",
+      "asset": "rain",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "rain-2",
+      "asset": "rain",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "rain-3",
+      "asset": "rain",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "rain-4",
+      "asset": "rain",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "rain-5",
+      "asset": "rain",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "rain-6",
+      "asset": "rain",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "rain-7",
+      "asset": "rain",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "rain-8",
+      "asset": "rain",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "rain-9",
+      "asset": "rain",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "rain-10",
+      "asset": "rain",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "rain-11",
+      "asset": "rain",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "rain-12",
+      "asset": "rain",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "rain-13",
+      "asset": "rain",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "rain-14",
+      "asset": "rain",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "rain-15",
+      "asset": "rain",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "rain-16",
+      "asset": "rain",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "rain-17",
+      "asset": "rain",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "rain-18",
+      "asset": "rain",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "rain-19",
+      "asset": "rain",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "rain-20",
+      "asset": "rain",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "rain-21",
+      "asset": "rain",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "rain-22",
+      "asset": "rain",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "rain-23",
+      "asset": "rain",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "rain-24",
+      "asset": "rain",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "rain-25",
+      "asset": "rain",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "rain-26",
+      "asset": "rain",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "rain-27",
+      "asset": "rain",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "rain-28",
+      "asset": "rain",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "rain-29",
+      "asset": "rain",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "rain-30",
+      "asset": "rain",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "rain-31",
+      "asset": "rain",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "letter-0",
+      "asset": "letter",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "letter-1",
+      "asset": "letter",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "letter-2",
+      "asset": "letter",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "letter-3",
+      "asset": "letter",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-01",
+      "nodeId": "letter-4",
+      "asset": "letter",
+      "duration": 19.53333333333333,
+      "keyframes": 164
+    },
+    {
+      "sceneId": "balanced-scene-02",
+      "nodeId": "memory-photo-0",
+      "asset": "photo-0",
+      "duration": 29.633333333333333,
+      "keyframes": 248
+    },
+    {
+      "sceneId": "balanced-scene-02",
+      "nodeId": "memory-photo-1",
+      "asset": "photo-1",
+      "duration": 29.633333333333333,
+      "keyframes": 248
+    },
+    {
+      "sceneId": "balanced-scene-02",
+      "nodeId": "memory-photo-2",
+      "asset": "photo-2",
+      "duration": 29.633333333333333,
+      "keyframes": 248
+    },
+    {
+      "sceneId": "balanced-scene-02",
+      "nodeId": "memory-photo-3",
+      "asset": "photo-0",
+      "duration": 29.633333333333333,
+      "keyframes": 248
+    },
+    {
+      "sceneId": "balanced-scene-02",
+      "nodeId": "memory-photo-4",
+      "asset": "photo-1",
+      "duration": 29.633333333333333,
+      "keyframes": 248
+    },
+    {
+      "sceneId": "balanced-scene-02",
+      "nodeId": "memory-photo-5",
+      "asset": "photo-2",
+      "duration": 29.633333333333333,
+      "keyframes": 248
+    },
+    {
+      "sceneId": "balanced-scene-02",
+      "nodeId": "clock-face",
+      "asset": "clock",
+      "duration": 29.633333333333333,
+      "keyframes": 248
+    },
+    {
+      "sceneId": "balanced-scene-02",
+      "nodeId": "clock-pointer",
+      "asset": "clock-hand",
+      "duration": 29.633333333333333,
+      "keyframes": 248
+    },
+    {
+      "sceneId": "balanced-scene-02",
+      "nodeId": "leaf-0",
+      "asset": "leaf",
+      "duration": 29.633333333333333,
+      "keyframes": 248
+    },
+    {
+      "sceneId": "balanced-scene-02",
+      "nodeId": "leaf-1",
+      "asset": "leaf",
+      "duration": 29.633333333333333,
+      "keyframes": 248
+    },
+    {
+      "sceneId": "balanced-scene-02",
+      "nodeId": "leaf-2",
+      "asset": "leaf",
+      "duration": 29.633333333333333,
+      "keyframes": 248
+    },
+    {
+      "sceneId": "balanced-scene-02",
+      "nodeId": "leaf-3",
+      "asset": "leaf",
+      "duration": 29.633333333333333,
+      "keyframes": 248
+    },
+    {
+      "sceneId": "balanced-scene-02",
+      "nodeId": "leaf-4",
+      "asset": "leaf",
+      "duration": 29.633333333333333,
+      "keyframes": 248
+    },
+    {
+      "sceneId": "balanced-scene-03",
+      "nodeId": "wave-0",
+      "asset": "wave",
+      "duration": 14.866666666666664,
+      "keyframes": 125
+    },
+    {
+      "sceneId": "balanced-scene-03",
+      "nodeId": "wave-1",
+      "asset": "wave",
+      "duration": 14.866666666666664,
+      "keyframes": 125
+    },
+    {
+      "sceneId": "balanced-scene-03",
+      "nodeId": "wave-2",
+      "asset": "wave",
+      "duration": 14.866666666666664,
+      "keyframes": 125
+    },
+    {
+      "sceneId": "balanced-scene-03",
+      "nodeId": "wave-3",
+      "asset": "wave",
+      "duration": 14.866666666666664,
+      "keyframes": 125
+    },
+    {
+      "sceneId": "balanced-scene-03",
+      "nodeId": "wave-4",
+      "asset": "wave",
+      "duration": 14.866666666666664,
+      "keyframes": 125
+    },
+    {
+      "sceneId": "balanced-scene-03",
+      "nodeId": "boat-0",
+      "asset": "boat",
+      "duration": 14.866666666666664,
+      "keyframes": 125
+    },
+    {
+      "sceneId": "balanced-scene-03",
+      "nodeId": "boat-1",
+      "asset": "boat",
+      "duration": 14.866666666666664,
+      "keyframes": 125
+    },
+    {
+      "sceneId": "balanced-scene-03",
+      "nodeId": "cloud-0",
+      "asset": "cloud",
+      "duration": 14.866666666666664,
+      "keyframes": 125
+    },
+    {
+      "sceneId": "balanced-scene-03",
+      "nodeId": "cloud-1",
+      "asset": "cloud",
+      "duration": 14.866666666666664,
+      "keyframes": 125
+    },
+    {
+      "sceneId": "balanced-scene-03",
+      "nodeId": "cloud-2",
+      "asset": "cloud",
+      "duration": 14.866666666666664,
+      "keyframes": 125
+    },
+    {
+      "sceneId": "balanced-scene-03",
+      "nodeId": "bird-0-wing-left",
+      "asset": "wing-left",
+      "duration": 14.866666666666664,
+      "keyframes": 125
+    },
+    {
+      "sceneId": "balanced-scene-03",
+      "nodeId": "bird-0-wing-right",
+      "asset": "wing-right",
+      "duration": 14.866666666666664,
+      "keyframes": 125
+    },
+    {
+      "sceneId": "balanced-scene-03",
+      "nodeId": "bird-0-bird-body",
+      "asset": "bird-body",
+      "duration": 14.866666666666664,
+      "keyframes": 125
+    },
+    {
+      "sceneId": "balanced-scene-03",
+      "nodeId": "bird-1-wing-left",
+      "asset": "wing-left",
+      "duration": 14.866666666666664,
+      "keyframes": 125
+    },
+    {
+      "sceneId": "balanced-scene-03",
+      "nodeId": "bird-1-wing-right",
+      "asset": "wing-right",
+      "duration": 14.866666666666664,
+      "keyframes": 125
+    },
+    {
+      "sceneId": "balanced-scene-03",
+      "nodeId": "bird-1-bird-body",
+      "asset": "bird-body",
+      "duration": 14.866666666666664,
+      "keyframes": 125
+    },
+    {
+      "sceneId": "balanced-scene-03",
+      "nodeId": "bird-2-wing-left",
+      "asset": "wing-left",
+      "duration": 14.866666666666664,
+      "keyframes": 125
+    },
+    {
+      "sceneId": "balanced-scene-03",
+      "nodeId": "bird-2-wing-right",
+      "asset": "wing-right",
+      "duration": 14.866666666666664,
+      "keyframes": 125
+    },
+    {
+      "sceneId": "balanced-scene-03",
+      "nodeId": "bird-2-bird-body",
+      "asset": "bird-body",
+      "duration": 14.866666666666664,
+      "keyframes": 125
+    },
+    {
+      "sceneId": "balanced-scene-03",
+      "nodeId": "plane-0",
+      "asset": "plane",
+      "duration": 14.866666666666664,
+      "keyframes": 125
+    },
+    {
+      "sceneId": "balanced-scene-03",
+      "nodeId": "plane-1",
+      "asset": "plane",
+      "duration": 14.866666666666664,
+      "keyframes": 125
+    },
+    {
+      "sceneId": "balanced-scene-03",
+      "nodeId": "plane-2",
+      "asset": "plane",
+      "duration": 14.866666666666664,
+      "keyframes": 125
+    },
+    {
+      "sceneId": "balanced-scene-04",
+      "nodeId": "butterfly-0",
+      "asset": "butterfly",
+      "duration": 31.000000000000007,
+      "keyframes": 260
+    },
+    {
+      "sceneId": "balanced-scene-04",
+      "nodeId": "butterfly-1",
+      "asset": "butterfly",
+      "duration": 31.000000000000007,
+      "keyframes": 260
+    },
+    {
+      "sceneId": "balanced-scene-04",
+      "nodeId": "butterfly-2",
+      "asset": "butterfly",
+      "duration": 31.000000000000007,
+      "keyframes": 260
+    },
+    {
+      "sceneId": "balanced-scene-04",
+      "nodeId": "butterfly-3",
+      "asset": "butterfly",
+      "duration": 31.000000000000007,
+      "keyframes": 260
+    },
+    {
+      "sceneId": "balanced-scene-04",
+      "nodeId": "petal-0",
+      "asset": "petal",
+      "duration": 31.000000000000007,
+      "keyframes": 260
+    },
+    {
+      "sceneId": "balanced-scene-04",
+      "nodeId": "petal-1",
+      "asset": "petal",
+      "duration": 31.000000000000007,
+      "keyframes": 260
+    },
+    {
+      "sceneId": "balanced-scene-04",
+      "nodeId": "petal-2",
+      "asset": "petal",
+      "duration": 31.000000000000007,
+      "keyframes": 260
+    },
+    {
+      "sceneId": "balanced-scene-04",
+      "nodeId": "petal-3",
+      "asset": "petal",
+      "duration": 31.000000000000007,
+      "keyframes": 260
+    },
+    {
+      "sceneId": "balanced-scene-04",
+      "nodeId": "petal-4",
+      "asset": "petal",
+      "duration": 31.000000000000007,
+      "keyframes": 260
+    },
+    {
+      "sceneId": "balanced-scene-04",
+      "nodeId": "petal-5",
+      "asset": "petal",
+      "duration": 31.000000000000007,
+      "keyframes": 260
+    },
+    {
+      "sceneId": "balanced-scene-04",
+      "nodeId": "petal-6",
+      "asset": "petal",
+      "duration": 31.000000000000007,
+      "keyframes": 260
+    },
+    {
+      "sceneId": "balanced-scene-04",
+      "nodeId": "petal-7",
+      "asset": "petal",
+      "duration": 31.000000000000007,
+      "keyframes": 260
+    },
+    {
+      "sceneId": "balanced-scene-04",
+      "nodeId": "petal-8",
+      "asset": "petal",
+      "duration": 31.000000000000007,
+      "keyframes": 260
+    },
+    {
+      "sceneId": "balanced-scene-04",
+      "nodeId": "garden-leaf-0",
+      "asset": "leaf",
+      "duration": 31.000000000000007,
+      "keyframes": 260
+    },
+    {
+      "sceneId": "balanced-scene-04",
+      "nodeId": "garden-leaf-1",
+      "asset": "leaf",
+      "duration": 31.000000000000007,
+      "keyframes": 260
+    },
+    {
+      "sceneId": "balanced-scene-04",
+      "nodeId": "garden-leaf-2",
+      "asset": "leaf",
+      "duration": 31.000000000000007,
+      "keyframes": 260
+    },
+    {
+      "sceneId": "balanced-scene-04",
+      "nodeId": "garden-leaf-3",
+      "asset": "leaf",
+      "duration": 31.000000000000007,
+      "keyframes": 260
+    },
+    {
+      "sceneId": "balanced-scene-05",
+      "nodeId": "wave-0",
+      "asset": "wave",
+      "duration": 14.23333333333333,
+      "keyframes": 120
+    },
+    {
+      "sceneId": "balanced-scene-05",
+      "nodeId": "wave-1",
+      "asset": "wave",
+      "duration": 14.23333333333333,
+      "keyframes": 120
+    },
+    {
+      "sceneId": "balanced-scene-05",
+      "nodeId": "wave-2",
+      "asset": "wave",
+      "duration": 14.23333333333333,
+      "keyframes": 120
+    },
+    {
+      "sceneId": "balanced-scene-05",
+      "nodeId": "wave-3",
+      "asset": "wave",
+      "duration": 14.23333333333333,
+      "keyframes": 120
+    },
+    {
+      "sceneId": "balanced-scene-05",
+      "nodeId": "wave-4",
+      "asset": "wave",
+      "duration": 14.23333333333333,
+      "keyframes": 120
+    },
+    {
+      "sceneId": "balanced-scene-05",
+      "nodeId": "boat-0",
+      "asset": "boat",
+      "duration": 14.23333333333333,
+      "keyframes": 120
+    },
+    {
+      "sceneId": "balanced-scene-05",
+      "nodeId": "boat-1",
+      "asset": "boat",
+      "duration": 14.23333333333333,
+      "keyframes": 120
+    },
+    {
+      "sceneId": "balanced-scene-05",
+      "nodeId": "cloud-0",
+      "asset": "cloud",
+      "duration": 14.23333333333333,
+      "keyframes": 120
+    },
+    {
+      "sceneId": "balanced-scene-05",
+      "nodeId": "cloud-1",
+      "asset": "cloud",
+      "duration": 14.23333333333333,
+      "keyframes": 120
+    },
+    {
+      "sceneId": "balanced-scene-05",
+      "nodeId": "cloud-2",
+      "asset": "cloud",
+      "duration": 14.23333333333333,
+      "keyframes": 120
+    },
+    {
+      "sceneId": "balanced-scene-05",
+      "nodeId": "bird-0-wing-left",
+      "asset": "wing-left",
+      "duration": 14.23333333333333,
+      "keyframes": 120
+    },
+    {
+      "sceneId": "balanced-scene-05",
+      "nodeId": "bird-0-wing-right",
+      "asset": "wing-right",
+      "duration": 14.23333333333333,
+      "keyframes": 120
+    },
+    {
+      "sceneId": "balanced-scene-05",
+      "nodeId": "bird-0-bird-body",
+      "asset": "bird-body",
+      "duration": 14.23333333333333,
+      "keyframes": 120
+    },
+    {
+      "sceneId": "balanced-scene-05",
+      "nodeId": "bird-1-wing-left",
+      "asset": "wing-left",
+      "duration": 14.23333333333333,
+      "keyframes": 120
+    },
+    {
+      "sceneId": "balanced-scene-05",
+      "nodeId": "bird-1-wing-right",
+      "asset": "wing-right",
+      "duration": 14.23333333333333,
+      "keyframes": 120
+    },
+    {
+      "sceneId": "balanced-scene-05",
+      "nodeId": "bird-1-bird-body",
+      "asset": "bird-body",
+      "duration": 14.23333333333333,
+      "keyframes": 120
+    },
+    {
+      "sceneId": "balanced-scene-05",
+      "nodeId": "bird-2-wing-left",
+      "asset": "wing-left",
+      "duration": 14.23333333333333,
+      "keyframes": 120
+    },
+    {
+      "sceneId": "balanced-scene-05",
+      "nodeId": "bird-2-wing-right",
+      "asset": "wing-right",
+      "duration": 14.23333333333333,
+      "keyframes": 120
+    },
+    {
+      "sceneId": "balanced-scene-05",
+      "nodeId": "bird-2-bird-body",
+      "asset": "bird-body",
+      "duration": 14.23333333333333,
+      "keyframes": 120
+    },
+    {
+      "sceneId": "balanced-scene-05",
+      "nodeId": "bird-3-wing-left",
+      "asset": "wing-left",
+      "duration": 14.23333333333333,
+      "keyframes": 120
+    },
+    {
+      "sceneId": "balanced-scene-05",
+      "nodeId": "bird-3-wing-right",
+      "asset": "wing-right",
+      "duration": 14.23333333333333,
+      "keyframes": 120
+    },
+    {
+      "sceneId": "balanced-scene-05",
+      "nodeId": "bird-3-bird-body",
+      "asset": "bird-body",
+      "duration": 14.23333333333333,
+      "keyframes": 120
+    },
+    {
+      "sceneId": "balanced-scene-06",
+      "nodeId": "memory-photo-0",
+      "asset": "photo-0",
+      "duration": 29.566666666666674,
+      "keyframes": 248
+    },
+    {
+      "sceneId": "balanced-scene-06",
+      "nodeId": "memory-photo-1",
+      "asset": "photo-1",
+      "duration": 29.566666666666674,
+      "keyframes": 248
+    },
+    {
+      "sceneId": "balanced-scene-06",
+      "nodeId": "memory-photo-2",
+      "asset": "photo-2",
+      "duration": 29.566666666666674,
+      "keyframes": 248
+    },
+    {
+      "sceneId": "balanced-scene-06",
+      "nodeId": "memory-photo-3",
+      "asset": "photo-0",
+      "duration": 29.566666666666674,
+      "keyframes": 248
+    },
+    {
+      "sceneId": "balanced-scene-06",
+      "nodeId": "memory-photo-4",
+      "asset": "photo-1",
+      "duration": 29.566666666666674,
+      "keyframes": 248
+    },
+    {
+      "sceneId": "balanced-scene-06",
+      "nodeId": "memory-photo-5",
+      "asset": "photo-2",
+      "duration": 29.566666666666674,
+      "keyframes": 248
+    },
+    {
+      "sceneId": "balanced-scene-06",
+      "nodeId": "clock-face",
+      "asset": "clock",
+      "duration": 29.566666666666674,
+      "keyframes": 248
+    },
+    {
+      "sceneId": "balanced-scene-06",
+      "nodeId": "clock-pointer",
+      "asset": "clock-hand",
+      "duration": 29.566666666666674,
+      "keyframes": 248
+    },
+    {
+      "sceneId": "balanced-scene-06",
+      "nodeId": "leaf-0",
+      "asset": "leaf",
+      "duration": 29.566666666666674,
+      "keyframes": 248
+    },
+    {
+      "sceneId": "balanced-scene-06",
+      "nodeId": "leaf-1",
+      "asset": "leaf",
+      "duration": 29.566666666666674,
+      "keyframes": 248
+    },
+    {
+      "sceneId": "balanced-scene-06",
+      "nodeId": "leaf-2",
+      "asset": "leaf",
+      "duration": 29.566666666666674,
+      "keyframes": 248
+    },
+    {
+      "sceneId": "balanced-scene-06",
+      "nodeId": "leaf-3",
+      "asset": "leaf",
+      "duration": 29.566666666666674,
+      "keyframes": 248
+    },
+    {
+      "sceneId": "balanced-scene-06",
+      "nodeId": "leaf-4",
+      "asset": "leaf",
+      "duration": 29.566666666666674,
+      "keyframes": 248
+    },
+    {
+      "sceneId": "balanced-scene-07",
+      "nodeId": "bird-0-wing-left",
+      "asset": "wing-left",
+      "duration": 32.766666666666666,
+      "keyframes": 275
+    },
+    {
+      "sceneId": "balanced-scene-07",
+      "nodeId": "bird-0-wing-right",
+      "asset": "wing-right",
+      "duration": 32.766666666666666,
+      "keyframes": 275
+    },
+    {
+      "sceneId": "balanced-scene-07",
+      "nodeId": "bird-0-bird-body",
+      "asset": "bird-body",
+      "duration": 32.766666666666666,
+      "keyframes": 275
+    },
+    {
+      "sceneId": "balanced-scene-07",
+      "nodeId": "bird-1-wing-left",
+      "asset": "wing-left",
+      "duration": 32.766666666666666,
+      "keyframes": 275
+    },
+    {
+      "sceneId": "balanced-scene-07",
+      "nodeId": "bird-1-wing-right",
+      "asset": "wing-right",
+      "duration": 32.766666666666666,
+      "keyframes": 275
+    },
+    {
+      "sceneId": "balanced-scene-07",
+      "nodeId": "bird-1-bird-body",
+      "asset": "bird-body",
+      "duration": 32.766666666666666,
+      "keyframes": 275
+    },
+    {
+      "sceneId": "balanced-scene-07",
+      "nodeId": "bird-2-wing-left",
+      "asset": "wing-left",
+      "duration": 32.766666666666666,
+      "keyframes": 275
+    },
+    {
+      "sceneId": "balanced-scene-07",
+      "nodeId": "bird-2-wing-right",
+      "asset": "wing-right",
+      "duration": 32.766666666666666,
+      "keyframes": 275
+    },
+    {
+      "sceneId": "balanced-scene-07",
+      "nodeId": "bird-2-bird-body",
+      "asset": "bird-body",
+      "duration": 32.766666666666666,
+      "keyframes": 275
+    },
+    {
+      "sceneId": "balanced-scene-07",
+      "nodeId": "bird-3-wing-left",
+      "asset": "wing-left",
+      "duration": 32.766666666666666,
+      "keyframes": 275
+    },
+    {
+      "sceneId": "balanced-scene-07",
+      "nodeId": "bird-3-wing-right",
+      "asset": "wing-right",
+      "duration": 32.766666666666666,
+      "keyframes": 275
+    },
+    {
+      "sceneId": "balanced-scene-07",
+      "nodeId": "bird-3-bird-body",
+      "asset": "bird-body",
+      "duration": 32.766666666666666,
+      "keyframes": 275
+    },
+    {
+      "sceneId": "balanced-scene-07",
+      "nodeId": "bird-4-wing-left",
+      "asset": "wing-left",
+      "duration": 32.766666666666666,
+      "keyframes": 275
+    },
+    {
+      "sceneId": "balanced-scene-07",
+      "nodeId": "bird-4-wing-right",
+      "asset": "wing-right",
+      "duration": 32.766666666666666,
+      "keyframes": 275
+    },
+    {
+      "sceneId": "balanced-scene-07",
+      "nodeId": "bird-4-bird-body",
+      "asset": "bird-body",
+      "duration": 32.766666666666666,
+      "keyframes": 275
+    },
+    {
+      "sceneId": "balanced-scene-07",
+      "nodeId": "leaf-0",
+      "asset": "leaf",
+      "duration": 32.766666666666666,
+      "keyframes": 275
+    },
+    {
+      "sceneId": "balanced-scene-07",
+      "nodeId": "leaf-1",
+      "asset": "leaf",
+      "duration": 32.766666666666666,
+      "keyframes": 275
+    },
+    {
+      "sceneId": "balanced-scene-07",
+      "nodeId": "leaf-2",
+      "asset": "leaf",
+      "duration": 32.766666666666666,
+      "keyframes": 275
+    },
+    {
+      "sceneId": "balanced-scene-07",
+      "nodeId": "leaf-3",
+      "asset": "leaf",
+      "duration": 32.766666666666666,
+      "keyframes": 275
+    },
+    {
+      "sceneId": "balanced-scene-07",
+      "nodeId": "leaf-4",
+      "asset": "leaf",
+      "duration": 32.766666666666666,
+      "keyframes": 275
+    },
+    {
+      "sceneId": "balanced-scene-07",
+      "nodeId": "leaf-5",
+      "asset": "leaf",
+      "duration": 32.766666666666666,
+      "keyframes": 275
+    },
+    {
+      "sceneId": "balanced-scene-07",
+      "nodeId": "leaf-6",
+      "asset": "leaf",
+      "duration": 32.766666666666666,
+      "keyframes": 275
+    },
+    {
+      "sceneId": "balanced-scene-07",
+      "nodeId": "leaf-7",
+      "asset": "leaf",
+      "duration": 32.766666666666666,
+      "keyframes": 275
+    },
+    {
+      "sceneId": "balanced-scene-07",
+      "nodeId": "leaf-8",
+      "asset": "leaf",
+      "duration": 32.766666666666666,
+      "keyframes": 275
+    },
+    {
+      "sceneId": "balanced-scene-07",
+      "nodeId": "cloud-0",
+      "asset": "cloud",
+      "duration": 32.766666666666666,
+      "keyframes": 275
+    },
+    {
+      "sceneId": "balanced-scene-07",
+      "nodeId": "cloud-1",
+      "asset": "cloud",
+      "duration": 32.766666666666666,
+      "keyframes": 275
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "nodeId": "wave-0",
+      "asset": "wave",
+      "duration": 26.56231299999999,
+      "keyframes": 223
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "nodeId": "wave-1",
+      "asset": "wave",
+      "duration": 26.56231299999999,
+      "keyframes": 223
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "nodeId": "wave-2",
+      "asset": "wave",
+      "duration": 26.56231299999999,
+      "keyframes": 223
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "nodeId": "wave-3",
+      "asset": "wave",
+      "duration": 26.56231299999999,
+      "keyframes": 223
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "nodeId": "wave-4",
+      "asset": "wave",
+      "duration": 26.56231299999999,
+      "keyframes": 223
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "nodeId": "boat-0",
+      "asset": "boat",
+      "duration": 26.56231299999999,
+      "keyframes": 223
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "nodeId": "boat-1",
+      "asset": "boat",
+      "duration": 26.56231299999999,
+      "keyframes": 223
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "nodeId": "cloud-0",
+      "asset": "cloud",
+      "duration": 26.56231299999999,
+      "keyframes": 223
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "nodeId": "cloud-1",
+      "asset": "cloud",
+      "duration": 26.56231299999999,
+      "keyframes": 223
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "nodeId": "cloud-2",
+      "asset": "cloud",
+      "duration": 26.56231299999999,
+      "keyframes": 223
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "nodeId": "bird-0-wing-left",
+      "asset": "wing-left",
+      "duration": 26.56231299999999,
+      "keyframes": 223
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "nodeId": "bird-0-wing-right",
+      "asset": "wing-right",
+      "duration": 26.56231299999999,
+      "keyframes": 223
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "nodeId": "bird-0-bird-body",
+      "asset": "bird-body",
+      "duration": 26.56231299999999,
+      "keyframes": 223
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "nodeId": "bird-1-wing-left",
+      "asset": "wing-left",
+      "duration": 26.56231299999999,
+      "keyframes": 223
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "nodeId": "bird-1-wing-right",
+      "asset": "wing-right",
+      "duration": 26.56231299999999,
+      "keyframes": 223
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "nodeId": "bird-1-bird-body",
+      "asset": "bird-body",
+      "duration": 26.56231299999999,
+      "keyframes": 223
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "nodeId": "bird-2-wing-left",
+      "asset": "wing-left",
+      "duration": 26.56231299999999,
+      "keyframes": 223
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "nodeId": "bird-2-wing-right",
+      "asset": "wing-right",
+      "duration": 26.56231299999999,
+      "keyframes": 223
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "nodeId": "bird-2-bird-body",
+      "asset": "bird-body",
+      "duration": 26.56231299999999,
+      "keyframes": 223
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "nodeId": "petal-0",
+      "asset": "petal",
+      "duration": 26.56231299999999,
+      "keyframes": 223
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "nodeId": "petal-1",
+      "asset": "petal",
+      "duration": 26.56231299999999,
+      "keyframes": 223
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "nodeId": "petal-2",
+      "asset": "petal",
+      "duration": 26.56231299999999,
+      "keyframes": 223
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "nodeId": "petal-3",
+      "asset": "petal",
+      "duration": 26.56231299999999,
+      "keyframes": 223
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "nodeId": "petal-4",
+      "asset": "petal",
+      "duration": 26.56231299999999,
+      "keyframes": 223
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "nodeId": "petal-5",
+      "asset": "petal",
+      "duration": 26.56231299999999,
+      "keyframes": 223
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "nodeId": "star-0",
+      "asset": "star",
+      "duration": 26.56231299999999,
+      "keyframes": 223
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "nodeId": "star-1",
+      "asset": "star",
+      "duration": 26.56231299999999,
+      "keyframes": 223
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "nodeId": "star-2",
+      "asset": "star",
+      "duration": 26.56231299999999,
+      "keyframes": 223
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "nodeId": "star-3",
+      "asset": "star",
+      "duration": 26.56231299999999,
+      "keyframes": 223
+    }
+  ]
+}

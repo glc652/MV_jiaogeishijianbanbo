@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 4,
+  "projectSlug": "time-patina-paper",
+  "poseFamilyId": "paper-flower",
+  "sourceAssetId": "paper-flower-sheet",
+  "sourceSha256": "fb8c30e8829a914e32f51ceaeb4a0f796093f76008b5a91a7f2556f2b65b16a6",
+  "familyFingerprint": "6f7df8fde740d994917c4860d36fb8f1df088213741bfbe22af853da726cc53a",
+  "identityReference": {
+    "assetId": "paper-flower-reference",
+    "sha256": "053f053d350266df8482fdd30a5698850c35cd148c7dbdbfed43d6f8c890da6d",
+    "file": "public\\projects\\time-patina-paper\\assets\\paper-flower-reference.png"
+  },
+  "anchorPolicy": {
+    "requiredAnchorIds": [
+      "contact"
+    ],
+    "maximumDrift": 0.07
+  },
+  "anchorRegistrationProof": {
+    "requiredAnchorIds": [
+      "contact"
+    ],
+    "maximumAllowedDrift": 0.07,
+    "perAnchor": [
+      {
+        "anchorId": "contact",
+        "points": [
+          {
+            "stateId": "bud",
+            "point": {
+              "id": "contact",
+              "x": 0.5,
+              "y": 0.88
+            }
+          },
+          {
+            "stateId": "opening",
+            "point": {
+              "id": "contact",
+              "x": 0.5,
+              "y": 0.88
+            }
+          },
+          {
+            "stateId": "bloom",
+            "point": {
+              "id": "contact",
+              "x": 0.5,
+              "y": 0.88
+            }
+          }
+        ],
+        "maximumObservedDrift": 0,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "providerImageCalls": 1,
+  "generationMode": "initial-family-sheet",
+  "sourceLifecycle": "active",
+  "recoverySourceSheetAssetId": null,
+  "observedKeyColors": {},
+  "repairedStateIds": [],
+  "preservedContextStateCount": 0,
+  "isolatedCellGenerationUsed": false,
+  "extraction": {
+    "mode": "equal-grid",
+    "canvas": {
+      "width": 627,
+      "height": 627
+    }
+  },
+  "derivedStateCount": 3,
+  "avoidedIndividualCalls": 2,
+  "members": [
+    {
+      "assetId": "paper-flower-bud",
+      "file": "public\\projects\\time-patina-paper\\assets\\paper-flower-states\\paper-flower-bud.png",
+      "sha256": "c1e874a934e1b5d6974e560568082518e6ac6b060dd0b657e402c2456fd8f27d",
+      "stateBinding": {
+        "poseFamilyId": "paper-flower",
+        "stateId": "bud",
+        "registrationId": "paper-flower-registration",
+        "sourceMasterAssetId": "paper-flower-sheet",
+        "facing": "front",
+        "anchors": [
+          {
+            "id": "contact",
+            "x": 0.5,
+            "y": 0.88
+          }
+        ],
+        "identityReferenceAssetId": "paper-flower-reference",
+        "identityReferenceSha256": "053f053d350266df8482fdd30a5698850c35cd148c7dbdbfed43d6f8c890da6d",
+        "anchorEvidence": {
+          "file": "public\\projects\\time-patina-paper\\assets\\paper-flower-states\\paper-flower-bud-anchors.png",
+          "sha256": "7e586587c7d68066d2109495b4d670b9afda8ab6cf807eea43efadc673142e5a"
+        }
+      },
+      "anchorEvidence": {
+        "file": "public\\projects\\time-patina-paper\\assets\\paper-flower-states\\paper-flower-bud-anchors.png",
+        "sha256": "7e586587c7d68066d2109495b4d670b9afda8ab6cf807eea43efadc673142e5a"
+      }
+    },
+    {
+      "assetId": "paper-flower-opening",
+      "file": "public\\projects\\time-patina-paper\\assets\\paper-flower-states\\paper-flower-opening.png",
+      "sha256": "f8c506ad04eea69f85250d78d4f399de074a6d9f94f94a455dbc4da1877aa421",
+      "stateBinding": {
+        "poseFamilyId": "paper-flower",
+        "stateId": "opening",
+        "registrationId": "paper-flower-registration",
+        "sourceMasterAssetId": "paper-flower-sheet",
+        "facing": "front",
+        "anchors": [
+          {
+            "id": "contact",
+            "x": 0.5,
+            "y": 0.88
+          }
+        ],
+        "identityReferenceAssetId": "paper-flower-reference",
+        "identityReferenceSha256": "053f053d350266df8482fdd30a5698850c35cd148c7dbdbfed43d6f8c890da6d",
+        "anchorEvidence": {
+          "file": "public\\projects\\time-patina-paper\\assets\\paper-flower-states\\paper-flower-opening-anchors.png",
+          "sha256": "91617617df2193bd188681e013bca6acfcc57b043b1d196c88a456d816d4bedf"
+        }
+      },
+      "anchorEvidence": {
+        "file": "public\\projects\\time-patina-paper\\assets\\paper-flower-states\\paper-flower-opening-anchors.png",
+        "sha256": "91617617df2193bd188681e013bca6acfcc57b043b1d196c88a456d816d4bedf"
+      }
+    },
+    {
+      "assetId": "paper-flower-bloom",
+      "file": "public\\projects\\time-patina-paper\\assets\\paper-flower-states\\paper-flower-bloom.png",
+      "sha256": "e5f23bc0860b4b5bf563759eca57653533ead0713895afbf4d39859c7881e671",
+      "stateBinding": {
+        "poseFamilyId": "paper-flower",
+        "stateId": "bloom",
+        "registrationId": "paper-flower-registration",
+        "sourceMasterAssetId": "paper-flower-sheet",
+        "facing": "front",
+        "anchors": [
+          {
+            "id": "contact",
+            "x": 0.5,
+            "y": 0.88
+          }
+        ],
+        "identityReferenceAssetId": "paper-flower-reference",
+        "identityReferenceSha256": "053f053d350266df8482fdd30a5698850c35cd148c7dbdbfed43d6f8c890da6d",
+        "anchorEvidence": {
+          "file": "public\\projects\\time-patina-paper\\assets\\paper-flower-states\\paper-flower-bloom-anchors.png",
+          "sha256": "f11f5e45e377ce4a1f65e03ba95df681f5e25c39ffdf3878b7f28553749100b6"
+        }
+      },
+      "anchorEvidence": {
+        "file": "public\\projects\\time-patina-paper\\assets\\paper-flower-states\\paper-flower-bloom-anchors.png",
+        "sha256": "f11f5e45e377ce4a1f65e03ba95df681f5e25c39ffdf3878b7f28553749100b6"
+      }
+    }
+  ],
+  "createdAt": "2026-10-06T21:11:59.064Z"
+}

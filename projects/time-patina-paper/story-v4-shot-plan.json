@@ -1,0 +1,385 @@
+{
+  "narrativeLocations": 8,
+  "shotCount": 25,
+  "basis": "Manual editorial cuts aligned to supplied lyric phrasing; source song unchanged",
+  "shots": [
+    {
+      "id": "shot-01",
+      "sceneId": "balanced-scene-01",
+      "fromSeconds": 0,
+      "toSeconds": 8.4,
+      "durationSeconds": 8.4,
+      "framing": "空间建立",
+      "camera": {
+        "zoom": 1.01,
+        "x": 0,
+        "y": 0
+      },
+      "entry": "scene-boundary",
+      "storyAction": "雨窗、低坐人物和未寄旧信同框，建立等待。"
+    },
+    {
+      "id": "shot-02",
+      "sceneId": "balanced-scene-01",
+      "fromSeconds": 8.4,
+      "toSeconds": 18.833333333333332,
+      "durationSeconds": 10.433333333333332,
+      "framing": "环境中景",
+      "camera": {
+        "zoom": 1.2,
+        "x": -70,
+        "y": -12
+      },
+      "entry": "lyric-phrase-cut",
+      "storyAction": "旧信由封闭到打开；信中的海岸照片引出回忆。"
+    },
+    {
+      "id": "shot-03",
+      "sceneId": "balanced-scene-02",
+      "fromSeconds": 18.833333333333332,
+      "toSeconds": 26,
+      "durationSeconds": 7.166666666666667,
+      "framing": "空间建立",
+      "camera": {
+        "zoom": 1.06,
+        "x": 0,
+        "y": 0
+      },
+      "entry": "scene-boundary",
+      "storyAction": "相册打开，主人公再次寻找答案。"
+    },
+    {
+      "id": "shot-04",
+      "sceneId": "balanced-scene-02",
+      "fromSeconds": 26,
+      "toSeconds": 33.36666666666667,
+      "durationSeconds": 7.366666666666666,
+      "framing": "主体细节",
+      "camera": {
+        "zoom": 1.34,
+        "x": 60,
+        "y": 10
+      },
+      "entry": "lyric-phrase-cut",
+      "storyAction": "海岸旧照细节与时钟同框。"
+    },
+    {
+      "id": "shot-05",
+      "sceneId": "balanced-scene-02",
+      "fromSeconds": 33.36666666666667,
+      "toSeconds": 40.3,
+      "durationSeconds": 6.933333333333332,
+      "framing": "环境中景",
+      "camera": {
+        "zoom": 1.23,
+        "x": -88,
+        "y": 6
+      },
+      "entry": "lyric-phrase-cut",
+      "storyAction": "花坡旧照进入视线，干花书签连接过去。"
+    },
+    {
+      "id": "shot-06",
+      "sceneId": "balanced-scene-02",
+      "fromSeconds": 40.3,
+      "toSeconds": 47.766666666666666,
+      "durationSeconds": 7.466666666666669,
+      "framing": "情绪全景",
+      "camera": {
+        "zoom": 1.045,
+        "x": 0,
+        "y": 0
+      },
+      "entry": "lyric-phrase-cut",
+      "storyAction": "海岸照片留在画面中心，准备进入同一地点。"
+    },
+    {
+      "id": "shot-07",
+      "sceneId": "balanced-scene-03",
+      "fromSeconds": 47.766666666666666,
+      "toSeconds": 54.86666666666667,
+      "durationSeconds": 7.1,
+      "framing": "空间建立",
+      "camera": {
+        "zoom": 1.2,
+        "x": 54,
+        "y": 5
+      },
+      "entry": "scene-boundary",
+      "storyAction": "切到照片里的海岸，主人公已经到达岸边。"
+    },
+    {
+      "id": "shot-08",
+      "sceneId": "balanced-scene-03",
+      "fromSeconds": 54.86666666666667,
+      "toSeconds": 61.93333333333333,
+      "durationSeconds": 7.066666666666665,
+      "framing": "情绪全景",
+      "camera": {
+        "zoom": 1.02,
+        "x": -5,
+        "y": 0
+      },
+      "entry": "lyric-phrase-cut",
+      "storyAction": "纸飞机和远去的船穿过画面，人物留在原地。"
+    },
+    {
+      "id": "shot-09",
+      "sceneId": "balanced-scene-04",
+      "fromSeconds": 61.93333333333333,
+      "toSeconds": 69.23333333333333,
+      "durationSeconds": 7.3,
+      "framing": "空间建立",
+      "camera": {
+        "zoom": 1.055,
+        "x": 0,
+        "y": 0
+      },
+      "entry": "scene-boundary",
+      "storyAction": "人物在花苞旁坐下，信被收在身侧。"
+    },
+    {
+      "id": "shot-10",
+      "sceneId": "balanced-scene-04",
+      "fromSeconds": 69.23333333333333,
+      "toSeconds": 76.93333333333334,
+      "durationSeconds": 7.7,
+      "framing": "主体细节",
+      "camera": {
+        "zoom": 1.28,
+        "x": -36,
+        "y": -25
+      },
+      "entry": "lyric-phrase-cut",
+      "storyAction": "花苞开始展开，蝶在花边盘旋。"
+    },
+    {
+      "id": "shot-11",
+      "sceneId": "balanced-scene-04",
+      "fromSeconds": 76.93333333333334,
+      "toSeconds": 84.23333333333333,
+      "durationSeconds": 7.300000000000001,
+      "framing": "环境中景",
+      "camera": {
+        "zoom": 1.14,
+        "x": 55,
+        "y": 5
+      },
+      "entry": "lyric-phrase-cut",
+      "storyAction": "花开过程与干花书签构成时间对照。"
+    },
+    {
+      "id": "shot-12",
+      "sceneId": "balanced-scene-04",
+      "fromSeconds": 84.23333333333333,
+      "toSeconds": 92.43333333333334,
+      "durationSeconds": 8.200000000000006,
+      "framing": "情绪全景",
+      "camera": {
+        "zoom": 1.045,
+        "x": 0,
+        "y": 0
+      },
+      "entry": "lyric-phrase-cut",
+      "storyAction": "完整花朵停留，人物仍然安静，情绪开始松动。"
+    },
+    {
+      "id": "shot-13",
+      "sceneId": "balanced-scene-05",
+      "fromSeconds": 92.43333333333334,
+      "toSeconds": 98.93333333333334,
+      "durationSeconds": 6.5,
+      "framing": "空间建立",
+      "camera": {
+        "zoom": 1.19,
+        "x": -30,
+        "y": 6
+      },
+      "entry": "scene-boundary",
+      "storyAction": "相册压住旧信，风只翻动纸角。"
+    },
+    {
+      "id": "shot-14",
+      "sceneId": "balanced-scene-05",
+      "fromSeconds": 98.93333333333334,
+      "toSeconds": 105.96666666666667,
+      "durationSeconds": 7.033333333333331,
+      "framing": "情绪全景",
+      "camera": {
+        "zoom": 1.025,
+        "x": 0,
+        "y": 0
+      },
+      "entry": "lyric-phrase-cut",
+      "storyAction": "小船和鸟继续向前；一片花瓣落在相册旁。"
+    },
+    {
+      "id": "shot-15",
+      "sceneId": "balanced-scene-06",
+      "fromSeconds": 105.96666666666667,
+      "toSeconds": 113.16666666666667,
+      "durationSeconds": 7.2,
+      "framing": "空间建立",
+      "camera": {
+        "zoom": 1.05,
+        "x": 0,
+        "y": 0
+      },
+      "entry": "scene-boundary",
+      "storyAction": "主人公面对摊开的相册和散落照片。"
+    },
+    {
+      "id": "shot-16",
+      "sceneId": "balanced-scene-06",
+      "fromSeconds": 113.16666666666667,
+      "toSeconds": 120.46666666666667,
+      "durationSeconds": 7.3,
+      "framing": "主体细节",
+      "camera": {
+        "zoom": 1.3,
+        "x": 65,
+        "y": 10
+      },
+      "entry": "lyric-phrase-cut",
+      "storyAction": "第一、第二张照片依次收拢。"
+    },
+    {
+      "id": "shot-17",
+      "sceneId": "balanced-scene-06",
+      "fromSeconds": 120.46666666666667,
+      "toSeconds": 127.96666666666667,
+      "durationSeconds": 7.5,
+      "framing": "环境中景",
+      "camera": {
+        "zoom": 1.22,
+        "x": -75,
+        "y": 4
+      },
+      "entry": "lyric-phrase-cut",
+      "storyAction": "第三张照片落定，旧信合上。"
+    },
+    {
+      "id": "shot-18",
+      "sceneId": "balanced-scene-06",
+      "fromSeconds": 127.96666666666667,
+      "toSeconds": 134.83333333333334,
+      "durationSeconds": 6.866666666666674,
+      "framing": "情绪全景",
+      "camera": {
+        "zoom": 1.045,
+        "x": 0,
+        "y": 0
+      },
+      "entry": "lyric-phrase-cut",
+      "storyAction": "花瓣书签留下；回忆被收好。"
+    },
+    {
+      "id": "shot-19",
+      "sceneId": "balanced-scene-07",
+      "fromSeconds": 134.83333333333334,
+      "toSeconds": 142.43333333333334,
+      "durationSeconds": 7.6,
+      "framing": "空间建立",
+      "camera": {
+        "zoom": 1.025,
+        "x": 0,
+        "y": 0
+      },
+      "entry": "scene-boundary",
+      "storyAction": "同一人物蜷坐，相册和信在身侧。"
+    },
+    {
+      "id": "shot-20",
+      "sceneId": "balanced-scene-07",
+      "fromSeconds": 142.43333333333334,
+      "toSeconds": 150.43333333333334,
+      "durationSeconds": 8,
+      "framing": "主体细节",
+      "camera": {
+        "zoom": 1.3,
+        "x": -55,
+        "y": -30
+      },
+      "entry": "lyric-phrase-cut",
+      "storyAction": "人物准备站起，镜头贴近。"
+    },
+    {
+      "id": "shot-21",
+      "sceneId": "balanced-scene-07",
+      "fromSeconds": 150.43333333333334,
+      "toSeconds": 158.03333333333333,
+      "durationSeconds": 7.6,
+      "framing": "环境中景",
+      "camera": {
+        "zoom": 1.14,
+        "x": -20,
+        "y": -12
+      },
+      "entry": "lyric-phrase-cut",
+      "storyAction": "动作从起身过渡到站立。"
+    },
+    {
+      "id": "shot-22",
+      "sceneId": "balanced-scene-07",
+      "fromSeconds": 158.03333333333333,
+      "toSeconds": 166.9,
+      "durationSeconds": 8.866666666666664,
+      "framing": "情绪全景",
+      "camera": {
+        "zoom": 1.025,
+        "x": 0,
+        "y": 0
+      },
+      "entry": "lyric-phrase-cut",
+      "storyAction": "人物站稳，画面拉开，留出眼前的海。"
+    },
+    {
+      "id": "shot-23",
+      "sceneId": "balanced-scene-08",
+      "fromSeconds": 166.9,
+      "toSeconds": 175.9,
+      "durationSeconds": 9,
+      "framing": "空间建立",
+      "camera": {
+        "zoom": 1.01,
+        "x": 0,
+        "y": 0
+      },
+      "entry": "scene-boundary",
+      "storyAction": "站立人物、相册和旧信同框，与开场低坐呼应。"
+    },
+    {
+      "id": "shot-24",
+      "sceneId": "balanced-scene-08",
+      "fromSeconds": 175.9,
+      "toSeconds": 184.9,
+      "durationSeconds": 9,
+      "framing": "环境中景",
+      "camera": {
+        "zoom": 1.18,
+        "x": 35,
+        "y": 10
+      },
+      "entry": "lyric-phrase-cut",
+      "storyAction": "旧信与花瓣书签的细节，说明记忆被保留。"
+    },
+    {
+      "id": "shot-25",
+      "sceneId": "balanced-scene-08",
+      "fromSeconds": 184.9,
+      "toSeconds": 193.462313,
+      "durationSeconds": 8.562312999999989,
+      "framing": "情绪全景",
+      "camera": {
+        "zoom": 1.01,
+        "x": 0,
+        "y": 0
+      },
+      "entry": "lyric-phrase-cut",
+      "storyAction": "回到开阔落日，片名出现，留白结束。"
+    }
+  ],
+  "revision": "v4-story",
+  "status": "authored-awaiting-render",
+  "logline": "一个守着旧信的人，重返照片里的海边，经过等待，终于把回忆收好并站起来。"
+}

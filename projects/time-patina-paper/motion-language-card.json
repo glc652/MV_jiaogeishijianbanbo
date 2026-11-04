@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "title": "全片动作语言卡",
+  "summary": "以缓慢建立、纸片或形态转变、情绪落定构成每幕，副歌展开纵深与暖光。",
+  "pacing": {
+    "approved": "gentle",
+    "styleDefault": "measured",
+    "deviationRationale": "完整抒情歌曲以缓慢乐句为节奏，保留安静的终态与尾奏。"
+  },
+  "performance": {
+    "grammar": [
+      "establish",
+      "action",
+      "settle"
+    ],
+    "anticipation": "selective",
+    "followThrough": "selective",
+    "poseStrategy": "mixed",
+    "minimumFinalHoldRatio": 0.1
+  },
+  "camera": {
+    "strategy": "motivated"
+  },
+  "transitions": {
+    "strategy": "story-led"
+  },
+  "ambient": {
+    "strategy": "selective"
+  },
+  "scenes": [
+    {
+      "sceneId": "balanced-scene-01",
+      "motionPolicy": "standard",
+      "phraseSequence": [
+        {
+          "role": "establish",
+          "beatId": "establish",
+          "proofTimeId": "established"
+        },
+        {
+          "role": "action",
+          "beatId": "action",
+          "proofTimeId": "transforming"
+        },
+        {
+          "role": "settle",
+          "beatId": "settle",
+          "proofTimeId": "resolved"
+        }
+      ],
+      "finalHoldRatio": 0.26,
+      "exception": null
+    },
+    {
+      "sceneId": "balanced-scene-02",
+      "motionPolicy": "standard",
+      "phraseSequence": [
+        {
+          "role": "establish",
+          "beatId": "establish",
+          "proofTimeId": "established"
+        },
+        {
+          "role": "action",
+          "beatId": "action",
+          "proofTimeId": "transforming"
+        },
+        {
+          "role": "settle",
+          "beatId": "settle",
+          "proofTimeId": "resolved"
+        }
+      ],
+      "finalHoldRatio": 0.26,
+      "exception": null
+    },
+    {
+      "sceneId": "balanced-scene-03",
+      "motionPolicy": "standard",
+      "phraseSequence": [
+        {
+          "role": "establish",
+          "beatId": "establish",
+          "proofTimeId": "established"
+        },
+        {
+          "role": "action",
+          "beatId": "action",
+          "proofTimeId": "transforming"
+        },
+        {
+          "role": "settle",
+          "beatId": "settle",
+          "proofTimeId": "resolved"
+        }
+      ],
+      "finalHoldRatio": 0.26,
+      "exception": null
+    },
+    {
+      "sceneId": "balanced-scene-04",
+      "motionPolicy": "standard",
+      "phraseSequence": [
+        {
+          "role": "establish",
+          "beatId": "establish",
+          "proofTimeId": "established"
+        },
+        {
+          "role": "action",
+          "beatId": "action",
+          "proofTimeId": "transforming"
+        },
+        {
+          "role": "settle",
+          "beatId": "settle",
+          "proofTimeId": "resolved"
+        }
+      ],
+      "finalHoldRatio": 0.26,
+      "exception": null
+    },
+    {
+      "sceneId": "balanced-scene-05",
+      "motionPolicy": "standard",
+      "phraseSequence": [
+        {
+          "role": "establish",
+          "beatId": "establish",
+          "proofTimeId": "established"
+        },
+        {
+          "role": "action",
+          "beatId": "action",
+          "proofTimeId": "transforming"
+        },
+        {
+          "role": "settle",
+          "beatId": "settle",
+          "proofTimeId": "resolved"
+        }
+      ],
+      "finalHoldRatio": 0.26,
+      "exception": null
+    },
+    {
+      "sceneId": "balanced-scene-06",
+      "motionPolicy": "standard",
+      "phraseSequence": [
+        {
+          "role": "establish",
+          "beatId": "establish",
+          "proofTimeId": "established"
+        },
+        {
+          "role": "action",
+          "beatId": "action",
+          "proofTimeId": "transforming"
+        },
+        {
+          "role": "settle",
+          "beatId": "settle",
+          "proofTimeId": "resolved"
+        }
+      ],
+      "finalHoldRatio": 0.26,
+      "exception": null
+    },
+    {
+      "sceneId": "balanced-scene-07",
+      "motionPolicy": "standard",
+      "phraseSequence": [
+        {
+          "role": "establish",
+          "beatId": "establish",
+          "proofTimeId": "established"
+        },
+        {
+          "role": "action",
+          "beatId": "action",
+          "proofTimeId": "transforming"
+        },
+        {
+          "role": "settle",
+          "beatId": "settle",
+          "proofTimeId": "resolved"
+        }
+      ],
+      "finalHoldRatio": 0.26,
+      "exception": null
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "motionPolicy": "standard",
+      "phraseSequence": [
+        {
+          "role": "establish",
+          "beatId": "establish",
+          "proofTimeId": "established"
+        },
+        {
+          "role": "action",
+          "beatId": "action",
+          "proofTimeId": "transforming"
+        },
+        {
+          "role": "settle",
+          "beatId": "settle",
+          "proofTimeId": "resolved"
+        }
+      ],
+      "finalHoldRatio": 0.26,
+      "exception": null
+    }
+  ],
+  "approvalFingerprint": "3238027a004e7fe7b19a05bdb6bebb4184774d63c8a174f1ffa6c02b7779ce1e",
+  "executionFingerprint": "809d02d356e52389c1aa599f1ac5e3d4b29ec1013f558f2c61c54bbe98d352e3"
+}

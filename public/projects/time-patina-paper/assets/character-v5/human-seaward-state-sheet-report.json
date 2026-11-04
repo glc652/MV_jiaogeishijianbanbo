@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 4,
+  "projectSlug": "time-patina-paper",
+  "poseFamilyId": "human-seaward",
+  "sourceAssetId": "human-seaward-sheet",
+  "sourceSha256": "fe7a3366e6548c6e2a9d28a97f8f2f4564454ae9919d68c0a5c2f2fd7e7f8b23",
+  "familyFingerprint": "82647e446b64a8f438d683ff594da170a85a605bbdbb93eddef10efe4d785115",
+  "identityReference": {
+    "assetId": "paper-person-reference",
+    "sha256": "a0fef410f4cc80a08a12639668e5ff9afe0435336d7bb77cec25a15006d4a205",
+    "file": "public\\projects\\time-patina-paper\\assets\\paper-person-reference-v2.png"
+  },
+  "anchorPolicy": {
+    "requiredAnchorIds": [
+      "contact"
+    ],
+    "maximumDrift": 0.07
+  },
+  "anchorRegistrationProof": {
+    "requiredAnchorIds": [
+      "contact"
+    ],
+    "maximumAllowedDrift": 0.07,
+    "perAnchor": [
+      {
+        "anchorId": "contact",
+        "points": [
+          {
+            "stateId": "sea-profile",
+            "point": {
+              "id": "contact",
+              "x": 0.5,
+              "y": 0.88
+            }
+          },
+          {
+            "stateId": "sea-lookback",
+            "point": {
+              "id": "contact",
+              "x": 0.5,
+              "y": 0.88
+            }
+          },
+          {
+            "stateId": "sea-lift",
+            "point": {
+              "id": "contact",
+              "x": 0.5,
+              "y": 0.88
+            }
+          }
+        ],
+        "maximumObservedDrift": 0,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "providerImageCalls": 1,
+  "generationMode": "initial-family-sheet",
+  "sourceLifecycle": "active",
+  "recoverySourceSheetAssetId": null,
+  "observedKeyColors": {},
+  "repairedStateIds": [],
+  "preservedContextStateCount": 0,
+  "isolatedCellGenerationUsed": false,
+  "extraction": {
+    "mode": "explicit-source-rects",
+    "canvas": {
+      "width": 650,
+      "height": 650
+    },
+    "cells": [
+      {
+        "stateId": "sea-profile",
+        "sourceRect": {
+          "left": 0,
+          "top": 0,
+          "width": 627,
+          "height": 627
+        },
+        "placement": {
+          "left": 0,
+          "top": 0
+        }
+      },
+      {
+        "stateId": "sea-lookback",
+        "sourceRect": {
+          "left": 627,
+          "top": 0,
+          "width": 627,
+          "height": 627
+        },
+        "placement": {
+          "left": 0,
+          "top": 0
+        }
+      },
+      {
+        "stateId": "sea-lift",
+        "sourceRect": {
+          "left": 0,
+          "top": 627,
+          "width": 627,
+          "height": 627
+        },
+        "placement": {
+          "left": 0,
+          "top": 0
+        }
+      }
+    ]
+  },
+  "derivedStateCount": 3,
+  "avoidedIndividualCalls": 2,
+  "members": [
+    {
+      "assetId": "human-seaward-sea-profile",
+      "file": "public\\projects\\time-patina-paper\\assets\\character-v5\\human-seaward-sea-profile.png",
+      "sha256": "b25bfff8d9b9929220a0cbdabcd8f107556835340bfb2f8eb078dc398c70b8b3",
+      "stateBinding": {
+        "poseFamilyId": "human-seaward",
+        "stateId": "sea-profile",
+        "registrationId": "human-seaward-registration",
+        "sourceMasterAssetId": "human-seaward-sheet",
+        "facing": "right",
+        "anchors": [
+          {
+            "id": "contact",
+            "x": 0.5,
+            "y": 0.88
+          }
+        ],
+        "identityReferenceAssetId": "paper-person-reference",
+        "identityReferenceSha256": "a0fef410f4cc80a08a12639668e5ff9afe0435336d7bb77cec25a15006d4a205",
+        "anchorEvidence": {
+          "file": "public\\projects\\time-patina-paper\\assets\\character-v5\\human-seaward-sea-profile-anchors.png",
+          "sha256": "0bca7ceb780729db9f7fcd76681930a9bdec82a9792dceee6eb58fdec6b02636"
+        }
+      },
+      "anchorEvidence": {
+        "file": "public\\projects\\time-patina-paper\\assets\\character-v5\\human-seaward-sea-profile-anchors.png",
+        "sha256": "0bca7ceb780729db9f7fcd76681930a9bdec82a9792dceee6eb58fdec6b02636"
+      }
+    },
+    {
+      "assetId": "human-seaward-sea-lookback",
+      "file": "public\\projects\\time-patina-paper\\assets\\character-v5\\human-seaward-sea-lookback.png",
+      "sha256": "165005da91b84d61338ed9ef956cee7e38f36197ec524ba97b31282381cb2137",
+      "stateBinding": {
+        "poseFamilyId": "human-seaward",
+        "stateId": "sea-lookback",
+        "registrationId": "human-seaward-registration",
+        "sourceMasterAssetId": "human-seaward-sheet",
+        "facing": "right",
+        "anchors": [
+          {
+            "id": "contact",
+            "x": 0.5,
+            "y": 0.88
+          }
+        ],
+        "identityReferenceAssetId": "paper-person-reference",
+        "identityReferenceSha256": "a0fef410f4cc80a08a12639668e5ff9afe0435336d7bb77cec25a15006d4a205",
+        "anchorEvidence": {
+          "file": "public\\projects\\time-patina-paper\\assets\\character-v5\\human-seaward-sea-lookback-anchors.png",
+          "sha256": "c1e1aaeb96e1d675da14f312f3634c25fa50f422e65d16bffb15a1137ac8b9b9"
+        }
+      },
+      "anchorEvidence": {
+        "file": "public\\projects\\time-patina-paper\\assets\\character-v5\\human-seaward-sea-lookback-anchors.png",
+        "sha256": "c1e1aaeb96e1d675da14f312f3634c25fa50f422e65d16bffb15a1137ac8b9b9"
+      }
+    },
+    {
+      "assetId": "human-seaward-sea-lift",
+      "file": "public\\projects\\time-patina-paper\\assets\\character-v5\\human-seaward-sea-lift.png",
+      "sha256": "7231c431c983f7f772ffae651502dd420331055312c3d07688bae1a0f9bcaf24",
+      "stateBinding": {
+        "poseFamilyId": "human-seaward",
+        "stateId": "sea-lift",
+        "registrationId": "human-seaward-registration",
+        "sourceMasterAssetId": "human-seaward-sheet",
+        "facing": "right",
+        "anchors": [
+          {
+            "id": "contact",
+            "x": 0.5,
+            "y": 0.88
+          }
+        ],
+        "identityReferenceAssetId": "paper-person-reference",
+        "identityReferenceSha256": "a0fef410f4cc80a08a12639668e5ff9afe0435336d7bb77cec25a15006d4a205",
+        "anchorEvidence": {
+          "file": "public\\projects\\time-patina-paper\\assets\\character-v5\\human-seaward-sea-lift-anchors.png",
+          "sha256": "64ac4b0bbbef32e96f18d45f9e733f7e98b1f1e6275037e64a611f0ea35dcf17"
+        }
+      },
+      "anchorEvidence": {
+        "file": "public\\projects\\time-patina-paper\\assets\\character-v5\\human-seaward-sea-lift-anchors.png",
+        "sha256": "64ac4b0bbbef32e96f18d45f9e733f7e98b1f1e6275037e64a611f0ea35dcf17"
+      }
+    }
+  ],
+  "createdAt": "2026-10-08T04:48:37.289Z"
+}

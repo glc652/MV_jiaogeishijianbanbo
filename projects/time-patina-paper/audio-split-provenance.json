@@ -1,0 +1,18 @@
+{
+  "source": "inputs/original-song.wav",
+  "sampleRate": 48000,
+  "frameRate": 30,
+  "boundariesSeconds": [
+    0,
+    18.833333333333332,
+    47.766666666666666,
+    61.93333333333333,
+    92.43333333333334,
+    105.96666666666667,
+    134.83333333333334,
+    166.9,
+    193.462313
+  ],
+  "method": "lossless PCM excerpts aligned to nearest video frame",
+  "totalSeconds": 193.462313
+}

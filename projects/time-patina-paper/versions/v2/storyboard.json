@@ -1,0 +1,4220 @@
+{
+  "schemaVersion": 12,
+  "slug": "time-patina-paper",
+  "status": "ready",
+  "arc": "保留整首原曲与全部歌词，制作深度只影响纸片动画和分层密度，不删减音乐。 从雨中的旧信，到碎片拼合，再到花开和释怀。",
+  "style": {
+    "visualThesis": "记忆有斑驳纸纹，生活依然向光生长。",
+    "compositionRules": [
+      "一幕一个视觉中心",
+      "底部保留清晰的歌词区",
+      "冷蓝灰逐步过渡到米白与暖金",
+      "纸纹可见、撕边自然，避免卡通和繁杂装饰"
+    ],
+    "layerStrategy": "四个关键段落使用完整独立后景、主体、前景；其余段落以档案拼贴和局部纸片动作连接。"
+  },
+  "motionDirection": {
+    "schemaVersion": 1,
+    "summary": "以缓慢建立、纸片或形态转变、情绪落定构成每幕，副歌展开纵深与暖光。",
+    "pacing": "gentle",
+    "performance": {
+      "grammar": [
+        "establish",
+        "action",
+        "settle"
+      ],
+      "anticipation": "selective",
+      "followThrough": "selective",
+      "poseStrategy": "mixed",
+      "minimumFinalHoldRatio": 0.1
+    },
+    "camera": {
+      "strategy": "motivated"
+    },
+    "transitions": {
+      "strategy": "story-led"
+    },
+    "ambient": {
+      "strategy": "selective"
+    },
+    "styleDeviationRationale": "完整抒情歌曲以缓慢乐句为节奏，保留安静的终态与尾奏。"
+  },
+  "editorial": {
+    "timebase": {
+      "fps": 30,
+      "rounding": "nearest"
+    },
+    "wordTimingPolicy": "phrase-fallback",
+    "media": [
+      {
+        "id": "original-song",
+        "kind": "music",
+        "src": "projects/time-patina-paper/audio/original-song.wav",
+        "sha256": "282d55ab47b74d8ff480b18576d191e9c47aaa32040bae1ae5915d54b00376f0",
+        "durationSeconds": 193.462313,
+        "timelineMode": "global"
+      }
+    ],
+    "cues": [],
+    "editPoints": [],
+    "bindings": [],
+    "responsiveProfiles": [
+      {
+        "id": "16:9",
+        "width": 1920,
+        "height": 1080,
+        "safeArea": {
+          "x": 0.07,
+          "y": 0.06,
+          "width": 0.86,
+          "height": 0.88
+        },
+        "densityBudget": 12,
+        "typographyScale": 1,
+        "parallaxScale": 1,
+        "exclusionZones": []
+      },
+      {
+        "id": "9:16",
+        "width": 1080,
+        "height": 1920,
+        "safeArea": {
+          "x": 0.07,
+          "y": 0.06,
+          "width": 0.86,
+          "height": 0.88
+        },
+        "densityBudget": 12,
+        "typographyScale": 0.8,
+        "parallaxScale": 0.8,
+        "exclusionZones": []
+      },
+      {
+        "id": "1:1",
+        "width": 1080,
+        "height": 1080,
+        "safeArea": {
+          "x": 0.07,
+          "y": 0.06,
+          "width": 0.86,
+          "height": 0.88
+        },
+        "densityBudget": 12,
+        "typographyScale": 0.9,
+        "parallaxScale": 0.9,
+        "exclusionZones": []
+      }
+    ],
+    "sceneDirecting": [
+      {
+        "sceneId": "balanced-scene-01",
+        "compositionProfile": "archival-memory",
+        "typographyProfile": "lyric-serif",
+        "subjectFraming": {
+          "mode": "contain",
+          "focusPoint": {
+            "x": 0.5,
+            "y": 0.42
+          }
+        },
+        "placements": []
+      },
+      {
+        "sceneId": "balanced-scene-02",
+        "compositionProfile": "archival-memory",
+        "typographyProfile": "lyric-serif",
+        "subjectFraming": {
+          "mode": "contain",
+          "focusPoint": {
+            "x": 0.5,
+            "y": 0.42
+          }
+        },
+        "placements": []
+      },
+      {
+        "sceneId": "balanced-scene-03",
+        "compositionProfile": "archival-memory",
+        "typographyProfile": "lyric-serif",
+        "subjectFraming": {
+          "mode": "contain",
+          "focusPoint": {
+            "x": 0.5,
+            "y": 0.42
+          }
+        },
+        "placements": []
+      },
+      {
+        "sceneId": "balanced-scene-04",
+        "compositionProfile": "archival-memory",
+        "typographyProfile": "lyric-serif",
+        "subjectFraming": {
+          "mode": "contain",
+          "focusPoint": {
+            "x": 0.5,
+            "y": 0.42
+          }
+        },
+        "placements": []
+      },
+      {
+        "sceneId": "balanced-scene-05",
+        "compositionProfile": "archival-memory",
+        "typographyProfile": "lyric-serif",
+        "subjectFraming": {
+          "mode": "contain",
+          "focusPoint": {
+            "x": 0.5,
+            "y": 0.42
+          }
+        },
+        "placements": []
+      },
+      {
+        "sceneId": "balanced-scene-06",
+        "compositionProfile": "archival-memory",
+        "typographyProfile": "lyric-serif",
+        "subjectFraming": {
+          "mode": "contain",
+          "focusPoint": {
+            "x": 0.5,
+            "y": 0.42
+          }
+        },
+        "placements": []
+      },
+      {
+        "sceneId": "balanced-scene-07",
+        "compositionProfile": "archival-memory",
+        "typographyProfile": "lyric-serif",
+        "subjectFraming": {
+          "mode": "contain",
+          "focusPoint": {
+            "x": 0.5,
+            "y": 0.42
+          }
+        },
+        "placements": []
+      },
+      {
+        "sceneId": "balanced-scene-08",
+        "compositionProfile": "archival-memory",
+        "typographyProfile": "lyric-serif",
+        "subjectFraming": {
+          "mode": "contain",
+          "focusPoint": {
+            "x": 0.5,
+            "y": 0.42
+          }
+        },
+        "placements": []
+      }
+    ],
+    "transitions": [],
+    "activeProfile": "16:9",
+    "resolvedEditPoints": [],
+    "conflicts": [],
+    "responsivePlans": [
+      {
+        "profileId": "16:9",
+        "width": 1920,
+        "height": 1080,
+        "safeArea": {
+          "x": 0.07,
+          "y": 0.06,
+          "width": 0.86,
+          "height": 0.88
+        },
+        "exclusionZones": [],
+        "densityBudget": 12,
+        "scenes": [
+          {
+            "sceneId": "balanced-scene-01",
+            "compositionProfile": "archival-memory",
+            "typographyProfile": "lyric-serif",
+            "subjectFraming": {
+              "mode": "contain",
+              "focusPoint": {
+                "x": 0.5,
+                "y": 0.42
+              }
+            },
+            "parallaxScale": 1,
+            "cropFocus": {
+              "x": 0.5,
+              "y": 0.42
+            },
+            "densityUsed": 0,
+            "placements": []
+          },
+          {
+            "sceneId": "balanced-scene-02",
+            "compositionProfile": "archival-memory",
+            "typographyProfile": "lyric-serif",
+            "subjectFraming": {
+              "mode": "contain",
+              "focusPoint": {
+                "x": 0.5,
+                "y": 0.42
+              }
+            },
+            "parallaxScale": 1,
+            "cropFocus": {
+              "x": 0.5,
+              "y": 0.42
+            },
+            "densityUsed": 0,
+            "placements": []
+          },
+          {
+            "sceneId": "balanced-scene-03",
+            "compositionProfile": "archival-memory",
+            "typographyProfile": "lyric-serif",
+            "subjectFraming": {
+              "mode": "contain",
+              "focusPoint": {
+                "x": 0.5,
+                "y": 0.42
+              }
+            },
+            "parallaxScale": 1,
+            "cropFocus": {
+              "x": 0.5,
+              "y": 0.42
+            },
+            "densityUsed": 0,
+            "placements": []
+          },
+          {
+            "sceneId": "balanced-scene-04",
+            "compositionProfile": "archival-memory",
+            "typographyProfile": "lyric-serif",
+            "subjectFraming": {
+              "mode": "contain",
+              "focusPoint": {
+                "x": 0.5,
+                "y": 0.42
+              }
+            },
+            "parallaxScale": 1,
+            "cropFocus": {
+              "x": 0.5,
+              "y": 0.42
+            },
+            "densityUsed": 0,
+            "placements": []
+          },
+          {
+            "sceneId": "balanced-scene-05",
+            "compositionProfile": "archival-memory",
+            "typographyProfile": "lyric-serif",
+            "subjectFraming": {
+              "mode": "contain",
+              "focusPoint": {
+                "x": 0.5,
+                "y": 0.42
+              }
+            },
+            "parallaxScale": 1,
+            "cropFocus": {
+              "x": 0.5,
+              "y": 0.42
+            },
+            "densityUsed": 0,
+            "placements": []
+          },
+          {
+            "sceneId": "balanced-scene-06",
+            "compositionProfile": "archival-memory",
+            "typographyProfile": "lyric-serif",
+            "subjectFraming": {
+              "mode": "contain",
+              "focusPoint": {
+                "x": 0.5,
+                "y": 0.42
+              }
+            },
+            "parallaxScale": 1,
+            "cropFocus": {
+              "x": 0.5,
+              "y": 0.42
+            },
+            "densityUsed": 0,
+            "placements": []
+          },
+          {
+            "sceneId": "balanced-scene-07",
+            "compositionProfile": "archival-memory",
+            "typographyProfile": "lyric-serif",
+            "subjectFraming": {
+              "mode": "contain",
+              "focusPoint": {
+                "x": 0.5,
+                "y": 0.42
+              }
+            },
+            "parallaxScale": 1,
+            "cropFocus": {
+              "x": 0.5,
+              "y": 0.42
+            },
+            "densityUsed": 0,
+            "placements": []
+          },
+          {
+            "sceneId": "balanced-scene-08",
+            "compositionProfile": "archival-memory",
+            "typographyProfile": "lyric-serif",
+            "subjectFraming": {
+              "mode": "contain",
+              "focusPoint": {
+                "x": 0.5,
+                "y": 0.42
+              }
+            },
+            "parallaxScale": 1,
+            "cropFocus": {
+              "x": 0.5,
+              "y": 0.42
+            },
+            "densityUsed": 0,
+            "placements": []
+          }
+        ]
+      },
+      {
+        "profileId": "9:16",
+        "width": 1080,
+        "height": 1920,
+        "safeArea": {
+          "x": 0.07,
+          "y": 0.06,
+          "width": 0.86,
+          "height": 0.88
+        },
+        "exclusionZones": [],
+        "densityBudget": 12,
+        "scenes": [
+          {
+            "sceneId": "balanced-scene-01",
+            "compositionProfile": "archival-memory",
+            "typographyProfile": "lyric-serif",
+            "subjectFraming": {
+              "mode": "contain",
+              "focusPoint": {
+                "x": 0.5,
+                "y": 0.42
+              }
+            },
+            "parallaxScale": 1,
+            "cropFocus": {
+              "x": 0.5,
+              "y": 0.42
+            },
+            "densityUsed": 0,
+            "placements": []
+          },
+          {
+            "sceneId": "balanced-scene-02",
+            "compositionProfile": "archival-memory",
+            "typographyProfile": "lyric-serif",
+            "subjectFraming": {
+              "mode": "contain",
+              "focusPoint": {
+                "x": 0.5,
+                "y": 0.42
+              }
+            },
+            "parallaxScale": 1,
+            "cropFocus": {
+              "x": 0.5,
+              "y": 0.42
+            },
+            "densityUsed": 0,
+            "placements": []
+          },
+          {
+            "sceneId": "balanced-scene-03",
+            "compositionProfile": "archival-memory",
+            "typographyProfile": "lyric-serif",
+            "subjectFraming": {
+              "mode": "contain",
+              "focusPoint": {
+                "x": 0.5,
+                "y": 0.42
+              }
+            },
+            "parallaxScale": 1,
+            "cropFocus": {
+              "x": 0.5,
+              "y": 0.42
+            },
+            "densityUsed": 0,
+            "placements": []
+          },
+          {
+            "sceneId": "balanced-scene-04",
+            "compositionProfile": "archival-memory",
+            "typographyProfile": "lyric-serif",
+            "subjectFraming": {
+              "mode": "contain",
+              "focusPoint": {
+                "x": 0.5,
+                "y": 0.42
+              }
+            },
+            "parallaxScale": 1,
+            "cropFocus": {
+              "x": 0.5,
+              "y": 0.42
+            },
+            "densityUsed": 0,
+            "placements": []
+          },
+          {
+            "sceneId": "balanced-scene-05",
+            "compositionProfile": "archival-memory",
+            "typographyProfile": "lyric-serif",
+            "subjectFraming": {
+              "mode": "contain",
+              "focusPoint": {
+                "x": 0.5,
+                "y": 0.42
+              }
+            },
+            "parallaxScale": 1,
+            "cropFocus": {
+              "x": 0.5,
+              "y": 0.42
+            },
+            "densityUsed": 0,
+            "placements": []
+          },
+          {
+            "sceneId": "balanced-scene-06",
+            "compositionProfile": "archival-memory",
+            "typographyProfile": "lyric-serif",
+            "subjectFraming": {
+              "mode": "contain",
+              "focusPoint": {
+                "x": 0.5,
+                "y": 0.42
+              }
+            },
+            "parallaxScale": 1,
+            "cropFocus": {
+              "x": 0.5,
+              "y": 0.42
+            },
+            "densityUsed": 0,
+            "placements": []
+          },
+          {
+            "sceneId": "balanced-scene-07",
+            "compositionProfile": "archival-memory",
+            "typographyProfile": "lyric-serif",
+            "subjectFraming": {
+              "mode": "contain",
+              "focusPoint": {
+                "x": 0.5,
+                "y": 0.42
+              }
+            },
+            "parallaxScale": 1,
+            "cropFocus": {
+              "x": 0.5,
+              "y": 0.42
+            },
+            "densityUsed": 0,
+            "placements": []
+          },
+          {
+            "sceneId": "balanced-scene-08",
+            "compositionProfile": "archival-memory",
+            "typographyProfile": "lyric-serif",
+            "subjectFraming": {
+              "mode": "contain",
+              "focusPoint": {
+                "x": 0.5,
+                "y": 0.42
+              }
+            },
+            "parallaxScale": 1,
+            "cropFocus": {
+              "x": 0.5,
+              "y": 0.42
+            },
+            "densityUsed": 0,
+            "placements": []
+          }
+        ]
+      },
+      {
+        "profileId": "1:1",
+        "width": 1080,
+        "height": 1080,
+        "safeArea": {
+          "x": 0.07,
+          "y": 0.06,
+          "width": 0.86,
+          "height": 0.88
+        },
+        "exclusionZones": [],
+        "densityBudget": 12,
+        "scenes": [
+          {
+            "sceneId": "balanced-scene-01",
+            "compositionProfile": "archival-memory",
+            "typographyProfile": "lyric-serif",
+            "subjectFraming": {
+              "mode": "contain",
+              "focusPoint": {
+                "x": 0.5,
+                "y": 0.42
+              }
+            },
+            "parallaxScale": 1,
+            "cropFocus": {
+              "x": 0.5,
+              "y": 0.42
+            },
+            "densityUsed": 0,
+            "placements": []
+          },
+          {
+            "sceneId": "balanced-scene-02",
+            "compositionProfile": "archival-memory",
+            "typographyProfile": "lyric-serif",
+            "subjectFraming": {
+              "mode": "contain",
+              "focusPoint": {
+                "x": 0.5,
+                "y": 0.42
+              }
+            },
+            "parallaxScale": 1,
+            "cropFocus": {
+              "x": 0.5,
+              "y": 0.42
+            },
+            "densityUsed": 0,
+            "placements": []
+          },
+          {
+            "sceneId": "balanced-scene-03",
+            "compositionProfile": "archival-memory",
+            "typographyProfile": "lyric-serif",
+            "subjectFraming": {
+              "mode": "contain",
+              "focusPoint": {
+                "x": 0.5,
+                "y": 0.42
+              }
+            },
+            "parallaxScale": 1,
+            "cropFocus": {
+              "x": 0.5,
+              "y": 0.42
+            },
+            "densityUsed": 0,
+            "placements": []
+          },
+          {
+            "sceneId": "balanced-scene-04",
+            "compositionProfile": "archival-memory",
+            "typographyProfile": "lyric-serif",
+            "subjectFraming": {
+              "mode": "contain",
+              "focusPoint": {
+                "x": 0.5,
+                "y": 0.42
+              }
+            },
+            "parallaxScale": 1,
+            "cropFocus": {
+              "x": 0.5,
+              "y": 0.42
+            },
+            "densityUsed": 0,
+            "placements": []
+          },
+          {
+            "sceneId": "balanced-scene-05",
+            "compositionProfile": "archival-memory",
+            "typographyProfile": "lyric-serif",
+            "subjectFraming": {
+              "mode": "contain",
+              "focusPoint": {
+                "x": 0.5,
+                "y": 0.42
+              }
+            },
+            "parallaxScale": 1,
+            "cropFocus": {
+              "x": 0.5,
+              "y": 0.42
+            },
+            "densityUsed": 0,
+            "placements": []
+          },
+          {
+            "sceneId": "balanced-scene-06",
+            "compositionProfile": "archival-memory",
+            "typographyProfile": "lyric-serif",
+            "subjectFraming": {
+              "mode": "contain",
+              "focusPoint": {
+                "x": 0.5,
+                "y": 0.42
+              }
+            },
+            "parallaxScale": 1,
+            "cropFocus": {
+              "x": 0.5,
+              "y": 0.42
+            },
+            "densityUsed": 0,
+            "placements": []
+          },
+          {
+            "sceneId": "balanced-scene-07",
+            "compositionProfile": "archival-memory",
+            "typographyProfile": "lyric-serif",
+            "subjectFraming": {
+              "mode": "contain",
+              "focusPoint": {
+                "x": 0.5,
+                "y": 0.42
+              }
+            },
+            "parallaxScale": 1,
+            "cropFocus": {
+              "x": 0.5,
+              "y": 0.42
+            },
+            "densityUsed": 0,
+            "placements": []
+          },
+          {
+            "sceneId": "balanced-scene-08",
+            "compositionProfile": "archival-memory",
+            "typographyProfile": "lyric-serif",
+            "subjectFraming": {
+              "mode": "contain",
+              "focusPoint": {
+                "x": 0.5,
+                "y": 0.42
+              }
+            },
+            "parallaxScale": 1,
+            "cropFocus": {
+              "x": 0.5,
+              "y": 0.42
+            },
+            "densityUsed": 0,
+            "placements": []
+          }
+        ]
+      }
+    ],
+    "transitionPlans": [],
+    "fingerprint": "e80ceb70efeddc84ef5969cc25f5c87dc270fe28b6439156dd6ee0aeb424f830"
+  },
+  "scenes": [
+    {
+      "id": "balanced-scene-01",
+      "title": "雨落旧信",
+      "narrativeRole": "开篇",
+      "message": "0–18.84 秒，前奏：蓝灰雨痕滑过旧纸窗，信封缓缓打开。",
+      "blueprint": "transformation-tableau",
+      "estimatedDurationSeconds": 18.84,
+      "beats": [
+        {
+          "id": "establish",
+          "at": 0,
+          "performanceRole": "establish",
+          "purpose": "建立雨落旧信的空间",
+          "visual": "雨窗与书桌主体纸片",
+          "soundCue": null,
+          "proofTimeId": "established",
+          "treatments": [
+            {
+              "id": "balanced-scene-01-motion-paper-1-1",
+              "targetId": "paper-1-1",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "ambient-motion",
+              "motion": {
+                "kind": "continuous-transform",
+                "preset": "drift"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "established",
+              "rationale": "沿音乐缓慢变化，给歌词与情绪留下呼吸空间。"
+            },
+            {
+              "id": "balanced-scene-01-camera-depth",
+              "targetId": "scene-camera",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "depth-parallax",
+              "motion": {
+                "kind": "continuous-transform",
+                "preset": "parallax-camera"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "established",
+              "rationale": "沿音乐缓慢变化，给歌词与情绪留下呼吸空间。"
+            },
+            {
+              "id": "balanced-scene-01-layer-package",
+              "targetId": "world-1",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "depth-layer-separation",
+              "motion": {
+                "kind": "continuous-transform",
+                "preset": "drift"
+              },
+              "composition": {
+                "pattern": "registered-depth-stack",
+                "motionCapability": "bounded-relative",
+                "sourcePackageId": "balanced-source-1",
+                "sourceStrategy": "context-preserving-layer-edits",
+                "layers": [
+                  {
+                    "id": "rear",
+                    "role": "support-rear",
+                    "completeness": "clean-plate",
+                    "depth": -0.7
+                  },
+                  {
+                    "id": "subject",
+                    "role": "subject",
+                    "completeness": "full-silhouette",
+                    "depth": 0
+                  },
+                  {
+                    "id": "front",
+                    "role": "support-front",
+                    "completeness": "full-overlay",
+                    "depth": 0.7
+                  }
+                ],
+                "revealEnvelope": {
+                  "16:9": {
+                    "x": 0.025,
+                    "y": 0.015,
+                    "scale": 0.035,
+                    "rotationDegrees": 0.7
+                  },
+                  "9:16": {
+                    "x": 0.025,
+                    "y": 0.015,
+                    "scale": 0.035,
+                    "rotationDegrees": 0.7
+                  },
+                  "1:1": {
+                    "x": 0.025,
+                    "y": 0.015,
+                    "scale": 0.035,
+                    "rotationDegrees": 0.7
+                  }
+                }
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "established",
+              "rationale": "沿音乐缓慢变化，给歌词与情绪留下呼吸空间。"
+            },
+            {
+              "id": "balanced-scene-01-letter-open-sealed",
+              "targetId": "memory-letter",
+              "importance": "hero",
+              "necessity": "required",
+              "changeClass": "pose-change",
+              "motion": {
+                "kind": "state-sequence",
+                "poseFamilyId": "letter-open",
+                "stateId": "sealed",
+                "facing": "front",
+                "visualChange": "sealed",
+                "playback": "once",
+                "transition": "crossfade"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "established",
+              "rationale": "完整注册状态表现真实形态变化，而不是缩放静态图片。"
+            },
+            {
+              "id": "balanced-scene-01-animated-ensemble",
+              "targetId": "animated-ensemble-1",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "ambient-motion",
+              "motion": {
+                "kind": "continuous-transform",
+                "preset": "drift"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "established",
+              "rationale": "响应用户持续动画反馈：本幕纸片舞台含 37 个独立运动部件。风场承载小幅移动，信纸/照片/波纹/纸船/纸鸟等子部件各自持续位置和转动动画，完整清单见 animation-inventory.json。"
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "at": 0.44,
+          "performanceRole": "action",
+          "purpose": "0–18.84 秒，前奏：蓝灰雨痕滑过旧纸窗，信封缓缓打开。",
+          "visual": "纸片、光线与主体顺着旋律发生变化",
+          "soundCue": null,
+          "proofTimeId": "transforming",
+          "treatments": [
+            {
+              "id": "balanced-scene-01-motion-paper-1-2",
+              "targetId": "paper-1-2",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "ambient-motion",
+              "motion": {
+                "kind": "continuous-transform",
+                "preset": "breathe"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "transforming",
+              "rationale": "沿音乐缓慢变化，给歌词与情绪留下呼吸空间。"
+            },
+            {
+              "id": "balanced-scene-01-paper-dust",
+              "targetId": "dust-0",
+              "importance": "ambient",
+              "necessity": "enhancement",
+              "changeClass": "decorative-field",
+              "motion": {
+                "kind": "motif-field",
+                "preset": "fall-drift",
+                "distribution": "scattered",
+                "count": 9,
+                "cycles": 2,
+                "bounds": {
+                  "x": 0.06,
+                  "y": 0.08,
+                  "width": 0.88,
+                  "height": 0.65
+                },
+                "exclusionZones": [
+                  {
+                    "id": "lyrics-safe",
+                    "shape": "rectangle",
+                    "x": 0.1,
+                    "y": 0.78,
+                    "width": 0.8,
+                    "height": 0.17,
+                    "padding": 0.02
+                  }
+                ]
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "transforming",
+              "rationale": "沿音乐缓慢变化，给歌词与情绪留下呼吸空间。"
+            },
+            {
+              "id": "balanced-scene-01-letter-open-unfolding",
+              "targetId": "memory-letter",
+              "importance": "hero",
+              "necessity": "required",
+              "changeClass": "pose-change",
+              "motion": {
+                "kind": "state-sequence",
+                "poseFamilyId": "letter-open",
+                "stateId": "unfolding",
+                "facing": "front",
+                "visualChange": "unfolding",
+                "playback": "once",
+                "transition": "crossfade"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "transforming",
+              "rationale": "完整注册状态表现真实形态变化，而不是缩放静态图片。"
+            }
+          ]
+        },
+        {
+          "id": "settle",
+          "at": 0.86,
+          "performanceRole": "settle",
+          "purpose": "让情绪落定并准备进入下一段",
+          "visual": "终态停留，保留微妙环境运动",
+          "soundCue": null,
+          "proofTimeId": "resolved",
+          "treatments": [
+            {
+              "id": "balanced-scene-01-letter-open-open",
+              "targetId": "memory-letter",
+              "importance": "hero",
+              "necessity": "required",
+              "changeClass": "pose-change",
+              "motion": {
+                "kind": "state-sequence",
+                "poseFamilyId": "letter-open",
+                "stateId": "open",
+                "facing": "front",
+                "visualChange": "open",
+                "playback": "once",
+                "transition": "crossfade"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "resolved",
+              "rationale": "完整注册状态表现真实形态变化，而不是缩放静态图片。"
+            }
+          ]
+        }
+      ],
+      "proofTimes": [
+        {
+          "id": "established",
+          "at": 0.08,
+          "kind": "establish",
+          "label": "雨落旧信进入",
+          "assertions": [
+            "画面主体清晰，歌词安全区留白"
+          ],
+          "stateAssertions": [
+            {
+              "nodeId": "memory-letter",
+              "stateId": "sealed"
+            }
+          ]
+        },
+        {
+          "id": "transforming",
+          "at": 0.51,
+          "kind": "peak",
+          "label": "雨落旧信变化",
+          "assertions": [
+            "纸片运动与状态变化可见"
+          ],
+          "stateAssertions": [
+            {
+              "nodeId": "memory-letter",
+              "stateId": "unfolding"
+            }
+          ]
+        },
+        {
+          "id": "resolved",
+          "at": 0.89,
+          "kind": "final",
+          "label": "雨落旧信停留",
+          "assertions": [
+            "最终构图稳定，光与纸纹保持细腻"
+          ],
+          "stateAssertions": [
+            {
+              "nodeId": "memory-letter",
+              "stateId": "open"
+            }
+          ]
+        }
+      ],
+      "motionPolicy": "standard",
+      "staticRationale": null,
+      "compositionPlan": {
+        "patterns": [
+          "free",
+          "registered-depth-stack"
+        ],
+        "relationships": [],
+        "stateSequences": [
+          {
+            "nodeId": "memory-letter",
+            "poseFamilyId": "letter-open",
+            "states": [
+              {
+                "id": "sealed",
+                "at": 0,
+                "facing": "front",
+                "visualChange": "sealed"
+              },
+              {
+                "id": "unfolding",
+                "at": 0.44,
+                "facing": "front",
+                "visualChange": "unfolding"
+              },
+              {
+                "id": "open",
+                "at": 0.86,
+                "facing": "front",
+                "visualChange": "open"
+              }
+            ],
+            "playback": {
+              "mode": "once",
+              "cycles": 1
+            },
+            "transition": "crossfade"
+          }
+        ],
+        "continuousMotions": [
+          {
+            "id": "balanced-scene-01-animated-ensemble",
+            "nodeId": "animated-ensemble-1",
+            "preset": "drift",
+            "at": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "id": "balanced-scene-01-camera-depth",
+            "nodeId": "scene-camera",
+            "preset": "parallax-camera",
+            "at": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "id": "balanced-scene-01-layer-package",
+            "nodeId": "world-1",
+            "preset": "drift",
+            "at": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "id": "balanced-scene-01-motion-paper-1-1",
+            "nodeId": "paper-1-1",
+            "preset": "drift",
+            "at": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "id": "balanced-scene-01-motion-paper-1-2",
+            "nodeId": "paper-1-2",
+            "preset": "breathe",
+            "at": 0.44,
+            "proofTimeId": "transforming"
+          }
+        ],
+        "pathMotions": [],
+        "visibilityEvents": [],
+        "motifFields": [
+          {
+            "id": "balanced-scene-01-paper-dust",
+            "nodeId": "dust-0",
+            "preset": "fall-drift",
+            "distribution": "scattered",
+            "count": 9,
+            "cycles": 2,
+            "bounds": {
+              "x": 0.06,
+              "y": 0.08,
+              "width": 0.88,
+              "height": 0.65
+            },
+            "exclusionZones": [
+              {
+                "id": "lyrics-safe",
+                "shape": "rectangle",
+                "x": 0.1,
+                "y": 0.78,
+                "width": 0.8,
+                "height": 0.17,
+                "padding": 0.02
+              }
+            ],
+            "at": 0.44,
+            "proofTimeId": "transforming"
+          }
+        ],
+        "graphics": [],
+        "layerStacks": [
+          {
+            "id": "balanced-source-1",
+            "treatmentId": "balanced-scene-01-layer-package",
+            "sceneId": "balanced-scene-01",
+            "targetId": "world-1",
+            "pattern": "registered-depth-stack",
+            "motionCapability": "bounded-relative",
+            "sourceStrategy": "context-preserving-layer-edits",
+            "layers": [
+              {
+                "id": "rear",
+                "role": "support-rear",
+                "completeness": "clean-plate",
+                "depth": -0.7
+              },
+              {
+                "id": "subject",
+                "role": "subject",
+                "completeness": "full-silhouette",
+                "depth": 0
+              },
+              {
+                "id": "front",
+                "role": "support-front",
+                "completeness": "full-overlay",
+                "depth": 0.7
+              }
+            ],
+            "revealEnvelope": {
+              "16:9": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              },
+              "9:16": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              },
+              "1:1": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              }
+            },
+            "subjectTravelEnvelope": null,
+            "providerImageCalls": 4,
+            "localDerivatives": 3,
+            "avoidedCalls": 0,
+            "proofTimeId": "established"
+          }
+        ],
+        "loopingEnvironments": [],
+        "canonicalContainers": []
+      },
+      "directing": {
+        "fingerprint": "771c1501e2dd6896e82dce68bb09cb8dee75e16cf37df1c5e0aa7f78ca2abdbd",
+        "treatmentCount": 9,
+        "riskScore": 18,
+        "highestRiskTreatmentId": "balanced-scene-01-layer-package"
+      }
+    },
+    {
+      "id": "balanced-scene-02",
+      "title": "折起昨日",
+      "narrativeRole": "情绪发展",
+      "message": "18.84–47.77 秒，主歌：纸片照片、空椅与信件组成失落的房间。",
+      "blueprint": "archive-stack",
+      "estimatedDurationSeconds": 28.930000000000003,
+      "beats": [
+        {
+          "id": "establish",
+          "at": 0,
+          "performanceRole": "establish",
+          "purpose": "建立折起昨日的空间",
+          "visual": "空房与旧照片主体纸片",
+          "soundCue": null,
+          "proofTimeId": "established",
+          "treatments": [
+            {
+              "id": "balanced-scene-02-motion-paper-2-1",
+              "targetId": "paper-2-1",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "ambient-motion",
+              "motion": {
+                "kind": "continuous-transform",
+                "preset": "drift"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "established",
+              "rationale": "沿音乐缓慢变化，给歌词与情绪留下呼吸空间。"
+            },
+            {
+              "id": "balanced-scene-02-animated-ensemble",
+              "targetId": "animated-ensemble-2",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "ambient-motion",
+              "motion": {
+                "kind": "continuous-transform",
+                "preset": "drift"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "established",
+              "rationale": "响应用户持续动画反馈：本幕纸片舞台含 13 个独立运动部件。风场承载小幅移动，信纸/照片/波纹/纸船/纸鸟等子部件各自持续位置和转动动画，完整清单见 animation-inventory.json。"
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "at": 0.44,
+          "performanceRole": "action",
+          "purpose": "18.84–47.77 秒，主歌：纸片照片、空椅与信件组成失落的房间。",
+          "visual": "纸片、光线与主体顺着旋律发生变化",
+          "soundCue": null,
+          "proofTimeId": "transforming",
+          "treatments": [
+            {
+              "id": "balanced-scene-02-motion-paper-2-2",
+              "targetId": "paper-2-2",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "ambient-motion",
+              "motion": {
+                "kind": "continuous-transform",
+                "preset": "breathe"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "transforming",
+              "rationale": "沿音乐缓慢变化，给歌词与情绪留下呼吸空间。"
+            },
+            {
+              "id": "balanced-scene-02-paper-dust",
+              "targetId": "dust-1",
+              "importance": "ambient",
+              "necessity": "enhancement",
+              "changeClass": "decorative-field",
+              "motion": {
+                "kind": "motif-field",
+                "preset": "fall-drift",
+                "distribution": "scattered",
+                "count": 9,
+                "cycles": 2,
+                "bounds": {
+                  "x": 0.06,
+                  "y": 0.08,
+                  "width": 0.88,
+                  "height": 0.65
+                },
+                "exclusionZones": [
+                  {
+                    "id": "lyrics-safe",
+                    "shape": "rectangle",
+                    "x": 0.1,
+                    "y": 0.78,
+                    "width": 0.8,
+                    "height": 0.17,
+                    "padding": 0.02
+                  }
+                ]
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "transforming",
+              "rationale": "沿音乐缓慢变化，给歌词与情绪留下呼吸空间。"
+            }
+          ]
+        },
+        {
+          "id": "settle",
+          "at": 0.86,
+          "performanceRole": "settle",
+          "purpose": "让情绪落定并准备进入下一段",
+          "visual": "终态停留，保留微妙环境运动",
+          "soundCue": null,
+          "proofTimeId": "resolved",
+          "treatments": [
+            {
+              "id": "balanced-scene-02-final-hold",
+              "targetId": "paper-2-1",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "static-hold",
+              "motion": {
+                "kind": "static"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "resolved",
+              "rationale": "沿音乐缓慢变化，给歌词与情绪留下呼吸空间。"
+            }
+          ]
+        }
+      ],
+      "proofTimes": [
+        {
+          "id": "established",
+          "at": 0.08,
+          "kind": "establish",
+          "label": "折起昨日进入",
+          "assertions": [
+            "画面主体清晰，歌词安全区留白"
+          ],
+          "stateAssertions": []
+        },
+        {
+          "id": "transforming",
+          "at": 0.51,
+          "kind": "peak",
+          "label": "折起昨日变化",
+          "assertions": [
+            "纸片运动与状态变化可见"
+          ],
+          "stateAssertions": []
+        },
+        {
+          "id": "resolved",
+          "at": 0.89,
+          "kind": "final",
+          "label": "折起昨日停留",
+          "assertions": [
+            "最终构图稳定，光与纸纹保持细腻"
+          ],
+          "stateAssertions": []
+        }
+      ],
+      "motionPolicy": "standard",
+      "staticRationale": null,
+      "compositionPlan": {
+        "patterns": [
+          "free"
+        ],
+        "relationships": [],
+        "stateSequences": [],
+        "continuousMotions": [
+          {
+            "id": "balanced-scene-02-animated-ensemble",
+            "nodeId": "animated-ensemble-2",
+            "preset": "drift",
+            "at": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "id": "balanced-scene-02-motion-paper-2-1",
+            "nodeId": "paper-2-1",
+            "preset": "drift",
+            "at": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "id": "balanced-scene-02-motion-paper-2-2",
+            "nodeId": "paper-2-2",
+            "preset": "breathe",
+            "at": 0.44,
+            "proofTimeId": "transforming"
+          }
+        ],
+        "pathMotions": [],
+        "visibilityEvents": [],
+        "motifFields": [
+          {
+            "id": "balanced-scene-02-paper-dust",
+            "nodeId": "dust-1",
+            "preset": "fall-drift",
+            "distribution": "scattered",
+            "count": 9,
+            "cycles": 2,
+            "bounds": {
+              "x": 0.06,
+              "y": 0.08,
+              "width": 0.88,
+              "height": 0.65
+            },
+            "exclusionZones": [
+              {
+                "id": "lyrics-safe",
+                "shape": "rectangle",
+                "x": 0.1,
+                "y": 0.78,
+                "width": 0.8,
+                "height": 0.17,
+                "padding": 0.02
+              }
+            ],
+            "at": 0.44,
+            "proofTimeId": "transforming"
+          }
+        ],
+        "graphics": [],
+        "layerStacks": [],
+        "loopingEnvironments": [],
+        "canonicalContainers": []
+      },
+      "directing": {
+        "fingerprint": "cde27240e1d7308613e0234b8f3e56c828bdef95509e57cdb12a07840248259b",
+        "treatmentCount": 5,
+        "riskScore": 12,
+        "highestRiskTreatmentId": "balanced-scene-02-animated-ensemble"
+      }
+    },
+    {
+      "id": "balanced-scene-03",
+      "title": "风翻记忆",
+      "narrativeRole": "情绪发展",
+      "message": "47.77–61.94 秒，情绪抬升：照片边缘扬起，碎片向远方移动。",
+      "blueprint": "archive-stack",
+      "estimatedDurationSeconds": 14.169999999999995,
+      "beats": [
+        {
+          "id": "establish",
+          "at": 0,
+          "performanceRole": "establish",
+          "purpose": "建立风翻记忆的空间",
+          "visual": "风中的档案长廊主体纸片",
+          "soundCue": null,
+          "proofTimeId": "established",
+          "treatments": [
+            {
+              "id": "balanced-scene-03-motion-paper-3-1",
+              "targetId": "paper-3-1",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "ambient-motion",
+              "motion": {
+                "kind": "continuous-transform",
+                "preset": "drift"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "established",
+              "rationale": "沿音乐缓慢变化，给歌词与情绪留下呼吸空间。"
+            },
+            {
+              "id": "balanced-scene-03-animated-ensemble",
+              "targetId": "animated-ensemble-3",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "ambient-motion",
+              "motion": {
+                "kind": "continuous-transform",
+                "preset": "drift"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "established",
+              "rationale": "响应用户持续动画反馈：本幕纸片舞台含 22 个独立运动部件。风场承载小幅移动，信纸/照片/波纹/纸船/纸鸟等子部件各自持续位置和转动动画，完整清单见 animation-inventory.json。"
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "at": 0.44,
+          "performanceRole": "action",
+          "purpose": "47.77–61.94 秒，情绪抬升：照片边缘扬起，碎片向远方移动。",
+          "visual": "纸片、光线与主体顺着旋律发生变化",
+          "soundCue": null,
+          "proofTimeId": "transforming",
+          "treatments": [
+            {
+              "id": "balanced-scene-03-motion-paper-3-2",
+              "targetId": "paper-3-2",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "ambient-motion",
+              "motion": {
+                "kind": "continuous-transform",
+                "preset": "breathe"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "transforming",
+              "rationale": "沿音乐缓慢变化，给歌词与情绪留下呼吸空间。"
+            }
+          ]
+        },
+        {
+          "id": "settle",
+          "at": 0.86,
+          "performanceRole": "settle",
+          "purpose": "让情绪落定并准备进入下一段",
+          "visual": "终态停留，保留微妙环境运动",
+          "soundCue": null,
+          "proofTimeId": "resolved",
+          "treatments": [
+            {
+              "id": "balanced-scene-03-final-hold",
+              "targetId": "paper-3-1",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "static-hold",
+              "motion": {
+                "kind": "static"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "resolved",
+              "rationale": "沿音乐缓慢变化，给歌词与情绪留下呼吸空间。"
+            }
+          ]
+        }
+      ],
+      "proofTimes": [
+        {
+          "id": "established",
+          "at": 0.08,
+          "kind": "establish",
+          "label": "风翻记忆进入",
+          "assertions": [
+            "画面主体清晰，歌词安全区留白"
+          ],
+          "stateAssertions": []
+        },
+        {
+          "id": "transforming",
+          "at": 0.51,
+          "kind": "peak",
+          "label": "风翻记忆变化",
+          "assertions": [
+            "纸片运动与状态变化可见"
+          ],
+          "stateAssertions": []
+        },
+        {
+          "id": "resolved",
+          "at": 0.89,
+          "kind": "final",
+          "label": "风翻记忆停留",
+          "assertions": [
+            "最终构图稳定，光与纸纹保持细腻"
+          ],
+          "stateAssertions": []
+        }
+      ],
+      "motionPolicy": "standard",
+      "staticRationale": null,
+      "compositionPlan": {
+        "patterns": [
+          "free"
+        ],
+        "relationships": [],
+        "stateSequences": [],
+        "continuousMotions": [
+          {
+            "id": "balanced-scene-03-animated-ensemble",
+            "nodeId": "animated-ensemble-3",
+            "preset": "drift",
+            "at": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "id": "balanced-scene-03-motion-paper-3-1",
+            "nodeId": "paper-3-1",
+            "preset": "drift",
+            "at": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "id": "balanced-scene-03-motion-paper-3-2",
+            "nodeId": "paper-3-2",
+            "preset": "breathe",
+            "at": 0.44,
+            "proofTimeId": "transforming"
+          }
+        ],
+        "pathMotions": [],
+        "visibilityEvents": [],
+        "motifFields": [],
+        "graphics": [],
+        "layerStacks": [],
+        "loopingEnvironments": [],
+        "canonicalContainers": []
+      },
+      "directing": {
+        "fingerprint": "ef1947297788f1446dd3a6a8b4ad0377ddab614a9aff162c5ae8829ea218c0e8",
+        "treatmentCount": 4,
+        "riskScore": 12,
+        "highestRiskTreatmentId": "balanced-scene-03-animated-ensemble"
+      }
+    },
+    {
+      "id": "balanced-scene-04",
+      "title": "花开如初",
+      "narrativeRole": "情绪发展",
+      "message": "61.94–92.44 秒，首轮副歌：纸花从闭合到盛开，冷色渐暖。",
+      "blueprint": "transformation-tableau",
+      "estimatedDurationSeconds": 30.5,
+      "beats": [
+        {
+          "id": "establish",
+          "at": 0,
+          "performanceRole": "establish",
+          "purpose": "建立花开如初的空间",
+          "visual": "纸花与远山主体纸片",
+          "soundCue": null,
+          "proofTimeId": "established",
+          "treatments": [
+            {
+              "id": "balanced-scene-04-motion-paper-4-1",
+              "targetId": "paper-4-1",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "ambient-motion",
+              "motion": {
+                "kind": "continuous-transform",
+                "preset": "drift"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "established",
+              "rationale": "沿音乐缓慢变化，给歌词与情绪留下呼吸空间。"
+            },
+            {
+              "id": "balanced-scene-04-camera-depth",
+              "targetId": "scene-camera",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "depth-parallax",
+              "motion": {
+                "kind": "continuous-transform",
+                "preset": "parallax-camera"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "established",
+              "rationale": "沿音乐缓慢变化，给歌词与情绪留下呼吸空间。"
+            },
+            {
+              "id": "balanced-scene-04-layer-package",
+              "targetId": "world-4",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "depth-layer-separation",
+              "motion": {
+                "kind": "continuous-transform",
+                "preset": "drift"
+              },
+              "composition": {
+                "pattern": "registered-depth-stack",
+                "motionCapability": "bounded-relative",
+                "sourcePackageId": "balanced-source-4",
+                "sourceStrategy": "context-preserving-layer-edits",
+                "layers": [
+                  {
+                    "id": "rear",
+                    "role": "support-rear",
+                    "completeness": "clean-plate",
+                    "depth": -0.7
+                  },
+                  {
+                    "id": "subject",
+                    "role": "subject",
+                    "completeness": "full-silhouette",
+                    "depth": 0
+                  },
+                  {
+                    "id": "front",
+                    "role": "support-front",
+                    "completeness": "full-overlay",
+                    "depth": 0.7
+                  }
+                ],
+                "revealEnvelope": {
+                  "16:9": {
+                    "x": 0.025,
+                    "y": 0.015,
+                    "scale": 0.035,
+                    "rotationDegrees": 0.7
+                  },
+                  "9:16": {
+                    "x": 0.025,
+                    "y": 0.015,
+                    "scale": 0.035,
+                    "rotationDegrees": 0.7
+                  },
+                  "1:1": {
+                    "x": 0.025,
+                    "y": 0.015,
+                    "scale": 0.035,
+                    "rotationDegrees": 0.7
+                  }
+                }
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "established",
+              "rationale": "沿音乐缓慢变化，给歌词与情绪留下呼吸空间。"
+            },
+            {
+              "id": "balanced-scene-04-paper-flower-bud",
+              "targetId": "flower",
+              "importance": "hero",
+              "necessity": "required",
+              "changeClass": "pose-change",
+              "motion": {
+                "kind": "state-sequence",
+                "poseFamilyId": "paper-flower",
+                "stateId": "bud",
+                "facing": "front",
+                "visualChange": "bud",
+                "playback": "once",
+                "transition": "crossfade"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "established",
+              "rationale": "完整注册状态表现真实形态变化，而不是缩放静态图片。"
+            },
+            {
+              "id": "balanced-scene-04-animated-ensemble",
+              "targetId": "animated-ensemble-4",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "ambient-motion",
+              "motion": {
+                "kind": "continuous-transform",
+                "preset": "drift"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "established",
+              "rationale": "响应用户持续动画反馈：本幕纸片舞台含 17 个独立运动部件。风场承载小幅移动，信纸/照片/波纹/纸船/纸鸟等子部件各自持续位置和转动动画，完整清单见 animation-inventory.json。"
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "at": 0.44,
+          "performanceRole": "action",
+          "purpose": "61.94–92.44 秒，首轮副歌：纸花从闭合到盛开，冷色渐暖。",
+          "visual": "纸片、光线与主体顺着旋律发生变化",
+          "soundCue": null,
+          "proofTimeId": "transforming",
+          "treatments": [
+            {
+              "id": "balanced-scene-04-motion-paper-4-2",
+              "targetId": "paper-4-2",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "ambient-motion",
+              "motion": {
+                "kind": "continuous-transform",
+                "preset": "breathe"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "transforming",
+              "rationale": "沿音乐缓慢变化，给歌词与情绪留下呼吸空间。"
+            },
+            {
+              "id": "balanced-scene-04-paper-flower-opening",
+              "targetId": "flower",
+              "importance": "hero",
+              "necessity": "required",
+              "changeClass": "pose-change",
+              "motion": {
+                "kind": "state-sequence",
+                "poseFamilyId": "paper-flower",
+                "stateId": "opening",
+                "facing": "front",
+                "visualChange": "opening",
+                "playback": "once",
+                "transition": "crossfade"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "transforming",
+              "rationale": "完整注册状态表现真实形态变化，而不是缩放静态图片。"
+            }
+          ]
+        },
+        {
+          "id": "settle",
+          "at": 0.86,
+          "performanceRole": "settle",
+          "purpose": "让情绪落定并准备进入下一段",
+          "visual": "终态停留，保留微妙环境运动",
+          "soundCue": null,
+          "proofTimeId": "resolved",
+          "treatments": [
+            {
+              "id": "balanced-scene-04-paper-flower-bloom",
+              "targetId": "flower",
+              "importance": "hero",
+              "necessity": "required",
+              "changeClass": "pose-change",
+              "motion": {
+                "kind": "state-sequence",
+                "poseFamilyId": "paper-flower",
+                "stateId": "bloom",
+                "facing": "front",
+                "visualChange": "bloom",
+                "playback": "once",
+                "transition": "crossfade"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "resolved",
+              "rationale": "完整注册状态表现真实形态变化，而不是缩放静态图片。"
+            }
+          ]
+        }
+      ],
+      "proofTimes": [
+        {
+          "id": "established",
+          "at": 0.08,
+          "kind": "establish",
+          "label": "花开如初进入",
+          "assertions": [
+            "画面主体清晰，歌词安全区留白"
+          ],
+          "stateAssertions": [
+            {
+              "nodeId": "flower",
+              "stateId": "bud"
+            }
+          ]
+        },
+        {
+          "id": "transforming",
+          "at": 0.51,
+          "kind": "peak",
+          "label": "花开如初变化",
+          "assertions": [
+            "纸片运动与状态变化可见"
+          ],
+          "stateAssertions": [
+            {
+              "nodeId": "flower",
+              "stateId": "opening"
+            }
+          ]
+        },
+        {
+          "id": "resolved",
+          "at": 0.89,
+          "kind": "final",
+          "label": "花开如初停留",
+          "assertions": [
+            "最终构图稳定，光与纸纹保持细腻"
+          ],
+          "stateAssertions": [
+            {
+              "nodeId": "flower",
+              "stateId": "bloom"
+            }
+          ]
+        }
+      ],
+      "motionPolicy": "standard",
+      "staticRationale": null,
+      "compositionPlan": {
+        "patterns": [
+          "free",
+          "registered-depth-stack"
+        ],
+        "relationships": [],
+        "stateSequences": [
+          {
+            "nodeId": "flower",
+            "poseFamilyId": "paper-flower",
+            "states": [
+              {
+                "id": "bud",
+                "at": 0,
+                "facing": "front",
+                "visualChange": "bud"
+              },
+              {
+                "id": "opening",
+                "at": 0.44,
+                "facing": "front",
+                "visualChange": "opening"
+              },
+              {
+                "id": "bloom",
+                "at": 0.86,
+                "facing": "front",
+                "visualChange": "bloom"
+              }
+            ],
+            "playback": {
+              "mode": "once",
+              "cycles": 1
+            },
+            "transition": "crossfade"
+          }
+        ],
+        "continuousMotions": [
+          {
+            "id": "balanced-scene-04-animated-ensemble",
+            "nodeId": "animated-ensemble-4",
+            "preset": "drift",
+            "at": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "id": "balanced-scene-04-camera-depth",
+            "nodeId": "scene-camera",
+            "preset": "parallax-camera",
+            "at": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "id": "balanced-scene-04-layer-package",
+            "nodeId": "world-4",
+            "preset": "drift",
+            "at": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "id": "balanced-scene-04-motion-paper-4-1",
+            "nodeId": "paper-4-1",
+            "preset": "drift",
+            "at": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "id": "balanced-scene-04-motion-paper-4-2",
+            "nodeId": "paper-4-2",
+            "preset": "breathe",
+            "at": 0.44,
+            "proofTimeId": "transforming"
+          }
+        ],
+        "pathMotions": [],
+        "visibilityEvents": [],
+        "motifFields": [],
+        "graphics": [],
+        "layerStacks": [
+          {
+            "id": "balanced-source-4",
+            "treatmentId": "balanced-scene-04-layer-package",
+            "sceneId": "balanced-scene-04",
+            "targetId": "world-4",
+            "pattern": "registered-depth-stack",
+            "motionCapability": "bounded-relative",
+            "sourceStrategy": "context-preserving-layer-edits",
+            "layers": [
+              {
+                "id": "rear",
+                "role": "support-rear",
+                "completeness": "clean-plate",
+                "depth": -0.7
+              },
+              {
+                "id": "subject",
+                "role": "subject",
+                "completeness": "full-silhouette",
+                "depth": 0
+              },
+              {
+                "id": "front",
+                "role": "support-front",
+                "completeness": "full-overlay",
+                "depth": 0.7
+              }
+            ],
+            "revealEnvelope": {
+              "16:9": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              },
+              "9:16": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              },
+              "1:1": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              }
+            },
+            "subjectTravelEnvelope": null,
+            "providerImageCalls": 4,
+            "localDerivatives": 3,
+            "avoidedCalls": 0,
+            "proofTimeId": "established"
+          }
+        ],
+        "loopingEnvironments": [],
+        "canonicalContainers": []
+      },
+      "directing": {
+        "fingerprint": "7f599b5c8de6c20fdba81155897a066a1a13aed3f84871141e7f06453aab6394",
+        "treatmentCount": 8,
+        "riskScore": 18,
+        "highestRiskTreatmentId": "balanced-scene-04-layer-package"
+      }
+    },
+    {
+      "id": "balanced-scene-05",
+      "title": "留白的海",
+      "narrativeRole": "情绪发展",
+      "message": "92.44–105.98 秒，间奏：海面纸纹、慢移地平线，给旋律呼吸。",
+      "blueprint": "archive-stack",
+      "estimatedDurationSeconds": 13.540000000000006,
+      "beats": [
+        {
+          "id": "establish",
+          "at": 0,
+          "performanceRole": "establish",
+          "purpose": "建立留白的海的空间",
+          "visual": "海岸与撕边云主体纸片",
+          "soundCue": null,
+          "proofTimeId": "established",
+          "treatments": [
+            {
+              "id": "balanced-scene-05-motion-paper-5-1",
+              "targetId": "paper-5-1",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "ambient-motion",
+              "motion": {
+                "kind": "continuous-transform",
+                "preset": "drift"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "established",
+              "rationale": "沿音乐缓慢变化，给歌词与情绪留下呼吸空间。"
+            },
+            {
+              "id": "balanced-scene-05-animated-ensemble",
+              "targetId": "animated-ensemble-5",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "ambient-motion",
+              "motion": {
+                "kind": "continuous-transform",
+                "preset": "drift"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "established",
+              "rationale": "响应用户持续动画反馈：本幕纸片舞台含 22 个独立运动部件。风场承载小幅移动，信纸/照片/波纹/纸船/纸鸟等子部件各自持续位置和转动动画，完整清单见 animation-inventory.json。"
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "at": 0.44,
+          "performanceRole": "action",
+          "purpose": "92.44–105.98 秒，间奏：海面纸纹、慢移地平线，给旋律呼吸。",
+          "visual": "纸片、光线与主体顺着旋律发生变化",
+          "soundCue": null,
+          "proofTimeId": "transforming",
+          "treatments": [
+            {
+              "id": "balanced-scene-05-motion-paper-5-2",
+              "targetId": "paper-5-2",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "ambient-motion",
+              "motion": {
+                "kind": "continuous-transform",
+                "preset": "breathe"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "transforming",
+              "rationale": "沿音乐缓慢变化，给歌词与情绪留下呼吸空间。"
+            }
+          ]
+        },
+        {
+          "id": "settle",
+          "at": 0.86,
+          "performanceRole": "settle",
+          "purpose": "让情绪落定并准备进入下一段",
+          "visual": "终态停留，保留微妙环境运动",
+          "soundCue": null,
+          "proofTimeId": "resolved",
+          "treatments": [
+            {
+              "id": "balanced-scene-05-final-hold",
+              "targetId": "paper-5-1",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "static-hold",
+              "motion": {
+                "kind": "static"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "resolved",
+              "rationale": "沿音乐缓慢变化，给歌词与情绪留下呼吸空间。"
+            }
+          ]
+        }
+      ],
+      "proofTimes": [
+        {
+          "id": "established",
+          "at": 0.08,
+          "kind": "establish",
+          "label": "留白的海进入",
+          "assertions": [
+            "画面主体清晰，歌词安全区留白"
+          ],
+          "stateAssertions": []
+        },
+        {
+          "id": "transforming",
+          "at": 0.51,
+          "kind": "peak",
+          "label": "留白的海变化",
+          "assertions": [
+            "纸片运动与状态变化可见"
+          ],
+          "stateAssertions": []
+        },
+        {
+          "id": "resolved",
+          "at": 0.89,
+          "kind": "final",
+          "label": "留白的海停留",
+          "assertions": [
+            "最终构图稳定，光与纸纹保持细腻"
+          ],
+          "stateAssertions": []
+        }
+      ],
+      "motionPolicy": "standard",
+      "staticRationale": null,
+      "compositionPlan": {
+        "patterns": [
+          "free"
+        ],
+        "relationships": [],
+        "stateSequences": [],
+        "continuousMotions": [
+          {
+            "id": "balanced-scene-05-animated-ensemble",
+            "nodeId": "animated-ensemble-5",
+            "preset": "drift",
+            "at": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "id": "balanced-scene-05-motion-paper-5-1",
+            "nodeId": "paper-5-1",
+            "preset": "drift",
+            "at": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "id": "balanced-scene-05-motion-paper-5-2",
+            "nodeId": "paper-5-2",
+            "preset": "breathe",
+            "at": 0.44,
+            "proofTimeId": "transforming"
+          }
+        ],
+        "pathMotions": [],
+        "visibilityEvents": [],
+        "motifFields": [],
+        "graphics": [],
+        "layerStacks": [],
+        "loopingEnvironments": [],
+        "canonicalContainers": []
+      },
+      "directing": {
+        "fingerprint": "9c2a633e04b7c05ef8b6f3182cc92953a748f6414ab4e09dd5117c015a3f9422",
+        "treatmentCount": 4,
+        "riskScore": 12,
+        "highestRiskTreatmentId": "balanced-scene-05-animated-ensemble"
+      }
+    },
+    {
+      "id": "balanced-scene-06",
+      "title": "重新拼合",
+      "narrativeRole": "情绪发展",
+      "message": "105.98–134.83 秒，第二主歌：散落的纸片重新组成完整的窗景。",
+      "blueprint": "layered-reveal",
+      "estimatedDurationSeconds": 28.85000000000001,
+      "beats": [
+        {
+          "id": "establish",
+          "at": 0,
+          "performanceRole": "establish",
+          "purpose": "建立重新拼合的空间",
+          "visual": "拼合的窗与田野主体纸片",
+          "soundCue": null,
+          "proofTimeId": "established",
+          "treatments": [
+            {
+              "id": "balanced-scene-06-motion-paper-6-1",
+              "targetId": "paper-6-1",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "ambient-motion",
+              "motion": {
+                "kind": "continuous-transform",
+                "preset": "drift"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "established",
+              "rationale": "沿音乐缓慢变化，给歌词与情绪留下呼吸空间。"
+            },
+            {
+              "id": "balanced-scene-06-camera-depth",
+              "targetId": "scene-camera",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "depth-parallax",
+              "motion": {
+                "kind": "continuous-transform",
+                "preset": "parallax-camera"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "established",
+              "rationale": "沿音乐缓慢变化，给歌词与情绪留下呼吸空间。"
+            },
+            {
+              "id": "balanced-scene-06-layer-package",
+              "targetId": "world-6",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "depth-layer-separation",
+              "motion": {
+                "kind": "continuous-transform",
+                "preset": "drift"
+              },
+              "composition": {
+                "pattern": "registered-depth-stack",
+                "motionCapability": "bounded-relative",
+                "sourcePackageId": "balanced-source-6",
+                "sourceStrategy": "context-preserving-layer-edits",
+                "layers": [
+                  {
+                    "id": "rear",
+                    "role": "support-rear",
+                    "completeness": "clean-plate",
+                    "depth": -0.7
+                  },
+                  {
+                    "id": "subject",
+                    "role": "subject",
+                    "completeness": "full-silhouette",
+                    "depth": 0
+                  },
+                  {
+                    "id": "front",
+                    "role": "support-front",
+                    "completeness": "full-overlay",
+                    "depth": 0.7
+                  }
+                ],
+                "revealEnvelope": {
+                  "16:9": {
+                    "x": 0.025,
+                    "y": 0.015,
+                    "scale": 0.035,
+                    "rotationDegrees": 0.7
+                  },
+                  "9:16": {
+                    "x": 0.025,
+                    "y": 0.015,
+                    "scale": 0.035,
+                    "rotationDegrees": 0.7
+                  },
+                  "1:1": {
+                    "x": 0.025,
+                    "y": 0.015,
+                    "scale": 0.035,
+                    "rotationDegrees": 0.7
+                  }
+                }
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "established",
+              "rationale": "沿音乐缓慢变化，给歌词与情绪留下呼吸空间。"
+            },
+            {
+              "id": "balanced-scene-06-animated-ensemble",
+              "targetId": "animated-ensemble-6",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "ambient-motion",
+              "motion": {
+                "kind": "continuous-transform",
+                "preset": "drift"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "established",
+              "rationale": "响应用户持续动画反馈：本幕纸片舞台含 13 个独立运动部件。风场承载小幅移动，信纸/照片/波纹/纸船/纸鸟等子部件各自持续位置和转动动画，完整清单见 animation-inventory.json。"
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "at": 0.44,
+          "performanceRole": "action",
+          "purpose": "105.98–134.83 秒，第二主歌：散落的纸片重新组成完整的窗景。",
+          "visual": "纸片、光线与主体顺着旋律发生变化",
+          "soundCue": null,
+          "proofTimeId": "transforming",
+          "treatments": [
+            {
+              "id": "balanced-scene-06-motion-paper-6-2",
+              "targetId": "paper-6-2",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "ambient-motion",
+              "motion": {
+                "kind": "continuous-transform",
+                "preset": "breathe"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "transforming",
+              "rationale": "沿音乐缓慢变化，给歌词与情绪留下呼吸空间。"
+            }
+          ]
+        },
+        {
+          "id": "settle",
+          "at": 0.86,
+          "performanceRole": "settle",
+          "purpose": "让情绪落定并准备进入下一段",
+          "visual": "终态停留，保留微妙环境运动",
+          "soundCue": null,
+          "proofTimeId": "resolved",
+          "treatments": [
+            {
+              "id": "balanced-scene-06-final-hold",
+              "targetId": "paper-6-1",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "static-hold",
+              "motion": {
+                "kind": "static"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "resolved",
+              "rationale": "沿音乐缓慢变化，给歌词与情绪留下呼吸空间。"
+            }
+          ]
+        }
+      ],
+      "proofTimes": [
+        {
+          "id": "established",
+          "at": 0.08,
+          "kind": "establish",
+          "label": "重新拼合进入",
+          "assertions": [
+            "画面主体清晰，歌词安全区留白"
+          ],
+          "stateAssertions": []
+        },
+        {
+          "id": "transforming",
+          "at": 0.51,
+          "kind": "peak",
+          "label": "重新拼合变化",
+          "assertions": [
+            "纸片运动与状态变化可见"
+          ],
+          "stateAssertions": []
+        },
+        {
+          "id": "resolved",
+          "at": 0.89,
+          "kind": "final",
+          "label": "重新拼合停留",
+          "assertions": [
+            "最终构图稳定，光与纸纹保持细腻"
+          ],
+          "stateAssertions": []
+        }
+      ],
+      "motionPolicy": "standard",
+      "staticRationale": null,
+      "compositionPlan": {
+        "patterns": [
+          "free",
+          "registered-depth-stack"
+        ],
+        "relationships": [],
+        "stateSequences": [],
+        "continuousMotions": [
+          {
+            "id": "balanced-scene-06-animated-ensemble",
+            "nodeId": "animated-ensemble-6",
+            "preset": "drift",
+            "at": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "id": "balanced-scene-06-camera-depth",
+            "nodeId": "scene-camera",
+            "preset": "parallax-camera",
+            "at": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "id": "balanced-scene-06-layer-package",
+            "nodeId": "world-6",
+            "preset": "drift",
+            "at": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "id": "balanced-scene-06-motion-paper-6-1",
+            "nodeId": "paper-6-1",
+            "preset": "drift",
+            "at": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "id": "balanced-scene-06-motion-paper-6-2",
+            "nodeId": "paper-6-2",
+            "preset": "breathe",
+            "at": 0.44,
+            "proofTimeId": "transforming"
+          }
+        ],
+        "pathMotions": [],
+        "visibilityEvents": [],
+        "motifFields": [],
+        "graphics": [],
+        "layerStacks": [
+          {
+            "id": "balanced-source-6",
+            "treatmentId": "balanced-scene-06-layer-package",
+            "sceneId": "balanced-scene-06",
+            "targetId": "world-6",
+            "pattern": "registered-depth-stack",
+            "motionCapability": "bounded-relative",
+            "sourceStrategy": "context-preserving-layer-edits",
+            "layers": [
+              {
+                "id": "rear",
+                "role": "support-rear",
+                "completeness": "clean-plate",
+                "depth": -0.7
+              },
+              {
+                "id": "subject",
+                "role": "subject",
+                "completeness": "full-silhouette",
+                "depth": 0
+              },
+              {
+                "id": "front",
+                "role": "support-front",
+                "completeness": "full-overlay",
+                "depth": 0.7
+              }
+            ],
+            "revealEnvelope": {
+              "16:9": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              },
+              "9:16": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              },
+              "1:1": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              }
+            },
+            "subjectTravelEnvelope": null,
+            "providerImageCalls": 4,
+            "localDerivatives": 3,
+            "avoidedCalls": 0,
+            "proofTimeId": "established"
+          }
+        ],
+        "loopingEnvironments": [],
+        "canonicalContainers": []
+      },
+      "directing": {
+        "fingerprint": "98999d0ad074469232a5d54cc5d558259a1464f2e84b57d22603d9ef51a28bad",
+        "treatmentCount": 6,
+        "riskScore": 18,
+        "highestRiskTreatmentId": "balanced-scene-06-layer-package"
+      }
+    },
+    {
+      "id": "balanced-scene-07",
+      "title": "放过自己",
+      "narrativeRole": "情绪发展",
+      "message": "134.83–166.91 秒，第二副歌：人物从蜷坐到舒展站立，纸花铺展，镜头拉开。",
+      "blueprint": "transformation-tableau",
+      "estimatedDurationSeconds": 32.079999999999984,
+      "beats": [
+        {
+          "id": "establish",
+          "at": 0,
+          "performanceRole": "establish",
+          "purpose": "建立放过自己的空间",
+          "visual": "人物与日光花田主体纸片",
+          "soundCue": null,
+          "proofTimeId": "established",
+          "treatments": [
+            {
+              "id": "balanced-scene-07-motion-paper-7-1",
+              "targetId": "paper-7-1",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "ambient-motion",
+              "motion": {
+                "kind": "continuous-transform",
+                "preset": "drift"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "established",
+              "rationale": "沿音乐缓慢变化，给歌词与情绪留下呼吸空间。"
+            },
+            {
+              "id": "balanced-scene-07-camera-depth",
+              "targetId": "scene-camera",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "depth-parallax",
+              "motion": {
+                "kind": "continuous-transform",
+                "preset": "parallax-camera"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "established",
+              "rationale": "沿音乐缓慢变化，给歌词与情绪留下呼吸空间。"
+            },
+            {
+              "id": "balanced-scene-07-layer-package",
+              "targetId": "world-7",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "depth-layer-separation",
+              "motion": {
+                "kind": "continuous-transform",
+                "preset": "drift"
+              },
+              "composition": {
+                "pattern": "registered-depth-stack",
+                "motionCapability": "bounded-relative",
+                "sourcePackageId": "balanced-source-7",
+                "sourceStrategy": "context-preserving-layer-edits",
+                "layers": [
+                  {
+                    "id": "rear",
+                    "role": "support-rear",
+                    "completeness": "clean-plate",
+                    "depth": -0.7
+                  },
+                  {
+                    "id": "subject",
+                    "role": "subject",
+                    "completeness": "full-silhouette",
+                    "depth": 0
+                  },
+                  {
+                    "id": "front",
+                    "role": "support-front",
+                    "completeness": "full-overlay",
+                    "depth": 0.7
+                  }
+                ],
+                "revealEnvelope": {
+                  "16:9": {
+                    "x": 0.025,
+                    "y": 0.015,
+                    "scale": 0.035,
+                    "rotationDegrees": 0.7
+                  },
+                  "9:16": {
+                    "x": 0.025,
+                    "y": 0.015,
+                    "scale": 0.035,
+                    "rotationDegrees": 0.7
+                  },
+                  "1:1": {
+                    "x": 0.025,
+                    "y": 0.015,
+                    "scale": 0.035,
+                    "rotationDegrees": 0.7
+                  }
+                }
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "established",
+              "rationale": "沿音乐缓慢变化，给歌词与情绪留下呼吸空间。"
+            },
+            {
+              "id": "balanced-scene-07-human-release-curled",
+              "targetId": "paper-person",
+              "importance": "hero",
+              "necessity": "required",
+              "changeClass": "pose-change",
+              "motion": {
+                "kind": "state-sequence",
+                "poseFamilyId": "human-release",
+                "stateId": "curled",
+                "facing": "front",
+                "visualChange": "curled",
+                "playback": "once",
+                "transition": "crossfade"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "identity",
+              "proofTimeId": "established",
+              "rationale": "完整注册状态表现真实形态变化，而不是缩放静态图片。"
+            },
+            {
+              "id": "balanced-scene-07-animated-ensemble",
+              "targetId": "animated-ensemble-7",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "ambient-motion",
+              "motion": {
+                "kind": "continuous-transform",
+                "preset": "drift"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "established",
+              "rationale": "响应用户持续动画反馈：本幕纸片舞台含 26 个独立运动部件。风场承载小幅移动，信纸/照片/波纹/纸船/纸鸟等子部件各自持续位置和转动动画，完整清单见 animation-inventory.json。"
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "at": 0.36,
+          "performanceRole": "action",
+          "purpose": "134.83–166.91 秒，第二副歌：人物从蜷坐到舒展站立，纸花铺展，镜头拉开。",
+          "visual": "纸片、光线与主体顺着旋律发生变化",
+          "soundCue": null,
+          "proofTimeId": "transforming",
+          "treatments": [
+            {
+              "id": "balanced-scene-07-motion-paper-7-2",
+              "targetId": "paper-7-2",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "ambient-motion",
+              "motion": {
+                "kind": "continuous-transform",
+                "preset": "breathe"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "transforming",
+              "rationale": "沿音乐缓慢变化，给歌词与情绪留下呼吸空间。"
+            },
+            {
+              "id": "balanced-scene-07-human-release-rising",
+              "targetId": "paper-person",
+              "importance": "hero",
+              "necessity": "required",
+              "changeClass": "pose-change",
+              "motion": {
+                "kind": "state-sequence",
+                "poseFamilyId": "human-release",
+                "stateId": "rising",
+                "facing": "front",
+                "visualChange": "rising",
+                "playback": "once",
+                "transition": "crossfade"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "identity",
+              "proofTimeId": "transforming",
+              "rationale": "完整注册状态表现真实形态变化，而不是缩放静态图片。"
+            }
+          ]
+        },
+        {
+          "id": "settle",
+          "at": 0.74,
+          "performanceRole": "settle",
+          "purpose": "让情绪落定并准备进入下一段",
+          "visual": "终态停留，保留微妙环境运动",
+          "soundCue": null,
+          "proofTimeId": "resolved",
+          "treatments": [
+            {
+              "id": "balanced-scene-07-human-release-upright",
+              "targetId": "paper-person",
+              "importance": "hero",
+              "necessity": "required",
+              "changeClass": "pose-change",
+              "motion": {
+                "kind": "state-sequence",
+                "poseFamilyId": "human-release",
+                "stateId": "upright",
+                "facing": "front",
+                "visualChange": "upright",
+                "playback": "once",
+                "transition": "crossfade"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "identity",
+              "proofTimeId": "resolved",
+              "rationale": "完整注册状态表现真实形态变化，而不是缩放静态图片。"
+            }
+          ]
+        }
+      ],
+      "proofTimes": [
+        {
+          "id": "established",
+          "at": 0.08,
+          "kind": "establish",
+          "label": "放过自己进入",
+          "assertions": [
+            "画面主体清晰，歌词安全区留白"
+          ],
+          "stateAssertions": [
+            {
+              "nodeId": "paper-person",
+              "stateId": "curled"
+            }
+          ]
+        },
+        {
+          "id": "transforming",
+          "at": 0.51,
+          "kind": "peak",
+          "label": "放过自己变化",
+          "assertions": [
+            "纸片运动与状态变化可见"
+          ],
+          "stateAssertions": [
+            {
+              "nodeId": "paper-person",
+              "stateId": "rising"
+            }
+          ]
+        },
+        {
+          "id": "resolved",
+          "at": 0.89,
+          "kind": "final",
+          "label": "放过自己停留",
+          "assertions": [
+            "最终构图稳定，光与纸纹保持细腻"
+          ],
+          "stateAssertions": [
+            {
+              "nodeId": "paper-person",
+              "stateId": "upright"
+            }
+          ]
+        }
+      ],
+      "motionPolicy": "standard",
+      "staticRationale": null,
+      "compositionPlan": {
+        "patterns": [
+          "free",
+          "registered-depth-stack"
+        ],
+        "relationships": [],
+        "stateSequences": [
+          {
+            "nodeId": "paper-person",
+            "poseFamilyId": "human-release",
+            "states": [
+              {
+                "id": "curled",
+                "at": 0,
+                "facing": "front",
+                "visualChange": "curled"
+              },
+              {
+                "id": "rising",
+                "at": 0.36,
+                "facing": "front",
+                "visualChange": "rising"
+              },
+              {
+                "id": "upright",
+                "at": 0.74,
+                "facing": "front",
+                "visualChange": "upright"
+              }
+            ],
+            "playback": {
+              "mode": "once",
+              "cycles": 1
+            },
+            "transition": "crossfade"
+          }
+        ],
+        "continuousMotions": [
+          {
+            "id": "balanced-scene-07-animated-ensemble",
+            "nodeId": "animated-ensemble-7",
+            "preset": "drift",
+            "at": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "id": "balanced-scene-07-camera-depth",
+            "nodeId": "scene-camera",
+            "preset": "parallax-camera",
+            "at": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "id": "balanced-scene-07-layer-package",
+            "nodeId": "world-7",
+            "preset": "drift",
+            "at": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "id": "balanced-scene-07-motion-paper-7-1",
+            "nodeId": "paper-7-1",
+            "preset": "drift",
+            "at": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "id": "balanced-scene-07-motion-paper-7-2",
+            "nodeId": "paper-7-2",
+            "preset": "breathe",
+            "at": 0.36,
+            "proofTimeId": "transforming"
+          }
+        ],
+        "pathMotions": [],
+        "visibilityEvents": [],
+        "motifFields": [],
+        "graphics": [],
+        "layerStacks": [
+          {
+            "id": "balanced-source-7",
+            "treatmentId": "balanced-scene-07-layer-package",
+            "sceneId": "balanced-scene-07",
+            "targetId": "world-7",
+            "pattern": "registered-depth-stack",
+            "motionCapability": "bounded-relative",
+            "sourceStrategy": "context-preserving-layer-edits",
+            "layers": [
+              {
+                "id": "rear",
+                "role": "support-rear",
+                "completeness": "clean-plate",
+                "depth": -0.7
+              },
+              {
+                "id": "subject",
+                "role": "subject",
+                "completeness": "full-silhouette",
+                "depth": 0
+              },
+              {
+                "id": "front",
+                "role": "support-front",
+                "completeness": "full-overlay",
+                "depth": 0.7
+              }
+            ],
+            "revealEnvelope": {
+              "16:9": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              },
+              "9:16": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              },
+              "1:1": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              }
+            },
+            "subjectTravelEnvelope": null,
+            "providerImageCalls": 4,
+            "localDerivatives": 3,
+            "avoidedCalls": 0,
+            "proofTimeId": "established"
+          }
+        ],
+        "loopingEnvironments": [],
+        "canonicalContainers": []
+      },
+      "directing": {
+        "fingerprint": "01949e263b145411968d730ffde7bc4f4c77ffac3a67e592cecfd9eaf02b152f",
+        "treatmentCount": 8,
+        "riskScore": 38,
+        "highestRiskTreatmentId": "balanced-scene-07-human-release-curled"
+      }
+    },
+    {
+      "id": "balanced-scene-08",
+      "title": "交给时间",
+      "narrativeRole": "释怀",
+      "message": "166.91–193.462313 秒，尾奏：信件合上、花瓣缓行，晨光停在纸页上。",
+      "blueprint": "quiet-lockup",
+      "estimatedDurationSeconds": 26.552312999999998,
+      "beats": [
+        {
+          "id": "establish",
+          "at": 0,
+          "performanceRole": "establish",
+          "purpose": "建立交给时间的空间",
+          "visual": "晨光与完整纸页主体纸片",
+          "soundCue": null,
+          "proofTimeId": "established",
+          "treatments": [
+            {
+              "id": "balanced-scene-08-motion-paper-8-1",
+              "targetId": "paper-8-1",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "ambient-motion",
+              "motion": {
+                "kind": "continuous-transform",
+                "preset": "drift"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "established",
+              "rationale": "沿音乐缓慢变化，给歌词与情绪留下呼吸空间。"
+            },
+            {
+              "id": "balanced-scene-08-animated-ensemble",
+              "targetId": "animated-ensemble-8",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "ambient-motion",
+              "motion": {
+                "kind": "continuous-transform",
+                "preset": "drift"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "established",
+              "rationale": "响应用户持续动画反馈：本幕纸片舞台含 29 个独立运动部件。风场承载小幅移动，信纸/照片/波纹/纸船/纸鸟等子部件各自持续位置和转动动画，完整清单见 animation-inventory.json。"
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "at": 0.44,
+          "performanceRole": "action",
+          "purpose": "166.91–193.462313 秒，尾奏：信件合上、花瓣缓行，晨光停在纸页上。",
+          "visual": "纸片、光线与主体顺着旋律发生变化",
+          "soundCue": null,
+          "proofTimeId": "transforming",
+          "treatments": [
+            {
+              "id": "balanced-scene-08-motion-paper-8-2",
+              "targetId": "paper-8-2",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "ambient-motion",
+              "motion": {
+                "kind": "continuous-transform",
+                "preset": "breathe"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "transforming",
+              "rationale": "沿音乐缓慢变化，给歌词与情绪留下呼吸空间。"
+            }
+          ]
+        },
+        {
+          "id": "settle",
+          "at": 0.86,
+          "performanceRole": "settle",
+          "purpose": "让情绪落定并准备进入下一段",
+          "visual": "终态停留，保留微妙环境运动",
+          "soundCue": null,
+          "proofTimeId": "resolved",
+          "treatments": [
+            {
+              "id": "balanced-scene-08-final-hold",
+              "targetId": "paper-8-1",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "static-hold",
+              "motion": {
+                "kind": "static"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "resolved",
+              "rationale": "沿音乐缓慢变化，给歌词与情绪留下呼吸空间。"
+            }
+          ]
+        }
+      ],
+      "proofTimes": [
+        {
+          "id": "established",
+          "at": 0.08,
+          "kind": "establish",
+          "label": "交给时间进入",
+          "assertions": [
+            "画面主体清晰，歌词安全区留白"
+          ],
+          "stateAssertions": []
+        },
+        {
+          "id": "transforming",
+          "at": 0.51,
+          "kind": "peak",
+          "label": "交给时间变化",
+          "assertions": [
+            "纸片运动与状态变化可见"
+          ],
+          "stateAssertions": []
+        },
+        {
+          "id": "resolved",
+          "at": 0.89,
+          "kind": "final",
+          "label": "交给时间停留",
+          "assertions": [
+            "最终构图稳定，光与纸纹保持细腻"
+          ],
+          "stateAssertions": []
+        }
+      ],
+      "motionPolicy": "standard",
+      "staticRationale": null,
+      "compositionPlan": {
+        "patterns": [
+          "free"
+        ],
+        "relationships": [],
+        "stateSequences": [],
+        "continuousMotions": [
+          {
+            "id": "balanced-scene-08-animated-ensemble",
+            "nodeId": "animated-ensemble-8",
+            "preset": "drift",
+            "at": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "id": "balanced-scene-08-motion-paper-8-1",
+            "nodeId": "paper-8-1",
+            "preset": "drift",
+            "at": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "id": "balanced-scene-08-motion-paper-8-2",
+            "nodeId": "paper-8-2",
+            "preset": "breathe",
+            "at": 0.44,
+            "proofTimeId": "transforming"
+          }
+        ],
+        "pathMotions": [],
+        "visibilityEvents": [],
+        "motifFields": [],
+        "graphics": [],
+        "layerStacks": [],
+        "loopingEnvironments": [],
+        "canonicalContainers": []
+      },
+      "directing": {
+        "fingerprint": "83e0997e3886ba5a7cd21a014311b5424358dec0393e6ece89526a4a1e8440eb",
+        "treatmentCount": 4,
+        "riskScore": 12,
+        "highestRiskTreatmentId": "balanced-scene-08-animated-ensemble"
+      }
+    }
+  ],
+  "sceneTransitions": [
+    {
+      "id": "boundary-1",
+      "fromSceneId": "balanced-scene-01",
+      "toSceneId": "balanced-scene-02",
+      "intent": "time-passage",
+      "rationale": "随歌曲段落切换记忆空间，保持纸张与色彩连续。",
+      "treatment": {
+        "type": "page-turn",
+        "edgeStyle": "paper",
+        "motivation": "semantic-default",
+        "durationSeconds": 0.7,
+        "direction": "right-to-left"
+      }
+    },
+    {
+      "id": "boundary-2",
+      "fromSceneId": "balanced-scene-02",
+      "toSceneId": "balanced-scene-03",
+      "intent": "time-passage",
+      "rationale": "随歌曲段落切换记忆空间，保持纸张与色彩连续。",
+      "treatment": {
+        "type": "page-turn",
+        "edgeStyle": "paper",
+        "motivation": "semantic-default",
+        "durationSeconds": 0.7,
+        "direction": "right-to-left"
+      }
+    },
+    {
+      "id": "boundary-3",
+      "fromSceneId": "balanced-scene-03",
+      "toSceneId": "balanced-scene-04",
+      "intent": "time-passage",
+      "rationale": "随歌曲段落切换记忆空间，保持纸张与色彩连续。",
+      "treatment": {
+        "type": "page-turn",
+        "edgeStyle": "paper",
+        "motivation": "semantic-default",
+        "durationSeconds": 0.7,
+        "direction": "right-to-left"
+      }
+    },
+    {
+      "id": "boundary-4",
+      "fromSceneId": "balanced-scene-04",
+      "toSceneId": "balanced-scene-05",
+      "intent": "location-change",
+      "rationale": "随歌曲段落切换记忆空间，保持纸张与色彩连续。",
+      "treatment": {
+        "type": "wipe",
+        "edgeStyle": "paper",
+        "motivation": "semantic-default",
+        "durationSeconds": 0.5,
+        "direction": "left-to-right"
+      }
+    },
+    {
+      "id": "boundary-5",
+      "fromSceneId": "balanced-scene-05",
+      "toSceneId": "balanced-scene-06",
+      "intent": "time-passage",
+      "rationale": "随歌曲段落切换记忆空间，保持纸张与色彩连续。",
+      "treatment": {
+        "type": "page-turn",
+        "edgeStyle": "paper",
+        "motivation": "semantic-default",
+        "durationSeconds": 0.7,
+        "direction": "right-to-left"
+      }
+    },
+    {
+      "id": "boundary-6",
+      "fromSceneId": "balanced-scene-06",
+      "toSceneId": "balanced-scene-07",
+      "intent": "time-passage",
+      "rationale": "随歌曲段落切换记忆空间，保持纸张与色彩连续。",
+      "treatment": {
+        "type": "page-turn",
+        "edgeStyle": "paper",
+        "motivation": "semantic-default",
+        "durationSeconds": 0.7,
+        "direction": "right-to-left"
+      }
+    },
+    {
+      "id": "boundary-7",
+      "fromSceneId": "balanced-scene-07",
+      "toSceneId": "balanced-scene-08",
+      "intent": "time-passage",
+      "rationale": "随歌曲段落切换记忆空间，保持纸张与色彩连续。",
+      "treatment": {
+        "type": "page-turn",
+        "edgeStyle": "paper",
+        "motivation": "semantic-default",
+        "durationSeconds": 0.7,
+        "direction": "right-to-left"
+      }
+    }
+  ],
+  "$schema": "../../schemas/storyboard.schema.json",
+  "updatedAt": "2026-10-07T02:33:34.174Z",
+  "motionContract": {
+    "schemaVersion": 1,
+    "direction": {
+      "schemaVersion": 1,
+      "summary": "以缓慢建立、纸片或形态转变、情绪落定构成每幕，副歌展开纵深与暖光。",
+      "pacing": "gentle",
+      "performance": {
+        "grammar": [
+          "establish",
+          "action",
+          "settle"
+        ],
+        "anticipation": "selective",
+        "followThrough": "selective",
+        "poseStrategy": "mixed",
+        "minimumFinalHoldRatio": 0.1
+      },
+      "camera": {
+        "strategy": "motivated"
+      },
+      "transitions": {
+        "strategy": "story-led"
+      },
+      "ambient": {
+        "strategy": "selective"
+      },
+      "styleDeviationRationale": "完整抒情歌曲以缓慢乐句为节奏，保留安静的终态与尾奏。"
+    },
+    "styleProfileBinding": {
+      "id": "archival-collage",
+      "profileFingerprint": "03374c56e20183c3e8d4ddb0e4883a50e7ecdb7ca207711e786cbd2106415885",
+      "pacing": "measured"
+    },
+    "scenes": [
+      {
+        "sceneId": "balanced-scene-01",
+        "motionPolicy": "standard",
+        "phrases": [
+          {
+            "role": "establish",
+            "beatId": "establish",
+            "at": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "role": "action",
+            "beatId": "action",
+            "at": 0.44,
+            "proofTimeId": "transforming"
+          },
+          {
+            "role": "settle",
+            "beatId": "settle",
+            "at": 0.86,
+            "proofTimeId": "resolved"
+          }
+        ],
+        "heroActionBeatIds": [
+          "establish",
+          "action",
+          "settle"
+        ],
+        "stateSequenceTreatmentIds": [
+          "balanced-scene-01-letter-open-sealed",
+          "balanced-scene-01-letter-open-unfolding",
+          "balanced-scene-01-letter-open-open"
+        ],
+        "continuousTreatmentIds": [
+          "balanced-scene-01-motion-paper-1-1",
+          "balanced-scene-01-camera-depth",
+          "balanced-scene-01-layer-package",
+          "balanced-scene-01-animated-ensemble",
+          "balanced-scene-01-motion-paper-1-2"
+        ],
+        "cameraTreatmentIds": [
+          "balanced-scene-01-camera-depth"
+        ],
+        "ambientTreatmentIds": [
+          "balanced-scene-01-paper-dust"
+        ],
+        "finalHoldRatio": 0.14,
+        "exception": null
+      },
+      {
+        "sceneId": "balanced-scene-02",
+        "motionPolicy": "standard",
+        "phrases": [
+          {
+            "role": "establish",
+            "beatId": "establish",
+            "at": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "role": "action",
+            "beatId": "action",
+            "at": 0.44,
+            "proofTimeId": "transforming"
+          },
+          {
+            "role": "settle",
+            "beatId": "settle",
+            "at": 0.86,
+            "proofTimeId": "resolved"
+          }
+        ],
+        "heroActionBeatIds": [],
+        "stateSequenceTreatmentIds": [],
+        "continuousTreatmentIds": [
+          "balanced-scene-02-motion-paper-2-1",
+          "balanced-scene-02-animated-ensemble",
+          "balanced-scene-02-motion-paper-2-2"
+        ],
+        "cameraTreatmentIds": [],
+        "ambientTreatmentIds": [
+          "balanced-scene-02-paper-dust"
+        ],
+        "finalHoldRatio": 0.14,
+        "exception": null
+      },
+      {
+        "sceneId": "balanced-scene-03",
+        "motionPolicy": "standard",
+        "phrases": [
+          {
+            "role": "establish",
+            "beatId": "establish",
+            "at": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "role": "action",
+            "beatId": "action",
+            "at": 0.44,
+            "proofTimeId": "transforming"
+          },
+          {
+            "role": "settle",
+            "beatId": "settle",
+            "at": 0.86,
+            "proofTimeId": "resolved"
+          }
+        ],
+        "heroActionBeatIds": [],
+        "stateSequenceTreatmentIds": [],
+        "continuousTreatmentIds": [
+          "balanced-scene-03-motion-paper-3-1",
+          "balanced-scene-03-animated-ensemble",
+          "balanced-scene-03-motion-paper-3-2"
+        ],
+        "cameraTreatmentIds": [],
+        "ambientTreatmentIds": [],
+        "finalHoldRatio": 0.14,
+        "exception": null
+      },
+      {
+        "sceneId": "balanced-scene-04",
+        "motionPolicy": "standard",
+        "phrases": [
+          {
+            "role": "establish",
+            "beatId": "establish",
+            "at": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "role": "action",
+            "beatId": "action",
+            "at": 0.44,
+            "proofTimeId": "transforming"
+          },
+          {
+            "role": "settle",
+            "beatId": "settle",
+            "at": 0.86,
+            "proofTimeId": "resolved"
+          }
+        ],
+        "heroActionBeatIds": [
+          "establish",
+          "action",
+          "settle"
+        ],
+        "stateSequenceTreatmentIds": [
+          "balanced-scene-04-paper-flower-bud",
+          "balanced-scene-04-paper-flower-opening",
+          "balanced-scene-04-paper-flower-bloom"
+        ],
+        "continuousTreatmentIds": [
+          "balanced-scene-04-motion-paper-4-1",
+          "balanced-scene-04-camera-depth",
+          "balanced-scene-04-layer-package",
+          "balanced-scene-04-animated-ensemble",
+          "balanced-scene-04-motion-paper-4-2"
+        ],
+        "cameraTreatmentIds": [
+          "balanced-scene-04-camera-depth"
+        ],
+        "ambientTreatmentIds": [],
+        "finalHoldRatio": 0.14,
+        "exception": null
+      },
+      {
+        "sceneId": "balanced-scene-05",
+        "motionPolicy": "standard",
+        "phrases": [
+          {
+            "role": "establish",
+            "beatId": "establish",
+            "at": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "role": "action",
+            "beatId": "action",
+            "at": 0.44,
+            "proofTimeId": "transforming"
+          },
+          {
+            "role": "settle",
+            "beatId": "settle",
+            "at": 0.86,
+            "proofTimeId": "resolved"
+          }
+        ],
+        "heroActionBeatIds": [],
+        "stateSequenceTreatmentIds": [],
+        "continuousTreatmentIds": [
+          "balanced-scene-05-motion-paper-5-1",
+          "balanced-scene-05-animated-ensemble",
+          "balanced-scene-05-motion-paper-5-2"
+        ],
+        "cameraTreatmentIds": [],
+        "ambientTreatmentIds": [],
+        "finalHoldRatio": 0.14,
+        "exception": null
+      },
+      {
+        "sceneId": "balanced-scene-06",
+        "motionPolicy": "standard",
+        "phrases": [
+          {
+            "role": "establish",
+            "beatId": "establish",
+            "at": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "role": "action",
+            "beatId": "action",
+            "at": 0.44,
+            "proofTimeId": "transforming"
+          },
+          {
+            "role": "settle",
+            "beatId": "settle",
+            "at": 0.86,
+            "proofTimeId": "resolved"
+          }
+        ],
+        "heroActionBeatIds": [],
+        "stateSequenceTreatmentIds": [],
+        "continuousTreatmentIds": [
+          "balanced-scene-06-motion-paper-6-1",
+          "balanced-scene-06-camera-depth",
+          "balanced-scene-06-layer-package",
+          "balanced-scene-06-animated-ensemble",
+          "balanced-scene-06-motion-paper-6-2"
+        ],
+        "cameraTreatmentIds": [
+          "balanced-scene-06-camera-depth"
+        ],
+        "ambientTreatmentIds": [],
+        "finalHoldRatio": 0.14,
+        "exception": null
+      },
+      {
+        "sceneId": "balanced-scene-07",
+        "motionPolicy": "standard",
+        "phrases": [
+          {
+            "role": "establish",
+            "beatId": "establish",
+            "at": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "role": "action",
+            "beatId": "action",
+            "at": 0.36,
+            "proofTimeId": "transforming"
+          },
+          {
+            "role": "settle",
+            "beatId": "settle",
+            "at": 0.74,
+            "proofTimeId": "resolved"
+          }
+        ],
+        "heroActionBeatIds": [
+          "establish",
+          "action",
+          "settle"
+        ],
+        "stateSequenceTreatmentIds": [
+          "balanced-scene-07-human-release-curled",
+          "balanced-scene-07-human-release-rising",
+          "balanced-scene-07-human-release-upright"
+        ],
+        "continuousTreatmentIds": [
+          "balanced-scene-07-motion-paper-7-1",
+          "balanced-scene-07-camera-depth",
+          "balanced-scene-07-layer-package",
+          "balanced-scene-07-animated-ensemble",
+          "balanced-scene-07-motion-paper-7-2"
+        ],
+        "cameraTreatmentIds": [
+          "balanced-scene-07-camera-depth"
+        ],
+        "ambientTreatmentIds": [],
+        "finalHoldRatio": 0.26,
+        "exception": null
+      },
+      {
+        "sceneId": "balanced-scene-08",
+        "motionPolicy": "standard",
+        "phrases": [
+          {
+            "role": "establish",
+            "beatId": "establish",
+            "at": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "role": "action",
+            "beatId": "action",
+            "at": 0.44,
+            "proofTimeId": "transforming"
+          },
+          {
+            "role": "settle",
+            "beatId": "settle",
+            "at": 0.86,
+            "proofTimeId": "resolved"
+          }
+        ],
+        "heroActionBeatIds": [],
+        "stateSequenceTreatmentIds": [],
+        "continuousTreatmentIds": [
+          "balanced-scene-08-motion-paper-8-1",
+          "balanced-scene-08-animated-ensemble",
+          "balanced-scene-08-motion-paper-8-2"
+        ],
+        "cameraTreatmentIds": [],
+        "ambientTreatmentIds": [],
+        "finalHoldRatio": 0.14,
+        "exception": null
+      }
+    ],
+    "transitions": [
+      {
+        "id": "boundary-1",
+        "intent": "time-passage",
+        "type": "page-turn",
+        "motivation": "semantic-default"
+      },
+      {
+        "id": "boundary-2",
+        "intent": "time-passage",
+        "type": "page-turn",
+        "motivation": "semantic-default"
+      },
+      {
+        "id": "boundary-3",
+        "intent": "time-passage",
+        "type": "page-turn",
+        "motivation": "semantic-default"
+      },
+      {
+        "id": "boundary-4",
+        "intent": "location-change",
+        "type": "wipe",
+        "motivation": "semantic-default"
+      },
+      {
+        "id": "boundary-5",
+        "intent": "time-passage",
+        "type": "page-turn",
+        "motivation": "semantic-default"
+      },
+      {
+        "id": "boundary-6",
+        "intent": "time-passage",
+        "type": "page-turn",
+        "motivation": "semantic-default"
+      },
+      {
+        "id": "boundary-7",
+        "intent": "time-passage",
+        "type": "page-turn",
+        "motivation": "semantic-default"
+      }
+    ],
+    "editorialFingerprint": "e80ceb70efeddc84ef5969cc25f5c87dc270fe28b6439156dd6ee0aeb424f830",
+    "requiredCompositeChecks": [
+      "motion-grammar-consistent",
+      "pacing-cadence-consistent",
+      "camera-strategy-consistent",
+      "transition-strategy-consistent",
+      "ambient-strategy-consistent",
+      "sync-anchors-current"
+    ],
+    "approvalFingerprint": "3238027a004e7fe7b19a05bdb6bebb4184774d63c8a174f1ffa6c02b7779ce1e",
+    "fingerprint": "35766e8aab9fff1b1885b475849a2740d1c3cc0d5c24644edd6b45a1931ce423"
+  },
+  "directingSummary": {
+    "profile": "balanced",
+    "requiredStateFamilies": 3,
+    "enhancementStateFamilies": 0,
+    "totalStateFamilies": 3,
+    "totalStates": 9,
+    "estimatedPoseSheetCalls": 3,
+    "maxStatesInFamily": 3,
+    "continuousTargets": 32,
+    "localMotionTargets": 34,
+    "visibilityTargets": 0,
+    "motifFieldTargets": 2,
+    "graphicTreatments": 0,
+    "coupledRelationships": 0,
+    "avoidedIsolatedStateCalls": 6,
+    "poseSheetPlans": [
+      {
+        "targetId": "paper-person",
+        "targetIds": [
+          "paper-person"
+        ],
+        "poseFamilyId": "human-release",
+        "necessity": "required",
+        "stateIds": [
+          "curled",
+          "rising",
+          "upright"
+        ],
+        "stateFacings": [
+          {
+            "stateId": "curled",
+            "facing": "front"
+          },
+          {
+            "stateId": "rising",
+            "facing": "front"
+          },
+          {
+            "stateId": "upright",
+            "facing": "front"
+          }
+        ],
+        "grid": {
+          "columns": 2,
+          "rows": 2
+        },
+        "providerCalls": 1,
+        "repairPolicy": "masked-edit-complete-sheet"
+      },
+      {
+        "targetId": "memory-letter",
+        "targetIds": [
+          "memory-letter"
+        ],
+        "poseFamilyId": "letter-open",
+        "necessity": "required",
+        "stateIds": [
+          "open",
+          "sealed",
+          "unfolding"
+        ],
+        "stateFacings": [
+          {
+            "stateId": "open",
+            "facing": "front"
+          },
+          {
+            "stateId": "sealed",
+            "facing": "front"
+          },
+          {
+            "stateId": "unfolding",
+            "facing": "front"
+          }
+        ],
+        "grid": {
+          "columns": 2,
+          "rows": 2
+        },
+        "providerCalls": 1,
+        "repairPolicy": "masked-edit-complete-sheet"
+      },
+      {
+        "targetId": "flower",
+        "targetIds": [
+          "flower"
+        ],
+        "poseFamilyId": "paper-flower",
+        "necessity": "required",
+        "stateIds": [
+          "bloom",
+          "bud",
+          "opening"
+        ],
+        "stateFacings": [
+          {
+            "stateId": "bloom",
+            "facing": "front"
+          },
+          {
+            "stateId": "bud",
+            "facing": "front"
+          },
+          {
+            "stateId": "opening",
+            "facing": "front"
+          }
+        ],
+        "grid": {
+          "columns": 2,
+          "rows": 2
+        },
+        "providerCalls": 1,
+        "repairPolicy": "masked-edit-complete-sheet"
+      }
+    ],
+    "budget": {
+      "maxPoseSheetCalls": 4,
+      "maxStatesPerSheet": 4,
+      "maxContinuousTargets": 32
+    },
+    "profileFulfillment": {
+      "promise": {
+        "minRequiredStateFamilies": 3,
+        "minEnhancementStateFamilies": 0,
+        "minTotalStates": 9,
+        "minLocalMotionTargets": 16,
+        "minLayeredScenes": 4,
+        "minParallaxScenes": 4,
+        "minAmbientScenes": 2
+      },
+      "actual": {
+        "requiredStateFamilies": 3,
+        "enhancementStateFamilies": 0,
+        "totalStates": 9,
+        "localMotionTargets": 34,
+        "layeredScenes": 4,
+        "parallaxScenes": 4,
+        "ambientScenes": 2
+      },
+      "passed": true,
+      "issues": []
+    },
+    "generationBudget": {
+      "requiredProviderImageCalls": 19,
+      "expectedProviderImageCalls": 19,
+      "sourcePackageProviderCalls": 16,
+      "poseSheetProviderCalls": 3,
+      "localDerivatives": 12,
+      "avoidedCalls": 0,
+      "hardCeiling": 49,
+      "sourcePackagePlans": [
+        {
+          "id": "balanced-source-1",
+          "treatmentId": "balanced-scene-01-layer-package",
+          "sceneId": "balanced-scene-01",
+          "targetId": "world-1",
+          "pattern": "registered-depth-stack",
+          "motionCapability": "bounded-relative",
+          "sourceStrategy": "context-preserving-layer-edits",
+          "layers": [
+            {
+              "id": "rear",
+              "role": "support-rear",
+              "completeness": "clean-plate",
+              "depth": -0.7
+            },
+            {
+              "id": "subject",
+              "role": "subject",
+              "completeness": "full-silhouette",
+              "depth": 0
+            },
+            {
+              "id": "front",
+              "role": "support-front",
+              "completeness": "full-overlay",
+              "depth": 0.7
+            }
+          ],
+          "revealEnvelope": {
+            "16:9": {
+              "x": 0.025,
+              "y": 0.015,
+              "scale": 0.035,
+              "rotationDegrees": 0.7
+            },
+            "9:16": {
+              "x": 0.025,
+              "y": 0.015,
+              "scale": 0.035,
+              "rotationDegrees": 0.7
+            },
+            "1:1": {
+              "x": 0.025,
+              "y": 0.015,
+              "scale": 0.035,
+              "rotationDegrees": 0.7
+            }
+          },
+          "subjectTravelEnvelope": null,
+          "providerImageCalls": 4,
+          "localDerivatives": 3,
+          "avoidedCalls": 0,
+          "proofTimeId": "established"
+        },
+        {
+          "id": "balanced-source-4",
+          "treatmentId": "balanced-scene-04-layer-package",
+          "sceneId": "balanced-scene-04",
+          "targetId": "world-4",
+          "pattern": "registered-depth-stack",
+          "motionCapability": "bounded-relative",
+          "sourceStrategy": "context-preserving-layer-edits",
+          "layers": [
+            {
+              "id": "rear",
+              "role": "support-rear",
+              "completeness": "clean-plate",
+              "depth": -0.7
+            },
+            {
+              "id": "subject",
+              "role": "subject",
+              "completeness": "full-silhouette",
+              "depth": 0
+            },
+            {
+              "id": "front",
+              "role": "support-front",
+              "completeness": "full-overlay",
+              "depth": 0.7
+            }
+          ],
+          "revealEnvelope": {
+            "16:9": {
+              "x": 0.025,
+              "y": 0.015,
+              "scale": 0.035,
+              "rotationDegrees": 0.7
+            },
+            "9:16": {
+              "x": 0.025,
+              "y": 0.015,
+              "scale": 0.035,
+              "rotationDegrees": 0.7
+            },
+            "1:1": {
+              "x": 0.025,
+              "y": 0.015,
+              "scale": 0.035,
+              "rotationDegrees": 0.7
+            }
+          },
+          "subjectTravelEnvelope": null,
+          "providerImageCalls": 4,
+          "localDerivatives": 3,
+          "avoidedCalls": 0,
+          "proofTimeId": "established"
+        },
+        {
+          "id": "balanced-source-6",
+          "treatmentId": "balanced-scene-06-layer-package",
+          "sceneId": "balanced-scene-06",
+          "targetId": "world-6",
+          "pattern": "registered-depth-stack",
+          "motionCapability": "bounded-relative",
+          "sourceStrategy": "context-preserving-layer-edits",
+          "layers": [
+            {
+              "id": "rear",
+              "role": "support-rear",
+              "completeness": "clean-plate",
+              "depth": -0.7
+            },
+            {
+              "id": "subject",
+              "role": "subject",
+              "completeness": "full-silhouette",
+              "depth": 0
+            },
+            {
+              "id": "front",
+              "role": "support-front",
+              "completeness": "full-overlay",
+              "depth": 0.7
+            }
+          ],
+          "revealEnvelope": {
+            "16:9": {
+              "x": 0.025,
+              "y": 0.015,
+              "scale": 0.035,
+              "rotationDegrees": 0.7
+            },
+            "9:16": {
+              "x": 0.025,
+              "y": 0.015,
+              "scale": 0.035,
+              "rotationDegrees": 0.7
+            },
+            "1:1": {
+              "x": 0.025,
+              "y": 0.015,
+              "scale": 0.035,
+              "rotationDegrees": 0.7
+            }
+          },
+          "subjectTravelEnvelope": null,
+          "providerImageCalls": 4,
+          "localDerivatives": 3,
+          "avoidedCalls": 0,
+          "proofTimeId": "established"
+        },
+        {
+          "id": "balanced-source-7",
+          "treatmentId": "balanced-scene-07-layer-package",
+          "sceneId": "balanced-scene-07",
+          "targetId": "world-7",
+          "pattern": "registered-depth-stack",
+          "motionCapability": "bounded-relative",
+          "sourceStrategy": "context-preserving-layer-edits",
+          "layers": [
+            {
+              "id": "rear",
+              "role": "support-rear",
+              "completeness": "clean-plate",
+              "depth": -0.7
+            },
+            {
+              "id": "subject",
+              "role": "subject",
+              "completeness": "full-silhouette",
+              "depth": 0
+            },
+            {
+              "id": "front",
+              "role": "support-front",
+              "completeness": "full-overlay",
+              "depth": 0.7
+            }
+          ],
+          "revealEnvelope": {
+            "16:9": {
+              "x": 0.025,
+              "y": 0.015,
+              "scale": 0.035,
+              "rotationDegrees": 0.7
+            },
+            "9:16": {
+              "x": 0.025,
+              "y": 0.015,
+              "scale": 0.035,
+              "rotationDegrees": 0.7
+            },
+            "1:1": {
+              "x": 0.025,
+              "y": 0.015,
+              "scale": 0.035,
+              "rotationDegrees": 0.7
+            }
+          },
+          "subjectTravelEnvelope": null,
+          "providerImageCalls": 4,
+          "localDerivatives": 3,
+          "avoidedCalls": 0,
+          "proofTimeId": "established"
+        }
+      ]
+    },
+    "styleProofPlan": {
+      "requiredCoverage": [
+        "motion:bounded-relative-layers",
+        "motion:motif-field",
+        "motion:state-sequence",
+        "relationship:coupled",
+        "relationship:registered-depth-stack",
+        "semantic:identity"
+      ],
+      "targets": [
+        {
+          "sceneId": "balanced-scene-01",
+          "treatmentId": "balanced-scene-01-layer-package",
+          "targetId": "world-1",
+          "proofTimeId": "established",
+          "riskScore": 18,
+          "directingFingerprint": "771c1501e2dd6896e82dce68bb09cb8dee75e16cf37df1c5e0aa7f78ca2abdbd",
+          "sourceFamilyKey": "target:world-1",
+          "coverage": [
+            "motion:bounded-relative-layers",
+            "relationship:coupled",
+            "relationship:registered-depth-stack"
+          ]
+        },
+        {
+          "sceneId": "balanced-scene-07",
+          "treatmentId": "balanced-scene-07-human-release-curled",
+          "targetId": "paper-person",
+          "proofTimeId": "established",
+          "riskScore": 38,
+          "directingFingerprint": "01949e263b145411968d730ffde7bc4f4c77ffac3a67e592cecfd9eaf02b152f",
+          "sourceFamilyKey": "pose-family:human-release",
+          "coverage": [
+            "motion:state-sequence",
+            "semantic:identity"
+          ]
+        },
+        {
+          "sceneId": "balanced-scene-01",
+          "treatmentId": "balanced-scene-01-paper-dust",
+          "targetId": "dust-0",
+          "proofTimeId": "transforming",
+          "riskScore": 10,
+          "directingFingerprint": "771c1501e2dd6896e82dce68bb09cb8dee75e16cf37df1c5e0aa7f78ca2abdbd",
+          "sourceFamilyKey": "motif-field:dust-0",
+          "coverage": [
+            "motion:motif-field"
+          ]
+        }
+      ],
+      "sourceFamilyKeys": [
+        "motif-field:dust-0",
+        "pose-family:human-release",
+        "target:world-1"
+      ],
+      "motionContractFingerprint": "35766e8aab9fff1b1885b475849a2740d1c3cc0d5c24644edd6b45a1931ce423",
+      "fingerprint": "5c13a35fc89420a4f92b7e7fbfdfcba517e2264fb2eff3ede4f4ced33c88b922"
+    },
+    "fingerprint": "447d1e4b340bfea56ce828d51ae49b57123d33903d68e897016d8868ee4afd8f"
+  }
+}

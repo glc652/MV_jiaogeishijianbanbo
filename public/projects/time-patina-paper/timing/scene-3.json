@@ -1,0 +1,27 @@
+{
+  "source": "user-provided-LRC",
+  "sourceFile": "inputs/original-lyrics.lrc",
+  "songOffsetSeconds": 47.766666666666666,
+  "cues": [
+    {
+      "startSeconds": 0.003333333333337407,
+      "endSeconds": 3.4833333333333343,
+      "text": "后来懂得 关于离别 关于失落"
+    },
+    {
+      "startSeconds": 3.4833333333333343,
+      "endSeconds": 7.093333333333334,
+      "text": "伤口愈合 关于执着 关于错过"
+    },
+    {
+      "startSeconds": 7.093333333333334,
+      "endSeconds": 10.653333333333336,
+      "text": "有些故事注定没有结果"
+    },
+    {
+      "startSeconds": 10.653333333333336,
+      "endSeconds": 12.903333333333336,
+      "text": "交给时间斑驳"
+    }
+  ]
+}

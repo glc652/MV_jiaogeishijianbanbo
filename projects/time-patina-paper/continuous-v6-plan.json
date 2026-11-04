@@ -1,0 +1,215 @@
+{
+  "version": 6,
+  "changes": [
+    {
+      "scene": "balanced-scene-01",
+      "cameraWaypoints": [
+        0,
+        6.5,
+        13.6
+      ],
+      "performance": {
+        "kind": "character",
+        "supportY": 0.77,
+        "neckY": 0.5,
+        "standing": false,
+        "phase": 0
+      },
+      "transition": {
+        "type": "page-turn",
+        "edgeStyle": "paper",
+        "motivation": "authored",
+        "durationSeconds": 1.2,
+        "direction": "right-to-left"
+      }
+    },
+    {
+      "scene": "balanced-scene-02",
+      "cameraWaypoints": [
+        0,
+        6.6,
+        13.8,
+        21.1
+      ],
+      "performance": {
+        "kind": "character",
+        "supportY": 0.77,
+        "neckY": 0.5,
+        "standing": false,
+        "phase": 18.833333333333332
+      },
+      "transition": {
+        "type": "wipe",
+        "edgeStyle": "paper",
+        "motivation": "authored",
+        "durationSeconds": 1.15,
+        "direction": "right-to-left"
+      }
+    },
+    {
+      "scene": "balanced-scene-03",
+      "cameraWaypoints": [
+        0,
+        6.5
+      ],
+      "performance": {
+        "kind": "character",
+        "supportY": 0.815,
+        "neckY": 0.265,
+        "standing": true,
+        "phase": 47.766666666666666
+      },
+      "transition": {
+        "type": "wipe",
+        "edgeStyle": "paper",
+        "motivation": "authored",
+        "durationSeconds": 1.2,
+        "direction": "right-to-left"
+      }
+    },
+    {
+      "scene": "balanced-scene-04",
+      "cameraWaypoints": [
+        0,
+        6.5,
+        14.2,
+        22.5
+      ],
+      "performance": {
+        "kind": "character",
+        "supportY": 0.77,
+        "neckY": 0.5,
+        "standing": false,
+        "phase": 61.93333333333333
+      },
+      "transition": {
+        "type": "wipe",
+        "edgeStyle": "paper",
+        "motivation": "authored",
+        "durationSeconds": 1.15,
+        "direction": "right-to-left"
+      }
+    },
+    {
+      "scene": "balanced-scene-05",
+      "cameraWaypoints": [
+        0,
+        6.2
+      ],
+      "performance": "no-character",
+      "transition": {
+        "type": "page-turn",
+        "edgeStyle": "paper",
+        "motivation": "authored",
+        "durationSeconds": 1.2,
+        "direction": "right-to-left"
+      }
+    },
+    {
+      "scene": "balanced-scene-06",
+      "cameraWaypoints": [
+        0,
+        6.6,
+        13.7,
+        21.7
+      ],
+      "performance": {
+        "kind": "character",
+        "supportY": 0.77,
+        "neckY": 0.5,
+        "standing": false,
+        "phase": 105.96666666666667
+      },
+      "transition": {
+        "type": "wipe",
+        "edgeStyle": "paper",
+        "motivation": "authored",
+        "durationSeconds": 1.15,
+        "direction": "right-to-left"
+      }
+    },
+    {
+      "scene": "balanced-scene-07",
+      "cameraWaypoints": [
+        0,
+        6.7,
+        14.1,
+        22.5
+      ],
+      "performance": {
+        "kind": "character",
+        "supportY": 0.84,
+        "neckY": 0.175,
+        "standing": true,
+        "phase": 134.83333333333334,
+        "registrationNeckRow": 2
+      },
+      "transition": {
+        "type": "dissolve",
+        "edgeStyle": "clean",
+        "motivation": "authored",
+        "durationSeconds": 1.2
+      }
+    },
+    {
+      "scene": "balanced-scene-08",
+      "cameraWaypoints": [
+        0,
+        7.8,
+        17.3
+      ],
+      "performance": {
+        "kind": "character",
+        "supportY": 0.815,
+        "neckY": 0.265,
+        "standing": true,
+        "phase": 166.9
+      },
+      "transition": null
+    }
+  ],
+  "timeline": [
+    {
+      "id": "balanced-scene-01",
+      "from": 0,
+      "durationInFrames": 601
+    },
+    {
+      "id": "balanced-scene-02",
+      "from": 565,
+      "durationInFrames": 903
+    },
+    {
+      "id": "balanced-scene-03",
+      "from": 1433,
+      "durationInFrames": 461
+    },
+    {
+      "id": "balanced-scene-04",
+      "from": 1858,
+      "durationInFrames": 950
+    },
+    {
+      "id": "balanced-scene-05",
+      "from": 2773,
+      "durationInFrames": 442
+    },
+    {
+      "id": "balanced-scene-06",
+      "from": 3179,
+      "durationInFrames": 901
+    },
+    {
+      "id": "balanced-scene-07",
+      "from": 4045,
+      "durationInFrames": 998
+    },
+    {
+      "id": "balanced-scene-08",
+      "from": 5007,
+      "durationInFrames": 797
+    }
+  ],
+  "durationSeconds": 193.46666666666667,
+  "notes": "No new generated images. 26 connected framing waypoints; full-texture character deformation, bounded ocean motion, fixed support surfaces; no blank dips. Persistent rock platform retained from chapter 7 into chapter 8; opening title fades before dolly."
+}

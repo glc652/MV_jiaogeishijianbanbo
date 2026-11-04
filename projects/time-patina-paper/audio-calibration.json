@@ -1,0 +1,203 @@
+{
+  "$schema": "../../schemas/audio-calibration.schema.json",
+  "schemaVersion": 2,
+  "projectSlug": "time-patina-paper",
+  "status": "ready",
+  "sourceFingerprint": "fe053f9978dc1aac0df33bc9aabab70adf9e922150ca158f2fb720e1ccb4fcf8",
+  "currentNarrationVolume": 1,
+  "recommendedNarrationVolume": 1.006931668851804,
+  "generatedAt": "2026-10-11T15:43:49.906Z",
+  "verifiedAt": "2026-10-11T15:43:49.906Z",
+  "processingNote": "系统已通过 two-pass-loudnorm 自动完成母带校准。",
+  "preflight": {
+    "mode": "render",
+    "bitrate": "192k",
+    "file": "dist\\time-patina-paper\\audio-preflight-render.m4a",
+    "passed": true,
+    "mastering": {
+      "targetLufs": -16,
+      "toleranceLufs": 3,
+      "truePeakDbtp": -1
+    },
+    "loudness": {
+      "integratedLufs": -16.06,
+      "truePeakDbtp": -4.87,
+      "loudnessRangeLu": 3.9,
+      "thresholdLufs": -26.26,
+      "targetOffsetLu": -0.27
+    },
+    "loudnessPassed": true,
+    "truePeakPassed": true,
+    "currentNarrationVolume": 1,
+    "recommendedNarrationVolume": 1.006931668851804,
+    "recommendationIsApproximate": true,
+    "deliveryEquivalent": true,
+    "analysisSurface": "delivery-encoded-aac",
+    "probes": [
+      {
+        "mode": "preview",
+        "bitrate": "96k",
+        "file": "dist\\time-patina-paper\\audio-preflight-preview.m4a",
+        "passed": true,
+        "mastering": {
+          "targetLufs": -16,
+          "toleranceLufs": 3,
+          "truePeakDbtp": -1
+        },
+        "loudness": {
+          "integratedLufs": -16.02,
+          "truePeakDbtp": -3.82,
+          "loudnessRangeLu": 3.9,
+          "thresholdLufs": -26.22,
+          "targetOffsetLu": -0.28
+        },
+        "loudnessPassed": true,
+        "truePeakPassed": true,
+        "currentNarrationVolume": 1,
+        "recommendedNarrationVolume": 1.0023052380778996,
+        "recommendationIsApproximate": true
+      },
+      {
+        "mode": "render",
+        "bitrate": "192k",
+        "file": "dist\\time-patina-paper\\audio-preflight-render.m4a",
+        "passed": true,
+        "mastering": {
+          "targetLufs": -16,
+          "toleranceLufs": 3,
+          "truePeakDbtp": -1
+        },
+        "loudness": {
+          "integratedLufs": -16.06,
+          "truePeakDbtp": -4.87,
+          "loudnessRangeLu": 3.9,
+          "thresholdLufs": -26.26,
+          "targetOffsetLu": -0.27
+        },
+        "loudnessPassed": true,
+        "truePeakPassed": true,
+        "currentNarrationVolume": 1,
+        "recommendedNarrationVolume": 1.006931668851804,
+        "recommendationIsApproximate": true
+      }
+    ],
+    "masteringProcessing": {
+      "applied": true,
+      "method": "two-pass-loudnorm",
+      "input": "dist\\time-patina-paper\\audio-preflight-unmastered.wav",
+      "output": "dist\\time-patina-paper\\audio-preflight.wav",
+      "sourceLoudness": {
+        "integratedLufs": -8.39,
+        "truePeakDbtp": -0.21,
+        "loudnessRangeLu": 3.9,
+        "thresholdLufs": -18.59,
+        "targetOffsetLu": -0.27
+      },
+      "targetLufs": -16,
+      "targetTruePeakDbtp": -2,
+      "attempts": [
+        {
+          "attempt": 1,
+          "targetLufs": -16,
+          "targetTruePeakDbtp": -2,
+          "probes": [
+            {
+              "mode": "preview",
+              "passed": true,
+              "loudness": {
+                "integratedLufs": -16.02,
+                "truePeakDbtp": -3.82,
+                "loudnessRangeLu": 3.9,
+                "thresholdLufs": -26.22,
+                "targetOffsetLu": -0.28
+              }
+            },
+            {
+              "mode": "render",
+              "passed": true,
+              "loudness": {
+                "integratedLufs": -16.06,
+                "truePeakDbtp": -4.87,
+                "loudnessRangeLu": 3.9,
+                "thresholdLufs": -26.26,
+                "targetOffsetLu": -0.27
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "mix": {
+      "file": "dist\\time-patina-paper\\audio-preflight.wav",
+      "unmasteredFile": "dist\\time-patina-paper\\audio-preflight-unmastered.wav",
+      "durationSeconds": 193.46666666666667,
+      "eventCount": 8,
+      "events": [
+        {
+          "kind": "narration",
+          "id": "narration:balanced-scene-01",
+          "sceneId": "balanced-scene-01",
+          "src": "projects/time-patina-paper/audio/scenes/scene-1.wav",
+          "startSeconds": 0,
+          "volume": 1
+        },
+        {
+          "kind": "narration",
+          "id": "narration:balanced-scene-02",
+          "sceneId": "balanced-scene-02",
+          "src": "projects/time-patina-paper/audio/scenes/scene-2.wav",
+          "startSeconds": 18.833333333333332,
+          "volume": 1
+        },
+        {
+          "kind": "narration",
+          "id": "narration:balanced-scene-03",
+          "sceneId": "balanced-scene-03",
+          "src": "projects/time-patina-paper/audio/scenes/scene-3.wav",
+          "startSeconds": 47.766666666666666,
+          "volume": 1
+        },
+        {
+          "kind": "narration",
+          "id": "narration:balanced-scene-04",
+          "sceneId": "balanced-scene-04",
+          "src": "projects/time-patina-paper/audio/scenes/scene-4.wav",
+          "startSeconds": 61.93333333333333,
+          "volume": 1
+        },
+        {
+          "kind": "narration",
+          "id": "narration:balanced-scene-05",
+          "sceneId": "balanced-scene-05",
+          "src": "projects/time-patina-paper/audio/scenes/scene-5.wav",
+          "startSeconds": 92.43333333333334,
+          "volume": 1
+        },
+        {
+          "kind": "narration",
+          "id": "narration:balanced-scene-06",
+          "sceneId": "balanced-scene-06",
+          "src": "projects/time-patina-paper/audio/scenes/scene-6.wav",
+          "startSeconds": 105.96666666666667,
+          "volume": 1
+        },
+        {
+          "kind": "narration",
+          "id": "narration:balanced-scene-07",
+          "sceneId": "balanced-scene-07",
+          "src": "projects/time-patina-paper/audio/scenes/scene-7.wav",
+          "startSeconds": 134.83333333333334,
+          "volume": 1
+        },
+        {
+          "kind": "narration",
+          "id": "narration:balanced-scene-08",
+          "sceneId": "balanced-scene-08",
+          "src": "projects/time-patina-paper/audio/scenes/scene-8.wav",
+          "startSeconds": 166.9,
+          "volume": 1
+        }
+      ]
+    }
+  }
+}

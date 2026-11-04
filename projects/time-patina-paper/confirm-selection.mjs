@@ -1,0 +1,10 @@
+import fs from 'node:fs/promises';
+import {scenarioDecisionFor} from '../../scripts/planning-scenario-lib.mjs';
+import {sourcePackageDecisionFor} from '../../scripts/layer-source-plan-lib.mjs';
+import {summarizeConceptDecision} from '../../scripts/creative-plan-lib.mjs';
+const read=async n=>JSON.parse(await fs.readFile(new URL(n,import.meta.url),'utf8'));
+const project=await read('./project.json');
+const story=await read('./storyboard.json');
+const scenarios=await read('./planning-scenarios.json');
+const payload={note:'用户在收到三档制作卡及均衡动画 28 次上限推荐后回复“那开始创作新的mv”，按该推荐方案开始；用户此前已委托决定视觉风格。',scenarioDecision:scenarioDecisionFor(scenarios,'balanced'),planDecision:summarizeConceptDecision(project.plan),budgetDecision:{imageAttemptLimit:28},sourcePackageDecision:sourcePackageDecisionFor(story.directingSummary),selections:[{capability:'text',providerId:'host-text'},{capability:'image',providerId:'host-image',tool:'image_gen.imagegen'},{capability:'voice',providerId:'manual-voice',label:'用户提供的歌曲，原曲导入，不生成配音'}]};
+await fs.writeFile(new URL('./selection.json',import.meta.url),JSON.stringify(payload,null,2));

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "human-letter",
+    "scene": 1,
+    "states": [
+      "letter-low",
+      "letter-read",
+      "letter-rest"
+    ],
+    "facing": [
+      "front",
+      "front",
+      "front"
+    ],
+    "action": "All three figures sit on the ground, knees comfortably bent and shoes planted, seen from the same front three-quarter camera. The pelvis, legs and feet remain IDENTICAL across the three cells; ONLY arms, paper and head change. Top-left: both hands hold ONE folded cream letter low above the lap, head bowed. Top-right: both hands lift and unfold the SAME letter slightly in front of the chest, eyes gently lowered reading, elbows close to torso. Bottom-left: after reading, both hands lower the open letter onto the lap, head lifts a little with a thoughtful expression. Both hands actually grip the edges of the paper in every cell. No envelope, chair, table or other objects."
+  },
+  {
+    "id": "human-album",
+    "scene": 2,
+    "states": [
+      "album-open",
+      "album-turn",
+      "album-held"
+    ],
+    "facing": [
+      "front",
+      "front",
+      "front"
+    ],
+    "action": "All three figures sit on the ground in exactly the same relaxed bent-knee seated position from the same front three-quarter camera, with fixed pelvis, feet and legs. Top-left: holds ONE small warm-brown cloth-bound open photo album across the lap with both hands; two tiny muted coastal photographs visible. Top-right: left hand supports the SAME album in exactly the same location while the right hand gently turns ONE page, raised page in mid-arc, head glancing down. Bottom-left: album is now CLOSED, the SAME brown album held upright close against the chest by both hands; shoulders relax, head slightly raised. Anatomically clear wrists and fingers; hands touch the album, no duplicated books. No chair, table, extra papers or setting."
+  },
+  {
+    "id": "human-seaward",
+    "scene": 3,
+    "states": [
+      "sea-profile",
+      "sea-lookback",
+      "sea-lift"
+    ],
+    "facing": [
+      "right",
+      "right",
+      "right"
+    ],
+    "action": "All three full-body figures stand still with IDENTICAL feet, legs, pelvis and body scale, in a graceful three-quarter profile facing to image RIGHT. Top-left: looking quietly right toward the horizon, arms relaxed down, shoulders a little closed. Top-right: feet and lower body stay fixed facing right while head and shoulders gently turn back toward the viewer LEFT, an expressive looking-back gesture, anatomically natural neck, no exaggerated twist. Bottom-left: gently returns gaze to the RIGHT and lifts chin slightly, shoulders relaxed and open, right hand lightly resting on coat lapel. Maintain the same coat silhouette except tiny natural cloth differences. No letter, book, props or scenery."
+  }
+]

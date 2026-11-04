@@ -1,0 +1,96 @@
+{
+  "script": "build-animated-revision.mjs",
+  "providerCalls": 0,
+  "assets": [
+    {
+      "file": "public/projects/time-patina-paper/assets/animated-paper/bird-body.svg",
+      "sha256": "fb5cfeb254c7f271432cc4dfdee76daeeee118a521ab8ea05c1ee2ca77b554e0",
+      "origin": "locally authored editable SVG; photographic image references reuse existing project assets"
+    },
+    {
+      "file": "public/projects/time-patina-paper/assets/animated-paper/boat.svg",
+      "sha256": "4561453a4229617ac3b37dec4c274aff18034c2c186296cb352cb1e8f71f3b2f",
+      "origin": "locally authored editable SVG; photographic image references reuse existing project assets"
+    },
+    {
+      "file": "public/projects/time-patina-paper/assets/animated-paper/butterfly.svg",
+      "sha256": "5fb2f7683506aaf6608300418b1da58fbf5f1d825164c657e4607faf5f838394",
+      "origin": "locally authored editable SVG; photographic image references reuse existing project assets"
+    },
+    {
+      "file": "public/projects/time-patina-paper/assets/animated-paper/clock-hand.svg",
+      "sha256": "0147b9096f92151b6dd28877d9ff0786992fbfcf118a3ddd1b1b8821e4b3485f",
+      "origin": "locally authored editable SVG; photographic image references reuse existing project assets"
+    },
+    {
+      "file": "public/projects/time-patina-paper/assets/animated-paper/clock.svg",
+      "sha256": "127fbc974e4ffdd097665ce109b7cfc7a2c8285e1db2670ddc04ca8656dcbe6e",
+      "origin": "locally authored editable SVG; photographic image references reuse existing project assets"
+    },
+    {
+      "file": "public/projects/time-patina-paper/assets/animated-paper/cloud.svg",
+      "sha256": "a4a07bf83e765063f4afd767de97f713a31df97d296a8b3531479c3287f26704",
+      "origin": "locally authored editable SVG; photographic image references reuse existing project assets"
+    },
+    {
+      "file": "public/projects/time-patina-paper/assets/animated-paper/leaf.svg",
+      "sha256": "cea16829ca41a6c226eee937743804ab20ffa7d135ba215785492010d9f64825",
+      "origin": "locally authored editable SVG; photographic image references reuse existing project assets"
+    },
+    {
+      "file": "public/projects/time-patina-paper/assets/animated-paper/letter.svg",
+      "sha256": "f15e9242db418754393ad176cff7924c4441139e24621cdda3a0dc540933f31c",
+      "origin": "locally authored editable SVG; photographic image references reuse existing project assets"
+    },
+    {
+      "file": "public/projects/time-patina-paper/assets/animated-paper/petal.svg",
+      "sha256": "8b7d2a69630aeb8f4d17093b8e2b8c8ca3add83d8baac292c7ce874981325c65",
+      "origin": "locally authored editable SVG; photographic image references reuse existing project assets"
+    },
+    {
+      "file": "public/projects/time-patina-paper/assets/animated-paper/photo-0.svg",
+      "sha256": "fa7d43253e1dd3b8cc406e580df865be5113c14ecee2c2cc9545c7e656d3489a",
+      "origin": "locally authored editable SVG; photographic image references reuse existing project assets"
+    },
+    {
+      "file": "public/projects/time-patina-paper/assets/animated-paper/photo-1.svg",
+      "sha256": "9a46e1b3d1cf097a2a03b07fad6f305f487f9f099246c2dddb61bc42e0200313",
+      "origin": "locally authored editable SVG; photographic image references reuse existing project assets"
+    },
+    {
+      "file": "public/projects/time-patina-paper/assets/animated-paper/photo-2.svg",
+      "sha256": "4c7810e9dd824a990bb9bcbc98dee73df796d55979496192e63180e4df360de5",
+      "origin": "locally authored editable SVG; photographic image references reuse existing project assets"
+    },
+    {
+      "file": "public/projects/time-patina-paper/assets/animated-paper/plane.svg",
+      "sha256": "4b93623543bc615f86e0f64950ac4d1c6fd63dfbc8fbf9acdf9daada08db02d7",
+      "origin": "locally authored editable SVG; photographic image references reuse existing project assets"
+    },
+    {
+      "file": "public/projects/time-patina-paper/assets/animated-paper/rain.svg",
+      "sha256": "917b44b251e33a6310288c3813f9f9b1f73bbba635400f0e8fb39eab997ad194",
+      "origin": "locally authored editable SVG; photographic image references reuse existing project assets"
+    },
+    {
+      "file": "public/projects/time-patina-paper/assets/animated-paper/star.svg",
+      "sha256": "01b9ad9c7aa907910ce73ca5e83e16734b7484d56c7adeca909d4b300e9dddac",
+      "origin": "locally authored editable SVG; photographic image references reuse existing project assets"
+    },
+    {
+      "file": "public/projects/time-patina-paper/assets/animated-paper/wave.svg",
+      "sha256": "f1b04b4171d31eb7186ddc524af3e41e443ee3b385874d3721ead4c97f828073",
+      "origin": "locally authored editable SVG; photographic image references reuse existing project assets"
+    },
+    {
+      "file": "public/projects/time-patina-paper/assets/animated-paper/wing-left.svg",
+      "sha256": "48fa8e6fd7d5f2edf09544fb6b930426e134596db262a230c8e71774c8815e8b",
+      "origin": "locally authored editable SVG; photographic image references reuse existing project assets"
+    },
+    {
+      "file": "public/projects/time-patina-paper/assets/animated-paper/wing-right.svg",
+      "sha256": "62a403b5a098b88be983f192d8bae3f54b170edb5da96f2ca4c15651ff320e31",
+      "origin": "locally authored editable SVG; photographic image references reuse existing project assets"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 8,
+  "projectSlug": "time-patina-paper",
+  "assetId": "human-album-sheet",
+  "capability": "image",
+  "output": "public/projects/time-patina-paper/assets/human-album-sheet.png",
+  "prompt": "Use aged paper, restrained sepia color, halftone print texture, and archival cutout framing.\nTreat photographs and documents as tactile evidence layers with legible hierarchy.\nAvoid: Glossy modern gradients, neon color, and playful preschool proportions.\nComposition: Organize evidence in measured overlapping planes with one dominant archival focal point.\nComposition: Preserve readable margins, captions, and document edges instead of filling every gap.\nUse case: illustration-story. Asset type: registered animation pose sheet for an elegant melancholic music video. Reference image: immutable character identity and printed paper material. Create ONE complete square 2x2 sheet at least 1024x1024 with true transparent background. Three occupied equal cells: top-left, top-right, bottom-left. Bottom-right entirely empty transparent. No grid lines, borders, labels or text. Same anonymous slim adult man as reference: short dark wavy hair, knee-length indigo coat, brown waistcoat, ivory shirt and trousers, dark flat shoes, understated face, warm cream cut-paper outline, detailed fine sepia halftone and tactile vintage print. Maintain one consistent head size and anatomy across ALL cells. No costume changes. Each cell has generous clear margin; every figure and all shoes entirely inside its own cell. Put the contact baseline at 88% of cell height, horizontally centered at 50%. Standing equivalent height 74% of cell; seated figures naturally shorter, never enlarge seated heads to fill the cell. All internal spaces show real alpha, no checkerboard, ground shadow, background or glow. Exactly two arms and two legs per figure. Quiet, beautiful, mature album illustration; no glossy rendering, neon, caricature or child proportions. All three figures sit on the ground in exactly the same relaxed bent-knee seated position from the same front three-quarter camera, with fixed pelvis, feet and legs. Top-left: holds ONE small warm-brown cloth-bound open photo album across the lap with both hands; two tiny muted coastal photographs visible. Top-right: left hand supports the SAME album in exactly the same location while the right hand gently turns ONE page, raised page in mid-arc, head glancing down. Bottom-left: album is now CLOSED, the SAME brown album held upright close against the chest by both hands; shoulders relax, head slightly raised. Anatomically clear wrists and fingers; hands touch the album, no duplicated books. No chair, table, extra papers or setting.",
+  "styleProfileBinding": {
+    "schemaVersion": 1,
+    "id": "archival-collage",
+    "catalogVersion": "2026-07-30.2",
+    "profileFingerprint": "03374c56e20183c3e8d4ddb0e4883a50e7ecdb7ca207711e786cbd2106415885",
+    "directives": [
+      "Use aged paper, restrained sepia color, halftone print texture, and archival cutout framing.",
+      "Treat photographs and documents as tactile evidence layers with legible hierarchy.",
+      "Avoid: Glossy modern gradients, neon color, and playful preschool proportions.",
+      "Composition: Organize evidence in measured overlapping planes with one dominant archival focal point.",
+      "Composition: Preserve readable margins, captions, and document edges instead of filling every gap."
+    ]
+  },
+  "outputSurface": {
+    "mode": "alpha"
+  },
+  "compositionBinding": {
+    "sceneId": "balanced-scene-02",
+    "nodeId": "paper-person",
+    "pattern": "state-sequence",
+    "outputRole": "state-sheet",
+    "canvas": {
+      "width": 1024,
+      "height": 1024
+    },
+    "derivation": {
+      "method": "provider-generation"
+    },
+    "registrationId": "human-album-registration",
+    "sourceMasterAssetId": "human-album-sheet"
+  },
+  "semanticBinding": {
+    "riskClass": "identity-critical",
+    "contractIds": [
+      "paper-person-identity",
+      "paper-person-topology"
+    ],
+    "generationFamily": {
+      "familyId": "human-album",
+      "identityMemberIds": [
+        "paper-person"
+      ],
+      "referenceAssetIds": [
+        "paper-person-reference"
+      ],
+      "stateMemberIds": [
+        "album-open",
+        "album-turn",
+        "album-held"
+      ]
+    }
+  },
+  "quality": {
+    "requiredChecks": [
+      "no-text",
+      "no-watermark",
+      "style-consistent",
+      "style-profile-conformant",
+      "subject-complete",
+      "identity-family-consistent",
+      "silhouette-fidelity",
+      "negative-space-clean",
+      "background-leak-free",
+      "cell-separation"
+    ]
+  },
+  "stateSheetBinding": {
+    "poseFamilyId": "human-album",
+    "registrationId": "human-album-registration",
+    "sourceMasterAssetId": "human-album-sheet",
+    "identityReferenceAssetId": "paper-person-reference",
+    "anchorPolicy": {
+      "requiredAnchorIds": [
+        "contact"
+      ],
+      "maximumDrift": 0.07
+    },
+    "layout": {
+      "columns": 2,
+      "rows": 2
+    },
+    "states": [
+      {
+        "stateId": "album-open",
+        "row": 0,
+        "column": 0,
+        "facing": "front",
+        "anchors": [
+          {
+            "id": "contact",
+            "x": 0.5,
+            "y": 0.88
+          }
+        ]
+      },
+      {
+        "stateId": "album-turn",
+        "row": 0,
+        "column": 1,
+        "facing": "front",
+        "anchors": [
+          {
+            "id": "contact",
+            "x": 0.5,
+            "y": 0.88
+          }
+        ]
+      },
+      {
+        "stateId": "album-held",
+        "row": 1,
+        "column": 0,
+        "facing": "front",
+        "anchors": [
+          {
+            "id": "contact",
+            "x": 0.5,
+            "y": 0.88
+          }
+        ]
+      }
+    ],
+    "recoveryPolicy": {
+      "strategy": "preserve-sheet-context",
+      "localDeterministicFixFirst": true,
+      "isolatedCellGeneration": "forbidden",
+      "fallback": "full-sheet-regeneration"
+    }
+  }
+}

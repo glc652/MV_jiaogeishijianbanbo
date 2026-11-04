@@ -1,0 +1,513 @@
+{
+  "slug": "time-patina-paper",
+  "stage": "asset-production",
+  "productionProfile": "balanced",
+  "storyboard": {
+    "status": "ready",
+    "arc": "保留整首原曲与全部歌词，制作深度只影响纸片动画和分层密度，不删减音乐。 从雨中的旧信，到碎片拼合，再到花开和释怀。",
+    "sceneCount": 8,
+    "transitionCount": 7,
+    "scenes": [
+      {
+        "id": "balanced-scene-01",
+        "title": "雨夜守信",
+        "narrativeRole": "开篇",
+        "blueprint": "transformation-tableau",
+        "patterns": [
+          "free",
+          "registered-depth-stack"
+        ],
+        "treatmentCount": 13,
+        "riskScore": 33,
+        "beatCount": 3,
+        "evidenceBoundBeatCount": 3,
+        "proofCount": 3
+      },
+      {
+        "id": "balanced-scene-02",
+        "title": "翻阅昨日",
+        "narrativeRole": "情绪发展",
+        "blueprint": "archive-stack",
+        "patterns": [
+          "free"
+        ],
+        "treatmentCount": 10,
+        "riskScore": 33,
+        "beatCount": 3,
+        "evidenceBoundBeatCount": 3,
+        "proofCount": 3
+      },
+      {
+        "id": "balanced-scene-03",
+        "title": "重返海岸",
+        "narrativeRole": "情绪发展",
+        "blueprint": "archive-stack",
+        "patterns": [
+          "free"
+        ],
+        "treatmentCount": 9,
+        "riskScore": 33,
+        "beatCount": 3,
+        "evidenceBoundBeatCount": 3,
+        "proofCount": 3
+      },
+      {
+        "id": "balanced-scene-04",
+        "title": "等待花开",
+        "narrativeRole": "情绪发展",
+        "blueprint": "transformation-tableau",
+        "patterns": [
+          "free",
+          "registered-depth-stack"
+        ],
+        "treatmentCount": 13,
+        "riskScore": 33,
+        "beatCount": 3,
+        "evidenceBoundBeatCount": 3,
+        "proofCount": 3
+      },
+      {
+        "id": "balanced-scene-05",
+        "title": "让风经过",
+        "narrativeRole": "情绪发展",
+        "blueprint": "archive-stack",
+        "patterns": [
+          "free"
+        ],
+        "treatmentCount": 7,
+        "riskScore": 32,
+        "beatCount": 3,
+        "evidenceBoundBeatCount": 3,
+        "proofCount": 3
+      },
+      {
+        "id": "balanced-scene-06",
+        "title": "收好回忆",
+        "narrativeRole": "情绪发展",
+        "blueprint": "layered-reveal",
+        "patterns": [
+          "free",
+          "registered-depth-stack"
+        ],
+        "treatmentCount": 13,
+        "riskScore": 37,
+        "beatCount": 3,
+        "evidenceBoundBeatCount": 3,
+        "proofCount": 3
+      },
+      {
+        "id": "balanced-scene-07",
+        "title": "终于站起",
+        "narrativeRole": "情绪发展",
+        "blueprint": "transformation-tableau",
+        "patterns": [
+          "free",
+          "registered-depth-stack"
+        ],
+        "treatmentCount": 11,
+        "riskScore": 38,
+        "beatCount": 3,
+        "evidenceBoundBeatCount": 3,
+        "proofCount": 3
+      },
+      {
+        "id": "balanced-scene-08",
+        "title": "带着记忆向前",
+        "narrativeRole": "释怀",
+        "blueprint": "quiet-lockup",
+        "patterns": [
+          "free"
+        ],
+        "treatmentCount": 9,
+        "riskScore": 33,
+        "beatCount": 3,
+        "evidenceBoundBeatCount": 3,
+        "proofCount": 3
+      }
+    ],
+    "directing": {
+      "fingerprint": "d8a88daec1369150a7365cdfb1f3a45e23372b2086e8881a0ad202311d69fc3e",
+      "motionContract": {
+        "summary": "以缓慢建立、纸片或形态转变、情绪落定构成每幕，副歌展开纵深与暖光。",
+        "approvalFingerprint": "3238027a004e7fe7b19a05bdb6bebb4184774d63c8a174f1ffa6c02b7779ce1e",
+        "executionFingerprint": "c9f3170c1fa627d25979ca3bc497a4c593b4a8a3b2467d42171f6828c2874fc2"
+      },
+      "styleProofPlan": {
+        "requiredCoverage": [
+          "motion:bounded-relative-layers",
+          "motion:motif-field",
+          "motion:state-sequence",
+          "relationship:coupled",
+          "relationship:registered-depth-stack",
+          "semantic:identity"
+        ],
+        "targets": [
+          {
+            "sceneId": "balanced-scene-01",
+            "treatmentId": "balanced-scene-01-layer-package",
+            "targetId": "world-1",
+            "proofTimeId": "established",
+            "riskScore": 18,
+            "directingFingerprint": "8f19f2784af05c56bdfdd423da6bfc59ab806b2aa2f2c2539ca121794fa36d08",
+            "sourceFamilyKey": "target:world-1",
+            "coverage": [
+              "motion:bounded-relative-layers",
+              "relationship:coupled",
+              "relationship:registered-depth-stack"
+            ]
+          },
+          {
+            "sceneId": "balanced-scene-07",
+            "treatmentId": "balanced-scene-07-human-release-curled",
+            "targetId": "paper-person",
+            "proofTimeId": "established",
+            "riskScore": 38,
+            "directingFingerprint": "8280b69dc3064a8f510af85b6b5128156d9e423ab50145cd593c925c8a8cd319",
+            "sourceFamilyKey": "pose-family:human-release",
+            "coverage": [
+              "motion:state-sequence",
+              "semantic:identity"
+            ]
+          },
+          {
+            "sceneId": "balanced-scene-01",
+            "treatmentId": "balanced-scene-01-paper-dust",
+            "targetId": "dust-0",
+            "proofTimeId": "transforming",
+            "riskScore": 10,
+            "directingFingerprint": "8f19f2784af05c56bdfdd423da6bfc59ab806b2aa2f2c2539ca121794fa36d08",
+            "sourceFamilyKey": "motif-field:dust-0",
+            "coverage": [
+              "motion:motif-field"
+            ]
+          }
+        ],
+        "sourceFamilyKeys": [
+          "motif-field:dust-0",
+          "pose-family:human-release",
+          "target:world-1"
+        ],
+        "motionContractFingerprint": "c9f3170c1fa627d25979ca3bc497a4c593b4a8a3b2467d42171f6828c2874fc2",
+        "fingerprint": "9cac8044c999e62d9766874fcd11e0956f544f71f8a48e29d82023ee826966c7"
+      },
+      "estimatedPoseSheetCalls": 3,
+      "avoidedIsolatedStateCalls": 6,
+      "generationBudget": {
+        "requiredProviderImageCalls": 19,
+        "expectedProviderImageCalls": 19,
+        "sourcePackageProviderCalls": 16,
+        "poseSheetProviderCalls": 3,
+        "localDerivatives": 12,
+        "avoidedCalls": 0,
+        "hardCeiling": 49,
+        "sourcePackagePlans": [
+          {
+            "id": "balanced-source-1",
+            "treatmentId": "balanced-scene-01-layer-package",
+            "sceneId": "balanced-scene-01",
+            "targetId": "world-1",
+            "pattern": "registered-depth-stack",
+            "motionCapability": "bounded-relative",
+            "sourceStrategy": "context-preserving-layer-edits",
+            "layers": [
+              {
+                "id": "rear",
+                "role": "support-rear",
+                "completeness": "clean-plate",
+                "depth": -0.7
+              },
+              {
+                "id": "subject",
+                "role": "subject",
+                "completeness": "full-silhouette",
+                "depth": 0
+              },
+              {
+                "id": "front",
+                "role": "support-front",
+                "completeness": "full-overlay",
+                "depth": 0.7
+              }
+            ],
+            "revealEnvelope": {
+              "16:9": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              },
+              "9:16": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              },
+              "1:1": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              }
+            },
+            "subjectTravelEnvelope": null,
+            "providerImageCalls": 4,
+            "localDerivatives": 3,
+            "avoidedCalls": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "id": "balanced-source-4",
+            "treatmentId": "balanced-scene-04-layer-package",
+            "sceneId": "balanced-scene-04",
+            "targetId": "world-4",
+            "pattern": "registered-depth-stack",
+            "motionCapability": "bounded-relative",
+            "sourceStrategy": "context-preserving-layer-edits",
+            "layers": [
+              {
+                "id": "rear",
+                "role": "support-rear",
+                "completeness": "clean-plate",
+                "depth": -0.7
+              },
+              {
+                "id": "subject",
+                "role": "subject",
+                "completeness": "full-silhouette",
+                "depth": 0
+              },
+              {
+                "id": "front",
+                "role": "support-front",
+                "completeness": "full-overlay",
+                "depth": 0.7
+              }
+            ],
+            "revealEnvelope": {
+              "16:9": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              },
+              "9:16": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              },
+              "1:1": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              }
+            },
+            "subjectTravelEnvelope": null,
+            "providerImageCalls": 4,
+            "localDerivatives": 3,
+            "avoidedCalls": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "id": "balanced-source-6",
+            "treatmentId": "balanced-scene-06-layer-package",
+            "sceneId": "balanced-scene-06",
+            "targetId": "world-6",
+            "pattern": "registered-depth-stack",
+            "motionCapability": "bounded-relative",
+            "sourceStrategy": "context-preserving-layer-edits",
+            "layers": [
+              {
+                "id": "rear",
+                "role": "support-rear",
+                "completeness": "clean-plate",
+                "depth": -0.7
+              },
+              {
+                "id": "subject",
+                "role": "subject",
+                "completeness": "full-silhouette",
+                "depth": 0
+              },
+              {
+                "id": "front",
+                "role": "support-front",
+                "completeness": "full-overlay",
+                "depth": 0.7
+              }
+            ],
+            "revealEnvelope": {
+              "16:9": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              },
+              "9:16": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              },
+              "1:1": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              }
+            },
+            "subjectTravelEnvelope": null,
+            "providerImageCalls": 4,
+            "localDerivatives": 3,
+            "avoidedCalls": 0,
+            "proofTimeId": "established"
+          },
+          {
+            "id": "balanced-source-7",
+            "treatmentId": "balanced-scene-07-layer-package",
+            "sceneId": "balanced-scene-07",
+            "targetId": "world-7",
+            "pattern": "registered-depth-stack",
+            "motionCapability": "bounded-relative",
+            "sourceStrategy": "context-preserving-layer-edits",
+            "layers": [
+              {
+                "id": "rear",
+                "role": "support-rear",
+                "completeness": "clean-plate",
+                "depth": -0.7
+              },
+              {
+                "id": "subject",
+                "role": "subject",
+                "completeness": "full-silhouette",
+                "depth": 0
+              },
+              {
+                "id": "front",
+                "role": "support-front",
+                "completeness": "full-overlay",
+                "depth": 0.7
+              }
+            ],
+            "revealEnvelope": {
+              "16:9": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              },
+              "9:16": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              },
+              "1:1": {
+                "x": 0.025,
+                "y": 0.015,
+                "scale": 0.035,
+                "rotationDegrees": 0.7
+              }
+            },
+            "subjectTravelEnvelope": null,
+            "providerImageCalls": 4,
+            "localDerivatives": 3,
+            "avoidedCalls": 0,
+            "proofTimeId": "established"
+          }
+        ]
+      }
+    }
+  },
+  "control": {
+    "mode": "auto-continue",
+    "gate": null,
+    "requiredDecision": null,
+    "nextCommand": null,
+    "expectedArtifacts": [
+      "productionAssets",
+      "narration",
+      "project",
+      "validationReport"
+    ],
+    "workItems": {
+      "counts": {
+        "pending": 8,
+        "in-progress": 1,
+        "completed": 0,
+        "blocked": 0
+      },
+      "remaining": [
+        {
+          "id": "directing-revision-balanced-scene-01",
+          "label": "同步导演重编镜头 balanced-scene-01",
+          "status": "pending",
+          "artifact": "projects/time-patina-paper/directing-revision.json",
+          "note": "按新 storyboard 同步 project.json 执行树并重新验证。"
+        },
+        {
+          "id": "directing-revision-balanced-scene-04",
+          "label": "同步导演重编镜头 balanced-scene-04",
+          "status": "pending",
+          "artifact": "projects/time-patina-paper/directing-revision.json",
+          "note": "按新 storyboard 同步 project.json 执行树并重新验证。"
+        },
+        {
+          "id": "directing-revision-balanced-scene-07",
+          "label": "同步导演重编镜头 balanced-scene-07",
+          "status": "pending",
+          "artifact": "projects/time-patina-paper/directing-revision.json",
+          "note": "按新 storyboard 同步 project.json 执行树并重新验证。"
+        },
+        {
+          "id": "directing-revision-balanced-scene-02",
+          "label": "同步导演重编镜头 balanced-scene-02",
+          "status": "pending",
+          "artifact": "projects/time-patina-paper/directing-revision.json",
+          "note": "按新 storyboard 同步 project.json 执行树并重新验证。"
+        },
+        {
+          "id": "directing-revision-balanced-scene-03",
+          "label": "同步导演重编镜头 balanced-scene-03",
+          "status": "pending",
+          "artifact": "projects/time-patina-paper/directing-revision.json",
+          "note": "按新 storyboard 同步 project.json 执行树并重新验证。"
+        },
+        {
+          "id": "directing-revision-balanced-scene-05",
+          "label": "同步导演重编镜头 balanced-scene-05",
+          "status": "pending",
+          "artifact": "projects/time-patina-paper/directing-revision.json",
+          "note": "按新 storyboard 同步 project.json 执行树并重新验证。"
+        },
+        {
+          "id": "directing-revision-balanced-scene-06",
+          "label": "同步导演重编镜头 balanced-scene-06",
+          "status": "pending",
+          "artifact": "projects/time-patina-paper/directing-revision.json",
+          "note": "按新 storyboard 同步 project.json 执行树并重新验证。"
+        },
+        {
+          "id": "directing-revision-balanced-scene-08",
+          "label": "同步导演重编镜头 balanced-scene-08",
+          "status": "pending",
+          "artifact": "projects/time-patina-paper/directing-revision.json",
+          "note": "按新 storyboard 同步 project.json 执行树并重新验证。"
+        },
+        {
+          "id": "story-v4-render",
+          "label": "故事版构图复查与完整预览",
+          "status": "in-progress",
+          "artifact": "projects/time-patina-paper/故事版分镜_v4.md",
+          "note": "用户明确回复可以，继续；恢复故事版构图检查与预览。"
+        }
+      ]
+    }
+  },
+  "handoff": {
+    "allowed": false,
+    "reason": "auto-continue"
+  }
+}

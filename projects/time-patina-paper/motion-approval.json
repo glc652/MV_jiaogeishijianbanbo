@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "slug": "time-patina-paper",
+  "approvedAt": "2026-10-06T14:03:27.978Z",
+  "humanNote": "用户已观看动作修订样片 v2 并明确回复：可以，继续。批准该纸片风格、人物动作过渡及原曲音频，继续完整 MV 制作。",
+  "styleProfileBinding": {
+    "id": "archival-collage",
+    "profileFingerprint": "03374c56e20183c3e8d4ddb0e4883a50e7ecdb7ca207711e786cbd2106415885",
+    "pacing": "measured"
+  },
+  "motionApprovalFingerprint": "3238027a004e7fe7b19a05bdb6bebb4184774d63c8a174f1ffa6c02b7779ce1e",
+  "approvedExecutionFingerprint": "5c8e3b842d62371d5c70f8de767bf87b319393e222d7cba279040d710ca96d79",
+  "styleProofPlanFingerprint": "31ea4e24f542dd503ac2c0442508bd826fe0ebab50d59b9e6aa430d1956bbad7",
+  "styleProofReport": "dist\\time-patina-paper\\style-motion-proof.json",
+  "styleProofReportSha256": "a97f6bb7447c1c1c0599c19279e845731b77528ab524bb7c0aedce6aba177d6a"
+}

@@ -1,0 +1,869 @@
+{
+  "$schema": "../../schemas/quality-report.schema.json",
+  "schemaVersion": 7,
+  "projectSlug": "starter-demo",
+  "updatedAt": "2026-01-01T00:00:00.000Z",
+  "styleProfile": {
+    "id": "childrens-picture-book-paper",
+    "profileFingerprint": "2188718c60920f8709f9e74c14175a6800f2a5a3695ce34b9c27ca94800c7f2e",
+    "referenceFile": "public/style-catalog/childrens-picture-book-paper.png",
+    "referenceSha256": "2b9267a155929bcd742321027a9edbd17e2d2a31414e983e41a584d657a64d23",
+    "reviewFocus": [
+      "Rounded warm paper shapes match the selected reference card.",
+      "The frame remains inviting, uncluttered, and readable for children."
+    ]
+  },
+  "motionContract": {
+    "approvalFingerprint": "13f317323e6777f5a858bc95a5165b3ced4cbb2efa6e6516de87535affb57a5d",
+    "executionFingerprint": "1ae3150d35c2e272a042b9d3651b6cb5c6cffe16ab529968edeca9dfb077a320",
+    "summary": "先建立纸面空间，再让主体完成清晰动作，最后留出可读稳定段。",
+    "requiredCompositeChecks": [
+      "motion-grammar-consistent",
+      "pacing-cadence-consistent",
+      "camera-strategy-consistent",
+      "transition-strategy-consistent",
+      "ambient-strategy-consistent",
+      "sync-anchors-current"
+    ]
+  },
+  "eventTimeline": [
+    {
+      "sceneId": "starter",
+      "eventId": "establish",
+      "beatId": "establish",
+      "targetId": "background",
+      "visualKind": "emphasis",
+      "action": "pulse",
+      "localFrame": 0,
+      "absoluteFrame": 0,
+      "seconds": 0,
+      "proofTimeId": "proof-establish",
+      "sound": null
+    },
+    {
+      "sceneId": "starter",
+      "eventId": "subject-arrives",
+      "beatId": "subject-arrives",
+      "targetId": "traveler",
+      "visualKind": "visibility",
+      "action": "show",
+      "localFrame": 18,
+      "absoluteFrame": 18,
+      "seconds": 0.6,
+      "proofTimeId": "proof-action",
+      "sound": null
+    },
+    {
+      "sceneId": "starter",
+      "eventId": "lockup",
+      "beatId": "lockup",
+      "targetId": "traveler",
+      "visualKind": "emphasis",
+      "action": "settle",
+      "localFrame": 32,
+      "absoluteFrame": 32,
+      "seconds": 1.0666666666666667,
+      "proofTimeId": "proof-final",
+      "sound": null
+    }
+  ],
+  "assetHistory": [],
+  "assets": [
+    {
+      "assetId": "runtime-35227d004842",
+      "file": "public/projects/starter-demo/assets/plates/01-bg.png",
+      "kind": "background",
+      "sources": [
+        "scene:starter:node:background"
+      ],
+      "reviewScope": "runtime-visible",
+      "semanticBinding": null,
+      "semanticSliceBinding": null,
+      "alphaTopologyExpectedComponents": [],
+      "alphaTopologyAllowDetachedComponents": false,
+      "registeredFamilyBinding": null,
+      "canonicalContainerBinding": null,
+      "stateSheetBinding": null,
+      "outputSurface": null,
+      "stateSheetRecoveryBinding": null,
+      "recoverySourceFile": null,
+      "recoverySourceSha256": null,
+      "recoveryEvidenceFiles": [],
+      "manifestRecordId": null,
+      "manifestSha256": null,
+      "semanticContractFingerprints": {},
+      "styleProfileBinding": {
+        "id": "childrens-picture-book-paper",
+        "profileFingerprint": "2188718c60920f8709f9e74c14175a6800f2a5a3695ce34b9c27ca94800c7f2e"
+      },
+      "sha256": "8b281acc2007312e394832a74ece76229b8c049d48a46c82f4377409a44a0d57",
+      "fingerprint": "10a62a8c853be4d53aba55289b2abe9ec40287a7080c7bd2f4de968ab2b14cbd",
+      "requiredChecks": [
+        "no-text",
+        "no-watermark",
+        "no-people",
+        "safe-area-clear",
+        "style-consistent",
+        "style-profile-conformant"
+      ],
+      "technical": {
+        "passed": true,
+        "checks": [
+          {
+            "id": "file-exists",
+            "passed": true,
+            "actual": 107301
+          },
+          {
+            "id": "dimensions-readable",
+            "passed": true,
+            "actual": "1920x1080"
+          },
+          {
+            "id": "minimum-resolution",
+            "passed": true,
+            "expected": "960x540",
+            "actual": "1920x1080"
+          },
+          {
+            "id": "rectangular-alpha-band-free",
+            "passed": true,
+            "expected": "no error-severity low-alpha rectangular band",
+            "actual": {
+              "schemaVersion": 1,
+              "thresholds": {
+                "lowAlphaMinimum": 4,
+                "lowAlphaMaximum": 96,
+                "minimumRunPixels": 24,
+                "minimumRunRatio": 0.42,
+                "warningRunRatio": 0.75,
+                "maximumBandThicknessRatio": 0.025,
+                "boundaryToleranceRatio": 0.012,
+                "rectangleMinimumSeparationRatio": 0.08
+              },
+              "derivationRegions": [],
+              "sourceSize": {
+                "width": 1920,
+                "height": 1080
+              },
+              "renderSize": null,
+              "passed": true,
+              "severity": "info",
+              "scales": [
+                {
+                  "label": "original",
+                  "width": 1920,
+                  "height": 1080,
+                  "passed": true,
+                  "severity": "info",
+                  "diagnostics": [],
+                  "failures": []
+                }
+              ],
+              "failures": [],
+              "failureMessage": null
+            }
+          },
+          {
+            "id": "alpha-topology-clean",
+            "passed": true,
+            "expected": "no detached rectangular alpha fragment or hard rectangular derivation boundary",
+            "actual": {
+              "schemaVersion": 1,
+              "sourceSize": {
+                "width": 1920,
+                "height": 1080
+              },
+              "analysisSize": {
+                "width": 1024,
+                "height": 576
+              },
+              "derivationRegions": [],
+              "expectedComponents": [],
+              "allowDetachedComponents": false,
+              "width": 1024,
+              "height": 576,
+              "thresholds": {
+                "alphaMinimum": 12,
+                "maximumAnalysisDimension": 1024,
+                "minimumDetachedPixels": 20,
+                "minimumDetachedAreaRatio": 0.00004,
+                "minimumDetachedSeparationRatio": 0.015,
+                "minimumRectangularFillRatio": 0.68,
+                "derivationRectangleFillRatio": 0.82,
+                "derivationBoundaryToleranceRatio": 0.012,
+                "minimumDerivationComponentAreaRatio": 0.004
+              },
+              "components": [
+                {
+                  "id": "component-1",
+                  "pixels": 589824,
+                  "areaRatio": 1,
+                  "left": 0,
+                  "top": 0,
+                  "right": 1023,
+                  "bottom": 575,
+                  "fillRatio": 1
+                }
+              ],
+              "diagnostics": [],
+              "failures": [],
+              "passed": true
+            }
+          }
+        ]
+      },
+      "semanticChecks": {
+        "no-text": "passed",
+        "no-watermark": "passed",
+        "no-people": "passed",
+        "safe-area-clear": "passed",
+        "style-consistent": "passed",
+        "style-profile-conformant": "passed"
+      },
+      "reviewer": "bundled-fixture",
+      "reviewedAt": "2026-01-01T00:00:00.000Z",
+      "note": "Repository-owned technical fixture asset",
+      "evidenceFiles": [],
+      "status": "passed"
+    },
+    {
+      "assetId": "runtime-904ce3e224ac",
+      "file": "public/projects/starter-demo/assets/characters/alpha/01-traveler.png",
+      "kind": "character",
+      "sources": [
+        "scene:starter:node:traveler"
+      ],
+      "reviewScope": "runtime-visible",
+      "semanticBinding": null,
+      "semanticSliceBinding": null,
+      "alphaTopologyExpectedComponents": [],
+      "alphaTopologyAllowDetachedComponents": false,
+      "registeredFamilyBinding": null,
+      "canonicalContainerBinding": null,
+      "stateSheetBinding": null,
+      "outputSurface": null,
+      "stateSheetRecoveryBinding": null,
+      "recoverySourceFile": null,
+      "recoverySourceSha256": null,
+      "recoveryEvidenceFiles": [],
+      "manifestRecordId": null,
+      "manifestSha256": null,
+      "semanticContractFingerprints": {},
+      "styleProfileBinding": {
+        "id": "childrens-picture-book-paper",
+        "profileFingerprint": "2188718c60920f8709f9e74c14175a6800f2a5a3695ce34b9c27ca94800c7f2e"
+      },
+      "sha256": "5012594d62cc65af7ea21409f9bff9f8b120bfe348c4f2ec0c7f5c0f89b4dd5f",
+      "fingerprint": "5aa0adc43fcb08b3bcabffc5e9c971015e7825ac81eeaca43ef46a60ed04405e",
+      "requiredChecks": [
+        "subject-complete",
+        "identity-consistent",
+        "edge-clean",
+        "style-consistent",
+        "style-profile-conformant"
+      ],
+      "technical": {
+        "passed": true,
+        "checks": [
+          {
+            "id": "file-exists",
+            "passed": true,
+            "actual": 80871
+          },
+          {
+            "id": "dimensions-readable",
+            "passed": true,
+            "actual": "1920x1080"
+          },
+          {
+            "id": "alpha-present",
+            "passed": true,
+            "actual": true
+          },
+          {
+            "id": "key-edge-clean",
+            "passed": true,
+            "expected": "<= 0.12",
+            "actual": 0
+          },
+          {
+            "id": "rectangular-alpha-band-free",
+            "passed": true,
+            "expected": "no error-severity low-alpha rectangular band",
+            "actual": {
+              "schemaVersion": 1,
+              "thresholds": {
+                "lowAlphaMinimum": 4,
+                "lowAlphaMaximum": 96,
+                "minimumRunPixels": 24,
+                "minimumRunRatio": 0.42,
+                "warningRunRatio": 0.75,
+                "maximumBandThicknessRatio": 0.025,
+                "boundaryToleranceRatio": 0.012,
+                "rectangleMinimumSeparationRatio": 0.08
+              },
+              "derivationRegions": [],
+              "sourceSize": {
+                "width": 1920,
+                "height": 1080
+              },
+              "renderSize": null,
+              "passed": true,
+              "severity": "info",
+              "scales": [
+                {
+                  "label": "original",
+                  "width": 1920,
+                  "height": 1080,
+                  "passed": true,
+                  "severity": "info",
+                  "diagnostics": [],
+                  "failures": []
+                }
+              ],
+              "failures": [],
+              "failureMessage": null
+            }
+          },
+          {
+            "id": "alpha-topology-clean",
+            "passed": true,
+            "expected": "no detached rectangular alpha fragment or hard rectangular derivation boundary",
+            "actual": {
+              "schemaVersion": 1,
+              "sourceSize": {
+                "width": 1920,
+                "height": 1080
+              },
+              "analysisSize": {
+                "width": 1024,
+                "height": 576
+              },
+              "derivationRegions": [],
+              "expectedComponents": [],
+              "allowDetachedComponents": false,
+              "width": 1024,
+              "height": 576,
+              "thresholds": {
+                "alphaMinimum": 12,
+                "maximumAnalysisDimension": 1024,
+                "minimumDetachedPixels": 20,
+                "minimumDetachedAreaRatio": 0.00004,
+                "minimumDetachedSeparationRatio": 0.015,
+                "minimumRectangularFillRatio": 0.68,
+                "derivationRectangleFillRatio": 0.82,
+                "derivationBoundaryToleranceRatio": 0.012,
+                "minimumDerivationComponentAreaRatio": 0.004
+              },
+              "components": [
+                {
+                  "id": "component-1",
+                  "pixels": 40410,
+                  "areaRatio": 0.068511962890625,
+                  "left": 188,
+                  "top": 251,
+                  "right": 548,
+                  "bottom": 544,
+                  "fillRatio": 0.3807450958222624
+                }
+              ],
+              "diagnostics": [],
+              "failures": [],
+              "passed": true
+            }
+          }
+        ]
+      },
+      "semanticChecks": {
+        "subject-complete": "passed",
+        "identity-consistent": "passed",
+        "edge-clean": "passed",
+        "style-consistent": "passed",
+        "style-profile-conformant": "passed"
+      },
+      "reviewer": "bundled-fixture",
+      "reviewedAt": "2026-01-01T00:00:00.000Z",
+      "note": "Repository-owned technical fixture asset",
+      "evidenceFiles": [],
+      "status": "passed"
+    }
+  ],
+  "composites": [
+    {
+      "compositeId": "event:starter:establish",
+      "sceneId": "starter",
+      "pattern": "event",
+      "nodeId": "background",
+      "memberNodeIds": [
+        "background"
+      ],
+      "memberHashes": {
+        "projects/starter-demo/assets/plates/01-bg.png": "8b281acc2007312e394832a74ece76229b8c049d48a46c82f4377409a44a0d57"
+      },
+      "compositionHash": "9f99e72cb300cc5e8bd58ca115ca06115e677ced2261303824342466747f7c01",
+      "fingerprint": "e11a4aef6c55328e53ca6cffcb33e01622ad9942bbd708f06d577a97a43ec16a",
+      "proofTimeIds": [
+        "proof-establish"
+      ],
+      "proofFrames": [
+        {
+          "sceneId": "starter",
+          "proofTimeId": "proof-establish",
+          "absoluteFrame": 3,
+          "frameFingerprint": "bundled-proof-establish",
+          "fullFrame": "dist/starter-demo/composition-proof/frames/proof-establish.svg",
+          "crop": "dist/starter-demo/composition-proof/frames/proof-establish.svg",
+          "debugFrame": "dist/starter-demo/composition-proof/frames/proof-establish.svg",
+          "bounds": {
+            "left": 0,
+            "top": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        }
+      ],
+      "reviewScope": "runtime-visible",
+      "requiredChecks": [
+        "visual-event-visible",
+        "sound-event-bound",
+        "proof-time-bound",
+        "final-state-preserved"
+      ],
+      "technical": {
+        "passed": true,
+        "checks": [
+          {
+            "id": "proof-current",
+            "passed": true,
+            "expected": "e11a4aef6c55328e53ca6cffcb33e01622ad9942bbd708f06d577a97a43ec16a",
+            "actual": "e11a4aef6c55328e53ca6cffcb33e01622ad9942bbd708f06d577a97a43ec16a"
+          },
+          {
+            "id": "proof-artifacts-present",
+            "passed": true,
+            "actual": 1
+          },
+          {
+            "id": "event-proof-bound",
+            "passed": true,
+            "actual": "proof-establish"
+          },
+          {
+            "id": "event-sound-valid",
+            "passed": true,
+            "actual": "not-required"
+          }
+        ]
+      },
+      "semanticChecks": {
+        "visual-event-visible": "passed",
+        "sound-event-bound": "passed",
+        "proof-time-bound": "passed",
+        "final-state-preserved": "passed"
+      },
+      "reviewer": "bundled-fixture",
+      "reviewedAt": "2026-01-01T00:00:00.000Z",
+      "note": "Repository-owned technical fixture proof",
+      "evidenceFiles": [
+        {
+          "file": "dist/starter-demo/composition-proof/frames/proof-establish.svg",
+          "sha256": "0cb23f171e9062bb4c781507b28dbd53d069323ca272cb536d6d4b14e13cbc73"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "compositeId": "event:starter:subject-arrives",
+      "sceneId": "starter",
+      "pattern": "event",
+      "nodeId": "traveler",
+      "memberNodeIds": [
+        "traveler"
+      ],
+      "memberHashes": {
+        "projects/starter-demo/assets/characters/alpha/01-traveler.png": "5012594d62cc65af7ea21409f9bff9f8b120bfe348c4f2ec0c7f5c0f89b4dd5f"
+      },
+      "compositionHash": "33ca0da49ad6545fd8c4c140d191c3b619c876ab40e435a6514496d94f6000cb",
+      "fingerprint": "bccdd4d0417cbab90d867834713e18110f6be786fe3b7486c82ca59763594fa0",
+      "proofTimeIds": [
+        "proof-action"
+      ],
+      "proofFrames": [
+        {
+          "sceneId": "starter",
+          "proofTimeId": "proof-action",
+          "absoluteFrame": 22,
+          "frameFingerprint": "bundled-proof-action",
+          "fullFrame": "dist/starter-demo/composition-proof/frames/proof-action.svg",
+          "crop": "dist/starter-demo/composition-proof/frames/proof-action.svg",
+          "debugFrame": "dist/starter-demo/composition-proof/frames/proof-action.svg",
+          "bounds": {
+            "left": 0,
+            "top": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        }
+      ],
+      "reviewScope": "runtime-visible",
+      "requiredChecks": [
+        "visual-event-visible",
+        "sound-event-bound",
+        "proof-time-bound",
+        "final-state-preserved"
+      ],
+      "technical": {
+        "passed": true,
+        "checks": [
+          {
+            "id": "proof-current",
+            "passed": true,
+            "expected": "bccdd4d0417cbab90d867834713e18110f6be786fe3b7486c82ca59763594fa0",
+            "actual": "bccdd4d0417cbab90d867834713e18110f6be786fe3b7486c82ca59763594fa0"
+          },
+          {
+            "id": "proof-artifacts-present",
+            "passed": true,
+            "actual": 1
+          },
+          {
+            "id": "event-proof-bound",
+            "passed": true,
+            "actual": "proof-action"
+          },
+          {
+            "id": "event-sound-valid",
+            "passed": true,
+            "actual": "not-required"
+          }
+        ]
+      },
+      "semanticChecks": {
+        "visual-event-visible": "passed",
+        "sound-event-bound": "passed",
+        "proof-time-bound": "passed",
+        "final-state-preserved": "passed"
+      },
+      "reviewer": "bundled-fixture",
+      "reviewedAt": "2026-01-01T00:00:00.000Z",
+      "note": "Repository-owned technical fixture proof",
+      "evidenceFiles": [
+        {
+          "file": "dist/starter-demo/composition-proof/frames/proof-action.svg",
+          "sha256": "0cb23f171e9062bb4c781507b28dbd53d069323ca272cb536d6d4b14e13cbc73"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "compositeId": "event:starter:lockup",
+      "sceneId": "starter",
+      "pattern": "event",
+      "nodeId": "traveler",
+      "memberNodeIds": [
+        "traveler"
+      ],
+      "memberHashes": {
+        "projects/starter-demo/assets/characters/alpha/01-traveler.png": "5012594d62cc65af7ea21409f9bff9f8b120bfe348c4f2ec0c7f5c0f89b4dd5f"
+      },
+      "compositionHash": "e0b2febd866012364c55f448cee0cca01ad63359e1ffe7776b238f7996a82e39",
+      "fingerprint": "01b806cd5efce473cef2827d03ea03cc83ba6d0855f0cd52bd7fe583d8e7c2a5",
+      "proofTimeIds": [
+        "proof-final"
+      ],
+      "proofFrames": [
+        {
+          "sceneId": "starter",
+          "proofTimeId": "proof-final",
+          "absoluteFrame": 32,
+          "frameFingerprint": "bundled-proof-final",
+          "fullFrame": "dist/starter-demo/composition-proof/frames/proof-final.svg",
+          "crop": "dist/starter-demo/composition-proof/frames/proof-final.svg",
+          "debugFrame": "dist/starter-demo/composition-proof/frames/proof-final.svg",
+          "bounds": {
+            "left": 0,
+            "top": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        }
+      ],
+      "reviewScope": "runtime-visible",
+      "requiredChecks": [
+        "visual-event-visible",
+        "sound-event-bound",
+        "proof-time-bound",
+        "final-state-preserved"
+      ],
+      "technical": {
+        "passed": true,
+        "checks": [
+          {
+            "id": "proof-current",
+            "passed": true,
+            "expected": "01b806cd5efce473cef2827d03ea03cc83ba6d0855f0cd52bd7fe583d8e7c2a5",
+            "actual": "01b806cd5efce473cef2827d03ea03cc83ba6d0855f0cd52bd7fe583d8e7c2a5"
+          },
+          {
+            "id": "proof-artifacts-present",
+            "passed": true,
+            "actual": 1
+          },
+          {
+            "id": "event-proof-bound",
+            "passed": true,
+            "actual": "proof-final"
+          },
+          {
+            "id": "event-sound-valid",
+            "passed": true,
+            "actual": "not-required"
+          }
+        ]
+      },
+      "semanticChecks": {
+        "visual-event-visible": "passed",
+        "sound-event-bound": "passed",
+        "proof-time-bound": "passed",
+        "final-state-preserved": "passed"
+      },
+      "reviewer": "bundled-fixture",
+      "reviewedAt": "2026-01-01T00:00:00.000Z",
+      "note": "Repository-owned technical fixture proof",
+      "evidenceFiles": [
+        {
+          "file": "dist/starter-demo/composition-proof/frames/proof-final.svg",
+          "sha256": "0cb23f171e9062bb4c781507b28dbd53d069323ca272cb536d6d4b14e13cbc73"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "compositeId": "style-profile:childrens-picture-book-paper",
+      "sceneId": "starter",
+      "pattern": "style-target",
+      "nodeId": "project-style",
+      "memberNodeIds": [
+        "starter:background",
+        "starter:traveler"
+      ],
+      "memberHashes": {
+        "projects/starter-demo/assets/characters/alpha/01-traveler.png": "5012594d62cc65af7ea21409f9bff9f8b120bfe348c4f2ec0c7f5c0f89b4dd5f",
+        "projects/starter-demo/assets/plates/01-bg.png": "8b281acc2007312e394832a74ece76229b8c049d48a46c82f4377409a44a0d57"
+      },
+      "compositionHash": "e06069badae5aca97615b854159703f808db6ebab186121be251114657dc1ab0",
+      "fingerprint": "df6737ab836ff666897f50f01bd6e5438c0ae5a7bc48dad67696c0fb03f699ca",
+      "proofTimeIds": [
+        "proof-establish",
+        "proof-action",
+        "proof-final"
+      ],
+      "proofFrames": [
+        {
+          "sceneId": "starter",
+          "proofTimeId": "proof-establish",
+          "absoluteFrame": 3,
+          "frameFingerprint": "bundled-proof-establish",
+          "fullFrame": "dist/starter-demo/composition-proof/frames/proof-establish.svg",
+          "crop": "dist/starter-demo/composition-proof/frames/proof-establish.svg",
+          "debugFrame": "dist/starter-demo/composition-proof/frames/proof-establish.svg",
+          "bounds": {
+            "left": 0,
+            "top": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "sceneId": "starter",
+          "proofTimeId": "proof-action",
+          "absoluteFrame": 22,
+          "frameFingerprint": "bundled-proof-action",
+          "fullFrame": "dist/starter-demo/composition-proof/frames/proof-action.svg",
+          "crop": "dist/starter-demo/composition-proof/frames/proof-action.svg",
+          "debugFrame": "dist/starter-demo/composition-proof/frames/proof-action.svg",
+          "bounds": {
+            "left": 0,
+            "top": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "sceneId": "starter",
+          "proofTimeId": "proof-final",
+          "absoluteFrame": 32,
+          "frameFingerprint": "bundled-proof-final",
+          "fullFrame": "dist/starter-demo/composition-proof/frames/proof-final.svg",
+          "crop": "dist/starter-demo/composition-proof/frames/proof-final.svg",
+          "debugFrame": "dist/starter-demo/composition-proof/frames/proof-final.svg",
+          "bounds": {
+            "left": 0,
+            "top": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        }
+      ],
+      "reviewScope": "runtime-visible",
+      "requiredChecks": [
+        "style-profile-consistent"
+      ],
+      "technical": {
+        "passed": true,
+        "checks": [
+          {
+            "id": "proof-current",
+            "passed": true,
+            "expected": "df6737ab836ff666897f50f01bd6e5438c0ae5a7bc48dad67696c0fb03f699ca",
+            "actual": "df6737ab836ff666897f50f01bd6e5438c0ae5a7bc48dad67696c0fb03f699ca"
+          },
+          {
+            "id": "proof-artifacts-present",
+            "passed": true,
+            "actual": 3
+          }
+        ]
+      },
+      "semanticChecks": {
+        "style-profile-consistent": "passed"
+      },
+      "reviewer": "bundled-fixture",
+      "reviewedAt": "2026-01-01T00:00:00.000Z",
+      "note": "Repository-owned technical fixture proof",
+      "evidenceFiles": [
+        {
+          "file": "dist/starter-demo/composition-proof/frames/proof-establish.svg",
+          "sha256": "0cb23f171e9062bb4c781507b28dbd53d069323ca272cb536d6d4b14e13cbc73"
+        },
+        {
+          "file": "dist/starter-demo/composition-proof/frames/proof-action.svg",
+          "sha256": "0cb23f171e9062bb4c781507b28dbd53d069323ca272cb536d6d4b14e13cbc73"
+        },
+        {
+          "file": "dist/starter-demo/composition-proof/frames/proof-final.svg",
+          "sha256": "0cb23f171e9062bb4c781507b28dbd53d069323ca272cb536d6d4b14e13cbc73"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "compositeId": "motion-contract:whole-film",
+      "sceneId": "starter",
+      "pattern": "motion-contract",
+      "nodeId": "project-motion",
+      "memberNodeIds": [],
+      "memberHashes": {
+        "projects/starter-demo/assets/characters/alpha/01-traveler.png": "5012594d62cc65af7ea21409f9bff9f8b120bfe348c4f2ec0c7f5c0f89b4dd5f",
+        "projects/starter-demo/assets/plates/01-bg.png": "8b281acc2007312e394832a74ece76229b8c049d48a46c82f4377409a44a0d57"
+      },
+      "compositionHash": "5d49509e53bca73ce5e6e021bfd5f6963e497b332c87aa1351f218df4daaf690",
+      "fingerprint": "4ee9fd9bfd17afaabd8511067271ef552a22d639abf3248d92aec821dbc928d9",
+      "proofTimeIds": [
+        "proof-establish",
+        "proof-action",
+        "proof-final"
+      ],
+      "proofFrames": [
+        {
+          "sceneId": "starter",
+          "proofTimeId": "proof-establish",
+          "absoluteFrame": 3,
+          "frameFingerprint": "bundled-proof-establish",
+          "fullFrame": "dist/starter-demo/composition-proof/frames/proof-establish.svg",
+          "crop": "dist/starter-demo/composition-proof/frames/proof-establish.svg",
+          "debugFrame": "dist/starter-demo/composition-proof/frames/proof-establish.svg",
+          "bounds": {
+            "left": 0,
+            "top": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "sceneId": "starter",
+          "proofTimeId": "proof-action",
+          "absoluteFrame": 22,
+          "frameFingerprint": "bundled-proof-action",
+          "fullFrame": "dist/starter-demo/composition-proof/frames/proof-action.svg",
+          "crop": "dist/starter-demo/composition-proof/frames/proof-action.svg",
+          "debugFrame": "dist/starter-demo/composition-proof/frames/proof-action.svg",
+          "bounds": {
+            "left": 0,
+            "top": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "sceneId": "starter",
+          "proofTimeId": "proof-final",
+          "absoluteFrame": 32,
+          "frameFingerprint": "bundled-proof-final",
+          "fullFrame": "dist/starter-demo/composition-proof/frames/proof-final.svg",
+          "crop": "dist/starter-demo/composition-proof/frames/proof-final.svg",
+          "debugFrame": "dist/starter-demo/composition-proof/frames/proof-final.svg",
+          "bounds": {
+            "left": 0,
+            "top": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        }
+      ],
+      "reviewScope": "runtime-visible",
+      "requiredChecks": [
+        "motion-grammar-consistent",
+        "pacing-cadence-consistent",
+        "camera-strategy-consistent",
+        "transition-strategy-consistent",
+        "ambient-strategy-consistent",
+        "sync-anchors-current"
+      ],
+      "technical": {
+        "passed": true,
+        "checks": [
+          {
+            "id": "proof-current",
+            "passed": true,
+            "expected": "4ee9fd9bfd17afaabd8511067271ef552a22d639abf3248d92aec821dbc928d9",
+            "actual": "4ee9fd9bfd17afaabd8511067271ef552a22d639abf3248d92aec821dbc928d9"
+          },
+          {
+            "id": "proof-artifacts-present",
+            "passed": true,
+            "actual": 3
+          }
+        ]
+      },
+      "semanticChecks": {
+        "motion-grammar-consistent": "passed",
+        "pacing-cadence-consistent": "passed",
+        "camera-strategy-consistent": "passed",
+        "transition-strategy-consistent": "passed",
+        "ambient-strategy-consistent": "passed",
+        "sync-anchors-current": "passed"
+      },
+      "reviewer": "bundled-fixture",
+      "reviewedAt": "2026-01-01T00:00:00.000Z",
+      "note": "Repository-owned technical fixture proof",
+      "evidenceFiles": [
+        {
+          "file": "dist/starter-demo/composition-proof/frames/proof-establish.svg",
+          "sha256": "0cb23f171e9062bb4c781507b28dbd53d069323ca272cb536d6d4b14e13cbc73"
+        },
+        {
+          "file": "dist/starter-demo/composition-proof/frames/proof-action.svg",
+          "sha256": "0cb23f171e9062bb4c781507b28dbd53d069323ca272cb536d6d4b14e13cbc73"
+        },
+        {
+          "file": "dist/starter-demo/composition-proof/frames/proof-final.svg",
+          "sha256": "0cb23f171e9062bb4c781507b28dbd53d069323ca272cb536d6d4b14e13cbc73"
+        }
+      ],
+      "status": "passed"
+    }
+  ],
+  "reviewSurfaceFingerprint": "6e795429c292e6c458de8334495dc6a9099e1a9f4aa71fd75d3e8b0d3fc3b4f1"
+}

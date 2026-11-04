@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 8,
+  "projectSlug": "time-patina-paper",
+  "assetId": "morning-room-v7",
+  "capability": "image",
+  "output": "public/projects/time-patina-paper/assets/morning-room-v7.png",
+  "prompt": "Use aged paper, restrained sepia color, halftone print texture, and archival cutout framing.\nTreat photographs and documents as tactile evidence layers with legible hierarchy.\nAvoid: Glossy modern gradients, neon color, and playful preschool proportions.\nComposition: Organize evidence in measured overlapping planes with one dominant archival focal point.\nComposition: Preserve readable margins, captions, and document edges instead of filling every gap.\nCreate one exquisite full-frame cinematic paper-collage environment. Exact landscape 1672x941, no panels or contact sheet. Aged ivory cotton paper, muted indigo photographic printing, restrained amber, sepia halftone, tactile torn edges and shallow paper shadows, realistic elegant proportions. A quiet old attic room at golden morning, a complete cinematic interior with airy depth. Slanted roof rafters, tall open sash window on left looking toward a pale sea and far hills, a thin linen curtain gathered at left, warm sunbeam crosses aged timber floor. An empty wooden writing table and chair at right middle, small closed indigo photo album on table, tiny vase with a single dried stem and cream blossom. The room is ready for someone to return and put memories away. Understated nostalgic fine-art collage, not cluttered. Restrained honey light, washed indigo shadows. Bottom 18 percent fades into clean warm ivory paper. No people, no lettering, no words. Gallery quality, richly detailed but spacious. No text, logos or watermarks. Opaque background. The architectural perspective must be coherent.",
+  "styleProfileBinding": {
+    "schemaVersion": 1,
+    "id": "archival-collage",
+    "catalogVersion": "2026-07-30.2",
+    "profileFingerprint": "03374c56e20183c3e8d4ddb0e4883a50e7ecdb7ca207711e786cbd2106415885",
+    "directives": [
+      "Use aged paper, restrained sepia color, halftone print texture, and archival cutout framing.",
+      "Treat photographs and documents as tactile evidence layers with legible hierarchy.",
+      "Avoid: Glossy modern gradients, neon color, and playful preschool proportions.",
+      "Composition: Organize evidence in measured overlapping planes with one dominant archival focal point.",
+      "Composition: Preserve readable margins, captions, and document edges instead of filling every gap."
+    ]
+  },
+  "outputSurface": {
+    "mode": "opaque"
+  },
+  "compositionBinding": {
+    "sceneId": "balanced-scene-06",
+    "nodeId": "morning-room-v7",
+    "pattern": "free",
+    "outputRole": "background",
+    "canvas": {
+      "width": 1672,
+      "height": 941
+    },
+    "derivation": {
+      "method": "provider-generation"
+    }
+  },
+  "semanticBinding": {
+    "riskClass": "decorative",
+    "contractIds": []
+  },
+  "quality": {
+    "requiredChecks": [
+      "no-text",
+      "no-watermark",
+      "no-people",
+      "style-consistent",
+      "style-profile-conformant",
+      "safe-area-clear"
+    ]
+  }
+}

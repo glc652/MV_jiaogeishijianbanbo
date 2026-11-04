@@ -1,0 +1,666 @@
+{
+  "$schema": "../../schemas/storyboard.schema.json",
+  "schemaVersion": 12,
+  "slug": "starter-demo",
+  "status": "ready",
+  "arc": "从空纸面建立分层空间，再让主体进入并稳定成标题画面。",
+  "style": {
+    "visualThesis": "以可见纸张深度和克制动作证明可编辑的拼贴空间。",
+    "compositionRules": [
+      "主体保持在字幕安全区上方",
+      "前中后景至少形成两个深度层次"
+    ],
+    "layerStrategy": "背景承载空间，透明主体承载动作，前景纸片负责压边。"
+  },
+  "motionDirection": {
+    "schemaVersion": 1,
+    "summary": "先建立纸面空间，再让主体完成清晰动作，最后留出可读稳定段。",
+    "pacing": "gentle",
+    "performance": {
+      "grammar": [
+        "establish",
+        "action",
+        "settle"
+      ],
+      "anticipation": "selective",
+      "followThrough": "selective",
+      "poseStrategy": "mixed",
+      "minimumFinalHoldRatio": 0.1
+    },
+    "camera": {
+      "strategy": "motivated"
+    },
+    "transitions": {
+      "strategy": "story-led"
+    },
+    "ambient": {
+      "strategy": "selective"
+    },
+    "styleDeviationRationale": null
+  },
+  "editorial": {
+    "timebase": {
+      "fps": 30,
+      "rounding": "nearest"
+    },
+    "wordTimingPolicy": "phrase-fallback",
+    "media": [
+      {
+        "id": "starter-narration",
+        "kind": "narration",
+        "src": "projects/starter-demo/audio/narration/01-test-tone.wav",
+        "sha256": "d4e35edac80579ac885bac35bfdddc80626d07b65ce7ecb64aa46a1f570735f0",
+        "durationSeconds": 1,
+        "timelineMode": "scene-local",
+        "timingDataSrc": "projects/starter-demo/audio/narration/01-test-tone.timing.json"
+      }
+    ],
+    "cues": [
+      {
+        "id": "starter-open-cue",
+        "kind": "narration-phrase",
+        "source": "detected",
+        "timingBasis": "actual-audio",
+        "mediaId": "starter-narration",
+        "sceneId": "starter",
+        "atSeconds": 0.08,
+        "priority": 70,
+        "toleranceSeconds": 0.04
+      },
+      {
+        "id": "starter-action-cue",
+        "kind": "semantic-emphasis",
+        "source": "authored",
+        "timingBasis": "actual-audio",
+        "mediaId": "starter-narration",
+        "sceneId": "starter",
+        "atSeconds": 0.5,
+        "priority": 90,
+        "toleranceSeconds": 0.04
+      },
+      {
+        "id": "starter-final-cue",
+        "kind": "sentence",
+        "source": "detected",
+        "timingBasis": "actual-audio",
+        "mediaId": "starter-narration",
+        "sceneId": "starter",
+        "atSeconds": 0.9,
+        "priority": 80,
+        "toleranceSeconds": 0.04
+      }
+    ],
+    "editPoints": [
+      {
+        "id": "starter-open",
+        "cueIds": [
+          "starter-open-cue"
+        ],
+        "conflictPolicy": "highest-priority"
+      },
+      {
+        "id": "starter-action",
+        "cueIds": [
+          "starter-action-cue"
+        ],
+        "conflictPolicy": "highest-priority"
+      },
+      {
+        "id": "starter-final",
+        "cueIds": [
+          "starter-final-cue"
+        ],
+        "conflictPolicy": "highest-priority"
+      }
+    ],
+    "bindings": [
+      {
+        "id": "starter-action-binding",
+        "sceneId": "starter",
+        "targetType": "graphic-action",
+        "targetId": "traveler",
+        "editPointId": "starter-action",
+        "mode": "element"
+      }
+    ],
+    "responsiveProfiles": [
+      {
+        "id": "16:9",
+        "width": 1920,
+        "height": 1080,
+        "safeArea": {
+          "x": 0.06,
+          "y": 0.06,
+          "width": 0.88,
+          "height": 0.88
+        },
+        "densityBudget": 8,
+        "typographyScale": 1,
+        "parallaxScale": 1,
+        "exclusionZones": []
+      },
+      {
+        "id": "9:16",
+        "width": 1080,
+        "height": 1920,
+        "safeArea": {
+          "x": 0.08,
+          "y": 0.05,
+          "width": 0.84,
+          "height": 0.9
+        },
+        "densityBudget": 6,
+        "typographyScale": 0.92,
+        "parallaxScale": 0.72,
+        "exclusionZones": []
+      },
+      {
+        "id": "1:1",
+        "width": 1080,
+        "height": 1080,
+        "safeArea": {
+          "x": 0.07,
+          "y": 0.07,
+          "width": 0.86,
+          "height": 0.86
+        },
+        "densityBudget": 7,
+        "typographyScale": 0.96,
+        "parallaxScale": 0.86,
+        "exclusionZones": []
+      }
+    ],
+    "sceneDirecting": [
+      {
+        "sceneId": "starter",
+        "compositionProfile": "starter-balanced",
+        "typographyProfile": "editorial-default",
+        "subjectFraming": {
+          "mode": "contain",
+          "focusPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "placements": []
+      }
+    ],
+    "transitions": [],
+    "activeProfile": "16:9",
+    "resolvedEditPoints": [
+      {
+        "id": "starter-open",
+        "sceneId": "starter",
+        "cueIds": [
+          "starter-open-cue"
+        ],
+        "resolvedSeconds": 0.08,
+        "mediaFrame": 2,
+        "sceneFrame": 2,
+        "renderFrame": 2,
+        "priority": 70,
+        "toleranceSeconds": 0.04,
+        "conflictPolicy": "highest-priority",
+        "sources": [
+          "detected"
+        ],
+        "timingBasis": [
+          "actual-audio"
+        ]
+      },
+      {
+        "id": "starter-action",
+        "sceneId": "starter",
+        "cueIds": [
+          "starter-action-cue"
+        ],
+        "resolvedSeconds": 0.5,
+        "mediaFrame": 15,
+        "sceneFrame": 15,
+        "renderFrame": 15,
+        "priority": 90,
+        "toleranceSeconds": 0.04,
+        "conflictPolicy": "highest-priority",
+        "sources": [
+          "authored"
+        ],
+        "timingBasis": [
+          "actual-audio"
+        ]
+      },
+      {
+        "id": "starter-final",
+        "sceneId": "starter",
+        "cueIds": [
+          "starter-final-cue"
+        ],
+        "resolvedSeconds": 0.9,
+        "mediaFrame": 27,
+        "sceneFrame": 27,
+        "renderFrame": 27,
+        "priority": 80,
+        "toleranceSeconds": 0.04,
+        "conflictPolicy": "highest-priority",
+        "sources": [
+          "detected"
+        ],
+        "timingBasis": [
+          "actual-audio"
+        ]
+      }
+    ],
+    "conflicts": [],
+    "responsivePlans": [
+      {
+        "profileId": "16:9",
+        "width": 1920,
+        "height": 1080,
+        "safeArea": {
+          "x": 0.06,
+          "y": 0.06,
+          "width": 0.88,
+          "height": 0.88
+        },
+        "exclusionZones": [],
+        "densityBudget": 8,
+        "scenes": [
+          {
+            "sceneId": "starter",
+            "compositionProfile": "starter-balanced",
+            "typographyProfile": "editorial-default",
+            "subjectFraming": {
+              "mode": "contain",
+              "focusPoint": {
+                "x": 0.5,
+                "y": 0.5
+              }
+            },
+            "parallaxScale": 1,
+            "cropFocus": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "densityUsed": 0,
+            "placements": []
+          }
+        ]
+      },
+      {
+        "profileId": "9:16",
+        "width": 1080,
+        "height": 1920,
+        "safeArea": {
+          "x": 0.08,
+          "y": 0.05,
+          "width": 0.84,
+          "height": 0.9
+        },
+        "exclusionZones": [],
+        "densityBudget": 6,
+        "scenes": [
+          {
+            "sceneId": "starter",
+            "compositionProfile": "starter-balanced",
+            "typographyProfile": "editorial-default",
+            "subjectFraming": {
+              "mode": "contain",
+              "focusPoint": {
+                "x": 0.5,
+                "y": 0.5
+              }
+            },
+            "parallaxScale": 1,
+            "cropFocus": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "densityUsed": 0,
+            "placements": []
+          }
+        ]
+      },
+      {
+        "profileId": "1:1",
+        "width": 1080,
+        "height": 1080,
+        "safeArea": {
+          "x": 0.07,
+          "y": 0.07,
+          "width": 0.86,
+          "height": 0.86
+        },
+        "exclusionZones": [],
+        "densityBudget": 7,
+        "scenes": [
+          {
+            "sceneId": "starter",
+            "compositionProfile": "starter-balanced",
+            "typographyProfile": "editorial-default",
+            "subjectFraming": {
+              "mode": "contain",
+              "focusPoint": {
+                "x": 0.5,
+                "y": 0.5
+              }
+            },
+            "parallaxScale": 1,
+            "cropFocus": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "densityUsed": 0,
+            "placements": []
+          }
+        ]
+      }
+    ],
+    "transitionPlans": [],
+    "fingerprint": "d42157ad921b36c1976ae7b1220dcb4da544af88fe600532426877cd2d1eee61"
+  },
+  "scenes": [
+    {
+      "id": "starter",
+      "title": "纸片分层视频",
+      "narrativeRole": "开场与能力证明",
+      "message": "纸拼贴镜头由有节奏的分层运动构成。",
+      "blueprint": "layered-reveal",
+      "estimatedDurationSeconds": 1.2,
+      "beats": [
+        {
+          "id": "establish",
+          "at": 0,
+          "performanceRole": "establish",
+          "purpose": "建立空间",
+          "visual": "纸面与背景出现",
+          "soundCue": null,
+          "proofTimeId": "proof-establish",
+          "treatments": [
+            {
+              "id": "establish-scene",
+              "targetId": "background",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "static-hold",
+              "motion": {
+                "kind": "static"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "proof-establish",
+              "rationale": "先建立稳定纸面空间。"
+            }
+          ]
+        },
+        {
+          "id": "subject-arrives",
+          "at": 0.5,
+          "performanceRole": "action",
+          "purpose": "交付主体",
+          "visual": "人物纸片进入中心",
+          "soundCue": null,
+          "proofTimeId": "proof-action",
+          "treatments": [
+            {
+              "id": "show-traveler",
+              "targetId": "traveler",
+              "importance": "hero",
+              "necessity": "required",
+              "changeClass": "visibility-change",
+              "motion": {
+                "kind": "visibility-transition",
+                "action": "show",
+                "transition": "fade-rise",
+                "durationSeconds": 0.5
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "proof-action",
+              "rationale": "主体从明确的隐藏状态持续出现，并在事件后保持可见。"
+            }
+          ]
+        },
+        {
+          "id": "lockup",
+          "at": 0.9,
+          "performanceRole": "settle",
+          "purpose": "稳定结论",
+          "visual": "人物与标题形成锁定构图",
+          "soundCue": null,
+          "proofTimeId": "proof-final",
+          "treatments": [
+            {
+              "id": "hold-lockup",
+              "targetId": "traveler",
+              "importance": "supporting",
+              "necessity": "required",
+              "changeClass": "static-hold",
+              "motion": {
+                "kind": "static"
+              },
+              "composition": {
+                "pattern": "free"
+              },
+              "graphic": null,
+              "semanticRisk": "decorative",
+              "proofTimeId": "proof-final",
+              "rationale": "结尾保持构图稳定。"
+            }
+          ]
+        }
+      ],
+      "proofTimes": [
+        {
+          "id": "proof-establish",
+          "at": 0.08,
+          "label": "建立纸面空间",
+          "kind": "establish",
+          "assertions": [
+            "背景完整建立"
+          ],
+          "stateAssertions": []
+        },
+        {
+          "id": "proof-action",
+          "at": 0.62,
+          "label": "主体进入画面",
+          "kind": "peak",
+          "assertions": [
+            "主体位于画面中央"
+          ],
+          "stateAssertions": []
+        },
+        {
+          "id": "proof-final",
+          "at": 0.9,
+          "label": "标题与主体稳定",
+          "kind": "final",
+          "assertions": [
+            "主体与标题构图稳定"
+          ],
+          "stateAssertions": []
+        }
+      ],
+      "motionPolicy": "standard",
+      "staticRationale": null,
+      "compositionPlan": {
+        "patterns": [
+          "free"
+        ],
+        "relationships": [],
+        "stateSequences": [],
+        "continuousMotions": [],
+        "pathMotions": [],
+        "visibilityEvents": [
+          {
+            "id": "show-traveler",
+            "beatId": "subject-arrives",
+            "nodeId": "traveler",
+            "action": "show",
+            "transition": "fade-rise",
+            "durationSeconds": 0.5,
+            "at": 0.5,
+            "proofTimeId": "proof-action"
+          }
+        ],
+        "motifFields": [],
+        "graphics": [],
+        "layerStacks": [],
+        "loopingEnvironments": [],
+        "canonicalContainers": []
+      },
+      "directing": {
+        "fingerprint": "a6b601980d443e3560db0f557867b2390f9f0e167240fd4a61577842e8fc7bec",
+        "treatmentCount": 3,
+        "riskScore": 13,
+        "highestRiskTreatmentId": "show-traveler"
+      }
+    }
+  ],
+  "sceneTransitions": [],
+  "updatedAt": "2026-01-01T00:00:00.000Z",
+  "motionContract": {
+    "schemaVersion": 1,
+    "direction": {
+      "schemaVersion": 1,
+      "summary": "先建立纸面空间，再让主体完成清晰动作，最后留出可读稳定段。",
+      "pacing": "gentle",
+      "performance": {
+        "grammar": [
+          "establish",
+          "action",
+          "settle"
+        ],
+        "anticipation": "selective",
+        "followThrough": "selective",
+        "poseStrategy": "mixed",
+        "minimumFinalHoldRatio": 0.1
+      },
+      "camera": {
+        "strategy": "motivated"
+      },
+      "transitions": {
+        "strategy": "story-led"
+      },
+      "ambient": {
+        "strategy": "selective"
+      },
+      "styleDeviationRationale": null
+    },
+    "styleProfileBinding": {
+      "id": "childrens-picture-book-paper",
+      "profileFingerprint": "2188718c60920f8709f9e74c14175a6800f2a5a3695ce34b9c27ca94800c7f2e",
+      "pacing": "gentle"
+    },
+    "scenes": [
+      {
+        "sceneId": "starter",
+        "motionPolicy": "standard",
+        "phrases": [
+          {
+            "role": "establish",
+            "beatId": "establish",
+            "at": 0,
+            "proofTimeId": "proof-establish"
+          },
+          {
+            "role": "action",
+            "beatId": "subject-arrives",
+            "at": 0.5,
+            "proofTimeId": "proof-action"
+          },
+          {
+            "role": "settle",
+            "beatId": "lockup",
+            "at": 0.9,
+            "proofTimeId": "proof-final"
+          }
+        ],
+        "heroActionBeatIds": [
+          "subject-arrives"
+        ],
+        "stateSequenceTreatmentIds": [],
+        "continuousTreatmentIds": [],
+        "cameraTreatmentIds": [],
+        "ambientTreatmentIds": [],
+        "finalHoldRatio": 0.1,
+        "exception": null
+      }
+    ],
+    "transitions": [],
+    "editorialFingerprint": "d42157ad921b36c1976ae7b1220dcb4da544af88fe600532426877cd2d1eee61",
+    "requiredCompositeChecks": [
+      "motion-grammar-consistent",
+      "pacing-cadence-consistent",
+      "camera-strategy-consistent",
+      "transition-strategy-consistent",
+      "ambient-strategy-consistent",
+      "sync-anchors-current"
+    ],
+    "approvalFingerprint": "13f317323e6777f5a858bc95a5165b3ced4cbb2efa6e6516de87535affb57a5d",
+    "fingerprint": "1ae3150d35c2e272a042b9d3651b6cb5c6cffe16ab529968edeca9dfb077a320"
+  },
+  "directingSummary": {
+    "profile": "draft",
+    "requiredStateFamilies": 0,
+    "enhancementStateFamilies": 0,
+    "totalStateFamilies": 0,
+    "totalStates": 0,
+    "estimatedPoseSheetCalls": 0,
+    "maxStatesInFamily": 0,
+    "continuousTargets": 0,
+    "localMotionTargets": 1,
+    "visibilityTargets": 1,
+    "motifFieldTargets": 0,
+    "graphicTreatments": 0,
+    "coupledRelationships": 0,
+    "avoidedIsolatedStateCalls": 0,
+    "poseSheetPlans": [],
+    "budget": {
+      "maxPoseSheetCalls": 1,
+      "maxStatesPerSheet": 4,
+      "maxContinuousTargets": 2
+    },
+    "profileFulfillment": null,
+    "generationBudget": {
+      "requiredProviderImageCalls": 0,
+      "expectedProviderImageCalls": 0,
+      "sourcePackageProviderCalls": 0,
+      "poseSheetProviderCalls": 0,
+      "localDerivatives": 0,
+      "avoidedCalls": 0,
+      "hardCeiling": 6,
+      "sourcePackagePlans": []
+    },
+    "styleProofPlan": {
+      "requiredCoverage": [
+        "baseline:representative"
+      ],
+      "targets": [
+        {
+          "sceneId": "starter",
+          "treatmentId": "show-traveler",
+          "targetId": "traveler",
+          "proofTimeId": "proof-action",
+          "riskScore": 13,
+          "directingFingerprint": "a6b601980d443e3560db0f557867b2390f9f0e167240fd4a61577842e8fc7bec",
+          "sourceFamilyKey": "target:traveler",
+          "coverage": [
+            "baseline:representative"
+          ]
+        }
+      ],
+      "sourceFamilyKeys": [
+        "target:traveler"
+      ],
+      "motionContractFingerprint": "1ae3150d35c2e272a042b9d3651b6cb5c6cffe16ab529968edeca9dfb077a320",
+      "fingerprint": "01164240c0b5acbd95c15afb7f1537fd0a40b332c442231129560ec336525eec"
+    },
+    "fingerprint": "dc5aaf681e20c03f9ca2d86d8e48a9968be81a5502f9b31746e380cbd43cff04"
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 1,
+  "projectSlug": "time-patina-paper",
+  "status": "ready",
+  "contracts": [
+    {
+      "id": "paper-person-identity",
+      "kind": "identity",
+      "title": "无具体真人原型的纸片主人公",
+      "invariants": [
+        "所有姿态保持同一成年修长身形、短深色头发、及膝靛蓝长外套、米白长裤和细腻纸张质感。",
+        "坐姿、侧身与回望允许视角改变，但头身比例与身份辨识度连续。"
+      ],
+      "members": [
+        {
+          "id": "paper-person",
+          "label": "匿名回忆中的人",
+          "fingerprint": {
+            "faceOrFront": "简洁匿名面容；正面、三分之二侧身与回望保持同一身份",
+            "bodyOrProportion": "成年修长比例",
+            "headOrTop": "深墨色短发",
+            "palette": [
+              "靛蓝",
+              "旧纸米白"
+            ],
+            "distinguishingFeatures": [
+              "及膝靛蓝长外套",
+              "米白长裤",
+              "暗色平底鞋"
+            ]
+          }
+        }
+      ],
+      "coexistenceSets": [],
+      "evidenceTargets": [
+        {
+          "id": "person-consistency",
+          "scope": "asset",
+          "checks": [
+            "identity-family-consistent"
+          ],
+          "shots": [
+            {
+              "sceneId": "balanced-scene-07",
+              "nodeId": "paper-person",
+              "proofTimeIds": [
+                "established",
+                "transforming",
+                "resolved"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "story-cross-scene-person",
+          "scope": "composite",
+          "checks": [
+            "cross-scene-identity-continuity"
+          ],
+          "shots": [
+            {
+              "sceneId": "balanced-scene-01",
+              "nodeId": "paper-person",
+              "proofTimeIds": [
+                "established",
+                "transforming",
+                "resolved"
+              ]
+            },
+            {
+              "sceneId": "balanced-scene-02",
+              "nodeId": "paper-person",
+              "proofTimeIds": [
+                "established",
+                "transforming",
+                "resolved"
+              ]
+            },
+            {
+              "sceneId": "balanced-scene-03",
+              "nodeId": "paper-person",
+              "proofTimeIds": [
+                "established",
+                "transforming",
+                "resolved"
+              ]
+            },
+            {
+              "sceneId": "balanced-scene-04",
+              "nodeId": "paper-person",
+              "proofTimeIds": [
+                "established",
+                "transforming",
+                "resolved"
+              ]
+            },
+            {
+              "sceneId": "balanced-scene-06",
+              "nodeId": "paper-person",
+              "proofTimeIds": [
+                "established",
+                "transforming",
+                "resolved"
+              ]
+            },
+            {
+              "sceneId": "balanced-scene-07",
+              "nodeId": "paper-person",
+              "proofTimeIds": [
+                "established",
+                "transforming",
+                "resolved"
+              ]
+            },
+            {
+              "sceneId": "balanced-scene-08",
+              "nodeId": "paper-person",
+              "proofTimeIds": [
+                "established",
+                "transforming",
+                "resolved"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paper-person-topology",
+      "kind": "topology",
+      "title": "人物剪影结构",
+      "invariants": [
+        "头、躯干、两臂、两腿结构合理，不重复、不融合。"
+      ],
+      "subjectIds": [
+        "paper-person"
+      ],
+      "requiredVisibleParts": [
+        "一个头",
+        "两条手臂",
+        "两条腿",
+        "完整鞋部"
+      ],
+      "requiredNegativeSpaces": [
+        "两腿间和手臂外侧清晰的空隙"
+      ],
+      "evidenceTargets": [
+        {
+          "id": "person-outline",
+          "scope": "asset",
+          "checks": [
+            "silhouette-fidelity",
+            "negative-space-clean",
+            "background-leak-free"
+          ],
+          "shots": [
+            {
+              "sceneId": "balanced-scene-07",
+              "nodeId": "paper-person",
+              "proofTimeIds": [
+                "established",
+                "transforming",
+                "resolved"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rain-window-topology",
+      "kind": "topology",
+      "title": "雨窗与旧桌的空间结构",
+      "invariants": [
+        "窗框连续、窗格开口清晰，背景不粘连到前景剪纸。"
+      ],
+      "subjectIds": [
+        "world-1"
+      ],
+      "requiredVisibleParts": [
+        "完整窗框",
+        "独立旧纸桌面边缘"
+      ],
+      "requiredNegativeSpaces": [
+        "完整窗格"
+      ],
+      "evidenceTargets": [
+        {
+          "id": "window-outline",
+          "scope": "asset",
+          "checks": [
+            "silhouette-fidelity",
+            "negative-space-clean",
+            "background-leak-free"
+          ],
+          "shots": [
+            {
+              "sceneId": "balanced-scene-01",
+              "nodeId": "world-1",
+              "proofTimeIds": [
+                "established",
+                "transforming",
+                "resolved"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "letter-topology",
+      "kind": "topology",
+      "title": "旧信展开结构",
+      "invariants": [
+        "完整纸片轮廓，不增添无关部件；所有状态保持同一纸张、配色和固定底部位置。"
+      ],
+      "subjectIds": [
+        "memory-letter"
+      ],
+      "requiredVisibleParts": [
+        "完整信封",
+        "翻开的封口",
+        "同一张空白信纸"
+      ],
+      "requiredNegativeSpaces": [
+        "物件外围透明空隙"
+      ],
+      "evidenceTargets": [
+        {
+          "id": "outline",
+          "scope": "asset",
+          "checks": [
+            "silhouette-fidelity",
+            "negative-space-clean",
+            "background-leak-free"
+          ],
+          "shots": [
+            {
+              "sceneId": "balanced-scene-01",
+              "nodeId": "memory-letter",
+              "proofTimeIds": [
+                "established",
+                "transforming",
+                "resolved"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flower-topology",
+      "kind": "topology",
+      "title": "花朵绽放结构",
+      "invariants": [
+        "完整纸片轮廓，不增添无关部件；所有状态保持同一纸张、配色和固定底部位置。"
+      ],
+      "subjectIds": [
+        "flower"
+      ],
+      "requiredVisibleParts": [
+        "一支连续茎",
+        "完整叶片",
+        "同一朵花由花苞到开放"
+      ],
+      "requiredNegativeSpaces": [
+        "物件外围透明空隙"
+      ],
+      "evidenceTargets": [
+        {
+          "id": "outline",
+          "scope": "asset",
+          "checks": [
+            "silhouette-fidelity",
+            "negative-space-clean",
+            "background-leak-free"
+          ],
+          "shots": [
+            {
+              "sceneId": "balanced-scene-04",
+              "nodeId": "flower",
+              "proofTimeIds": [
+                "established",
+                "transforming",
+                "resolved"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "$schema": "../../schemas/semantic-contracts.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "story-feedback-v4",
+  "slug": "time-patina-paper",
+  "source": "preview-changes-requested",
+  "allowedSceneIds": [
+    "balanced-scene-01",
+    "balanced-scene-02",
+    "balanced-scene-03",
+    "balanced-scene-04",
+    "balanced-scene-05",
+    "balanced-scene-06",
+    "balanced-scene-07",
+    "balanced-scene-08"
+  ],
+  "humanNote": "我看了你修改的进度，感觉元素又偏少了一点，然后继续修改，再增加一条就是我希望这个MV和讲故事一样，体现故事感，而不是单纯几张风景图",
+  "equivalentQualityEvidence": [
+    "保留整首歌曲、原有纸片风格、从旧信到释怀的主线，25个取景镜头加入因果动作。",
+    "沿用已批准的同一人物、旧信和花的素材；新增本地相册与书签，未调用付费生成。",
+    "新增跨场景角色和道具关系需要新的构图、身份与地面接触检查，未将旧证据视为通过。"
+  ],
+  "decidedAt": "2026-10-07T11:12:57.667Z"
+}

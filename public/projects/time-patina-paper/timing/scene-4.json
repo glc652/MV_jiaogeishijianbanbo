@@ -1,0 +1,47 @@
+{
+  "source": "user-provided-LRC",
+  "sourceFile": "inputs/original-lyrics.lrc",
+  "songOffsetSeconds": 61.93333333333333,
+  "cues": [
+    {
+      "startSeconds": 0.006666666666667709,
+      "endSeconds": 3.596666666666671,
+      "text": "我沉默的崩溃 又慌乱的自愈"
+    },
+    {
+      "startSeconds": 3.596666666666671,
+      "endSeconds": 7.356666666666676,
+      "text": "我温柔的破碎 又拼凑起思绪"
+    },
+    {
+      "startSeconds": 7.356666666666676,
+      "endSeconds": 10.92666666666667,
+      "text": "我汹涌的眼泪 又有什么失去"
+    },
+    {
+      "startSeconds": 10.92666666666667,
+      "endSeconds": 14.20666666666667,
+      "text": "我想念的一切 怎么能够挽回"
+    },
+    {
+      "startSeconds": 14.636666666666663,
+      "endSeconds": 18.23666666666667,
+      "text": "我清醒的伤悲 又怎么能延续"
+    },
+    {
+      "startSeconds": 18.23666666666667,
+      "endSeconds": 21.696666666666665,
+      "text": "我想念的珍贵 又轻易的离去"
+    },
+    {
+      "startSeconds": 21.696666666666665,
+      "endSeconds": 25.496666666666677,
+      "text": "我情绪的浪费 我恩怨的是非"
+    },
+    {
+      "startSeconds": 25.496666666666677,
+      "endSeconds": 30.500000000000007,
+      "text": "释怀是放过自己 不是原谅谁"
+    }
+  ]
+}

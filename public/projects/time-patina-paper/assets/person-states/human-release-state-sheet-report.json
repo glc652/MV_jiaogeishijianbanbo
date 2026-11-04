@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 4,
+  "projectSlug": "time-patina-paper",
+  "poseFamilyId": "human-release",
+  "sourceAssetId": "human-release-sheet",
+  "sourceSha256": "cd345eb37c503aebce181839b29f33a5d8dc475853f16cbc5112ac22d813e418",
+  "familyFingerprint": "08af1b491682069b14dca0912aa1bb238ec1d7095a51e7d86636953c6f83d574",
+  "identityReference": {
+    "assetId": "paper-person-reference",
+    "sha256": "a0fef410f4cc80a08a12639668e5ff9afe0435336d7bb77cec25a15006d4a205",
+    "file": "public\\projects\\time-patina-paper\\assets\\paper-person-reference-v2.png"
+  },
+  "anchorPolicy": {
+    "requiredAnchorIds": [
+      "contact"
+    ],
+    "maximumDrift": 0.07
+  },
+  "anchorRegistrationProof": {
+    "requiredAnchorIds": [
+      "contact"
+    ],
+    "maximumAllowedDrift": 0.07,
+    "perAnchor": [
+      {
+        "anchorId": "contact",
+        "points": [
+          {
+            "stateId": "curled",
+            "point": {
+              "id": "contact",
+              "x": 0.5,
+              "y": 0.88
+            }
+          },
+          {
+            "stateId": "rising",
+            "point": {
+              "id": "contact",
+              "x": 0.5,
+              "y": 0.88
+            }
+          },
+          {
+            "stateId": "upright",
+            "point": {
+              "id": "contact",
+              "x": 0.5,
+              "y": 0.88
+            }
+          }
+        ],
+        "maximumObservedDrift": 0,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "providerImageCalls": 1,
+  "generationMode": "initial-family-sheet",
+  "sourceLifecycle": "active",
+  "recoverySourceSheetAssetId": null,
+  "observedKeyColors": {},
+  "repairedStateIds": [],
+  "preservedContextStateCount": 0,
+  "isolatedCellGenerationUsed": false,
+  "extraction": {
+    "mode": "equal-grid",
+    "canvas": {
+      "width": 627,
+      "height": 627
+    }
+  },
+  "derivedStateCount": 3,
+  "avoidedIndividualCalls": 2,
+  "members": [
+    {
+      "assetId": "human-release-curled",
+      "file": "public\\projects\\time-patina-paper\\assets\\person-states\\human-release-curled.png",
+      "sha256": "f288afec300149c12e4c0751c8fff867e8298ff77d6515aab40b21fb263c1a39",
+      "stateBinding": {
+        "poseFamilyId": "human-release",
+        "stateId": "curled",
+        "registrationId": "human-release-registration",
+        "sourceMasterAssetId": "human-release-sheet",
+        "facing": "front",
+        "anchors": [
+          {
+            "id": "contact",
+            "x": 0.5,
+            "y": 0.88
+          }
+        ],
+        "identityReferenceAssetId": "paper-person-reference",
+        "identityReferenceSha256": "a0fef410f4cc80a08a12639668e5ff9afe0435336d7bb77cec25a15006d4a205",
+        "anchorEvidence": {
+          "file": "public\\projects\\time-patina-paper\\assets\\person-states\\human-release-curled-anchors.png",
+          "sha256": "595a6ee1ccb64d8812f44fa0c93f1e8b3401271bad17fcaa2bd9bcf449723deb"
+        }
+      },
+      "anchorEvidence": {
+        "file": "public\\projects\\time-patina-paper\\assets\\person-states\\human-release-curled-anchors.png",
+        "sha256": "595a6ee1ccb64d8812f44fa0c93f1e8b3401271bad17fcaa2bd9bcf449723deb"
+      }
+    },
+    {
+      "assetId": "human-release-rising",
+      "file": "public\\projects\\time-patina-paper\\assets\\person-states\\human-release-rising.png",
+      "sha256": "785cd824329f4861c009d02181f000583bc612cfea752d9e228e5b0f973f034f",
+      "stateBinding": {
+        "poseFamilyId": "human-release",
+        "stateId": "rising",
+        "registrationId": "human-release-registration",
+        "sourceMasterAssetId": "human-release-sheet",
+        "facing": "front",
+        "anchors": [
+          {
+            "id": "contact",
+            "x": 0.5,
+            "y": 0.88
+          }
+        ],
+        "identityReferenceAssetId": "paper-person-reference",
+        "identityReferenceSha256": "a0fef410f4cc80a08a12639668e5ff9afe0435336d7bb77cec25a15006d4a205",
+        "anchorEvidence": {
+          "file": "public\\projects\\time-patina-paper\\assets\\person-states\\human-release-rising-anchors.png",
+          "sha256": "9f8b325083012596c7c227c227a3905441a541b0e9775049b775b0ff9cf36a35"
+        }
+      },
+      "anchorEvidence": {
+        "file": "public\\projects\\time-patina-paper\\assets\\person-states\\human-release-rising-anchors.png",
+        "sha256": "9f8b325083012596c7c227c227a3905441a541b0e9775049b775b0ff9cf36a35"
+      }
+    },
+    {
+      "assetId": "human-release-upright",
+      "file": "public\\projects\\time-patina-paper\\assets\\person-states\\human-release-upright.png",
+      "sha256": "2329d96862d669c56a45af26241d7259dccfd75da4af5c758ff23de4dad038a2",
+      "stateBinding": {
+        "poseFamilyId": "human-release",
+        "stateId": "upright",
+        "registrationId": "human-release-registration",
+        "sourceMasterAssetId": "human-release-sheet",
+        "facing": "front",
+        "anchors": [
+          {
+            "id": "contact",
+            "x": 0.5,
+            "y": 0.88
+          }
+        ],
+        "identityReferenceAssetId": "paper-person-reference",
+        "identityReferenceSha256": "a0fef410f4cc80a08a12639668e5ff9afe0435336d7bb77cec25a15006d4a205",
+        "anchorEvidence": {
+          "file": "public\\projects\\time-patina-paper\\assets\\person-states\\human-release-upright-anchors.png",
+          "sha256": "f8798522190e151683d677c41d21415a45be5474e470deb751830e90c63b614d"
+        }
+      },
+      "anchorEvidence": {
+        "file": "public\\projects\\time-patina-paper\\assets\\person-states\\human-release-upright-anchors.png",
+        "sha256": "f8798522190e151683d677c41d21415a45be5474e470deb751830e90c63b614d"
+      }
+    }
+  ],
+  "createdAt": "2026-10-06T13:46:52.796Z"
+}

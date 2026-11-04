@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 4,
+  "projectSlug": "time-patina-paper",
+  "poseFamilyId": "letter-open",
+  "sourceAssetId": "letter-open-sheet",
+  "sourceSha256": "68b4e34719da2e4db5328dc691859651cf7cc43e38ab4b587c7ea4d26783510d",
+  "familyFingerprint": "9981c1676691bc2276fdb0c8bbde95349f87f2746d01f7d0d7b6b566a2278d4b",
+  "identityReference": {
+    "assetId": "letter-open-reference",
+    "sha256": "676b2534f8904de621e18864e93a0d65a74787d525b9ed3ae15ce4478214c9fe",
+    "file": "public\\projects\\time-patina-paper\\assets\\letter-open-reference.png"
+  },
+  "anchorPolicy": {
+    "requiredAnchorIds": [
+      "contact"
+    ],
+    "maximumDrift": 0.07
+  },
+  "anchorRegistrationProof": {
+    "requiredAnchorIds": [
+      "contact"
+    ],
+    "maximumAllowedDrift": 0.07,
+    "perAnchor": [
+      {
+        "anchorId": "contact",
+        "points": [
+          {
+            "stateId": "sealed",
+            "point": {
+              "id": "contact",
+              "x": 0.5,
+              "y": 0.88
+            }
+          },
+          {
+            "stateId": "unfolding",
+            "point": {
+              "id": "contact",
+              "x": 0.5,
+              "y": 0.88
+            }
+          },
+          {
+            "stateId": "open",
+            "point": {
+              "id": "contact",
+              "x": 0.5,
+              "y": 0.88
+            }
+          }
+        ],
+        "maximumObservedDrift": 0,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "providerImageCalls": 1,
+  "generationMode": "initial-family-sheet",
+  "sourceLifecycle": "active",
+  "recoverySourceSheetAssetId": null,
+  "observedKeyColors": {},
+  "repairedStateIds": [],
+  "preservedContextStateCount": 0,
+  "isolatedCellGenerationUsed": false,
+  "extraction": {
+    "mode": "explicit-source-rects",
+    "canvas": {
+      "width": 650,
+      "height": 650
+    },
+    "cells": [
+      {
+        "stateId": "sealed",
+        "sourceRect": {
+          "left": 0,
+          "top": 0,
+          "width": 627,
+          "height": 650
+        },
+        "placement": {
+          "left": 0,
+          "top": 0
+        }
+      },
+      {
+        "stateId": "unfolding",
+        "sourceRect": {
+          "left": 627,
+          "top": 0,
+          "width": 627,
+          "height": 650
+        },
+        "placement": {
+          "left": 0,
+          "top": 0
+        }
+      },
+      {
+        "stateId": "open",
+        "sourceRect": {
+          "left": 0,
+          "top": 650,
+          "width": 627,
+          "height": 604
+        },
+        "placement": {
+          "left": 0,
+          "top": 0
+        }
+      }
+    ]
+  },
+  "derivedStateCount": 3,
+  "avoidedIndividualCalls": 2,
+  "members": [
+    {
+      "assetId": "letter-open-sealed",
+      "file": "public\\projects\\time-patina-paper\\assets\\letter-open-states\\letter-open-sealed.png",
+      "sha256": "01e3b1585623b42905d7e80a9f1a8e85999d05b7de55455acdd3e424554172ec",
+      "stateBinding": {
+        "poseFamilyId": "letter-open",
+        "stateId": "sealed",
+        "registrationId": "letter-open-registration",
+        "sourceMasterAssetId": "letter-open-sheet",
+        "facing": "front",
+        "anchors": [
+          {
+            "id": "contact",
+            "x": 0.5,
+            "y": 0.88
+          }
+        ],
+        "identityReferenceAssetId": "letter-open-reference",
+        "identityReferenceSha256": "676b2534f8904de621e18864e93a0d65a74787d525b9ed3ae15ce4478214c9fe",
+        "anchorEvidence": {
+          "file": "public\\projects\\time-patina-paper\\assets\\letter-open-states\\letter-open-sealed-anchors.png",
+          "sha256": "21909c6557ddf60daa397780468d0e13feb0579002dcb2e20219d6a3abc156a0"
+        }
+      },
+      "anchorEvidence": {
+        "file": "public\\projects\\time-patina-paper\\assets\\letter-open-states\\letter-open-sealed-anchors.png",
+        "sha256": "21909c6557ddf60daa397780468d0e13feb0579002dcb2e20219d6a3abc156a0"
+      }
+    },
+    {
+      "assetId": "letter-open-unfolding",
+      "file": "public\\projects\\time-patina-paper\\assets\\letter-open-states\\letter-open-unfolding.png",
+      "sha256": "c1d65b746e49b845537fa95b847d670b25c19801a8a66ebfbcdcb4395bfaf9c6",
+      "stateBinding": {
+        "poseFamilyId": "letter-open",
+        "stateId": "unfolding",
+        "registrationId": "letter-open-registration",
+        "sourceMasterAssetId": "letter-open-sheet",
+        "facing": "front",
+        "anchors": [
+          {
+            "id": "contact",
+            "x": 0.5,
+            "y": 0.88
+          }
+        ],
+        "identityReferenceAssetId": "letter-open-reference",
+        "identityReferenceSha256": "676b2534f8904de621e18864e93a0d65a74787d525b9ed3ae15ce4478214c9fe",
+        "anchorEvidence": {
+          "file": "public\\projects\\time-patina-paper\\assets\\letter-open-states\\letter-open-unfolding-anchors.png",
+          "sha256": "0e4c71904772d11e4844836860fff23babad3e9e0e63a5cc1ffb9e757a2e7969"
+        }
+      },
+      "anchorEvidence": {
+        "file": "public\\projects\\time-patina-paper\\assets\\letter-open-states\\letter-open-unfolding-anchors.png",
+        "sha256": "0e4c71904772d11e4844836860fff23babad3e9e0e63a5cc1ffb9e757a2e7969"
+      }
+    },
+    {
+      "assetId": "letter-open-open",
+      "file": "public\\projects\\time-patina-paper\\assets\\letter-open-states\\letter-open-open.png",
+      "sha256": "d59fe8dce6b72e1f0cadfb59770111a3c6ef5c2cd919184a8c4993ff342d5847",
+      "stateBinding": {
+        "poseFamilyId": "letter-open",
+        "stateId": "open",
+        "registrationId": "letter-open-registration",
+        "sourceMasterAssetId": "letter-open-sheet",
+        "facing": "front",
+        "anchors": [
+          {
+            "id": "contact",
+            "x": 0.5,
+            "y": 0.88
+          }
+        ],
+        "identityReferenceAssetId": "letter-open-reference",
+        "identityReferenceSha256": "676b2534f8904de621e18864e93a0d65a74787d525b9ed3ae15ce4478214c9fe",
+        "anchorEvidence": {
+          "file": "public\\projects\\time-patina-paper\\assets\\letter-open-states\\letter-open-open-anchors.png",
+          "sha256": "04aae406d4ba40ad4e410bc5c2d8e7d6564c612b959ad852e961c5ca1fa063d3"
+        }
+      },
+      "anchorEvidence": {
+        "file": "public\\projects\\time-patina-paper\\assets\\letter-open-states\\letter-open-open-anchors.png",
+        "sha256": "04aae406d4ba40ad4e410bc5c2d8e7d6564c612b959ad852e961c5ca1fa063d3"
+      }
+    }
+  ],
+  "createdAt": "2026-10-06T21:11:58.697Z"
+}

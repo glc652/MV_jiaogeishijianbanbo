@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 4,
+  "projectSlug": "time-patina-paper",
+  "poseFamilyId": "human-album",
+  "sourceAssetId": "human-album-sheet",
+  "sourceSha256": "f09ee00dd6b5a1c75c285a56dbd9d0c5543e509d35df8e19c65d589da136dc4b",
+  "familyFingerprint": "61504f0fa31a390aff1e269c19f4df29cd2940a5c4fab43fe94b3ce50ad0c08f",
+  "identityReference": {
+    "assetId": "paper-person-reference",
+    "sha256": "a0fef410f4cc80a08a12639668e5ff9afe0435336d7bb77cec25a15006d4a205",
+    "file": "public\\projects\\time-patina-paper\\assets\\paper-person-reference-v2.png"
+  },
+  "anchorPolicy": {
+    "requiredAnchorIds": [
+      "contact"
+    ],
+    "maximumDrift": 0.07
+  },
+  "anchorRegistrationProof": {
+    "requiredAnchorIds": [
+      "contact"
+    ],
+    "maximumAllowedDrift": 0.07,
+    "perAnchor": [
+      {
+        "anchorId": "contact",
+        "points": [
+          {
+            "stateId": "album-open",
+            "point": {
+              "id": "contact",
+              "x": 0.5,
+              "y": 0.88
+            }
+          },
+          {
+            "stateId": "album-turn",
+            "point": {
+              "id": "contact",
+              "x": 0.5,
+              "y": 0.88
+            }
+          },
+          {
+            "stateId": "album-held",
+            "point": {
+              "id": "contact",
+              "x": 0.5,
+              "y": 0.88
+            }
+          }
+        ],
+        "maximumObservedDrift": 0,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "providerImageCalls": 1,
+  "generationMode": "initial-family-sheet",
+  "sourceLifecycle": "active",
+  "recoverySourceSheetAssetId": null,
+  "observedKeyColors": {},
+  "repairedStateIds": [],
+  "preservedContextStateCount": 0,
+  "isolatedCellGenerationUsed": false,
+  "extraction": {
+    "mode": "explicit-source-rects",
+    "canvas": {
+      "width": 650,
+      "height": 650
+    },
+    "cells": [
+      {
+        "stateId": "album-open",
+        "sourceRect": {
+          "left": 0,
+          "top": 0,
+          "width": 627,
+          "height": 633
+        },
+        "placement": {
+          "left": 0,
+          "top": 0
+        }
+      },
+      {
+        "stateId": "album-turn",
+        "sourceRect": {
+          "left": 627,
+          "top": 0,
+          "width": 627,
+          "height": 633
+        },
+        "placement": {
+          "left": 0,
+          "top": 0
+        }
+      },
+      {
+        "stateId": "album-held",
+        "sourceRect": {
+          "left": 0,
+          "top": 633,
+          "width": 650,
+          "height": 621
+        },
+        "placement": {
+          "left": 0,
+          "top": 0
+        }
+      }
+    ]
+  },
+  "derivedStateCount": 3,
+  "avoidedIndividualCalls": 2,
+  "members": [
+    {
+      "assetId": "human-album-album-open",
+      "file": "public\\projects\\time-patina-paper\\assets\\character-v5\\human-album-album-open.png",
+      "sha256": "10b9dfbee828179ff518b7a038eed9a3af84ea68eb7bc1a4e322a08740c4646f",
+      "stateBinding": {
+        "poseFamilyId": "human-album",
+        "stateId": "album-open",
+        "registrationId": "human-album-registration",
+        "sourceMasterAssetId": "human-album-sheet",
+        "facing": "front",
+        "anchors": [
+          {
+            "id": "contact",
+            "x": 0.5,
+            "y": 0.88
+          }
+        ],
+        "identityReferenceAssetId": "paper-person-reference",
+        "identityReferenceSha256": "a0fef410f4cc80a08a12639668e5ff9afe0435336d7bb77cec25a15006d4a205",
+        "anchorEvidence": {
+          "file": "public\\projects\\time-patina-paper\\assets\\character-v5\\human-album-album-open-anchors.png",
+          "sha256": "249a7b437cefb29993dffd077082b95cc1c6f6c21a653b603b5a8eae9e60f806"
+        }
+      },
+      "anchorEvidence": {
+        "file": "public\\projects\\time-patina-paper\\assets\\character-v5\\human-album-album-open-anchors.png",
+        "sha256": "249a7b437cefb29993dffd077082b95cc1c6f6c21a653b603b5a8eae9e60f806"
+      }
+    },
+    {
+      "assetId": "human-album-album-turn",
+      "file": "public\\projects\\time-patina-paper\\assets\\character-v5\\human-album-album-turn.png",
+      "sha256": "625a0b554866f8949c7bffc807df42c0a8b41235c5f919dc2ec868f696b71fc2",
+      "stateBinding": {
+        "poseFamilyId": "human-album",
+        "stateId": "album-turn",
+        "registrationId": "human-album-registration",
+        "sourceMasterAssetId": "human-album-sheet",
+        "facing": "front",
+        "anchors": [
+          {
+            "id": "contact",
+            "x": 0.5,
+            "y": 0.88
+          }
+        ],
+        "identityReferenceAssetId": "paper-person-reference",
+        "identityReferenceSha256": "a0fef410f4cc80a08a12639668e5ff9afe0435336d7bb77cec25a15006d4a205",
+        "anchorEvidence": {
+          "file": "public\\projects\\time-patina-paper\\assets\\character-v5\\human-album-album-turn-anchors.png",
+          "sha256": "54f563f0b608a0e7576dd07c511e0492e1fb2e1c09b933782239aea7eaabda51"
+        }
+      },
+      "anchorEvidence": {
+        "file": "public\\projects\\time-patina-paper\\assets\\character-v5\\human-album-album-turn-anchors.png",
+        "sha256": "54f563f0b608a0e7576dd07c511e0492e1fb2e1c09b933782239aea7eaabda51"
+      }
+    },
+    {
+      "assetId": "human-album-album-held",
+      "file": "public\\projects\\time-patina-paper\\assets\\character-v5\\human-album-album-held.png",
+      "sha256": "bcf3f9adfa02b8c8dafe44899a6fbef7dc45a53ddbee5c80ca59327cd0ecd944",
+      "stateBinding": {
+        "poseFamilyId": "human-album",
+        "stateId": "album-held",
+        "registrationId": "human-album-registration",
+        "sourceMasterAssetId": "human-album-sheet",
+        "facing": "front",
+        "anchors": [
+          {
+            "id": "contact",
+            "x": 0.5,
+            "y": 0.88
+          }
+        ],
+        "identityReferenceAssetId": "paper-person-reference",
+        "identityReferenceSha256": "a0fef410f4cc80a08a12639668e5ff9afe0435336d7bb77cec25a15006d4a205",
+        "anchorEvidence": {
+          "file": "public\\projects\\time-patina-paper\\assets\\character-v5\\human-album-album-held-anchors.png",
+          "sha256": "77a8b76e4d3f50ac29da02beaab5851ad8f141a0875f87c63c2f9b1c4a5b6ede"
+        }
+      },
+      "anchorEvidence": {
+        "file": "public\\projects\\time-patina-paper\\assets\\character-v5\\human-album-album-held-anchors.png",
+        "sha256": "77a8b76e4d3f50ac29da02beaab5851ad8f141a0875f87c63c2f9b1c4a5b6ede"
+      }
+    }
+  ],
+  "createdAt": "2026-10-08T04:48:19.659Z"
+}

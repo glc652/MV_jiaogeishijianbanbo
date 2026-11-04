@@ -1,0 +1,357 @@
+{
+  "note": "用户在收到三档制作卡及均衡动画 28 次上限推荐后回复“那开始创作新的mv”，按该推荐方案开始；用户此前已委托决定视觉风格。",
+  "scenarioDecision": {
+    "scenarioSetFingerprint": "6776f2c6ba59a4305b6768865693e2df335c2930d4d59417c8c4b9f21015ace8",
+    "optionId": "balanced",
+    "optionFingerprint": "d060353303c5d6e66bb2ef7bf6db4771edcb885a6e8a2b12ed97e83b0344cc3b",
+    "storyScope": "standard",
+    "durationSeconds": 193.462313,
+    "sceneCount": 8,
+    "expectedProviderImageCalls": 24,
+    "proposedImageAttemptLimit": 28,
+    "profileHardCeiling": 49
+  },
+  "planDecision": {
+    "productionProfile": "balanced",
+    "durationSeconds": 193.462313,
+    "sceneCount": 8,
+    "durationAuthority": "human-target",
+    "assetBudget": {
+      "backgrounds": 8,
+      "environmentLayers": 4,
+      "characterSheets": 4,
+      "styleSamples": 1,
+      "baseImageAttempts": 17,
+      "layerPackageAttemptReserve": 32,
+      "maxGeneratedImages": 49
+    },
+    "motionBudget": {
+      "maxPoseSheetCalls": 4,
+      "maxStatesPerSheet": 4,
+      "maxContinuousTargets": 32
+    },
+    "approvedImageBudget": null,
+    "storyScope": "standard",
+    "scenarioBinding": {
+      "scenarioSetFingerprint": "6776f2c6ba59a4305b6768865693e2df335c2930d4d59417c8c4b9f21015ace8",
+      "optionId": "balanced",
+      "optionFingerprint": "d060353303c5d6e66bb2ef7bf6db4771edcb885a6e8a2b12ed97e83b0344cc3b",
+      "expectedProviderImageCalls": 24,
+      "proposedImageAttemptLimit": 28,
+      "selectedAt": "2026-10-05T14:29:06.259Z"
+    },
+    "profilePromise": {
+      "minRequiredStateFamilies": 3,
+      "minEnhancementStateFamilies": 0,
+      "minTotalStates": 9,
+      "minLocalMotionTargets": 16,
+      "minLayeredScenes": 4,
+      "minParallaxScenes": 4,
+      "minAmbientScenes": 2
+    },
+    "profileOptions": [
+      {
+        "id": "draft",
+        "label": "轻量成片",
+        "summary": "以零成本本地运动为主；只为无法用变换表达的必要语义动作生成状态。",
+        "finalImpact": "不是静态幻灯片：角色和镜头仍会移动、呼吸、渐显与转场，但动作细节和景深更克制。",
+        "assetBudget": {
+          "backgrounds": 8,
+          "environmentLayers": 2,
+          "characterSheets": 2,
+          "styleSamples": 1,
+          "baseImageAttempts": 13,
+          "layerPackageAttemptReserve": 16,
+          "maxGeneratedImages": 29
+        },
+        "motionBudget": {
+          "maxPoseSheetCalls": 2,
+          "maxStatesPerSheet": 4,
+          "maxContinuousTargets": 16
+        }
+      },
+      {
+        "id": "balanced",
+        "label": "均衡动画",
+        "summary": "本地运动与关键状态序列结合；主要动作通常使用 2–4 格状态，并选择性分层。",
+        "finalImpact": "主要动作真正发生变化，关键镜头具备前中后景、视差和适量环境生命。",
+        "assetBudget": {
+          "backgrounds": 8,
+          "environmentLayers": 4,
+          "characterSheets": 4,
+          "styleSamples": 1,
+          "baseImageAttempts": 17,
+          "layerPackageAttemptReserve": 32,
+          "maxGeneratedImages": 49
+        },
+        "motionBudget": {
+          "maxPoseSheetCalls": 4,
+          "maxStatesPerSheet": 4,
+          "maxContinuousTargets": 32
+        }
+      },
+      {
+        "id": "full-depth",
+        "label": "完整纵深",
+        "summary": "更完整的动作家族、4–6 格关键状态、丰富层次、视差、循环世界和环境生命。",
+        "finalImpact": "角色动作更细，空间更深，天气与环境元素更丰富；只增加服务叙事的细节。",
+        "assetBudget": {
+          "backgrounds": 8,
+          "environmentLayers": 16,
+          "characterSheets": 8,
+          "styleSamples": 1,
+          "baseImageAttempts": 33,
+          "layerPackageAttemptReserve": 64,
+          "maxGeneratedImages": 97
+        },
+        "motionBudget": {
+          "maxPoseSheetCalls": 8,
+          "maxStatesPerSheet": 6,
+          "maxContinuousTargets": 48
+        }
+      }
+    ]
+  },
+  "budgetDecision": {
+    "imageAttemptLimit": 28
+  },
+  "sourcePackageDecision": {
+    "requiredProviderImageCalls": 19,
+    "expectedProviderImageCalls": 19,
+    "hardCeiling": 49,
+    "sourcePackagePlans": [
+      {
+        "id": "balanced-source-1",
+        "treatmentId": "balanced-scene-01-layer-package",
+        "sceneId": "balanced-scene-01",
+        "targetId": "world-1",
+        "pattern": "registered-depth-stack",
+        "motionCapability": "bounded-relative",
+        "sourceStrategy": "context-preserving-layer-edits",
+        "layers": [
+          {
+            "id": "rear",
+            "role": "support-rear",
+            "completeness": "clean-plate",
+            "depth": -0.7
+          },
+          {
+            "id": "subject",
+            "role": "subject",
+            "completeness": "full-silhouette",
+            "depth": 0
+          },
+          {
+            "id": "front",
+            "role": "support-front",
+            "completeness": "full-overlay",
+            "depth": 0.7
+          }
+        ],
+        "revealEnvelope": {
+          "16:9": {
+            "x": 0.025,
+            "y": 0.015,
+            "scale": 0.035,
+            "rotationDegrees": 0.7
+          },
+          "9:16": {
+            "x": 0.025,
+            "y": 0.015,
+            "scale": 0.035,
+            "rotationDegrees": 0.7
+          },
+          "1:1": {
+            "x": 0.025,
+            "y": 0.015,
+            "scale": 0.035,
+            "rotationDegrees": 0.7
+          }
+        },
+        "subjectTravelEnvelope": null,
+        "providerImageCalls": 4,
+        "localDerivatives": 3,
+        "avoidedCalls": 0,
+        "proofTimeId": "established"
+      },
+      {
+        "id": "balanced-source-4",
+        "treatmentId": "balanced-scene-04-layer-package",
+        "sceneId": "balanced-scene-04",
+        "targetId": "world-4",
+        "pattern": "registered-depth-stack",
+        "motionCapability": "bounded-relative",
+        "sourceStrategy": "context-preserving-layer-edits",
+        "layers": [
+          {
+            "id": "rear",
+            "role": "support-rear",
+            "completeness": "clean-plate",
+            "depth": -0.7
+          },
+          {
+            "id": "subject",
+            "role": "subject",
+            "completeness": "full-silhouette",
+            "depth": 0
+          },
+          {
+            "id": "front",
+            "role": "support-front",
+            "completeness": "full-overlay",
+            "depth": 0.7
+          }
+        ],
+        "revealEnvelope": {
+          "16:9": {
+            "x": 0.025,
+            "y": 0.015,
+            "scale": 0.035,
+            "rotationDegrees": 0.7
+          },
+          "9:16": {
+            "x": 0.025,
+            "y": 0.015,
+            "scale": 0.035,
+            "rotationDegrees": 0.7
+          },
+          "1:1": {
+            "x": 0.025,
+            "y": 0.015,
+            "scale": 0.035,
+            "rotationDegrees": 0.7
+          }
+        },
+        "subjectTravelEnvelope": null,
+        "providerImageCalls": 4,
+        "localDerivatives": 3,
+        "avoidedCalls": 0,
+        "proofTimeId": "established"
+      },
+      {
+        "id": "balanced-source-6",
+        "treatmentId": "balanced-scene-06-layer-package",
+        "sceneId": "balanced-scene-06",
+        "targetId": "world-6",
+        "pattern": "registered-depth-stack",
+        "motionCapability": "bounded-relative",
+        "sourceStrategy": "context-preserving-layer-edits",
+        "layers": [
+          {
+            "id": "rear",
+            "role": "support-rear",
+            "completeness": "clean-plate",
+            "depth": -0.7
+          },
+          {
+            "id": "subject",
+            "role": "subject",
+            "completeness": "full-silhouette",
+            "depth": 0
+          },
+          {
+            "id": "front",
+            "role": "support-front",
+            "completeness": "full-overlay",
+            "depth": 0.7
+          }
+        ],
+        "revealEnvelope": {
+          "16:9": {
+            "x": 0.025,
+            "y": 0.015,
+            "scale": 0.035,
+            "rotationDegrees": 0.7
+          },
+          "9:16": {
+            "x": 0.025,
+            "y": 0.015,
+            "scale": 0.035,
+            "rotationDegrees": 0.7
+          },
+          "1:1": {
+            "x": 0.025,
+            "y": 0.015,
+            "scale": 0.035,
+            "rotationDegrees": 0.7
+          }
+        },
+        "subjectTravelEnvelope": null,
+        "providerImageCalls": 4,
+        "localDerivatives": 3,
+        "avoidedCalls": 0,
+        "proofTimeId": "established"
+      },
+      {
+        "id": "balanced-source-7",
+        "treatmentId": "balanced-scene-07-layer-package",
+        "sceneId": "balanced-scene-07",
+        "targetId": "world-7",
+        "pattern": "registered-depth-stack",
+        "motionCapability": "bounded-relative",
+        "sourceStrategy": "context-preserving-layer-edits",
+        "layers": [
+          {
+            "id": "rear",
+            "role": "support-rear",
+            "completeness": "clean-plate",
+            "depth": -0.7
+          },
+          {
+            "id": "subject",
+            "role": "subject",
+            "completeness": "full-silhouette",
+            "depth": 0
+          },
+          {
+            "id": "front",
+            "role": "support-front",
+            "completeness": "full-overlay",
+            "depth": 0.7
+          }
+        ],
+        "revealEnvelope": {
+          "16:9": {
+            "x": 0.025,
+            "y": 0.015,
+            "scale": 0.035,
+            "rotationDegrees": 0.7
+          },
+          "9:16": {
+            "x": 0.025,
+            "y": 0.015,
+            "scale": 0.035,
+            "rotationDegrees": 0.7
+          },
+          "1:1": {
+            "x": 0.025,
+            "y": 0.015,
+            "scale": 0.035,
+            "rotationDegrees": 0.7
+          }
+        },
+        "subjectTravelEnvelope": null,
+        "providerImageCalls": 4,
+        "localDerivatives": 3,
+        "avoidedCalls": 0,
+        "proofTimeId": "established"
+      }
+    ]
+  },
+  "selections": [
+    {
+      "capability": "text",
+      "providerId": "host-text"
+    },
+    {
+      "capability": "image",
+      "providerId": "host-image",
+      "tool": "image_gen.imagegen"
+    },
+    {
+      "capability": "voice",
+      "providerId": "manual-voice",
+      "label": "用户提供的歌曲，原曲导入，不生成配音"
+    }
+  ]
+}

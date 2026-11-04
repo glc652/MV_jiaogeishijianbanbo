@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 8,
+  "projectSlug": "time-patina-paper",
+  "assetId": "release-coast-front",
+  "capability": "image",
+  "output": "public/projects/time-patina-paper/assets/release-coast-front.png",
+  "prompt": "Use aged paper, restrained sepia color, halftone print texture, and archival cutout framing.\nTreat photographs and documents as tactile evidence layers with legible hierarchy.\nAvoid: Glossy modern gradients, neon color, and playful preschool proportions.\nComposition: Organize evidence in measured overlapping planes with one dominant archival focal point.\nComposition: Preserve readable margins, captions, and document edges instead of filling every gap.\nEdit the attached COMPLETE reference, exact 1672x941 canvas and registration. Retain ONLY the sparse foreground: Sparse pressed ivory daisies and ochre grasses framing the far right edge and a few lower-left paper petals, leaving the middle completely open for a person. Preserve exact positions, size and fine stems. Remove all background and middle objects and their shadows to genuine transparent alpha. No shifting, redesign, cropped silhouettes or checkerboard. Cinematic fine-art archival PAPER COLLAGE, elegant album cover quality, exact landscape 1672x941 pixels. Restrained ivory, sepia, desaturated indigo and warm gold palette, detailed paper grain, halftone printed photograph textures and authentic ragged paper edges. No text, typography, labels, watermarks, logos or people. No frames or contact sheet. The bottom 18 percent is quiet warm ivory with subdued texture for editable Chinese lyrics. All compositions designed with genuine independent rear, middle and sparse front planes. Release and reconciliation with oneself, spacious and quietly hopeful. No person: the previously approved animated paper character is added later.",
+  "styleProfileBinding": {
+    "schemaVersion": 1,
+    "id": "archival-collage",
+    "catalogVersion": "2026-07-30.2",
+    "profileFingerprint": "03374c56e20183c3e8d4ddb0e4883a50e7ecdb7ca207711e786cbd2106415885",
+    "directives": [
+      "Use aged paper, restrained sepia color, halftone print texture, and archival cutout framing.",
+      "Treat photographs and documents as tactile evidence layers with legible hierarchy.",
+      "Avoid: Glossy modern gradients, neon color, and playful preschool proportions.",
+      "Composition: Organize evidence in measured overlapping planes with one dominant archival focal point.",
+      "Composition: Preserve readable margins, captions, and document edges instead of filling every gap."
+    ]
+  },
+  "outputSurface": {
+    "mode": "alpha"
+  },
+  "compositionBinding": {
+    "sceneId": "balanced-scene-07",
+    "nodeId": "world-7",
+    "pattern": "registered-depth-stack",
+    "outputRole": "support-front",
+    "registrationId": "release-coast-family",
+    "sourceMasterAssetId": "release-coast-master",
+    "canvas": {
+      "width": 1672,
+      "height": 941
+    },
+    "derivation": {
+      "method": "provider-edit",
+      "parentAssetId": "release-coast-master"
+    }
+  },
+  "layerPackageBinding": {
+    "sourcePackageId": "balanced-source-7",
+    "pattern": "registered-depth-stack",
+    "motionCapability": "bounded-relative",
+    "sourceStrategy": "context-preserving-layer-edits",
+    "registrationId": "release-coast-family",
+    "sourceMasterAssetId": "release-coast-master",
+    "canvas": {
+      "width": 1672,
+      "height": 941
+    },
+    "packageRole": "support-front",
+    "completeness": "full-overlay",
+    "memberAssetIds": [
+      "release-coast-rear",
+      "release-coast-subject",
+      "release-coast-front"
+    ],
+    "referenceAssetIds": [
+      "release-coast-master"
+    ],
+    "sheetLayout": null,
+    "recoveryPolicy": {
+      "completeSourceContext": true,
+      "localDeterministicFixFirst": true,
+      "isolatedMemberGeneration": "forbidden",
+      "providerRepair": "masked-complete-source-edit",
+      "fallback": "full-source-regeneration"
+    }
+  },
+  "semanticBinding": {
+    "riskClass": "decorative",
+    "contractIds": []
+  },
+  "quality": {
+    "requiredChecks": [
+      "no-text",
+      "no-watermark",
+      "style-consistent",
+      "style-profile-conformant"
+    ]
+  }
+}

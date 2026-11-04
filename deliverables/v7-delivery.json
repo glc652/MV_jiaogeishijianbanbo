@@ -1,0 +1,25 @@
+{
+  "version": 7,
+  "file": "dist/time-patina-paper/交给时间斑驳_场景扩充版_v7.mp4",
+  "generatedAt": "2026-10-11T15:51:36.210Z",
+  "durationSeconds": 193.466667,
+  "width": 960,
+  "height": 540,
+  "fps": "30/1",
+  "sha256": "ec2006c7cead58e9827c324a7e11375837d7d2c03f8fff2d9929d92c960c4f72",
+  "sizeBytes": 24382365,
+  "technicalPassed": true,
+  "continuityPassed": true,
+  "subtitlesPassed": true,
+  "fullDecodePassed": true,
+  "newLocations": 3,
+  "locationInserts": 10,
+  "visualSegments": 28,
+  "visualReview": {
+    "encodedSamples": 70,
+    "insertBoundaries": 20,
+    "notes": "Viewed all six current encoded contact sheets and subtitle sheet. New station, train and room settings remain coherent with the paper palette. Wipes reveal complete imagery, including sea transitions at 95.38s and 98.68s after the offscreen canvas fix. No exposed brown canvas gaps observed. Existing action windows remain unobstructed."
+  },
+  "deliveryKind": "preview",
+  "humanCreativeApproval": "pending"
+}

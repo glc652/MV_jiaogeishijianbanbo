@@ -1,0 +1,418 @@
+{
+  "$schema": "../../schemas/production.schema.json",
+  "schemaVersion": 1,
+  "slug": "time-patina-paper",
+  "stage": "asset-production",
+  "createdAt": "2026-10-05T14:03:24.796Z",
+  "updatedAt": "2026-10-08T04:38:39.204Z",
+  "approvals": {
+    "concept": {
+      "status": "approved",
+      "decidedAt": "2026-10-05T14:33:27.236Z",
+      "note": "用户在收到三档制作卡及均衡动画 28 次上限推荐后回复“那开始创作新的mv”，按该推荐方案开始；用户此前已委托决定视觉风格。"
+    },
+    "styleAndVoice": {
+      "status": "approved",
+      "decidedAt": "2026-10-06T14:03:27.983Z",
+      "note": "用户已观看动作修订样片 v2 并明确回复：可以，继续。批准该纸片风格、人物动作过渡及原曲音频，继续完整 MV 制作。"
+    },
+    "preview": {
+      "status": "changes-requested",
+      "decidedAt": "2026-10-07T11:07:51.125Z",
+      "note": "用户反馈：元素又偏少，希望继续修改并体现讲故事的故事感，而不是单纯几张风景图。授权在保留原曲和释怀主题基础上，加入贯穿人物、旧信和相册的因果情节并适当增加叙事道具。"
+    },
+    "publish": {
+      "status": "pending",
+      "decidedAt": null,
+      "note": ""
+    }
+  },
+  "workItems": [
+    {
+      "id": "directing-revision-balanced-scene-01",
+      "label": "同步导演重编镜头 balanced-scene-01",
+      "status": "pending",
+      "updatedAt": "2026-10-07T11:26:14.979Z",
+      "artifact": "projects/time-patina-paper/directing-revision.json",
+      "note": "按新 storyboard 同步 project.json 执行树并重新验证。"
+    },
+    {
+      "id": "directing-revision-balanced-scene-04",
+      "label": "同步导演重编镜头 balanced-scene-04",
+      "status": "pending",
+      "updatedAt": "2026-10-07T11:26:14.979Z",
+      "artifact": "projects/time-patina-paper/directing-revision.json",
+      "note": "按新 storyboard 同步 project.json 执行树并重新验证。"
+    },
+    {
+      "id": "directing-revision-balanced-scene-07",
+      "label": "同步导演重编镜头 balanced-scene-07",
+      "status": "pending",
+      "updatedAt": "2026-10-07T11:26:14.979Z",
+      "artifact": "projects/time-patina-paper/directing-revision.json",
+      "note": "按新 storyboard 同步 project.json 执行树并重新验证。"
+    },
+    {
+      "id": "directing-revision-balanced-scene-02",
+      "label": "同步导演重编镜头 balanced-scene-02",
+      "status": "pending",
+      "updatedAt": "2026-10-07T11:21:33.421Z",
+      "artifact": "projects/time-patina-paper/directing-revision.json",
+      "note": "按新 storyboard 同步 project.json 执行树并重新验证。"
+    },
+    {
+      "id": "directing-revision-balanced-scene-03",
+      "label": "同步导演重编镜头 balanced-scene-03",
+      "status": "pending",
+      "updatedAt": "2026-10-07T11:21:33.421Z",
+      "artifact": "projects/time-patina-paper/directing-revision.json",
+      "note": "按新 storyboard 同步 project.json 执行树并重新验证。"
+    },
+    {
+      "id": "directing-revision-balanced-scene-05",
+      "label": "同步导演重编镜头 balanced-scene-05",
+      "status": "pending",
+      "updatedAt": "2026-10-07T11:26:14.979Z",
+      "artifact": "projects/time-patina-paper/directing-revision.json",
+      "note": "按新 storyboard 同步 project.json 执行树并重新验证。"
+    },
+    {
+      "id": "directing-revision-balanced-scene-06",
+      "label": "同步导演重编镜头 balanced-scene-06",
+      "status": "pending",
+      "updatedAt": "2026-10-07T11:26:14.979Z",
+      "artifact": "projects/time-patina-paper/directing-revision.json",
+      "note": "按新 storyboard 同步 project.json 执行树并重新验证。"
+    },
+    {
+      "id": "directing-revision-balanced-scene-08",
+      "label": "同步导演重编镜头 balanced-scene-08",
+      "status": "pending",
+      "updatedAt": "2026-10-07T11:26:14.979Z",
+      "artifact": "projects/time-patina-paper/directing-revision.json",
+      "note": "按新 storyboard 同步 project.json 执行树并重新验证。"
+    },
+    {
+      "id": "story-v4-render",
+      "label": "故事版构图复查与完整预览",
+      "status": "in-progress",
+      "updatedAt": "2026-10-07T11:17:56.426Z",
+      "artifact": "projects/time-patina-paper/故事版分镜_v4.md",
+      "note": "用户明确回复可以，继续；恢复故事版构图检查与预览。"
+    }
+  ],
+  "artifacts": {
+    "brief": "projects/time-patina-paper/brief.md",
+    "project": "projects/time-patina-paper/project.json",
+    "storyboard": "projects/time-patina-paper/storyboard.json",
+    "prompts": "projects/time-patina-paper/prompts.json",
+    "review": "projects/time-patina-paper/review.md",
+    "motionLanguageCard": "projects\\time-patina-paper\\motion-language-card.json",
+    "motionApproval": "projects\\time-patina-paper\\motion-approval.json",
+    "validationReport": null,
+    "assetsReadySeal": null,
+    "preview": null,
+    "final": null,
+    "report": null,
+    "contactSheet": null,
+    "styleProof": null,
+    "directingRevision": "projects/time-patina-paper/directing-revision.json",
+    "semanticRevision": "projects/time-patina-paper/semantic-revision.json"
+  },
+  "history": [
+    {
+      "at": "2026-10-05T14:03:24.796Z",
+      "action": "project-created",
+      "stage": "capability-review",
+      "note": ""
+    },
+    {
+      "at": "2026-10-05T14:32:44.801Z",
+      "action": "motion-language-compiled",
+      "stage": "capability-review",
+      "note": "projects\\time-patina-paper\\motion-language-card.json"
+    },
+    {
+      "at": "2026-10-05T14:33:27.236Z",
+      "action": "capabilities-ready",
+      "stage": "brief",
+      "note": "用户在收到三档制作卡及均衡动画 28 次上限推荐后回复“那开始创作新的mv”，按该推荐方案开始；用户此前已委托决定视觉风格。"
+    },
+    {
+      "at": "2026-10-05T14:33:27.236Z",
+      "action": "brief-ready",
+      "stage": "concept-review",
+      "note": ""
+    },
+    {
+      "at": "2026-10-05T14:33:27.236Z",
+      "action": "approve-concept",
+      "stage": "style-review",
+      "note": "用户在收到三档制作卡及均衡动画 28 次上限推荐后回复“那开始创作新的mv”，按该推荐方案开始；用户此前已委托决定视觉风格。"
+    },
+    {
+      "at": "2026-10-06T13:46:35.974Z",
+      "action": "request-style-voice-revision",
+      "stage": "style-review",
+      "note": "用户反馈：感觉人物纸片的动画不连贯；继续修改人物姿态比例、落点与过渡。"
+    },
+    {
+      "at": "2026-10-06T13:46:52.347Z",
+      "action": "revise-preview-directing",
+      "stage": "style-review",
+      "note": "style-review · balanced-scene-01, balanced-scene-04, balanced-scene-07 · projects/time-patina-paper/directing-revision.json"
+    },
+    {
+      "at": "2026-10-06T13:50:47.762Z",
+      "action": "revise-preview-directing",
+      "stage": "style-review",
+      "note": "style-review · balanced-scene-01, balanced-scene-04, balanced-scene-07 · projects/time-patina-paper/directing-revision.json"
+    },
+    {
+      "at": "2026-10-06T13:55:25.325Z",
+      "action": "revise-preview-directing",
+      "stage": "style-review",
+      "note": "style-review · balanced-scene-01, balanced-scene-04, balanced-scene-07 · projects/time-patina-paper/directing-revision.json"
+    },
+    {
+      "at": "2026-10-06T14:03:27.983Z",
+      "action": "approve-style-voice",
+      "stage": "asset-production",
+      "note": "用户已观看动作修订样片 v2 并明确回复：可以，继续。批准该纸片风格、人物动作过渡及原曲音频，继续完整 MV 制作。"
+    },
+    {
+      "at": "2026-10-06T21:16:32.418Z",
+      "action": "revise-preview-directing",
+      "stage": "asset-production",
+      "note": "asset-production · balanced-scene-01, balanced-scene-04, balanced-scene-07 · projects/time-patina-paper/directing-revision.json"
+    },
+    {
+      "at": "2026-10-07T02:15:53.802Z",
+      "action": "work-item-completed",
+      "stage": "asset-production",
+      "note": "directing-revision-balanced-scene-01 · satisfied-by-assets-ready · 当前 seal 已验证 storyboard 与 project 执行树同步。"
+    },
+    {
+      "at": "2026-10-07T02:15:53.802Z",
+      "action": "work-item-completed",
+      "stage": "asset-production",
+      "note": "directing-revision-balanced-scene-04 · satisfied-by-assets-ready · 当前 seal 已验证 storyboard 与 project 执行树同步。"
+    },
+    {
+      "at": "2026-10-07T02:15:53.802Z",
+      "action": "work-item-completed",
+      "stage": "asset-production",
+      "note": "directing-revision-balanced-scene-07 · satisfied-by-assets-ready · 当前 seal 已验证 storyboard 与 project 执行树同步。"
+    },
+    {
+      "at": "2026-10-07T02:15:53.802Z",
+      "action": "assets-ready",
+      "stage": "preview",
+      "note": ""
+    },
+    {
+      "at": "2026-10-07T02:20:46.688Z",
+      "action": "preview-rendered",
+      "stage": "human-review",
+      "note": "dist\\time-patina-paper\\preview.mp4"
+    },
+    {
+      "at": "2026-10-07T02:30:05.479Z",
+      "action": "request-preview-revision",
+      "stage": "asset-production",
+      "note": "用户反馈：MV 大多为静态图片，希望画面都要动，贴纸元素种类和数量太少，只有人物和花。要求每幕增加持续可见的局部动画与更多纸片元素。"
+    },
+    {
+      "at": "2026-10-07T02:33:34.174Z",
+      "action": "revise-preview-directing",
+      "stage": "asset-production",
+      "note": "preview · balanced-scene-01, balanced-scene-02, balanced-scene-03, balanced-scene-04, balanced-scene-05, balanced-scene-06, balanced-scene-07, balanced-scene-08 · projects/time-patina-paper/directing-revision.json"
+    },
+    {
+      "at": "2026-10-07T05:30:34.633Z",
+      "action": "work-item-completed",
+      "stage": "asset-production",
+      "note": "directing-revision-balanced-scene-01 · satisfied-by-assets-ready · 当前 seal 已验证 storyboard 与 project 执行树同步。"
+    },
+    {
+      "at": "2026-10-07T05:30:34.633Z",
+      "action": "work-item-completed",
+      "stage": "asset-production",
+      "note": "directing-revision-balanced-scene-04 · satisfied-by-assets-ready · 当前 seal 已验证 storyboard 与 project 执行树同步。"
+    },
+    {
+      "at": "2026-10-07T05:30:34.633Z",
+      "action": "work-item-completed",
+      "stage": "asset-production",
+      "note": "directing-revision-balanced-scene-07 · satisfied-by-assets-ready · 当前 seal 已验证 storyboard 与 project 执行树同步。"
+    },
+    {
+      "at": "2026-10-07T05:30:34.633Z",
+      "action": "work-item-completed",
+      "stage": "asset-production",
+      "note": "directing-revision-balanced-scene-02 · satisfied-by-assets-ready · 当前 seal 已验证 storyboard 与 project 执行树同步。"
+    },
+    {
+      "at": "2026-10-07T05:30:34.633Z",
+      "action": "work-item-completed",
+      "stage": "asset-production",
+      "note": "directing-revision-balanced-scene-03 · satisfied-by-assets-ready · 当前 seal 已验证 storyboard 与 project 执行树同步。"
+    },
+    {
+      "at": "2026-10-07T05:30:34.633Z",
+      "action": "work-item-completed",
+      "stage": "asset-production",
+      "note": "directing-revision-balanced-scene-05 · satisfied-by-assets-ready · 当前 seal 已验证 storyboard 与 project 执行树同步。"
+    },
+    {
+      "at": "2026-10-07T05:30:34.633Z",
+      "action": "work-item-completed",
+      "stage": "asset-production",
+      "note": "directing-revision-balanced-scene-06 · satisfied-by-assets-ready · 当前 seal 已验证 storyboard 与 project 执行树同步。"
+    },
+    {
+      "at": "2026-10-07T05:30:34.633Z",
+      "action": "work-item-completed",
+      "stage": "asset-production",
+      "note": "directing-revision-balanced-scene-08 · satisfied-by-assets-ready · 当前 seal 已验证 storyboard 与 project 执行树同步。"
+    },
+    {
+      "at": "2026-10-07T05:30:34.633Z",
+      "action": "assets-ready",
+      "stage": "preview",
+      "note": ""
+    },
+    {
+      "at": "2026-10-07T05:37:02.661Z",
+      "action": "preview-rendered",
+      "stage": "human-review",
+      "note": "dist\\time-patina-paper\\preview.mp4"
+    },
+    {
+      "at": "2026-10-07T05:46:37.173Z",
+      "action": "request-preview-revision",
+      "stage": "asset-production",
+      "note": "用户反馈：丰富度可以；运动轨迹要符合物理特征，贴纸不能只是数量堆叠，要唯美；幕数少、停留太久，重复转场僵硬。授权调整运动、同屏密度、分镜节奏和转场。"
+    },
+    {
+      "at": "2026-10-07T05:48:28.747Z",
+      "action": "revise-preview-directing",
+      "stage": "asset-production",
+      "note": "preview · balanced-scene-01, balanced-scene-02, balanced-scene-03, balanced-scene-04, balanced-scene-05, balanced-scene-06, balanced-scene-07, balanced-scene-08 · projects/time-patina-paper/directing-revision.json"
+    },
+    {
+      "at": "2026-10-07T05:53:00.074Z",
+      "action": "revise-preview-directing",
+      "stage": "asset-production",
+      "note": "preview · balanced-scene-01, balanced-scene-02, balanced-scene-03, balanced-scene-04, balanced-scene-05, balanced-scene-06, balanced-scene-07, balanced-scene-08 · projects/time-patina-paper/directing-revision.json"
+    },
+    {
+      "at": "2026-10-07T05:58:37.085Z",
+      "action": "work-item-completed",
+      "stage": "asset-production",
+      "note": "directing-revision-balanced-scene-01 · satisfied-by-assets-ready · 当前 seal 已验证 storyboard 与 project 执行树同步。"
+    },
+    {
+      "at": "2026-10-07T05:58:37.085Z",
+      "action": "work-item-completed",
+      "stage": "asset-production",
+      "note": "directing-revision-balanced-scene-04 · satisfied-by-assets-ready · 当前 seal 已验证 storyboard 与 project 执行树同步。"
+    },
+    {
+      "at": "2026-10-07T05:58:37.085Z",
+      "action": "work-item-completed",
+      "stage": "asset-production",
+      "note": "directing-revision-balanced-scene-07 · satisfied-by-assets-ready · 当前 seal 已验证 storyboard 与 project 执行树同步。"
+    },
+    {
+      "at": "2026-10-07T05:58:37.085Z",
+      "action": "work-item-completed",
+      "stage": "asset-production",
+      "note": "directing-revision-balanced-scene-02 · satisfied-by-assets-ready · 当前 seal 已验证 storyboard 与 project 执行树同步。"
+    },
+    {
+      "at": "2026-10-07T05:58:37.085Z",
+      "action": "work-item-completed",
+      "stage": "asset-production",
+      "note": "directing-revision-balanced-scene-03 · satisfied-by-assets-ready · 当前 seal 已验证 storyboard 与 project 执行树同步。"
+    },
+    {
+      "at": "2026-10-07T05:58:37.085Z",
+      "action": "work-item-completed",
+      "stage": "asset-production",
+      "note": "directing-revision-balanced-scene-05 · satisfied-by-assets-ready · 当前 seal 已验证 storyboard 与 project 执行树同步。"
+    },
+    {
+      "at": "2026-10-07T05:58:37.085Z",
+      "action": "work-item-completed",
+      "stage": "asset-production",
+      "note": "directing-revision-balanced-scene-06 · satisfied-by-assets-ready · 当前 seal 已验证 storyboard 与 project 执行树同步。"
+    },
+    {
+      "at": "2026-10-07T05:58:37.085Z",
+      "action": "work-item-completed",
+      "stage": "asset-production",
+      "note": "directing-revision-balanced-scene-08 · satisfied-by-assets-ready · 当前 seal 已验证 storyboard 与 project 执行树同步。"
+    },
+    {
+      "at": "2026-10-07T05:58:37.085Z",
+      "action": "assets-ready",
+      "stage": "preview",
+      "note": ""
+    },
+    {
+      "at": "2026-10-07T06:03:58.989Z",
+      "action": "preview-rendered",
+      "stage": "human-review",
+      "note": "dist\\time-patina-paper\\preview.mp4"
+    },
+    {
+      "at": "2026-10-07T11:07:51.125Z",
+      "action": "request-preview-revision",
+      "stage": "asset-production",
+      "note": "用户反馈：元素又偏少，希望继续修改并体现讲故事的故事感，而不是单纯几张风景图。授权在保留原曲和释怀主题基础上，加入贯穿人物、旧信和相册的因果情节并适当增加叙事道具。"
+    },
+    {
+      "at": "2026-10-07T11:11:24.377Z",
+      "action": "revise-preview-semantic",
+      "stage": "asset-production",
+      "note": "story-feedback-v4 · preview · balanced-scene-01, balanced-scene-02, balanced-scene-03, balanced-scene-04, balanced-scene-05, balanced-scene-06, balanced-scene-07, balanced-scene-08 · projects/time-patina-paper/semantic-revision.json"
+    },
+    {
+      "at": "2026-10-07T11:12:58.020Z",
+      "action": "revise-preview-semantic",
+      "stage": "asset-production",
+      "note": "story-feedback-v4 · preview · balanced-scene-01, balanced-scene-04, balanced-scene-06, balanced-scene-07 · projects/time-patina-paper/semantic-revision.json"
+    },
+    {
+      "at": "2026-10-07T11:15:47.970Z",
+      "action": "work-item-blocked",
+      "stage": "asset-production",
+      "note": "story-v4-render · 故事分镜、人物/相册/书签/旧信执行树已写入，结构与6项接地契约检查无错误；尚未渲染。自动审批服务因账号额度限制无法完成视频检查帧提取审批，禁止绕过。额度恢复后解除本工作项阻塞，先运行 composition-proof 并复查，再 quality/assets-ready/preview。"
+    },
+    {
+      "at": "2026-10-07T11:17:56.426Z",
+      "action": "work-item-in-progress",
+      "stage": "asset-production",
+      "note": "story-v4-render · 用户明确回复可以，继续；恢复故事版构图检查与预览。"
+    },
+    {
+      "at": "2026-10-07T11:21:33.421Z",
+      "action": "revise-preview-directing",
+      "stage": "asset-production",
+      "note": "preview · balanced-scene-01, balanced-scene-02, balanced-scene-03, balanced-scene-04, balanced-scene-05, balanced-scene-06, balanced-scene-07, balanced-scene-08 · projects/time-patina-paper/directing-revision.json"
+    },
+    {
+      "at": "2026-10-07T11:26:14.979Z",
+      "action": "revise-preview-directing",
+      "stage": "asset-production",
+      "note": "preview · balanced-scene-01, balanced-scene-04, balanced-scene-05, balanced-scene-06, balanced-scene-07, balanced-scene-08 · projects/time-patina-paper/directing-revision.json"
+    },
+    {
+      "at": "2026-10-08T04:38:39.204Z",
+      "action": "approve-image-budget-increase",
+      "stage": "asset-production",
+      "note": "图片尝试上限 28 → 34；用户在明确的28次提高到34次角色扩充方案后回复继续，授权新增最多6次含返修。"
+    }
+  ]
+}

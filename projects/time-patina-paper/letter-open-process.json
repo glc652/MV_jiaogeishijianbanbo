@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "projectSlug": "time-patina-paper",
+  "sceneId": "balanced-scene-01",
+  "nodeId": "memory-letter",
+  "poseFamilyId": "letter-open",
+  "sourceAssetId": "letter-open-sheet",
+  "input": "public/projects/time-patina-paper/assets/letter-open-sheet.png",
+  "outputDirectory": "public/projects/time-patina-paper/assets/letter-open-states",
+  "layout": {
+    "columns": 2,
+    "rows": 2
+  },
+  "registration": {
+    "id": "letter-open-registration",
+    "sourceMasterAssetId": "letter-open-sheet"
+  },
+  "identityReference": {
+    "assetId": "letter-open-reference"
+  },
+  "anchorPolicy": {
+    "requiredAnchorIds": [
+      "contact"
+    ],
+    "maximumDrift": 0.07
+  },
+  "states": [
+    {
+      "id": "sealed",
+      "row": 0,
+      "column": 0,
+      "facing": "front",
+      "anchors": [
+        {
+          "id": "contact",
+          "x": 0.5,
+          "y": 0.88
+        }
+      ],
+      "registrationTransform": {
+        "scale": 0.75,
+        "anchorId": "contact",
+        "sourceContact": {
+          "x": 0.49230769230769234,
+          "y": 0.9815384615384616
+        }
+      }
+    },
+    {
+      "id": "unfolding",
+      "row": 0,
+      "column": 1,
+      "facing": "front",
+      "anchors": [
+        {
+          "id": "contact",
+          "x": 0.5,
+          "y": 0.88
+        }
+      ],
+      "registrationTransform": {
+        "scale": 0.75,
+        "anchorId": "contact",
+        "sourceContact": {
+          "x": 0.49230769230769234,
+          "y": 0.9815384615384616
+        }
+      }
+    },
+    {
+      "id": "open",
+      "row": 1,
+      "column": 0,
+      "facing": "front",
+      "anchors": [
+        {
+          "id": "contact",
+          "x": 0.5,
+          "y": 0.88
+        }
+      ],
+      "registrationTransform": {
+        "scale": 0.75,
+        "anchorId": "contact",
+        "sourceContact": {
+          "x": 0.49230769230769234,
+          "y": 0.8523076923076923
+        }
+      }
+    }
+  ],
+  "keying": {
+    "keyColor": "#00ff00",
+    "transparentThreshold": 0,
+    "opaqueThreshold": 1,
+    "edgeFeather": 0,
+    "matteErode": 0,
+    "edgePadding": 2
+  },
+  "extraction": {
+    "mode": "explicit-source-rects",
+    "canvas": {
+      "width": 650,
+      "height": 650
+    },
+    "cells": [
+      {
+        "stateId": "sealed",
+        "sourceRect": {
+          "left": 0,
+          "top": 0,
+          "width": 627,
+          "height": 650
+        },
+        "placement": {
+          "left": 0,
+          "top": 0
+        }
+      },
+      {
+        "stateId": "unfolding",
+        "sourceRect": {
+          "left": 627,
+          "top": 0,
+          "width": 627,
+          "height": 650
+        },
+        "placement": {
+          "left": 0,
+          "top": 0
+        }
+      },
+      {
+        "stateId": "open",
+        "sourceRect": {
+          "left": 0,
+          "top": 650,
+          "width": 627,
+          "height": 604
+        },
+        "placement": {
+          "left": 0,
+          "top": 0
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "slug": "time-patina-paper",
+  "createdAt": "2026-10-11T07:24:26.568Z",
+  "oldDirectingFingerprint": "eb994d102cc1958de5a7bc9048bc56369143c74c78c9e9c64696a5ee1ca484ab",
+  "newDirectingFingerprint": "6d6b475269129c0c6d98c165596e48a6a78e7e01cf3fe7207f7639d204874271",
+  "motionContract": {
+    "oldApprovalFingerprint": "3238027a004e7fe7b19a05bdb6bebb4184774d63c8a174f1ffa6c02b7779ce1e",
+    "newApprovalFingerprint": "3238027a004e7fe7b19a05bdb6bebb4184774d63c8a174f1ffa6c02b7779ce1e",
+    "oldExecutionFingerprint": "809d02d356e52389c1aa599f1ac5e3d4b29ec1013f558f2c61c54bbe98d352e3",
+    "newExecutionFingerprint": "809d02d356e52389c1aa599f1ac5e3d4b29ec1013f558f2c61c54bbe98d352e3",
+    "approvalPreserved": true
+  },
+  "protectedConceptFingerprint": "65d06853236623e4fb03b92238ca429a813934d1137deabe5cd752765f2fedbe",
+  "changedSceneIds": [
+    "balanced-scene-01",
+    "balanced-scene-02",
+    "balanced-scene-03",
+    "balanced-scene-04",
+    "balanced-scene-06",
+    "balanced-scene-07",
+    "balanced-scene-08"
+  ],
+  "changedScenes": [
+    {
+      "sceneId": "balanced-scene-01",
+      "categories": [
+        "treatments",
+        "compiled-plan",
+        "directing-fingerprint"
+      ]
+    },
+    {
+      "sceneId": "balanced-scene-02",
+      "categories": [
+        "treatments",
+        "compiled-plan",
+        "directing-fingerprint"
+      ]
+    },
+    {
+      "sceneId": "balanced-scene-03",
+      "categories": [
+        "compiled-plan"
+      ]
+    },
+    {
+      "sceneId": "balanced-scene-04",
+      "categories": [
+        "treatments",
+        "compiled-plan",
+        "directing-fingerprint"
+      ]
+    },
+    {
+      "sceneId": "balanced-scene-06",
+      "categories": [
+        "treatments",
+        "compiled-plan",
+        "directing-fingerprint"
+      ]
+    },
+    {
+      "sceneId": "balanced-scene-07",
+      "categories": [
+        "treatments",
+        "compiled-plan",
+        "directing-fingerprint"
+      ]
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "categories": [
+        "treatments",
+        "compiled-plan",
+        "directing-fingerprint"
+      ]
+    }
+  ],
+  "transitionsChanged": false,
+  "editorialChanged": false,
+  "changedEditorialSceneIds": [],
+  "spatialContractsChanged": false,
+  "changedSpatialContractIds": [],
+  "editPointChanges": {
+    "before": [],
+    "after": []
+  },
+  "responsivePlanChanges": {
+    "beforeFingerprint": "e4b599bb6538463998374e19cc6b2d0bf16603b9cb5b7786250bc07f2610bff6",
+    "afterFingerprint": "e4b599bb6538463998374e19cc6b2d0bf16603b9cb5b7786250bc07f2610bff6"
+  },
+  "executionSyncRequired": true,
+  "providerApprovalRequired": false,
+  "motionBudget": {
+    "approved": {
+      "maxPoseSheetCalls": 6,
+      "maxStatesPerSheet": 4,
+      "maxContinuousTargets": 32
+    },
+    "before": {
+      "maxPoseSheetCalls": 6,
+      "maxStatesPerSheet": 4,
+      "maxContinuousTargets": 32
+    },
+    "after": {
+      "maxPoseSheetCalls": 6,
+      "maxStatesPerSheet": 4,
+      "maxContinuousTargets": 32
+    }
+  },
+  "styleProof": {
+    "before": {
+      "fingerprint": "29f27d48be0f3f644dfcf6e29dc4ea2502daa7c15347c30ddb291c2180d12c62",
+      "targets": [
+        {
+          "sceneId": "balanced-scene-01",
+          "treatmentId": "balanced-scene-01-layer-package",
+          "targetId": "world-1",
+          "proofTimeId": "established",
+          "riskScore": 18,
+          "directingFingerprint": "9b1d97da8c60bfef692d20839da3b578f45dba37a66276f10d5420a0f22c0b0f",
+          "sourceFamilyKey": "target:world-1",
+          "coverage": [
+            "motion:bounded-relative-layers",
+            "relationship:coupled",
+            "relationship:registered-depth-stack"
+          ]
+        },
+        {
+          "sceneId": "balanced-scene-01",
+          "treatmentId": "balanced-scene-01-human-letter-0",
+          "targetId": "paper-person",
+          "proofTimeId": "established",
+          "riskScore": 38,
+          "directingFingerprint": "9b1d97da8c60bfef692d20839da3b578f45dba37a66276f10d5420a0f22c0b0f",
+          "sourceFamilyKey": "pose-family:human-letter",
+          "coverage": [
+            "motion:state-sequence",
+            "semantic:identity"
+          ]
+        },
+        {
+          "sceneId": "balanced-scene-01",
+          "treatmentId": "balanced-scene-01-paper-dust",
+          "targetId": "dust-0",
+          "proofTimeId": "transforming",
+          "riskScore": 10,
+          "directingFingerprint": "9b1d97da8c60bfef692d20839da3b578f45dba37a66276f10d5420a0f22c0b0f",
+          "sourceFamilyKey": "motif-field:dust-0",
+          "coverage": [
+            "motion:motif-field"
+          ]
+        }
+      ]
+    },
+    "after": {
+      "fingerprint": "2a24972086024fda4a64392aa079bff261dfcc0443b5f6a5f190864c26d9b479",
+      "targets": [
+        {
+          "sceneId": "balanced-scene-01",
+          "treatmentId": "balanced-scene-01-layer-package",
+          "targetId": "world-1",
+          "proofTimeId": "established",
+          "riskScore": 18,
+          "directingFingerprint": "a7cf42e8ea549f6ed66dd07efa5383addc870b9ab9855bba336d091849c80095",
+          "sourceFamilyKey": "target:world-1",
+          "coverage": [
+            "motion:bounded-relative-layers",
+            "relationship:coupled",
+            "relationship:registered-depth-stack"
+          ]
+        },
+        {
+          "sceneId": "balanced-scene-01",
+          "treatmentId": "balanced-scene-01-human-letter-0",
+          "targetId": "paper-person",
+          "proofTimeId": "established",
+          "riskScore": 38,
+          "directingFingerprint": "a7cf42e8ea549f6ed66dd07efa5383addc870b9ab9855bba336d091849c80095",
+          "sourceFamilyKey": "pose-family:human-letter",
+          "coverage": [
+            "motion:state-sequence",
+            "semantic:identity"
+          ]
+        },
+        {
+          "sceneId": "balanced-scene-01",
+          "treatmentId": "balanced-scene-01-paper-dust",
+          "targetId": "dust-0",
+          "proofTimeId": "transforming",
+          "riskScore": 10,
+          "directingFingerprint": "a7cf42e8ea549f6ed66dd07efa5383addc870b9ab9855bba336d091849c80095",
+          "sourceFamilyKey": "motif-field:dust-0",
+          "coverage": [
+            "motion:motif-field"
+          ]
+        }
+      ]
+    },
+    "invalidated": true
+  },
+  "invalidatedArtifacts": [
+    "validationReport",
+    "preview",
+    "final",
+    "report",
+    "contactSheet",
+    "styleProof"
+  ],
+  "source": "preview"
+}

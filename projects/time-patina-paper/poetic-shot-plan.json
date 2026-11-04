@@ -1,0 +1,357 @@
+{
+  "narrativeLocations": 8,
+  "shotCount": 25,
+  "basis": "Manual editorial cuts aligned to supplied lyric phrasing; source song unchanged",
+  "shots": [
+    {
+      "id": "shot-01",
+      "sceneId": "balanced-scene-01",
+      "fromSeconds": 0,
+      "toSeconds": 8.4,
+      "durationSeconds": 8.4,
+      "framing": "空间建立",
+      "camera": {
+        "zoom": 1.01,
+        "x": 0,
+        "y": 0
+      },
+      "entry": "scene-boundary"
+    },
+    {
+      "id": "shot-02",
+      "sceneId": "balanced-scene-01",
+      "fromSeconds": 8.4,
+      "toSeconds": 18.833333333333332,
+      "durationSeconds": 10.433333333333332,
+      "framing": "环境中景",
+      "camera": {
+        "zoom": 1.2,
+        "x": -70,
+        "y": -12
+      },
+      "entry": "lyric-phrase-cut"
+    },
+    {
+      "id": "shot-03",
+      "sceneId": "balanced-scene-02",
+      "fromSeconds": 18.833333333333332,
+      "toSeconds": 26,
+      "durationSeconds": 7.166666666666667,
+      "framing": "空间建立",
+      "camera": {
+        "zoom": 1.06,
+        "x": 0,
+        "y": 0
+      },
+      "entry": "scene-boundary"
+    },
+    {
+      "id": "shot-04",
+      "sceneId": "balanced-scene-02",
+      "fromSeconds": 26,
+      "toSeconds": 33.36666666666667,
+      "durationSeconds": 7.366666666666666,
+      "framing": "主体细节",
+      "camera": {
+        "zoom": 1.34,
+        "x": 60,
+        "y": 10
+      },
+      "entry": "lyric-phrase-cut"
+    },
+    {
+      "id": "shot-05",
+      "sceneId": "balanced-scene-02",
+      "fromSeconds": 33.36666666666667,
+      "toSeconds": 40.3,
+      "durationSeconds": 6.933333333333332,
+      "framing": "环境中景",
+      "camera": {
+        "zoom": 1.23,
+        "x": -88,
+        "y": 6
+      },
+      "entry": "lyric-phrase-cut"
+    },
+    {
+      "id": "shot-06",
+      "sceneId": "balanced-scene-02",
+      "fromSeconds": 40.3,
+      "toSeconds": 47.766666666666666,
+      "durationSeconds": 7.466666666666669,
+      "framing": "情绪全景",
+      "camera": {
+        "zoom": 1.045,
+        "x": 0,
+        "y": 0
+      },
+      "entry": "lyric-phrase-cut"
+    },
+    {
+      "id": "shot-07",
+      "sceneId": "balanced-scene-03",
+      "fromSeconds": 47.766666666666666,
+      "toSeconds": 54.86666666666667,
+      "durationSeconds": 7.1,
+      "framing": "空间建立",
+      "camera": {
+        "zoom": 1.2,
+        "x": 54,
+        "y": 5
+      },
+      "entry": "scene-boundary"
+    },
+    {
+      "id": "shot-08",
+      "sceneId": "balanced-scene-03",
+      "fromSeconds": 54.86666666666667,
+      "toSeconds": 61.93333333333333,
+      "durationSeconds": 7.066666666666665,
+      "framing": "情绪全景",
+      "camera": {
+        "zoom": 1.02,
+        "x": -5,
+        "y": 0
+      },
+      "entry": "lyric-phrase-cut"
+    },
+    {
+      "id": "shot-09",
+      "sceneId": "balanced-scene-04",
+      "fromSeconds": 61.93333333333333,
+      "toSeconds": 69.23333333333333,
+      "durationSeconds": 7.3,
+      "framing": "空间建立",
+      "camera": {
+        "zoom": 1.055,
+        "x": 0,
+        "y": 0
+      },
+      "entry": "scene-boundary"
+    },
+    {
+      "id": "shot-10",
+      "sceneId": "balanced-scene-04",
+      "fromSeconds": 69.23333333333333,
+      "toSeconds": 76.93333333333334,
+      "durationSeconds": 7.7,
+      "framing": "主体细节",
+      "camera": {
+        "zoom": 1.28,
+        "x": -36,
+        "y": -25
+      },
+      "entry": "lyric-phrase-cut"
+    },
+    {
+      "id": "shot-11",
+      "sceneId": "balanced-scene-04",
+      "fromSeconds": 76.93333333333334,
+      "toSeconds": 84.23333333333333,
+      "durationSeconds": 7.300000000000001,
+      "framing": "环境中景",
+      "camera": {
+        "zoom": 1.14,
+        "x": 55,
+        "y": 5
+      },
+      "entry": "lyric-phrase-cut"
+    },
+    {
+      "id": "shot-12",
+      "sceneId": "balanced-scene-04",
+      "fromSeconds": 84.23333333333333,
+      "toSeconds": 92.43333333333334,
+      "durationSeconds": 8.200000000000006,
+      "framing": "情绪全景",
+      "camera": {
+        "zoom": 1.045,
+        "x": 0,
+        "y": 0
+      },
+      "entry": "lyric-phrase-cut"
+    },
+    {
+      "id": "shot-13",
+      "sceneId": "balanced-scene-05",
+      "fromSeconds": 92.43333333333334,
+      "toSeconds": 98.93333333333334,
+      "durationSeconds": 6.5,
+      "framing": "空间建立",
+      "camera": {
+        "zoom": 1.19,
+        "x": -30,
+        "y": 6
+      },
+      "entry": "scene-boundary"
+    },
+    {
+      "id": "shot-14",
+      "sceneId": "balanced-scene-05",
+      "fromSeconds": 98.93333333333334,
+      "toSeconds": 105.96666666666667,
+      "durationSeconds": 7.033333333333331,
+      "framing": "情绪全景",
+      "camera": {
+        "zoom": 1.025,
+        "x": 0,
+        "y": 0
+      },
+      "entry": "lyric-phrase-cut"
+    },
+    {
+      "id": "shot-15",
+      "sceneId": "balanced-scene-06",
+      "fromSeconds": 105.96666666666667,
+      "toSeconds": 113.16666666666667,
+      "durationSeconds": 7.2,
+      "framing": "空间建立",
+      "camera": {
+        "zoom": 1.05,
+        "x": 0,
+        "y": 0
+      },
+      "entry": "scene-boundary"
+    },
+    {
+      "id": "shot-16",
+      "sceneId": "balanced-scene-06",
+      "fromSeconds": 113.16666666666667,
+      "toSeconds": 120.46666666666667,
+      "durationSeconds": 7.3,
+      "framing": "主体细节",
+      "camera": {
+        "zoom": 1.3,
+        "x": 65,
+        "y": 10
+      },
+      "entry": "lyric-phrase-cut"
+    },
+    {
+      "id": "shot-17",
+      "sceneId": "balanced-scene-06",
+      "fromSeconds": 120.46666666666667,
+      "toSeconds": 127.96666666666667,
+      "durationSeconds": 7.5,
+      "framing": "环境中景",
+      "camera": {
+        "zoom": 1.22,
+        "x": -75,
+        "y": 4
+      },
+      "entry": "lyric-phrase-cut"
+    },
+    {
+      "id": "shot-18",
+      "sceneId": "balanced-scene-06",
+      "fromSeconds": 127.96666666666667,
+      "toSeconds": 134.83333333333334,
+      "durationSeconds": 6.866666666666674,
+      "framing": "情绪全景",
+      "camera": {
+        "zoom": 1.045,
+        "x": 0,
+        "y": 0
+      },
+      "entry": "lyric-phrase-cut"
+    },
+    {
+      "id": "shot-19",
+      "sceneId": "balanced-scene-07",
+      "fromSeconds": 134.83333333333334,
+      "toSeconds": 142.43333333333334,
+      "durationSeconds": 7.6,
+      "framing": "空间建立",
+      "camera": {
+        "zoom": 1.025,
+        "x": 0,
+        "y": 0
+      },
+      "entry": "scene-boundary"
+    },
+    {
+      "id": "shot-20",
+      "sceneId": "balanced-scene-07",
+      "fromSeconds": 142.43333333333334,
+      "toSeconds": 150.43333333333334,
+      "durationSeconds": 8,
+      "framing": "主体细节",
+      "camera": {
+        "zoom": 1.3,
+        "x": -55,
+        "y": -30
+      },
+      "entry": "lyric-phrase-cut"
+    },
+    {
+      "id": "shot-21",
+      "sceneId": "balanced-scene-07",
+      "fromSeconds": 150.43333333333334,
+      "toSeconds": 158.03333333333333,
+      "durationSeconds": 7.6,
+      "framing": "环境中景",
+      "camera": {
+        "zoom": 1.14,
+        "x": -20,
+        "y": -12
+      },
+      "entry": "lyric-phrase-cut"
+    },
+    {
+      "id": "shot-22",
+      "sceneId": "balanced-scene-07",
+      "fromSeconds": 158.03333333333333,
+      "toSeconds": 166.9,
+      "durationSeconds": 8.866666666666664,
+      "framing": "情绪全景",
+      "camera": {
+        "zoom": 1.025,
+        "x": 0,
+        "y": 0
+      },
+      "entry": "lyric-phrase-cut"
+    },
+    {
+      "id": "shot-23",
+      "sceneId": "balanced-scene-08",
+      "fromSeconds": 166.9,
+      "toSeconds": 175.9,
+      "durationSeconds": 9,
+      "framing": "空间建立",
+      "camera": {
+        "zoom": 1.01,
+        "x": 0,
+        "y": 0
+      },
+      "entry": "scene-boundary"
+    },
+    {
+      "id": "shot-24",
+      "sceneId": "balanced-scene-08",
+      "fromSeconds": 175.9,
+      "toSeconds": 184.9,
+      "durationSeconds": 9,
+      "framing": "环境中景",
+      "camera": {
+        "zoom": 1.18,
+        "x": 35,
+        "y": 10
+      },
+      "entry": "lyric-phrase-cut"
+    },
+    {
+      "id": "shot-25",
+      "sceneId": "balanced-scene-08",
+      "fromSeconds": 184.9,
+      "toSeconds": 193.462313,
+      "durationSeconds": 8.562312999999989,
+      "framing": "情绪全景",
+      "camera": {
+        "zoom": 1.01,
+        "x": 0,
+        "y": 0
+      },
+      "entry": "lyric-phrase-cut"
+    }
+  ]
+}

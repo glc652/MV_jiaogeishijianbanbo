@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 2,
+  "projectSlug": "time-patina-paper",
+  "sceneId": "balanced-scene-07",
+  "groupId": "world-7",
+  "familyId": "release-coast-family",
+  "pattern": "registered-depth-stack",
+  "motionCapability": "bounded-relative",
+  "sourcePackageId": "balanced-source-7",
+  "sourceStrategy": "context-preserving-layer-edits",
+  "revealEnvelope": {
+    "16:9": {
+      "x": 0.025,
+      "y": 0.015,
+      "scale": 0.035,
+      "rotationDegrees": 0.7
+    },
+    "9:16": {
+      "x": 0.025,
+      "y": 0.015,
+      "scale": 0.035,
+      "rotationDegrees": 0.7
+    },
+    "1:1": {
+      "x": 0.025,
+      "y": 0.015,
+      "scale": 0.035,
+      "rotationDegrees": 0.7
+    }
+  },
+  "registration": {
+    "id": "release-coast-family",
+    "sourceMasterAssetId": "release-coast-master",
+    "canvas": {
+      "width": 1672,
+      "height": 941
+    },
+    "origin": "top-left"
+  },
+  "members": [
+    {
+      "assetId": "release-coast-rear-registered",
+      "nodeId": "rear",
+      "role": "support-rear",
+      "slot": "support-rear",
+      "completeness": "clean-plate",
+      "output": "public/projects/time-patina-paper/assets/release-coast-rear-registered.png",
+      "source": {
+        "kind": "layer-package-member",
+        "assetId": "release-coast-rear"
+      },
+      "derivation": {}
+    },
+    {
+      "assetId": "release-coast-subject-registered",
+      "nodeId": "subject",
+      "role": "subject",
+      "slot": "subject",
+      "completeness": "full-silhouette",
+      "output": "public/projects/time-patina-paper/assets/release-coast-subject-registered.png",
+      "source": {
+        "kind": "layer-package-member",
+        "assetId": "release-coast-subject"
+      },
+      "derivation": {}
+    },
+    {
+      "assetId": "release-coast-front-registered",
+      "nodeId": "front",
+      "role": "support-front",
+      "slot": "support-front",
+      "completeness": "full-overlay",
+      "output": "public/projects/time-patina-paper/assets/release-coast-front-registered.png",
+      "source": {
+        "kind": "layer-package-member",
+        "assetId": "release-coast-front"
+      },
+      "derivation": {}
+    }
+  ],
+  "recoveryPolicy": {
+    "strategy": "preserve-family-context",
+    "localDeterministicFixFirst": true,
+    "isolatedMemberGeneration": "forbidden",
+    "providerRepair": "masked-complete-source-edit",
+    "fallback": "full-source-regeneration"
+  },
+  "applyToProject": false
+}

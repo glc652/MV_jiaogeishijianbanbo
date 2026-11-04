@@ -1,0 +1,54 @@
+{
+  "$schema": "../../schemas/production.schema.json",
+  "schemaVersion": 1,
+  "slug": "starter-demo",
+  "stage": "complete",
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "updatedAt": "2026-01-01T00:00:00.000Z",
+  "approvals": {
+    "concept": {
+      "status": "approved",
+      "decidedAt": "2026-01-01T00:00:00.000Z",
+      "note": "Bundled fixture"
+    },
+    "styleAndVoice": {
+      "status": "approved",
+      "decidedAt": "2026-01-01T00:00:00.000Z",
+      "note": "Bundled fixture"
+    },
+    "preview": {
+      "status": "approved",
+      "decidedAt": "2026-01-01T00:00:00.000Z",
+      "note": "Bundled fixture"
+    },
+    "publish": {
+      "status": "approved",
+      "decidedAt": "2026-01-01T00:00:00.000Z",
+      "note": "Bundled fixture"
+    }
+  },
+  "workItems": [],
+  "artifacts": {
+    "brief": "projects/starter-demo/brief.md",
+    "project": "projects/starter-demo/project.json",
+    "storyboard": "projects/starter-demo/storyboard.json",
+    "prompts": "projects/starter-demo/prompts.json",
+    "review": "projects/starter-demo/review.md",
+    "motionLanguageCard": "projects/starter-demo/motion-language-card.json",
+    "motionApproval": "projects/starter-demo/motion-approval.json",
+    "validationReport": "dist/starter-demo/validation-report.json",
+    "assetsReadySeal": "dist/starter-demo/assets-ready-seal.json",
+    "preview": null,
+    "final": null,
+    "report": null,
+    "contactSheet": null
+  },
+  "history": [
+    {
+      "at": "2026-01-01T00:00:00.000Z",
+      "action": "fixture-created",
+      "stage": "complete",
+      "note": ""
+    }
+  ]
+}

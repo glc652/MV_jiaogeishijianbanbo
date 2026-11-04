@@ -1,0 +1,15 @@
+node_modules/
+.venv/
+.cache/
+.worktrees/
+.agent-tmp/
+dist/
+out/
+build/
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+providers.local.json
+

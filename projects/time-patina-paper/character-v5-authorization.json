@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "character-variety-v5",
+  "slug": "time-patina-paper",
+  "source": "asset-production-feedback",
+  "allowedSceneIds": [
+    "balanced-scene-01",
+    "balanced-scene-02",
+    "balanced-scene-03",
+    "balanced-scene-06",
+    "balanced-scene-08"
+  ],
+  "humanNote": "用户要求角色造型多一点，在故事性基础上丰富美观；在三组动作表、9个新姿态及总上限34次方案后明确回复继续。",
+  "equivalentQualityEvidence": [
+    "新增三组完整角色动作表，每组3态，沿用同一角色参考。",
+    "已通过正式增额命令记录28→34次，保留原预算审计。",
+    "角色动作、接地与道具交互需重新渲染检查，未复用旧画面通过结论。"
+  ],
+  "decidedAt": "2026-10-08T04:53:27.841Z"
+}

@@ -1,0 +1,501 @@
+{
+  "providerCalls": 0,
+  "physics": [
+    {
+      "scene": "balanced-scene-01",
+      "node": "rain-0",
+      "rule": "雨线受重力持续向下，轻微同向风偏，离开窗区后才重新出现。"
+    },
+    {
+      "scene": "balanced-scene-01",
+      "node": "rain-1",
+      "rule": "雨线受重力持续向下，轻微同向风偏，离开窗区后才重新出现。"
+    },
+    {
+      "scene": "balanced-scene-01",
+      "node": "rain-2",
+      "rule": "雨线受重力持续向下，轻微同向风偏，离开窗区后才重新出现。"
+    },
+    {
+      "scene": "balanced-scene-01",
+      "node": "rain-3",
+      "rule": "雨线受重力持续向下，轻微同向风偏，离开窗区后才重新出现。"
+    },
+    {
+      "scene": "balanced-scene-01",
+      "node": "rain-4",
+      "rule": "雨线受重力持续向下，轻微同向风偏，离开窗区后才重新出现。"
+    },
+    {
+      "scene": "balanced-scene-01",
+      "node": "rain-5",
+      "rule": "雨线受重力持续向下，轻微同向风偏，离开窗区后才重新出现。"
+    },
+    {
+      "scene": "balanced-scene-01",
+      "node": "rain-6",
+      "rule": "雨线受重力持续向下，轻微同向风偏，离开窗区后才重新出现。"
+    },
+    {
+      "scene": "balanced-scene-01",
+      "node": "rain-7",
+      "rule": "雨线受重力持续向下，轻微同向风偏，离开窗区后才重新出现。"
+    },
+    {
+      "scene": "balanced-scene-01",
+      "node": "rain-8",
+      "rule": "雨线受重力持续向下，轻微同向风偏，离开窗区后才重新出现。"
+    },
+    {
+      "scene": "balanced-scene-01",
+      "node": "rain-9",
+      "rule": "雨线受重力持续向下，轻微同向风偏，离开窗区后才重新出现。"
+    },
+    {
+      "scene": "balanced-scene-01",
+      "node": "rain-10",
+      "rule": "雨线受重力持续向下，轻微同向风偏，离开窗区后才重新出现。"
+    },
+    {
+      "scene": "balanced-scene-01",
+      "node": "rain-11",
+      "rule": "雨线受重力持续向下，轻微同向风偏，离开窗区后才重新出现。"
+    },
+    {
+      "scene": "balanced-scene-01",
+      "node": "rain-12",
+      "rule": "雨线受重力持续向下，轻微同向风偏，离开窗区后才重新出现。"
+    },
+    {
+      "scene": "balanced-scene-01",
+      "node": "rain-13",
+      "rule": "雨线受重力持续向下，轻微同向风偏，离开窗区后才重新出现。"
+    },
+    {
+      "scene": "balanced-scene-01",
+      "node": "rain-14",
+      "rule": "雨线受重力持续向下，轻微同向风偏，离开窗区后才重新出现。"
+    },
+    {
+      "scene": "balanced-scene-01",
+      "node": "rain-15",
+      "rule": "雨线受重力持续向下，轻微同向风偏，离开窗区后才重新出现。"
+    },
+    {
+      "scene": "balanced-scene-01",
+      "node": "rain-16",
+      "rule": "雨线受重力持续向下，轻微同向风偏，离开窗区后才重新出现。"
+    },
+    {
+      "scene": "balanced-scene-01",
+      "node": "rain-17",
+      "rule": "雨线受重力持续向下，轻微同向风偏，离开窗区后才重新出现。"
+    },
+    {
+      "scene": "balanced-scene-01",
+      "node": "rain-18",
+      "rule": "雨线受重力持续向下，轻微同向风偏，离开窗区后才重新出现。"
+    },
+    {
+      "scene": "balanced-scene-01",
+      "node": "rain-19",
+      "rule": "雨线受重力持续向下，轻微同向风偏，离开窗区后才重新出现。"
+    },
+    {
+      "scene": "balanced-scene-01",
+      "node": "letter-0",
+      "rule": "纸片持续向下沉降，风只造成缓慢横漂与轻微翻转；淡出后才循环，避开人物脸部。"
+    },
+    {
+      "scene": "balanced-scene-01",
+      "node": "letter-1",
+      "rule": "纸片持续向下沉降，风只造成缓慢横漂与轻微翻转；淡出后才循环，避开人物脸部。"
+    },
+    {
+      "scene": "balanced-scene-02",
+      "node": "memory-photo-0",
+      "rule": "照片固定上沿，轻轻翻起后阻尼落定；仅保留纸角微动，不互相穿越或悬浮。"
+    },
+    {
+      "scene": "balanced-scene-02",
+      "node": "memory-photo-1",
+      "rule": "照片固定上沿，轻轻翻起后阻尼落定；仅保留纸角微动，不互相穿越或悬浮。"
+    },
+    {
+      "scene": "balanced-scene-02",
+      "node": "memory-photo-2",
+      "rule": "照片固定上沿，轻轻翻起后阻尼落定；仅保留纸角微动，不互相穿越或悬浮。"
+    },
+    {
+      "scene": "balanced-scene-02",
+      "node": "clock-face",
+      "rule": "钟面固定，指针绕同一圆心匀速旋转。"
+    },
+    {
+      "scene": "balanced-scene-02",
+      "node": "clock-pointer",
+      "rule": "钟面固定，指针绕同一圆心匀速旋转。"
+    },
+    {
+      "scene": "balanced-scene-02",
+      "node": "leaf-0",
+      "rule": "纸片持续向下沉降，风只造成缓慢横漂与轻微翻转；淡出后才循环，避开人物脸部。"
+    },
+    {
+      "scene": "balanced-scene-02",
+      "node": "leaf-1",
+      "rule": "纸片持续向下沉降，风只造成缓慢横漂与轻微翻转；淡出后才循环，避开人物脸部。"
+    },
+    {
+      "scene": "balanced-scene-02",
+      "node": "leaf-2",
+      "rule": "纸片持续向下沉降，风只造成缓慢横漂与轻微翻转；淡出后才循环，避开人物脸部。"
+    },
+    {
+      "scene": "balanced-scene-03",
+      "node": "wave-0",
+      "rule": "低矮水纹顺流推进，轻微起伏，不在空中大幅扭动。"
+    },
+    {
+      "scene": "balanced-scene-03",
+      "node": "wave-1",
+      "rule": "低矮水纹顺流推进，轻微起伏，不在空中大幅扭动。"
+    },
+    {
+      "scene": "balanced-scene-03",
+      "node": "wave-2",
+      "rule": "低矮水纹顺流推进，轻微起伏，不在空中大幅扭动。"
+    },
+    {
+      "scene": "balanced-scene-03",
+      "node": "boat-0",
+      "rule": "船体缓慢顺流，升沉与倾斜使用同一波相，始终保持水面高度。"
+    },
+    {
+      "scene": "balanced-scene-03",
+      "node": "cloud-0",
+      "rule": "云层稳定同向缓移，保持水平，不旋转或上下摆动。"
+    },
+    {
+      "scene": "balanced-scene-03",
+      "node": "cloud-1",
+      "rule": "云层稳定同向缓移，保持水平，不旋转或上下摆动。"
+    },
+    {
+      "scene": "balanced-scene-03",
+      "node": "bird-0-wing-left",
+      "rule": "鸟群同向缓慢滑翔，翅膀围绕翼根周期拍动；飞行位置不左右折返。"
+    },
+    {
+      "scene": "balanced-scene-03",
+      "node": "bird-0-wing-right",
+      "rule": "鸟群同向缓慢滑翔，翅膀围绕翼根周期拍动；飞行位置不左右折返。"
+    },
+    {
+      "scene": "balanced-scene-03",
+      "node": "bird-0-bird-body",
+      "rule": "鸟群同向缓慢滑翔，翅膀围绕翼根周期拍动；飞行位置不左右折返。"
+    },
+    {
+      "scene": "balanced-scene-03",
+      "node": "bird-1-wing-left",
+      "rule": "鸟群同向缓慢滑翔，翅膀围绕翼根周期拍动；飞行位置不左右折返。"
+    },
+    {
+      "scene": "balanced-scene-03",
+      "node": "bird-1-wing-right",
+      "rule": "鸟群同向缓慢滑翔，翅膀围绕翼根周期拍动；飞行位置不左右折返。"
+    },
+    {
+      "scene": "balanced-scene-03",
+      "node": "bird-1-bird-body",
+      "rule": "鸟群同向缓慢滑翔，翅膀围绕翼根周期拍动；飞行位置不左右折返。"
+    },
+    {
+      "scene": "balanced-scene-03",
+      "node": "plane-0",
+      "rule": "纸飞机单次斜向滑翔，受重力缓慢下沉，不作正弦往返。"
+    },
+    {
+      "scene": "balanced-scene-04",
+      "node": "butterfly-0",
+      "rule": "蝶翼快节奏收放，花边慢弧线盘旋；小幅曲线保持轻盈。"
+    },
+    {
+      "scene": "balanced-scene-04",
+      "node": "butterfly-1",
+      "rule": "蝶翼快节奏收放，花边慢弧线盘旋；小幅曲线保持轻盈。"
+    },
+    {
+      "scene": "balanced-scene-04",
+      "node": "petal-0",
+      "rule": "纸片持续向下沉降，风只造成缓慢横漂与轻微翻转；淡出后才循环，避开人物脸部。"
+    },
+    {
+      "scene": "balanced-scene-04",
+      "node": "petal-1",
+      "rule": "纸片持续向下沉降，风只造成缓慢横漂与轻微翻转；淡出后才循环，避开人物脸部。"
+    },
+    {
+      "scene": "balanced-scene-04",
+      "node": "petal-2",
+      "rule": "纸片持续向下沉降，风只造成缓慢横漂与轻微翻转；淡出后才循环，避开人物脸部。"
+    },
+    {
+      "scene": "balanced-scene-04",
+      "node": "petal-3",
+      "rule": "纸片持续向下沉降，风只造成缓慢横漂与轻微翻转；淡出后才循环，避开人物脸部。"
+    },
+    {
+      "scene": "balanced-scene-04",
+      "node": "garden-leaf-0",
+      "rule": "枝叶围绕固定根部轻摆。"
+    },
+    {
+      "scene": "balanced-scene-04",
+      "node": "garden-leaf-1",
+      "rule": "枝叶围绕固定根部轻摆。"
+    },
+    {
+      "scene": "balanced-scene-04",
+      "node": "garden-leaf-2",
+      "rule": "枝叶围绕固定根部轻摆。"
+    },
+    {
+      "scene": "balanced-scene-05",
+      "node": "wave-0",
+      "rule": "低矮水纹顺流推进，轻微起伏，不在空中大幅扭动。"
+    },
+    {
+      "scene": "balanced-scene-05",
+      "node": "wave-1",
+      "rule": "低矮水纹顺流推进，轻微起伏，不在空中大幅扭动。"
+    },
+    {
+      "scene": "balanced-scene-05",
+      "node": "wave-2",
+      "rule": "低矮水纹顺流推进，轻微起伏，不在空中大幅扭动。"
+    },
+    {
+      "scene": "balanced-scene-05",
+      "node": "boat-0",
+      "rule": "船体缓慢顺流，升沉与倾斜使用同一波相，始终保持水面高度。"
+    },
+    {
+      "scene": "balanced-scene-05",
+      "node": "cloud-0",
+      "rule": "云层稳定同向缓移，保持水平，不旋转或上下摆动。"
+    },
+    {
+      "scene": "balanced-scene-05",
+      "node": "cloud-1",
+      "rule": "云层稳定同向缓移，保持水平，不旋转或上下摆动。"
+    },
+    {
+      "scene": "balanced-scene-05",
+      "node": "bird-0-wing-left",
+      "rule": "鸟群同向缓慢滑翔，翅膀围绕翼根周期拍动；飞行位置不左右折返。"
+    },
+    {
+      "scene": "balanced-scene-05",
+      "node": "bird-0-wing-right",
+      "rule": "鸟群同向缓慢滑翔，翅膀围绕翼根周期拍动；飞行位置不左右折返。"
+    },
+    {
+      "scene": "balanced-scene-05",
+      "node": "bird-0-bird-body",
+      "rule": "鸟群同向缓慢滑翔，翅膀围绕翼根周期拍动；飞行位置不左右折返。"
+    },
+    {
+      "scene": "balanced-scene-05",
+      "node": "bird-1-wing-left",
+      "rule": "鸟群同向缓慢滑翔，翅膀围绕翼根周期拍动；飞行位置不左右折返。"
+    },
+    {
+      "scene": "balanced-scene-05",
+      "node": "bird-1-wing-right",
+      "rule": "鸟群同向缓慢滑翔，翅膀围绕翼根周期拍动；飞行位置不左右折返。"
+    },
+    {
+      "scene": "balanced-scene-05",
+      "node": "bird-1-bird-body",
+      "rule": "鸟群同向缓慢滑翔，翅膀围绕翼根周期拍动；飞行位置不左右折返。"
+    },
+    {
+      "scene": "balanced-scene-06",
+      "node": "memory-photo-0",
+      "rule": "照片固定上沿，轻轻翻起后阻尼落定；仅保留纸角微动，不互相穿越或悬浮。"
+    },
+    {
+      "scene": "balanced-scene-06",
+      "node": "memory-photo-1",
+      "rule": "照片固定上沿，轻轻翻起后阻尼落定；仅保留纸角微动，不互相穿越或悬浮。"
+    },
+    {
+      "scene": "balanced-scene-06",
+      "node": "memory-photo-2",
+      "rule": "照片固定上沿，轻轻翻起后阻尼落定；仅保留纸角微动，不互相穿越或悬浮。"
+    },
+    {
+      "scene": "balanced-scene-06",
+      "node": "clock-face",
+      "rule": "钟面固定，指针绕同一圆心匀速旋转。"
+    },
+    {
+      "scene": "balanced-scene-06",
+      "node": "clock-pointer",
+      "rule": "钟面固定，指针绕同一圆心匀速旋转。"
+    },
+    {
+      "scene": "balanced-scene-06",
+      "node": "leaf-0",
+      "rule": "纸片持续向下沉降，风只造成缓慢横漂与轻微翻转；淡出后才循环，避开人物脸部。"
+    },
+    {
+      "scene": "balanced-scene-06",
+      "node": "leaf-1",
+      "rule": "纸片持续向下沉降，风只造成缓慢横漂与轻微翻转；淡出后才循环，避开人物脸部。"
+    },
+    {
+      "scene": "balanced-scene-06",
+      "node": "leaf-2",
+      "rule": "纸片持续向下沉降，风只造成缓慢横漂与轻微翻转；淡出后才循环，避开人物脸部。"
+    },
+    {
+      "scene": "balanced-scene-07",
+      "node": "bird-0-wing-left",
+      "rule": "鸟群同向缓慢滑翔，翅膀围绕翼根周期拍动；飞行位置不左右折返。"
+    },
+    {
+      "scene": "balanced-scene-07",
+      "node": "bird-0-wing-right",
+      "rule": "鸟群同向缓慢滑翔，翅膀围绕翼根周期拍动；飞行位置不左右折返。"
+    },
+    {
+      "scene": "balanced-scene-07",
+      "node": "bird-0-bird-body",
+      "rule": "鸟群同向缓慢滑翔，翅膀围绕翼根周期拍动；飞行位置不左右折返。"
+    },
+    {
+      "scene": "balanced-scene-07",
+      "node": "bird-1-wing-left",
+      "rule": "鸟群同向缓慢滑翔，翅膀围绕翼根周期拍动；飞行位置不左右折返。"
+    },
+    {
+      "scene": "balanced-scene-07",
+      "node": "bird-1-wing-right",
+      "rule": "鸟群同向缓慢滑翔，翅膀围绕翼根周期拍动；飞行位置不左右折返。"
+    },
+    {
+      "scene": "balanced-scene-07",
+      "node": "bird-1-bird-body",
+      "rule": "鸟群同向缓慢滑翔，翅膀围绕翼根周期拍动；飞行位置不左右折返。"
+    },
+    {
+      "scene": "balanced-scene-07",
+      "node": "leaf-0",
+      "rule": "纸片持续向下沉降，风只造成缓慢横漂与轻微翻转；淡出后才循环，避开人物脸部。"
+    },
+    {
+      "scene": "balanced-scene-07",
+      "node": "leaf-1",
+      "rule": "纸片持续向下沉降，风只造成缓慢横漂与轻微翻转；淡出后才循环，避开人物脸部。"
+    },
+    {
+      "scene": "balanced-scene-07",
+      "node": "leaf-2",
+      "rule": "纸片持续向下沉降，风只造成缓慢横漂与轻微翻转；淡出后才循环，避开人物脸部。"
+    },
+    {
+      "scene": "balanced-scene-07",
+      "node": "cloud-0",
+      "rule": "云层稳定同向缓移，保持水平，不旋转或上下摆动。"
+    },
+    {
+      "scene": "balanced-scene-07",
+      "node": "cloud-1",
+      "rule": "云层稳定同向缓移，保持水平，不旋转或上下摆动。"
+    },
+    {
+      "scene": "balanced-scene-08",
+      "node": "wave-0",
+      "rule": "低矮水纹顺流推进，轻微起伏，不在空中大幅扭动。"
+    },
+    {
+      "scene": "balanced-scene-08",
+      "node": "wave-1",
+      "rule": "低矮水纹顺流推进，轻微起伏，不在空中大幅扭动。"
+    },
+    {
+      "scene": "balanced-scene-08",
+      "node": "wave-2",
+      "rule": "低矮水纹顺流推进，轻微起伏，不在空中大幅扭动。"
+    },
+    {
+      "scene": "balanced-scene-08",
+      "node": "boat-0",
+      "rule": "船体缓慢顺流，升沉与倾斜使用同一波相，始终保持水面高度。"
+    },
+    {
+      "scene": "balanced-scene-08",
+      "node": "cloud-0",
+      "rule": "云层稳定同向缓移，保持水平，不旋转或上下摆动。"
+    },
+    {
+      "scene": "balanced-scene-08",
+      "node": "cloud-1",
+      "rule": "云层稳定同向缓移，保持水平，不旋转或上下摆动。"
+    },
+    {
+      "scene": "balanced-scene-08",
+      "node": "bird-0-wing-left",
+      "rule": "鸟群同向缓慢滑翔，翅膀围绕翼根周期拍动；飞行位置不左右折返。"
+    },
+    {
+      "scene": "balanced-scene-08",
+      "node": "bird-0-wing-right",
+      "rule": "鸟群同向缓慢滑翔，翅膀围绕翼根周期拍动；飞行位置不左右折返。"
+    },
+    {
+      "scene": "balanced-scene-08",
+      "node": "bird-0-bird-body",
+      "rule": "鸟群同向缓慢滑翔，翅膀围绕翼根周期拍动；飞行位置不左右折返。"
+    },
+    {
+      "scene": "balanced-scene-08",
+      "node": "bird-1-wing-left",
+      "rule": "鸟群同向缓慢滑翔，翅膀围绕翼根周期拍动；飞行位置不左右折返。"
+    },
+    {
+      "scene": "balanced-scene-08",
+      "node": "bird-1-wing-right",
+      "rule": "鸟群同向缓慢滑翔，翅膀围绕翼根周期拍动；飞行位置不左右折返。"
+    },
+    {
+      "scene": "balanced-scene-08",
+      "node": "bird-1-bird-body",
+      "rule": "鸟群同向缓慢滑翔，翅膀围绕翼根周期拍动；飞行位置不左右折返。"
+    },
+    {
+      "scene": "balanced-scene-08",
+      "node": "petal-0",
+      "rule": "纸片持续向下沉降，风只造成缓慢横漂与轻微翻转；淡出后才循环，避开人物脸部。"
+    },
+    {
+      "scene": "balanced-scene-08",
+      "node": "petal-1",
+      "rule": "纸片持续向下沉降，风只造成缓慢横漂与轻微翻转；淡出后才循环，避开人物脸部。"
+    },
+    {
+      "scene": "balanced-scene-08",
+      "node": "petal-2",
+      "rule": "纸片持续向下沉降，风只造成缓慢横漂与轻微翻转；淡出后才循环，避开人物脸部。"
+    },
+    {
+      "scene": "balanced-scene-08",
+      "node": "petal-3",
+      "rule": "纸片持续向下沉降，风只造成缓慢横漂与轻微翻转；淡出后才循环，避开人物脸部。"
+    }
+  ],
+  "activeParts": 99
+}

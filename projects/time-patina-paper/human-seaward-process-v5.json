@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "projectSlug": "time-patina-paper",
+  "sceneId": "balanced-scene-03",
+  "nodeId": "paper-person",
+  "poseFamilyId": "human-seaward",
+  "sourceAssetId": "human-seaward-sheet",
+  "input": "public/projects/time-patina-paper/assets/human-seaward-sheet.png",
+  "outputDirectory": "public/projects/time-patina-paper/assets/character-v5",
+  "layout": {
+    "columns": 2,
+    "rows": 2
+  },
+  "registration": {
+    "id": "human-seaward-registration",
+    "sourceMasterAssetId": "human-seaward-sheet"
+  },
+  "identityReference": {
+    "assetId": "paper-person-reference"
+  },
+  "anchorPolicy": {
+    "requiredAnchorIds": [
+      "contact"
+    ],
+    "maximumDrift": 0.07
+  },
+  "states": [
+    {
+      "id": "sea-profile",
+      "row": 0,
+      "column": 0,
+      "facing": "right",
+      "anchors": [
+        {
+          "id": "contact",
+          "x": 0.5,
+          "y": 0.88
+        }
+      ],
+      "registrationTransform": {
+        "scale": 0.82,
+        "anchorId": "contact",
+        "sourceContact": {
+          "x": 0.57,
+          "y": 0.9538461538461539
+        }
+      }
+    },
+    {
+      "id": "sea-lookback",
+      "row": 0,
+      "column": 1,
+      "facing": "right",
+      "anchors": [
+        {
+          "id": "contact",
+          "x": 0.5,
+          "y": 0.88
+        }
+      ],
+      "registrationTransform": {
+        "scale": 0.82,
+        "anchorId": "contact",
+        "sourceContact": {
+          "x": 0.4938461538461538,
+          "y": 0.9538461538461539
+        }
+      }
+    },
+    {
+      "id": "sea-lift",
+      "row": 1,
+      "column": 0,
+      "facing": "right",
+      "anchors": [
+        {
+          "id": "contact",
+          "x": 0.5,
+          "y": 0.88
+        }
+      ],
+      "registrationTransform": {
+        "scale": 0.82,
+        "anchorId": "contact",
+        "sourceContact": {
+          "x": 0.5792307692307692,
+          "y": 0.9215384615384615
+        }
+      }
+    }
+  ],
+  "extraction": {
+    "mode": "explicit-source-rects",
+    "canvas": {
+      "width": 650,
+      "height": 650
+    },
+    "cells": [
+      {
+        "stateId": "sea-profile",
+        "sourceRect": {
+          "left": 0,
+          "top": 0,
+          "width": 627,
+          "height": 627
+        },
+        "placement": {
+          "left": 0,
+          "top": 0
+        }
+      },
+      {
+        "stateId": "sea-lookback",
+        "sourceRect": {
+          "left": 627,
+          "top": 0,
+          "width": 627,
+          "height": 627
+        },
+        "placement": {
+          "left": 0,
+          "top": 0
+        }
+      },
+      {
+        "stateId": "sea-lift",
+        "sourceRect": {
+          "left": 0,
+          "top": 627,
+          "width": 627,
+          "height": 627
+        },
+        "placement": {
+          "left": 0,
+          "top": 0
+        }
+      }
+    ]
+  },
+  "keying": {
+    "keyColor": "#00ff00",
+    "transparentThreshold": 0,
+    "opaqueThreshold": 1,
+    "edgeFeather": 0,
+    "matteErode": 0,
+    "edgePadding": 2
+  }
+}

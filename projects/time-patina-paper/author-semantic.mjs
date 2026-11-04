@@ -1,0 +1,7 @@
+import fs from 'node:fs/promises';
+const evidence=(id,sceneId,nodeId,checks)=>({id,scope:'asset',checks,shots:[{sceneId,nodeId,proofTimeIds:['established','transforming','resolved']}]});
+const checks=['silhouette-fidelity','negative-space-clean','background-leak-free'];
+const contracts=[{id:'paper-person-identity',kind:'identity',title:'无具体真人原型的纸片主人公',invariants:['三种状态保持同一身形、短发、长外套与纸张质感。'],members:[{id:'paper-person',label:'匿名回忆中的人',fingerprint:{faceOrFront:'无具体肖像细节，正面简洁剪影',bodyOrProportion:'成年修长比例',headOrTop:'深墨色短发',palette:['靛蓝','旧纸米白'],distinguishingFeatures:['及膝靛蓝长外套','米白长裤','暗色平底鞋']}}],coexistenceSets:[],evidenceTargets:[evidence('person-consistency','balanced-scene-07','paper-person',['identity-family-consistent'])]},
+{id:'paper-person-topology',kind:'topology',title:'人物剪影结构',invariants:['头、躯干、两臂、两腿结构合理，不重复、不融合。'],subjectIds:['paper-person'],requiredVisibleParts:['一个头','两条手臂','两条腿','完整鞋部'],requiredNegativeSpaces:['两腿间和手臂外侧清晰的空隙'],evidenceTargets:[evidence('person-outline','balanced-scene-07','paper-person',checks)]},
+{id:'rain-window-topology',kind:'topology',title:'雨窗与旧桌的空间结构',invariants:['窗框连续、窗格开口清晰，背景不粘连到前景剪纸。'],subjectIds:['world-1'],requiredVisibleParts:['完整窗框','独立旧纸桌面边缘'],requiredNegativeSpaces:['完整窗格'],evidenceTargets:[evidence('window-outline','balanced-scene-01','world-1',checks)]}];
+await fs.writeFile(new URL('./semantic-input.json',import.meta.url),JSON.stringify({schemaVersion:1,projectSlug:'time-patina-paper',status:'ready',contracts},null,2));

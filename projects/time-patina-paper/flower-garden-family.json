@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 2,
+  "projectSlug": "time-patina-paper",
+  "sceneId": "balanced-scene-04",
+  "groupId": "world-4",
+  "familyId": "flower-garden-family",
+  "pattern": "registered-depth-stack",
+  "motionCapability": "bounded-relative",
+  "sourcePackageId": "balanced-source-4",
+  "sourceStrategy": "context-preserving-layer-edits",
+  "revealEnvelope": {
+    "16:9": {
+      "x": 0.025,
+      "y": 0.015,
+      "scale": 0.035,
+      "rotationDegrees": 0.7
+    },
+    "9:16": {
+      "x": 0.025,
+      "y": 0.015,
+      "scale": 0.035,
+      "rotationDegrees": 0.7
+    },
+    "1:1": {
+      "x": 0.025,
+      "y": 0.015,
+      "scale": 0.035,
+      "rotationDegrees": 0.7
+    }
+  },
+  "registration": {
+    "id": "flower-garden-family",
+    "sourceMasterAssetId": "flower-garden-master",
+    "canvas": {
+      "width": 1672,
+      "height": 941
+    },
+    "origin": "top-left"
+  },
+  "members": [
+    {
+      "assetId": "flower-garden-rear-registered",
+      "nodeId": "rear",
+      "role": "support-rear",
+      "slot": "support-rear",
+      "completeness": "clean-plate",
+      "output": "public/projects/time-patina-paper/assets/flower-garden-rear-registered.png",
+      "source": {
+        "kind": "layer-package-member",
+        "assetId": "flower-garden-rear"
+      },
+      "derivation": {}
+    },
+    {
+      "assetId": "flower-garden-subject-registered",
+      "nodeId": "subject",
+      "role": "subject",
+      "slot": "subject",
+      "completeness": "full-silhouette",
+      "output": "public/projects/time-patina-paper/assets/flower-garden-subject-registered.png",
+      "source": {
+        "kind": "layer-package-member",
+        "assetId": "flower-garden-subject"
+      },
+      "derivation": {}
+    },
+    {
+      "assetId": "flower-garden-front-registered",
+      "nodeId": "front",
+      "role": "support-front",
+      "slot": "support-front",
+      "completeness": "full-overlay",
+      "output": "public/projects/time-patina-paper/assets/flower-garden-front-registered.png",
+      "source": {
+        "kind": "layer-package-member",
+        "assetId": "flower-garden-front"
+      },
+      "derivation": {}
+    }
+  ],
+  "recoveryPolicy": {
+    "strategy": "preserve-family-context",
+    "localDeterministicFixFirst": true,
+    "isolatedMemberGeneration": "forbidden",
+    "providerRepair": "masked-complete-source-edit",
+    "fallback": "full-source-regeneration"
+  },
+  "applyToProject": false
+}

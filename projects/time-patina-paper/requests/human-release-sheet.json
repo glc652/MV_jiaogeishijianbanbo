@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 8,
+  "projectSlug": "time-patina-paper",
+  "assetId": "human-release-sheet",
+  "capability": "image",
+  "output": "public/projects/time-patina-paper/assets/human-release-sheet.png",
+  "prompt": "Use aged paper, restrained sepia color, halftone print texture, and archival cutout framing.\nTreat photographs and documents as tactile evidence layers with legible hierarchy.\nAvoid: Glossy modern gradients, neon color, and playful preschool proportions.\nComposition: Organize evidence in measured overlapping planes with one dominant archival focal point.\nComposition: Preserve readable margins, captions, and document edges instead of filling every gap.\nCreate ONE complete registered 2x2 animation state sheet, exact square canvas 1024x1024, transparent background. Use the attached person as immutable identity reference. Each quadrant is 512x512. Top-left: CURLED seated on the ground hugging knees, head slightly bowed. Top-right: RISING, crouching with knees bent, starting to stand. Bottom-left: UPRIGHT standing quietly with arms relaxed and head lifted. Bottom-right EMPTY transparent unused cell. Front facing in every state. Identical hair, coat, trousers, shoes and body proportions in all 3 states. The contact baseline in each cell is y=450 (88% cell height) and horizontal center is x=256. Standing person height about 370 pixels; keep the SAME head/body scale in seated and rising poses (do not enlarge them to fill the cell). Keep 60px margin in every cell; no part crosses cell boundaries. No panel lines or numbers. An anonymous adult person, slim realistic adult proportions, short dark hair, knee-length indigo coat, ivory straight trousers, dark flat shoes. Quiet introspective mature silhouette, simple face with no identifiable portrait, full body seen from front. Vintage archival hand-cut printed paper, warm cream paper edges, fine sepia halftone, elegant album artwork. No text, labels, watermark, extra limbs or photographic human skin. Genuinely transparent alpha background, no checkerboard texture. Feet and entire silhouette visible.",
+  "styleProfileBinding": {
+    "schemaVersion": 1,
+    "id": "archival-collage",
+    "catalogVersion": "2026-07-30.2",
+    "profileFingerprint": "03374c56e20183c3e8d4ddb0e4883a50e7ecdb7ca207711e786cbd2106415885",
+    "directives": [
+      "Use aged paper, restrained sepia color, halftone print texture, and archival cutout framing.",
+      "Treat photographs and documents as tactile evidence layers with legible hierarchy.",
+      "Avoid: Glossy modern gradients, neon color, and playful preschool proportions.",
+      "Composition: Organize evidence in measured overlapping planes with one dominant archival focal point.",
+      "Composition: Preserve readable margins, captions, and document edges instead of filling every gap."
+    ]
+  },
+  "outputSurface": {
+    "mode": "alpha"
+  },
+  "compositionBinding": {
+    "sceneId": "balanced-scene-07",
+    "nodeId": "paper-person",
+    "pattern": "state-sequence",
+    "outputRole": "state-sheet",
+    "canvas": {
+      "width": 1024,
+      "height": 1024
+    },
+    "derivation": {
+      "method": "provider-generation"
+    },
+    "registrationId": "human-release-registration",
+    "sourceMasterAssetId": "human-release-sheet"
+  },
+  "semanticBinding": {
+    "riskClass": "identity-critical",
+    "contractIds": [
+      "paper-person-identity",
+      "paper-person-topology"
+    ],
+    "generationFamily": {
+      "familyId": "human-release",
+      "identityMemberIds": [
+        "paper-person"
+      ],
+      "referenceAssetIds": [
+        "paper-person-reference"
+      ],
+      "stateMemberIds": [
+        "curled",
+        "rising",
+        "upright"
+      ]
+    }
+  },
+  "quality": {
+    "requiredChecks": [
+      "no-text",
+      "no-watermark",
+      "style-consistent",
+      "style-profile-conformant",
+      "subject-complete",
+      "identity-family-consistent",
+      "silhouette-fidelity",
+      "negative-space-clean",
+      "background-leak-free",
+      "cell-separation"
+    ]
+  },
+  "stateSheetBinding": {
+    "poseFamilyId": "human-release",
+    "registrationId": "human-release-registration",
+    "sourceMasterAssetId": "human-release-sheet",
+    "identityReferenceAssetId": "paper-person-reference",
+    "anchorPolicy": {
+      "requiredAnchorIds": [
+        "contact"
+      ],
+      "maximumDrift": 0.07
+    },
+    "layout": {
+      "columns": 2,
+      "rows": 2
+    },
+    "states": [
+      {
+        "stateId": "curled",
+        "row": 0,
+        "column": 0,
+        "facing": "front",
+        "anchors": [
+          {
+            "id": "contact",
+            "x": 0.5,
+            "y": 0.88
+          }
+        ]
+      },
+      {
+        "stateId": "rising",
+        "row": 0,
+        "column": 1,
+        "facing": "front",
+        "anchors": [
+          {
+            "id": "contact",
+            "x": 0.5,
+            "y": 0.88
+          }
+        ]
+      },
+      {
+        "stateId": "upright",
+        "row": 1,
+        "column": 0,
+        "facing": "front",
+        "anchors": [
+          {
+            "id": "contact",
+            "x": 0.5,
+            "y": 0.88
+          }
+        ]
+      }
+    ],
+    "recoveryPolicy": {
+      "strategy": "preserve-sheet-context",
+      "localDeterministicFixFirst": true,
+      "isolatedCellGeneration": "forbidden",
+      "fallback": "full-sheet-regeneration"
+    }
+  }
+}

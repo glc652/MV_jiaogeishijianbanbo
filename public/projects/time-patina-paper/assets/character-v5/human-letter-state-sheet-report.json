@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 4,
+  "projectSlug": "time-patina-paper",
+  "poseFamilyId": "human-letter",
+  "sourceAssetId": "human-letter-sheet",
+  "sourceSha256": "4f6a3ffb71c24b0c3b3eddf7181bcf6af01a1d1cbce7b274fe138d454f61dc72",
+  "familyFingerprint": "6a5038a104a1d681190e73e6efeb7a0f7f12d86b1f0fda4796dd0b3e7e844734",
+  "identityReference": {
+    "assetId": "paper-person-reference",
+    "sha256": "a0fef410f4cc80a08a12639668e5ff9afe0435336d7bb77cec25a15006d4a205",
+    "file": "public\\projects\\time-patina-paper\\assets\\paper-person-reference-v2.png"
+  },
+  "anchorPolicy": {
+    "requiredAnchorIds": [
+      "contact"
+    ],
+    "maximumDrift": 0.07
+  },
+  "anchorRegistrationProof": {
+    "requiredAnchorIds": [
+      "contact"
+    ],
+    "maximumAllowedDrift": 0.07,
+    "perAnchor": [
+      {
+        "anchorId": "contact",
+        "points": [
+          {
+            "stateId": "letter-low",
+            "point": {
+              "id": "contact",
+              "x": 0.5,
+              "y": 0.88
+            }
+          },
+          {
+            "stateId": "letter-read",
+            "point": {
+              "id": "contact",
+              "x": 0.5,
+              "y": 0.88
+            }
+          },
+          {
+            "stateId": "letter-rest",
+            "point": {
+              "id": "contact",
+              "x": 0.5,
+              "y": 0.88
+            }
+          }
+        ],
+        "maximumObservedDrift": 0,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "providerImageCalls": 1,
+  "generationMode": "initial-family-sheet",
+  "sourceLifecycle": "active",
+  "recoverySourceSheetAssetId": null,
+  "observedKeyColors": {},
+  "repairedStateIds": [],
+  "preservedContextStateCount": 0,
+  "isolatedCellGenerationUsed": false,
+  "extraction": {
+    "mode": "explicit-source-rects",
+    "canvas": {
+      "width": 650,
+      "height": 650
+    },
+    "cells": [
+      {
+        "stateId": "letter-low",
+        "sourceRect": {
+          "left": 0,
+          "top": 0,
+          "width": 627,
+          "height": 627
+        },
+        "placement": {
+          "left": 0,
+          "top": 0
+        }
+      },
+      {
+        "stateId": "letter-read",
+        "sourceRect": {
+          "left": 627,
+          "top": 0,
+          "width": 627,
+          "height": 627
+        },
+        "placement": {
+          "left": 0,
+          "top": 0
+        }
+      },
+      {
+        "stateId": "letter-rest",
+        "sourceRect": {
+          "left": 0,
+          "top": 627,
+          "width": 627,
+          "height": 627
+        },
+        "placement": {
+          "left": 0,
+          "top": 0
+        }
+      }
+    ]
+  },
+  "derivedStateCount": 3,
+  "avoidedIndividualCalls": 2,
+  "members": [
+    {
+      "assetId": "human-letter-letter-low",
+      "file": "public\\projects\\time-patina-paper\\assets\\character-v5\\human-letter-letter-low.png",
+      "sha256": "9f388e13ffde70aefc2ba226d2858f58eec69c96817008572024bb757a58cf62",
+      "stateBinding": {
+        "poseFamilyId": "human-letter",
+        "stateId": "letter-low",
+        "registrationId": "human-letter-registration",
+        "sourceMasterAssetId": "human-letter-sheet",
+        "facing": "front",
+        "anchors": [
+          {
+            "id": "contact",
+            "x": 0.5,
+            "y": 0.88
+          }
+        ],
+        "identityReferenceAssetId": "paper-person-reference",
+        "identityReferenceSha256": "a0fef410f4cc80a08a12639668e5ff9afe0435336d7bb77cec25a15006d4a205",
+        "anchorEvidence": {
+          "file": "public\\projects\\time-patina-paper\\assets\\character-v5\\human-letter-letter-low-anchors.png",
+          "sha256": "a30ae3ee60dadc3abf52f0fc269df3142b1c6c535903099abbff438921cfd438"
+        }
+      },
+      "anchorEvidence": {
+        "file": "public\\projects\\time-patina-paper\\assets\\character-v5\\human-letter-letter-low-anchors.png",
+        "sha256": "a30ae3ee60dadc3abf52f0fc269df3142b1c6c535903099abbff438921cfd438"
+      }
+    },
+    {
+      "assetId": "human-letter-letter-read",
+      "file": "public\\projects\\time-patina-paper\\assets\\character-v5\\human-letter-letter-read.png",
+      "sha256": "1d1fe6d233f9fe8abc4971c78e267c600766c31851031484ad52d34ad1dee928",
+      "stateBinding": {
+        "poseFamilyId": "human-letter",
+        "stateId": "letter-read",
+        "registrationId": "human-letter-registration",
+        "sourceMasterAssetId": "human-letter-sheet",
+        "facing": "front",
+        "anchors": [
+          {
+            "id": "contact",
+            "x": 0.5,
+            "y": 0.88
+          }
+        ],
+        "identityReferenceAssetId": "paper-person-reference",
+        "identityReferenceSha256": "a0fef410f4cc80a08a12639668e5ff9afe0435336d7bb77cec25a15006d4a205",
+        "anchorEvidence": {
+          "file": "public\\projects\\time-patina-paper\\assets\\character-v5\\human-letter-letter-read-anchors.png",
+          "sha256": "0892129e01c5acbb256888c5a80f7bb838586388fcc8e1fae87eb3dcd8ae6484"
+        }
+      },
+      "anchorEvidence": {
+        "file": "public\\projects\\time-patina-paper\\assets\\character-v5\\human-letter-letter-read-anchors.png",
+        "sha256": "0892129e01c5acbb256888c5a80f7bb838586388fcc8e1fae87eb3dcd8ae6484"
+      }
+    },
+    {
+      "assetId": "human-letter-letter-rest",
+      "file": "public\\projects\\time-patina-paper\\assets\\character-v5\\human-letter-letter-rest.png",
+      "sha256": "84d5f16cbb4b182ecc9edf026b31c12dbf2c91074f1ac5c1c56b9413c19b6558",
+      "stateBinding": {
+        "poseFamilyId": "human-letter",
+        "stateId": "letter-rest",
+        "registrationId": "human-letter-registration",
+        "sourceMasterAssetId": "human-letter-sheet",
+        "facing": "front",
+        "anchors": [
+          {
+            "id": "contact",
+            "x": 0.5,
+            "y": 0.88
+          }
+        ],
+        "identityReferenceAssetId": "paper-person-reference",
+        "identityReferenceSha256": "a0fef410f4cc80a08a12639668e5ff9afe0435336d7bb77cec25a15006d4a205",
+        "anchorEvidence": {
+          "file": "public\\projects\\time-patina-paper\\assets\\character-v5\\human-letter-letter-rest-anchors.png",
+          "sha256": "77c8ff1e6a9c224e42bfda856133744c4eb71143ba7db9c20e33f03dc0210a43"
+        }
+      },
+      "anchorEvidence": {
+        "file": "public\\projects\\time-patina-paper\\assets\\character-v5\\human-letter-letter-rest-anchors.png",
+        "sha256": "77c8ff1e6a9c224e42bfda856133744c4eb71143ba7db9c20e33f03dc0210a43"
+      }
+    }
+  ],
+  "createdAt": "2026-10-08T04:48:19.258Z"
+}

@@ -1,0 +1,47 @@
+{
+  "source": "user-provided-LRC",
+  "sourceFile": "inputs/original-lyrics.lrc",
+  "songOffsetSeconds": 18.833333333333332,
+  "cues": [
+    {
+      "startSeconds": 0.006666666666667709,
+      "endSeconds": 3.4766666666666666,
+      "text": "不再追问 为什么不是我"
+    },
+    {
+      "startSeconds": 3.4766666666666666,
+      "endSeconds": 7.166666666666668,
+      "text": "不再追问 时间不够太多"
+    },
+    {
+      "startSeconds": 7.166666666666668,
+      "endSeconds": 11.706666666666667,
+      "text": "我的生活 就是为了那一刻"
+    },
+    {
+      "startSeconds": 11.706666666666667,
+      "endSeconds": 14.08666666666667,
+      "text": "思念都为之闪烁"
+    },
+    {
+      "startSeconds": 14.526666666666667,
+      "endSeconds": 17.86666666666667,
+      "text": "大胆一点 跳过某些选择"
+    },
+    {
+      "startSeconds": 17.86666666666667,
+      "endSeconds": 21.47666666666667,
+      "text": "放松一点 别再被爱挑拨"
+    },
+    {
+      "startSeconds": 21.47666666666667,
+      "endSeconds": 26.396666666666665,
+      "text": "我的一切 正如春风拂山坡"
+    },
+    {
+      "startSeconds": 26.396666666666665,
+      "endSeconds": 27.736666666666668,
+      "text": "开出自由的花朵"
+    }
+  ]
+}

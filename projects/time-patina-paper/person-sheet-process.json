@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "projectSlug": "time-patina-paper",
+  "sceneId": "balanced-scene-07",
+  "nodeId": "paper-person",
+  "poseFamilyId": "human-release",
+  "sourceAssetId": "human-release-sheet",
+  "input": "public/projects/time-patina-paper/assets/human-release-sheet.png",
+  "outputDirectory": "public/projects/time-patina-paper/assets/person-states",
+  "layout": {
+    "columns": 2,
+    "rows": 2
+  },
+  "registration": {
+    "id": "human-release-registration",
+    "sourceMasterAssetId": "human-release-sheet"
+  },
+  "identityReference": {
+    "assetId": "paper-person-reference"
+  },
+  "anchorPolicy": {
+    "requiredAnchorIds": [
+      "contact"
+    ],
+    "maximumDrift": 0.07
+  },
+  "states": [
+    {
+      "id": "curled",
+      "row": 0,
+      "column": 0,
+      "facing": "front",
+      "anchors": [
+        {
+          "id": "contact",
+          "x": 0.5,
+          "y": 0.88
+        }
+      ],
+      "registrationTransform": {
+        "scale": 0.63,
+        "anchorId": "contact",
+        "sourceContact": {
+          "x": 0.529505582137161,
+          "y": 0.9059011164274322
+        }
+      }
+    },
+    {
+      "id": "rising",
+      "row": 0,
+      "column": 1,
+      "facing": "front",
+      "anchors": [
+        {
+          "id": "contact",
+          "x": 0.5,
+          "y": 0.88
+        }
+      ],
+      "registrationTransform": {
+        "scale": 0.63,
+        "anchorId": "contact",
+        "sourceContact": {
+          "x": 0.4784688995215311,
+          "y": 0.9059011164274322
+        }
+      }
+    },
+    {
+      "id": "upright",
+      "row": 1,
+      "column": 0,
+      "facing": "front",
+      "anchors": [
+        {
+          "id": "contact",
+          "x": 0.5,
+          "y": 0.88
+        }
+      ],
+      "registrationTransform": {
+        "scale": 0.9,
+        "anchorId": "contact",
+        "sourceContact": {
+          "x": 0.5470494417862839,
+          "y": 0.960127591706539
+        }
+      }
+    }
+  ],
+  "keying": {
+    "keyColor": "#00ff00",
+    "transparentThreshold": 0,
+    "opaqueThreshold": 1,
+    "edgeFeather": 0,
+    "matteErode": 0,
+    "edgePadding": 2
+  }
+}

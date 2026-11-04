@@ -1,0 +1,838 @@
+{
+  "passed": true,
+  "criteria": "Every one-second interval has at least five independent actors moving >8px or rotating >3 degrees, measured in source 1920x1080 coordinates",
+  "scenes": [
+    {
+      "sceneId": "balanced-scene-01",
+      "actors": 37,
+      "minimumMovingActorsPerSecond": 37,
+      "samples": [
+        {
+          "second": 0,
+          "moving": 37
+        },
+        {
+          "second": 1,
+          "moving": 37
+        },
+        {
+          "second": 2,
+          "moving": 37
+        },
+        {
+          "second": 3,
+          "moving": 37
+        },
+        {
+          "second": 4,
+          "moving": 37
+        },
+        {
+          "second": 5,
+          "moving": 37
+        },
+        {
+          "second": 6,
+          "moving": 37
+        },
+        {
+          "second": 7,
+          "moving": 37
+        },
+        {
+          "second": 8,
+          "moving": 37
+        },
+        {
+          "second": 9,
+          "moving": 37
+        },
+        {
+          "second": 10,
+          "moving": 37
+        },
+        {
+          "second": 11,
+          "moving": 37
+        },
+        {
+          "second": 12,
+          "moving": 37
+        },
+        {
+          "second": 13,
+          "moving": 37
+        },
+        {
+          "second": 14,
+          "moving": 37
+        },
+        {
+          "second": 15,
+          "moving": 37
+        },
+        {
+          "second": 16,
+          "moving": 37
+        },
+        {
+          "second": 17,
+          "moving": 37
+        },
+        {
+          "second": 18,
+          "moving": 37
+        }
+      ]
+    },
+    {
+      "sceneId": "balanced-scene-02",
+      "actors": 13,
+      "minimumMovingActorsPerSecond": 11,
+      "samples": [
+        {
+          "second": 0,
+          "moving": 11
+        },
+        {
+          "second": 1,
+          "moving": 12
+        },
+        {
+          "second": 2,
+          "moving": 12
+        },
+        {
+          "second": 3,
+          "moving": 12
+        },
+        {
+          "second": 4,
+          "moving": 12
+        },
+        {
+          "second": 5,
+          "moving": 12
+        },
+        {
+          "second": 6,
+          "moving": 12
+        },
+        {
+          "second": 7,
+          "moving": 12
+        },
+        {
+          "second": 8,
+          "moving": 12
+        },
+        {
+          "second": 9,
+          "moving": 12
+        },
+        {
+          "second": 10,
+          "moving": 12
+        },
+        {
+          "second": 11,
+          "moving": 12
+        },
+        {
+          "second": 12,
+          "moving": 12
+        },
+        {
+          "second": 13,
+          "moving": 12
+        },
+        {
+          "second": 14,
+          "moving": 12
+        },
+        {
+          "second": 15,
+          "moving": 12
+        },
+        {
+          "second": 16,
+          "moving": 12
+        },
+        {
+          "second": 17,
+          "moving": 12
+        },
+        {
+          "second": 18,
+          "moving": 12
+        },
+        {
+          "second": 19,
+          "moving": 12
+        },
+        {
+          "second": 20,
+          "moving": 12
+        },
+        {
+          "second": 21,
+          "moving": 12
+        },
+        {
+          "second": 22,
+          "moving": 12
+        },
+        {
+          "second": 23,
+          "moving": 12
+        },
+        {
+          "second": 24,
+          "moving": 12
+        },
+        {
+          "second": 25,
+          "moving": 12
+        },
+        {
+          "second": 26,
+          "moving": 12
+        },
+        {
+          "second": 27,
+          "moving": 12
+        },
+        {
+          "second": 28,
+          "moving": 12
+        }
+      ]
+    },
+    {
+      "sceneId": "balanced-scene-03",
+      "actors": 22,
+      "minimumMovingActorsPerSecond": 20,
+      "samples": [
+        {
+          "second": 0,
+          "moving": 20
+        },
+        {
+          "second": 1,
+          "moving": 21
+        },
+        {
+          "second": 2,
+          "moving": 22
+        },
+        {
+          "second": 3,
+          "moving": 21
+        },
+        {
+          "second": 4,
+          "moving": 22
+        },
+        {
+          "second": 5,
+          "moving": 22
+        },
+        {
+          "second": 6,
+          "moving": 22
+        },
+        {
+          "second": 7,
+          "moving": 22
+        },
+        {
+          "second": 8,
+          "moving": 22
+        },
+        {
+          "second": 9,
+          "moving": 22
+        },
+        {
+          "second": 10,
+          "moving": 22
+        },
+        {
+          "second": 11,
+          "moving": 22
+        },
+        {
+          "second": 12,
+          "moving": 22
+        },
+        {
+          "second": 13,
+          "moving": 21
+        }
+      ]
+    },
+    {
+      "sceneId": "balanced-scene-04",
+      "actors": 17,
+      "minimumMovingActorsPerSecond": 16,
+      "samples": [
+        {
+          "second": 0,
+          "moving": 16
+        },
+        {
+          "second": 1,
+          "moving": 17
+        },
+        {
+          "second": 2,
+          "moving": 17
+        },
+        {
+          "second": 3,
+          "moving": 17
+        },
+        {
+          "second": 4,
+          "moving": 17
+        },
+        {
+          "second": 5,
+          "moving": 17
+        },
+        {
+          "second": 6,
+          "moving": 17
+        },
+        {
+          "second": 7,
+          "moving": 17
+        },
+        {
+          "second": 8,
+          "moving": 17
+        },
+        {
+          "second": 9,
+          "moving": 17
+        },
+        {
+          "second": 10,
+          "moving": 17
+        },
+        {
+          "second": 11,
+          "moving": 17
+        },
+        {
+          "second": 12,
+          "moving": 16
+        },
+        {
+          "second": 13,
+          "moving": 16
+        },
+        {
+          "second": 14,
+          "moving": 16
+        },
+        {
+          "second": 15,
+          "moving": 17
+        },
+        {
+          "second": 16,
+          "moving": 17
+        },
+        {
+          "second": 17,
+          "moving": 17
+        },
+        {
+          "second": 18,
+          "moving": 17
+        },
+        {
+          "second": 19,
+          "moving": 17
+        },
+        {
+          "second": 20,
+          "moving": 17
+        },
+        {
+          "second": 21,
+          "moving": 17
+        },
+        {
+          "second": 22,
+          "moving": 17
+        },
+        {
+          "second": 23,
+          "moving": 17
+        },
+        {
+          "second": 24,
+          "moving": 17
+        },
+        {
+          "second": 25,
+          "moving": 17
+        },
+        {
+          "second": 26,
+          "moving": 16
+        },
+        {
+          "second": 27,
+          "moving": 16
+        },
+        {
+          "second": 28,
+          "moving": 17
+        },
+        {
+          "second": 29,
+          "moving": 17
+        },
+        {
+          "second": 30,
+          "moving": 17
+        }
+      ]
+    },
+    {
+      "sceneId": "balanced-scene-05",
+      "actors": 22,
+      "minimumMovingActorsPerSecond": 20,
+      "samples": [
+        {
+          "second": 0,
+          "moving": 20
+        },
+        {
+          "second": 1,
+          "moving": 21
+        },
+        {
+          "second": 2,
+          "moving": 21
+        },
+        {
+          "second": 3,
+          "moving": 20
+        },
+        {
+          "second": 4,
+          "moving": 22
+        },
+        {
+          "second": 5,
+          "moving": 22
+        },
+        {
+          "second": 6,
+          "moving": 22
+        },
+        {
+          "second": 7,
+          "moving": 22
+        },
+        {
+          "second": 8,
+          "moving": 22
+        },
+        {
+          "second": 9,
+          "moving": 22
+        },
+        {
+          "second": 10,
+          "moving": 22
+        },
+        {
+          "second": 11,
+          "moving": 22
+        },
+        {
+          "second": 12,
+          "moving": 22
+        },
+        {
+          "second": 13,
+          "moving": 21
+        }
+      ]
+    },
+    {
+      "sceneId": "balanced-scene-06",
+      "actors": 13,
+      "minimumMovingActorsPerSecond": 11,
+      "samples": [
+        {
+          "second": 0,
+          "moving": 11
+        },
+        {
+          "second": 1,
+          "moving": 12
+        },
+        {
+          "second": 2,
+          "moving": 12
+        },
+        {
+          "second": 3,
+          "moving": 12
+        },
+        {
+          "second": 4,
+          "moving": 12
+        },
+        {
+          "second": 5,
+          "moving": 12
+        },
+        {
+          "second": 6,
+          "moving": 12
+        },
+        {
+          "second": 7,
+          "moving": 12
+        },
+        {
+          "second": 8,
+          "moving": 12
+        },
+        {
+          "second": 9,
+          "moving": 12
+        },
+        {
+          "second": 10,
+          "moving": 12
+        },
+        {
+          "second": 11,
+          "moving": 12
+        },
+        {
+          "second": 12,
+          "moving": 12
+        },
+        {
+          "second": 13,
+          "moving": 12
+        },
+        {
+          "second": 14,
+          "moving": 12
+        },
+        {
+          "second": 15,
+          "moving": 12
+        },
+        {
+          "second": 16,
+          "moving": 12
+        },
+        {
+          "second": 17,
+          "moving": 12
+        },
+        {
+          "second": 18,
+          "moving": 12
+        },
+        {
+          "second": 19,
+          "moving": 12
+        },
+        {
+          "second": 20,
+          "moving": 12
+        },
+        {
+          "second": 21,
+          "moving": 12
+        },
+        {
+          "second": 22,
+          "moving": 12
+        },
+        {
+          "second": 23,
+          "moving": 12
+        },
+        {
+          "second": 24,
+          "moving": 12
+        },
+        {
+          "second": 25,
+          "moving": 12
+        },
+        {
+          "second": 26,
+          "moving": 12
+        },
+        {
+          "second": 27,
+          "moving": 12
+        },
+        {
+          "second": 28,
+          "moving": 12
+        }
+      ]
+    },
+    {
+      "sceneId": "balanced-scene-07",
+      "actors": 26,
+      "minimumMovingActorsPerSecond": 24,
+      "samples": [
+        {
+          "second": 0,
+          "moving": 25
+        },
+        {
+          "second": 1,
+          "moving": 25
+        },
+        {
+          "second": 2,
+          "moving": 24
+        },
+        {
+          "second": 3,
+          "moving": 25
+        },
+        {
+          "second": 4,
+          "moving": 26
+        },
+        {
+          "second": 5,
+          "moving": 26
+        },
+        {
+          "second": 6,
+          "moving": 26
+        },
+        {
+          "second": 7,
+          "moving": 25
+        },
+        {
+          "second": 8,
+          "moving": 26
+        },
+        {
+          "second": 9,
+          "moving": 26
+        },
+        {
+          "second": 10,
+          "moving": 26
+        },
+        {
+          "second": 11,
+          "moving": 26
+        },
+        {
+          "second": 12,
+          "moving": 26
+        },
+        {
+          "second": 13,
+          "moving": 26
+        },
+        {
+          "second": 14,
+          "moving": 26
+        },
+        {
+          "second": 15,
+          "moving": 26
+        },
+        {
+          "second": 16,
+          "moving": 26
+        },
+        {
+          "second": 17,
+          "moving": 26
+        },
+        {
+          "second": 18,
+          "moving": 26
+        },
+        {
+          "second": 19,
+          "moving": 26
+        },
+        {
+          "second": 20,
+          "moving": 26
+        },
+        {
+          "second": 21,
+          "moving": 26
+        },
+        {
+          "second": 22,
+          "moving": 26
+        },
+        {
+          "second": 23,
+          "moving": 26
+        },
+        {
+          "second": 24,
+          "moving": 26
+        },
+        {
+          "second": 25,
+          "moving": 25
+        },
+        {
+          "second": 26,
+          "moving": 25
+        },
+        {
+          "second": 27,
+          "moving": 26
+        },
+        {
+          "second": 28,
+          "moving": 26
+        },
+        {
+          "second": 29,
+          "moving": 26
+        },
+        {
+          "second": 30,
+          "moving": 26
+        },
+        {
+          "second": 31,
+          "moving": 26
+        }
+      ]
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "actors": 29,
+      "minimumMovingActorsPerSecond": 27,
+      "samples": [
+        {
+          "second": 0,
+          "moving": 27
+        },
+        {
+          "second": 1,
+          "moving": 28
+        },
+        {
+          "second": 2,
+          "moving": 29
+        },
+        {
+          "second": 3,
+          "moving": 28
+        },
+        {
+          "second": 4,
+          "moving": 29
+        },
+        {
+          "second": 5,
+          "moving": 29
+        },
+        {
+          "second": 6,
+          "moving": 29
+        },
+        {
+          "second": 7,
+          "moving": 29
+        },
+        {
+          "second": 8,
+          "moving": 29
+        },
+        {
+          "second": 9,
+          "moving": 29
+        },
+        {
+          "second": 10,
+          "moving": 29
+        },
+        {
+          "second": 11,
+          "moving": 29
+        },
+        {
+          "second": 12,
+          "moving": 29
+        },
+        {
+          "second": 13,
+          "moving": 28
+        },
+        {
+          "second": 14,
+          "moving": 29
+        },
+        {
+          "second": 15,
+          "moving": 29
+        },
+        {
+          "second": 16,
+          "moving": 29
+        },
+        {
+          "second": 17,
+          "moving": 29
+        },
+        {
+          "second": 18,
+          "moving": 29
+        },
+        {
+          "second": 19,
+          "moving": 29
+        },
+        {
+          "second": 20,
+          "moving": 28
+        },
+        {
+          "second": 21,
+          "moving": 29
+        },
+        {
+          "second": 22,
+          "moving": 29
+        },
+        {
+          "second": 23,
+          "moving": 29
+        },
+        {
+          "second": 24,
+          "moving": 28
+        },
+        {
+          "second": 25,
+          "moving": 29
+        }
+      ]
+    }
+  ]
+}

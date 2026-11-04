@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 8,
+  "projectSlug": "time-patina-paper",
+  "assetId": "flower-garden-rear",
+  "capability": "image",
+  "output": "public/projects/time-patina-paper/assets/flower-garden-rear.png",
+  "prompt": "Use aged paper, restrained sepia color, halftone print texture, and archival cutout framing.\nTreat photographs and documents as tactile evidence layers with legible hierarchy.\nAvoid: Glossy modern gradients, neon color, and playful preschool proportions.\nComposition: Organize evidence in measured overlapping planes with one dominant archival focal point.\nComposition: Preserve readable margins, captions, and document edges instead of filling every gap.\nEdit the attached COMPLETE reference; keep exact canvas and registration coordinates. Retain the rear plate: A vast luminous warm ivory sky over a faint dusty-blue distant landscape, an understated honey-gold sun in the upper right. Remove every middle-plane and foreground object and their shadows. Reconstruct the complete unobstructed background behind them. Opaque full canvas, no holes or transparent pixels. Preserve the exact paper palette and rear scene. Cinematic fine-art archival PAPER COLLAGE, elegant album cover quality, exact landscape 1672x941 pixels. Restrained ivory, sepia, desaturated indigo and warm gold palette, detailed paper grain, halftone printed photograph textures and authentic ragged paper edges. No text, typography, labels, watermarks, logos or people. No frames or contact sheet. The bottom 18 percent is quiet warm ivory with subdued texture for editable Chinese lyrics. All compositions designed with genuine independent rear, middle and sparse front planes. The first light after rain, tenderness returning. The separately animated central flower will be added later; leave a generous central open space.",
+  "styleProfileBinding": {
+    "schemaVersion": 1,
+    "id": "archival-collage",
+    "catalogVersion": "2026-07-30.2",
+    "profileFingerprint": "03374c56e20183c3e8d4ddb0e4883a50e7ecdb7ca207711e786cbd2106415885",
+    "directives": [
+      "Use aged paper, restrained sepia color, halftone print texture, and archival cutout framing.",
+      "Treat photographs and documents as tactile evidence layers with legible hierarchy.",
+      "Avoid: Glossy modern gradients, neon color, and playful preschool proportions.",
+      "Composition: Organize evidence in measured overlapping planes with one dominant archival focal point.",
+      "Composition: Preserve readable margins, captions, and document edges instead of filling every gap."
+    ]
+  },
+  "outputSurface": {
+    "mode": "opaque"
+  },
+  "compositionBinding": {
+    "sceneId": "balanced-scene-04",
+    "nodeId": "world-4",
+    "pattern": "registered-depth-stack",
+    "outputRole": "support-rear",
+    "registrationId": "flower-garden-family",
+    "sourceMasterAssetId": "flower-garden-master",
+    "canvas": {
+      "width": 1672,
+      "height": 941
+    },
+    "derivation": {
+      "method": "provider-edit",
+      "parentAssetId": "flower-garden-master"
+    }
+  },
+  "layerPackageBinding": {
+    "sourcePackageId": "balanced-source-4",
+    "pattern": "registered-depth-stack",
+    "motionCapability": "bounded-relative",
+    "sourceStrategy": "context-preserving-layer-edits",
+    "registrationId": "flower-garden-family",
+    "sourceMasterAssetId": "flower-garden-master",
+    "canvas": {
+      "width": 1672,
+      "height": 941
+    },
+    "packageRole": "support-rear",
+    "completeness": "clean-plate",
+    "memberAssetIds": [
+      "flower-garden-rear",
+      "flower-garden-subject",
+      "flower-garden-front"
+    ],
+    "referenceAssetIds": [
+      "flower-garden-master"
+    ],
+    "sheetLayout": null,
+    "recoveryPolicy": {
+      "completeSourceContext": true,
+      "localDeterministicFixFirst": true,
+      "isolatedMemberGeneration": "forbidden",
+      "providerRepair": "masked-complete-source-edit",
+      "fallback": "full-source-regeneration"
+    }
+  },
+  "semanticBinding": {
+    "riskClass": "decorative",
+    "contractIds": []
+  },
+  "quality": {
+    "requiredChecks": [
+      "no-text",
+      "no-watermark",
+      "style-consistent",
+      "style-profile-conformant"
+    ]
+  }
+}

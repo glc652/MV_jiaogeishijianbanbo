@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "slug": "time-patina-paper",
+  "createdAt": "2026-10-08T04:53:27.841Z",
+  "source": "asset-production",
+  "authorization": {
+    "schemaVersion": 1,
+    "id": "character-variety-v5",
+    "slug": "time-patina-paper",
+    "source": "asset-production-feedback",
+    "allowedSceneIds": [
+      "balanced-scene-01",
+      "balanced-scene-02",
+      "balanced-scene-03",
+      "balanced-scene-06",
+      "balanced-scene-08"
+    ],
+    "humanNote": "用户要求角色造型多一点，在故事性基础上丰富美观；在三组动作表、9个新姿态及总上限34次方案后明确回复继续。",
+    "equivalentQualityEvidence": [
+      "新增三组完整角色动作表，每组3态，沿用同一角色参考。",
+      "已通过正式增额命令记录28→34次，保留原预算审计。",
+      "角色动作、接地与道具交互需重新渲染检查，未复用旧画面通过结论。"
+    ],
+    "decidedAt": "2026-10-08T04:53:27.841Z",
+    "fingerprint": "28a5344fb69dd5b2a97da6b3cd48ecd0b7aea5373f6b017310fa95142a99db63"
+  },
+  "oldConceptFingerprint": "fce2dac9ddcc50d7b4dc416935535799da81803aa18290fd97c2811d1347b70a",
+  "newConceptFingerprint": "65d06853236623e4fb03b92238ca429a813934d1137deabe5cd752765f2fedbe",
+  "semanticChangedSceneIds": [
+    "balanced-scene-01",
+    "balanced-scene-02",
+    "balanced-scene-03",
+    "balanced-scene-06",
+    "balanced-scene-08"
+  ],
+  "changedSceneIds": [
+    "balanced-scene-01",
+    "balanced-scene-02",
+    "balanced-scene-03",
+    "balanced-scene-04",
+    "balanced-scene-06",
+    "balanced-scene-07",
+    "balanced-scene-08"
+  ],
+  "changedScenes": [
+    {
+      "sceneId": "balanced-scene-01",
+      "categories": [
+        "treatments",
+        "compiled-plan",
+        "directing-fingerprint"
+      ]
+    },
+    {
+      "sceneId": "balanced-scene-02",
+      "categories": [
+        "treatments",
+        "compiled-plan",
+        "directing-fingerprint"
+      ]
+    },
+    {
+      "sceneId": "balanced-scene-03",
+      "categories": [
+        "treatments",
+        "compiled-plan",
+        "directing-fingerprint"
+      ]
+    },
+    {
+      "sceneId": "balanced-scene-04",
+      "categories": [
+        "compiled-plan"
+      ]
+    },
+    {
+      "sceneId": "balanced-scene-06",
+      "categories": [
+        "treatments",
+        "compiled-plan",
+        "directing-fingerprint"
+      ]
+    },
+    {
+      "sceneId": "balanced-scene-07",
+      "categories": [
+        "compiled-plan"
+      ]
+    },
+    {
+      "sceneId": "balanced-scene-08",
+      "categories": [
+        "treatments",
+        "compiled-plan",
+        "directing-fingerprint"
+      ]
+    }
+  ],
+  "profilePromiseRecalculation": {
+    "original": {
+      "minRequiredStateFamilies": 3,
+      "minEnhancementStateFamilies": 0,
+      "minTotalStates": 9,
+      "minLocalMotionTargets": 16,
+      "minLayeredScenes": 4,
+      "minParallaxScenes": 4,
+      "minAmbientScenes": 2
+    },
+    "recalculated": {
+      "minRequiredStateFamilies": 3,
+      "minEnhancementStateFamilies": 0,
+      "minTotalStates": 9,
+      "minLocalMotionTargets": 16,
+      "minLayeredScenes": 4,
+      "minParallaxScenes": 4,
+      "minAmbientScenes": 2
+    },
+    "lockedSceneIds": [],
+    "changed": false
+  },
+  "executionSyncRequired": true,
+  "providerApprovalRequired": false,
+  "motionApprovalInvalidated": false,
+  "invalidatedArtifacts": [
+    "styleProof",
+    "validationReport",
+    "preview",
+    "final",
+    "report",
+    "contactSheet"
+  ]
+}

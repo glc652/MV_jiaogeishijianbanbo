@@ -1,0 +1,2447 @@
+{
+  "$schema": "../../schemas/quality-review-scaffold.schema.json",
+  "schemaVersion": 3,
+  "projectSlug": "time-patina-paper",
+  "reviewScope": "style",
+  "generatedAt": "2026-10-06T07:39:17.363Z",
+  "sourceReport": {
+    "file": "projects\\time-patina-paper\\quality-report.json",
+    "schemaVersion": 7,
+    "fingerprint": "c3ba2ea6db56184dc4b7e3ed081f8a41a07e3bd8138f47f56adb03db191fd380"
+  },
+  "instructions": "Inspect every evidence file. Move each pending check into passedChecks or failedChecks and write a concrete note; never pass a check only to unblock production.",
+  "reviews": [
+    {
+      "assetId": "rain-window-rear-registered",
+      "reviewer": "host-vision",
+      "requiredChecks": [
+        "no-text",
+        "no-watermark",
+        "subject-complete",
+        "style-consistent",
+        "silhouette-fidelity",
+        "negative-space-clean",
+        "background-leak-free",
+        "style-profile-conformant"
+      ],
+      "pendingChecks": [],
+      "passedChecks": [
+        "no-text",
+        "no-watermark",
+        "subject-complete",
+        "style-consistent",
+        "silhouette-fidelity",
+        "negative-space-clean",
+        "background-leak-free",
+        "style-profile-conformant"
+      ],
+      "failedChecks": [],
+      "evidenceFiles": [
+        {
+          "file": "public\\projects\\time-patina-paper\\assets\\rain-window-rear-registered.png",
+          "sha256": "c81b4f6e7be84ca9e9f452f08b9d15d0c39a5b25a4078309821c0c1c7c89db8e"
+        },
+        {
+          "file": "public\\style-catalog\\archival-collage.png",
+          "sha256": "e96bec7f3d2a318e2459cacd0e53124a5f7c1d938c7043c754e6ea25d66a2b19"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-rear-alpha.png",
+          "sha256": "ddf9dd33a181bfbb320f96afbcf2f79997c0aee19d108635d2cb8e0d560e051d"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-rear-checkerboard.png",
+          "sha256": "b0b2a0bb985b44339208b35faf3e092bf8a2ed9d50c4cebf98f67ff9e552e225"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-rear-tight.png",
+          "sha256": "b0b2a0bb985b44339208b35faf3e092bf8a2ed9d50c4cebf98f67ff9e552e225"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-rear-motion-stress.jpg",
+          "sha256": "6d189dc3f8c0eb115e33b9285ddb142993883c72b9ec8df8356be56aea1ebb66"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-rear-alpha-bands.json",
+          "sha256": "e043dffa479c97e05b77cda7d49e3b045e7f0dd66e930703bb586bb4c5550ac1"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-rear-alpha-bands.png",
+          "sha256": "b0b2a0bb985b44339208b35faf3e092bf8a2ed9d50c4cebf98f67ff9e552e225"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-01-established.png",
+          "sha256": "b0cd474242690209b2dbc8217b1f3b1e9cc613778cb0853f958483b4e1c0003e"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\parallax-rig-balanced-scene-01-balanced-scene-01-established.jpg",
+          "sha256": "a6357accf434f034e900cd64049acc7c0bf3df2b480fe5be08ce758326f35852"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\parallax-rig-balanced-scene-01-balanced-scene-01-established.jpg",
+          "sha256": "06c656402931152529a0b14128ef20a388eb2885f4ab2426590d8f84850b9ba4"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-01-transforming.png",
+          "sha256": "d1bbd07d78714314a6697916b308d95b548e3d93ba6f9859c99b77bc0e30a599"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\parallax-rig-balanced-scene-01-balanced-scene-01-transforming.jpg",
+          "sha256": "62900327980d329a9b9b0f0fd17ff1cecaae4d87ac113f9061550bc2a005c69c"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\parallax-rig-balanced-scene-01-balanced-scene-01-transforming.jpg",
+          "sha256": "5239715b8c9f92cb0b4d97f137b7a8c9e4115813450b92e6eb56d62d6941ee81"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-01-resolved.png",
+          "sha256": "945e596e9039c6ff68b57f426e93a0bcf3c053e056dbf908bc30e54f4a62883e"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\parallax-rig-balanced-scene-01-balanced-scene-01-resolved.jpg",
+          "sha256": "252ee1d6da115ab8b767644c0753d6db3a7efc4bca3a3581162a38868d5e0711"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\parallax-rig-balanced-scene-01-balanced-scene-01-resolved.jpg",
+          "sha256": "ba5a4c87debc6295c6967931c2850cb3951d822ae63e8c2bdd0f20acee985b59"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\group-balanced-scene-01-world-1-balanced-scene-01-established.jpg",
+          "sha256": "a6357accf434f034e900cd64049acc7c0bf3df2b480fe5be08ce758326f35852"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\group-balanced-scene-01-world-1-balanced-scene-01-established.jpg",
+          "sha256": "6e0123b135e20d8429a444cbf50bdb70e7c665b8d84b4a8bed24b879a36177a6"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\group-balanced-scene-01-world-1-balanced-scene-01-transforming.jpg",
+          "sha256": "62900327980d329a9b9b0f0fd17ff1cecaae4d87ac113f9061550bc2a005c69c"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\group-balanced-scene-01-world-1-balanced-scene-01-transforming.jpg",
+          "sha256": "b150d23cd088eb5d5f3a1aa33954f89f0bd0abfd736768faf59afd06a5c56ac4"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\group-balanced-scene-01-world-1-balanced-scene-01-resolved.jpg",
+          "sha256": "252ee1d6da115ab8b767644c0753d6db3a7efc4bca3a3581162a38868d5e0711"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\group-balanced-scene-01-world-1-balanced-scene-01-resolved.jpg",
+          "sha256": "76c607dd976c2283054a91eab635f493f220a2e32eeb89cfee3d59e5a528cc9e"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-rain-window-topology-window-outline-balanced-scene-01-established.jpg",
+          "sha256": "a6357accf434f034e900cd64049acc7c0bf3df2b480fe5be08ce758326f35852"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-rain-window-topology-window-outline-balanced-scene-01-established.jpg",
+          "sha256": "ee6fcdffc2515028a4f45ea8ae49bca690d095ceacdbfcc60c57c630238088e7"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-rain-window-topology-window-outline-balanced-scene-01-transforming.jpg",
+          "sha256": "62900327980d329a9b9b0f0fd17ff1cecaae4d87ac113f9061550bc2a005c69c"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-rain-window-topology-window-outline-balanced-scene-01-transforming.jpg",
+          "sha256": "f57ea428413dc576425b25f2af5e767f75977c6a12f484d28948adb1b9dd8bae"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-rain-window-topology-window-outline-balanced-scene-01-resolved.jpg",
+          "sha256": "252ee1d6da115ab8b767644c0753d6db3a7efc4bca3a3581162a38868d5e0711"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-rain-window-topology-window-outline-balanced-scene-01-resolved.jpg",
+          "sha256": "ad0e228d304fba44b64e7752572b0df31a212b1d74cc70760590d5735b1762f8"
+        }
+      ],
+      "note": "已检查原始母版、完整背景、透明窗框/前景、重建对照、展开图和三画幅运动边界：窗格空隙干净，前中后层完整，扩大载体后边缘不露空；纸纹、网点与配色一致。",
+      "targetFingerprint": "f72974150c3292cde4c05eabb91d4f6ad69db27f8624707ceb0a9cd2bacf6ca3"
+    },
+    {
+      "assetId": "rain-window-subject-registered",
+      "reviewer": "host-vision",
+      "requiredChecks": [
+        "no-text",
+        "no-watermark",
+        "subject-complete",
+        "style-consistent",
+        "silhouette-fidelity",
+        "negative-space-clean",
+        "background-leak-free",
+        "style-profile-conformant"
+      ],
+      "pendingChecks": [],
+      "passedChecks": [
+        "no-text",
+        "no-watermark",
+        "subject-complete",
+        "style-consistent",
+        "silhouette-fidelity",
+        "negative-space-clean",
+        "background-leak-free",
+        "style-profile-conformant"
+      ],
+      "failedChecks": [],
+      "evidenceFiles": [
+        {
+          "file": "public\\projects\\time-patina-paper\\assets\\rain-window-subject-registered.png",
+          "sha256": "434efbb7315eceee28dc00304429aac37911fc24283b6136ed2aa6b2bedec6b5"
+        },
+        {
+          "file": "public\\style-catalog\\archival-collage.png",
+          "sha256": "e96bec7f3d2a318e2459cacd0e53124a5f7c1d938c7043c754e6ea25d66a2b19"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-subject-alpha.png",
+          "sha256": "c02e2692fd6979517ebfa2388c3643723ca01c635c76094392680a82392f2c0e"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-subject-checkerboard.png",
+          "sha256": "c8d589dcab80940a5c3393a80ca4eec5b59ac191608139a0f363792136c604a8"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-subject-tight.png",
+          "sha256": "8bc3706e0316d4f2760082d72fbe381f2b7f30e404c311ce8ead39bd25e51b0c"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-subject-motion-stress.jpg",
+          "sha256": "ec9be302b6e6eea6a4fd530b4be382c4d22c800ff19fada72cefc2ecbbb8842a"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-subject-alpha-bands.json",
+          "sha256": "cd8159f23e7d847bee47571a92f8bfbe6c04475cf7fd76d7ae56186b7af6ccb9"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-subject-alpha-bands.png",
+          "sha256": "1432c9ea98d90d61b8263fd8b41f6d7791e93fa33303db6e19a06e28fdd62b63"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-01-established.png",
+          "sha256": "b0cd474242690209b2dbc8217b1f3b1e9cc613778cb0853f958483b4e1c0003e"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\parallax-rig-balanced-scene-01-balanced-scene-01-established.jpg",
+          "sha256": "a6357accf434f034e900cd64049acc7c0bf3df2b480fe5be08ce758326f35852"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\parallax-rig-balanced-scene-01-balanced-scene-01-established.jpg",
+          "sha256": "06c656402931152529a0b14128ef20a388eb2885f4ab2426590d8f84850b9ba4"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-01-transforming.png",
+          "sha256": "d1bbd07d78714314a6697916b308d95b548e3d93ba6f9859c99b77bc0e30a599"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\parallax-rig-balanced-scene-01-balanced-scene-01-transforming.jpg",
+          "sha256": "62900327980d329a9b9b0f0fd17ff1cecaae4d87ac113f9061550bc2a005c69c"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\parallax-rig-balanced-scene-01-balanced-scene-01-transforming.jpg",
+          "sha256": "5239715b8c9f92cb0b4d97f137b7a8c9e4115813450b92e6eb56d62d6941ee81"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-01-resolved.png",
+          "sha256": "945e596e9039c6ff68b57f426e93a0bcf3c053e056dbf908bc30e54f4a62883e"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\parallax-rig-balanced-scene-01-balanced-scene-01-resolved.jpg",
+          "sha256": "252ee1d6da115ab8b767644c0753d6db3a7efc4bca3a3581162a38868d5e0711"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\parallax-rig-balanced-scene-01-balanced-scene-01-resolved.jpg",
+          "sha256": "ba5a4c87debc6295c6967931c2850cb3951d822ae63e8c2bdd0f20acee985b59"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\group-balanced-scene-01-world-1-balanced-scene-01-established.jpg",
+          "sha256": "a6357accf434f034e900cd64049acc7c0bf3df2b480fe5be08ce758326f35852"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\group-balanced-scene-01-world-1-balanced-scene-01-established.jpg",
+          "sha256": "6e0123b135e20d8429a444cbf50bdb70e7c665b8d84b4a8bed24b879a36177a6"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\group-balanced-scene-01-world-1-balanced-scene-01-transforming.jpg",
+          "sha256": "62900327980d329a9b9b0f0fd17ff1cecaae4d87ac113f9061550bc2a005c69c"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\group-balanced-scene-01-world-1-balanced-scene-01-transforming.jpg",
+          "sha256": "b150d23cd088eb5d5f3a1aa33954f89f0bd0abfd736768faf59afd06a5c56ac4"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\group-balanced-scene-01-world-1-balanced-scene-01-resolved.jpg",
+          "sha256": "252ee1d6da115ab8b767644c0753d6db3a7efc4bca3a3581162a38868d5e0711"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\group-balanced-scene-01-world-1-balanced-scene-01-resolved.jpg",
+          "sha256": "76c607dd976c2283054a91eab635f493f220a2e32eeb89cfee3d59e5a528cc9e"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-rain-window-topology-window-outline-balanced-scene-01-established.jpg",
+          "sha256": "a6357accf434f034e900cd64049acc7c0bf3df2b480fe5be08ce758326f35852"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-rain-window-topology-window-outline-balanced-scene-01-established.jpg",
+          "sha256": "ee6fcdffc2515028a4f45ea8ae49bca690d095ceacdbfcc60c57c630238088e7"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-rain-window-topology-window-outline-balanced-scene-01-transforming.jpg",
+          "sha256": "62900327980d329a9b9b0f0fd17ff1cecaae4d87ac113f9061550bc2a005c69c"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-rain-window-topology-window-outline-balanced-scene-01-transforming.jpg",
+          "sha256": "f57ea428413dc576425b25f2af5e767f75977c6a12f484d28948adb1b9dd8bae"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-rain-window-topology-window-outline-balanced-scene-01-resolved.jpg",
+          "sha256": "252ee1d6da115ab8b767644c0753d6db3a7efc4bca3a3581162a38868d5e0711"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-rain-window-topology-window-outline-balanced-scene-01-resolved.jpg",
+          "sha256": "ad0e228d304fba44b64e7752572b0df31a212b1d74cc70760590d5735b1762f8"
+        }
+      ],
+      "note": "已检查原始母版、完整背景、透明窗框/前景、重建对照、展开图和三画幅运动边界：窗格空隙干净，前中后层完整，扩大载体后边缘不露空；纸纹、网点与配色一致。",
+      "targetFingerprint": "5ed414269b629aa3f491935f0fbe6ce6d19f217a42539eaacdf4a9efe5320c66"
+    },
+    {
+      "assetId": "rain-window-front-registered",
+      "reviewer": "host-vision",
+      "requiredChecks": [
+        "no-text",
+        "no-watermark",
+        "subject-complete",
+        "style-consistent",
+        "silhouette-fidelity",
+        "negative-space-clean",
+        "background-leak-free",
+        "style-profile-conformant"
+      ],
+      "pendingChecks": [],
+      "passedChecks": [
+        "no-text",
+        "no-watermark",
+        "subject-complete",
+        "style-consistent",
+        "silhouette-fidelity",
+        "negative-space-clean",
+        "background-leak-free",
+        "style-profile-conformant"
+      ],
+      "failedChecks": [],
+      "evidenceFiles": [
+        {
+          "file": "public\\projects\\time-patina-paper\\assets\\rain-window-front-registered.png",
+          "sha256": "132fe458d1d94c3ed3c51baf800914b1ec092da183d7a55d6d9b7d83df479cd0"
+        },
+        {
+          "file": "public\\style-catalog\\archival-collage.png",
+          "sha256": "e96bec7f3d2a318e2459cacd0e53124a5f7c1d938c7043c754e6ea25d66a2b19"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-front-alpha.png",
+          "sha256": "d43c81e80a0f3cf8bd15eb04238ad6ca044f8fd53cef304631b5c0cc5dcd5299"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-front-checkerboard.png",
+          "sha256": "cb8547a3386a3eb4b7b27239f9b067f71dbd1bfb438f47e65192518c1cc7f1b5"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-front-tight.png",
+          "sha256": "efc8969a0451272e9266bcb9b76fbf4fb549603f4ad90cc67396225eb2da2e1a"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-front-motion-stress.jpg",
+          "sha256": "75a7a9533e795ef039d26b242be9cd5482c83232a75ab2c0fdf87aea32abecf5"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-front-alpha-bands.json",
+          "sha256": "cfa9e817441c0d9597ee7ff628ef01bc103b0dc0470c56f72f3cf73875da3497"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-front-alpha-bands.png",
+          "sha256": "cb8547a3386a3eb4b7b27239f9b067f71dbd1bfb438f47e65192518c1cc7f1b5"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-01-established.png",
+          "sha256": "b0cd474242690209b2dbc8217b1f3b1e9cc613778cb0853f958483b4e1c0003e"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\parallax-rig-balanced-scene-01-balanced-scene-01-established.jpg",
+          "sha256": "a6357accf434f034e900cd64049acc7c0bf3df2b480fe5be08ce758326f35852"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\parallax-rig-balanced-scene-01-balanced-scene-01-established.jpg",
+          "sha256": "06c656402931152529a0b14128ef20a388eb2885f4ab2426590d8f84850b9ba4"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-01-transforming.png",
+          "sha256": "d1bbd07d78714314a6697916b308d95b548e3d93ba6f9859c99b77bc0e30a599"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\parallax-rig-balanced-scene-01-balanced-scene-01-transforming.jpg",
+          "sha256": "62900327980d329a9b9b0f0fd17ff1cecaae4d87ac113f9061550bc2a005c69c"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\parallax-rig-balanced-scene-01-balanced-scene-01-transforming.jpg",
+          "sha256": "5239715b8c9f92cb0b4d97f137b7a8c9e4115813450b92e6eb56d62d6941ee81"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-01-resolved.png",
+          "sha256": "945e596e9039c6ff68b57f426e93a0bcf3c053e056dbf908bc30e54f4a62883e"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\parallax-rig-balanced-scene-01-balanced-scene-01-resolved.jpg",
+          "sha256": "252ee1d6da115ab8b767644c0753d6db3a7efc4bca3a3581162a38868d5e0711"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\parallax-rig-balanced-scene-01-balanced-scene-01-resolved.jpg",
+          "sha256": "ba5a4c87debc6295c6967931c2850cb3951d822ae63e8c2bdd0f20acee985b59"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\group-balanced-scene-01-world-1-balanced-scene-01-established.jpg",
+          "sha256": "a6357accf434f034e900cd64049acc7c0bf3df2b480fe5be08ce758326f35852"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\group-balanced-scene-01-world-1-balanced-scene-01-established.jpg",
+          "sha256": "6e0123b135e20d8429a444cbf50bdb70e7c665b8d84b4a8bed24b879a36177a6"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\group-balanced-scene-01-world-1-balanced-scene-01-transforming.jpg",
+          "sha256": "62900327980d329a9b9b0f0fd17ff1cecaae4d87ac113f9061550bc2a005c69c"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\group-balanced-scene-01-world-1-balanced-scene-01-transforming.jpg",
+          "sha256": "b150d23cd088eb5d5f3a1aa33954f89f0bd0abfd736768faf59afd06a5c56ac4"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\group-balanced-scene-01-world-1-balanced-scene-01-resolved.jpg",
+          "sha256": "252ee1d6da115ab8b767644c0753d6db3a7efc4bca3a3581162a38868d5e0711"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\group-balanced-scene-01-world-1-balanced-scene-01-resolved.jpg",
+          "sha256": "76c607dd976c2283054a91eab635f493f220a2e32eeb89cfee3d59e5a528cc9e"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-rain-window-topology-window-outline-balanced-scene-01-established.jpg",
+          "sha256": "a6357accf434f034e900cd64049acc7c0bf3df2b480fe5be08ce758326f35852"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-rain-window-topology-window-outline-balanced-scene-01-established.jpg",
+          "sha256": "ee6fcdffc2515028a4f45ea8ae49bca690d095ceacdbfcc60c57c630238088e7"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-rain-window-topology-window-outline-balanced-scene-01-transforming.jpg",
+          "sha256": "62900327980d329a9b9b0f0fd17ff1cecaae4d87ac113f9061550bc2a005c69c"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-rain-window-topology-window-outline-balanced-scene-01-transforming.jpg",
+          "sha256": "f57ea428413dc576425b25f2af5e767f75977c6a12f484d28948adb1b9dd8bae"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-rain-window-topology-window-outline-balanced-scene-01-resolved.jpg",
+          "sha256": "252ee1d6da115ab8b767644c0753d6db3a7efc4bca3a3581162a38868d5e0711"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-rain-window-topology-window-outline-balanced-scene-01-resolved.jpg",
+          "sha256": "ad0e228d304fba44b64e7752572b0df31a212b1d74cc70760590d5735b1762f8"
+        }
+      ],
+      "note": "已检查原始母版、完整背景、透明窗框/前景、重建对照、展开图和三画幅运动边界：窗格空隙干净，前中后层完整，扩大载体后边缘不露空；纸纹、网点与配色一致。",
+      "targetFingerprint": "ddc76f5541a8164d82ff5c55a93195e37bca6388112441dcfc0416fe308141c0"
+    },
+    {
+      "assetId": "style-reference",
+      "reviewer": "host-vision",
+      "requiredChecks": [
+        "no-text",
+        "no-watermark",
+        "no-people",
+        "style-consistent",
+        "style-profile-conformant",
+        "safe-area-clear"
+      ],
+      "pendingChecks": [],
+      "passedChecks": [
+        "no-text",
+        "no-watermark",
+        "no-people",
+        "style-consistent",
+        "style-profile-conformant",
+        "safe-area-clear"
+      ],
+      "failedChecks": [],
+      "evidenceFiles": [
+        {
+          "file": "public\\projects\\time-patina-paper\\assets\\style-reference.png",
+          "sha256": "ec4da159ef517fda211c6594df8dd174fb70f3a642a380e68608debc75cf2ae8"
+        },
+        {
+          "file": "public\\style-catalog\\archival-collage.png",
+          "sha256": "e96bec7f3d2a318e2459cacd0e53124a5f7c1d938c7043c754e6ea25d66a2b19"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-style-backdrop-alpha.png",
+          "sha256": "78bc77071beba4a7189d2821d0181eaccf4f988d32b904815d9590f5ec56e39d"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-style-backdrop-checkerboard.png",
+          "sha256": "da34cdea0518a2e25d34e28fca494a6c17ec802d56941748844c6815ee7ff0f6"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-style-backdrop-tight.png",
+          "sha256": "da34cdea0518a2e25d34e28fca494a6c17ec802d56941748844c6815ee7ff0f6"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-style-backdrop-motion-stress.jpg",
+          "sha256": "d11daf67f13f9e68a54e6e101c49935a43c6a8d36ae30ea13ab5c1908563f49f"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-style-backdrop-alpha-bands.json",
+          "sha256": "66685e23d54ce51fa470912cecc2f2e4e4836b4cdc02569517366fb0f73774e0"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-style-backdrop-alpha-bands.png",
+          "sha256": "da34cdea0518a2e25d34e28fca494a6c17ec802d56941748844c6815ee7ff0f6"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-07-established.png",
+          "sha256": "db556ea1f6d6d29bc6a1fa25271e607ae45dd5690d466949ca6fb8a4e109af20"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\parallax-rig-balanced-scene-07-balanced-scene-07-established.jpg",
+          "sha256": "6414b68baaca00650e0110bfeeb0e662b1fd6720afdbdf6ce100dc947884c68c"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\parallax-rig-balanced-scene-07-balanced-scene-07-established.jpg",
+          "sha256": "1e0765a5745092a5ea9685a1849be64380afb66413e57760a9f151076cb74cd1"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-07-transforming.png",
+          "sha256": "d063be283a7ab5c99d88de3ac945d4fdf6ba8b4cef51a217fca93583c059bd83"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\parallax-rig-balanced-scene-07-balanced-scene-07-transforming.jpg",
+          "sha256": "f69050ba248f624725079f3613c967f945cf4a388d6532d17dd1e7587fee0f25"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\parallax-rig-balanced-scene-07-balanced-scene-07-transforming.jpg",
+          "sha256": "98dd23fa48acd7c48723215ab32fb4a63b9c91649460429a75b6acd567bdda2b"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-07-resolved.png",
+          "sha256": "cda870ad8242e791e063cdcfbbe596264fb2723cb7c983dfd03e756a42f5ed61"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\parallax-rig-balanced-scene-07-balanced-scene-07-resolved.jpg",
+          "sha256": "12f61666645dec983a64cf089b7cffe4e99ca5189b69d8e1ea68cb557ce1acad"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\parallax-rig-balanced-scene-07-balanced-scene-07-resolved.jpg",
+          "sha256": "c23c2189f5ce329f397fa57669ffcd62f5a7f6732f9c8637fb038b57d1576760"
+        }
+      ],
+      "note": "已检查原始海岸基调图：旧纸、撕边照片、靛蓝海面和暖金光线统一，无文字或人物，底部保留连续纸色。",
+      "targetFingerprint": "9a2ecddcbbd7235e627d4076dcbd29ff554f70e3cb926e0f513d2c76a787a8e0"
+    },
+    {
+      "assetId": "human-release-curled",
+      "reviewer": "host-vision",
+      "requiredChecks": [
+        "identity-family-consistent",
+        "silhouette-fidelity",
+        "negative-space-clean",
+        "background-leak-free",
+        "style-consistent",
+        "style-profile-conformant"
+      ],
+      "pendingChecks": [],
+      "passedChecks": [
+        "identity-family-consistent",
+        "silhouette-fidelity",
+        "negative-space-clean",
+        "background-leak-free",
+        "style-consistent",
+        "style-profile-conformant"
+      ],
+      "failedChecks": [],
+      "evidenceFiles": [
+        {
+          "file": "public\\projects\\time-patina-paper\\assets\\person-states\\human-release-curled.png",
+          "sha256": "34e3a2f0eda0988f491e9bf0d07a173a412bb2cd9a51bbefcc306feb4f4a321d"
+        },
+        {
+          "file": "public\\style-catalog\\archival-collage.png",
+          "sha256": "e96bec7f3d2a318e2459cacd0e53124a5f7c1d938c7043c754e6ea25d66a2b19"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-alpha.png",
+          "sha256": "a15041829b615ab88cbfe33698d186afbac5978b31b1ad9dfb6046543cab41f8"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-checkerboard.png",
+          "sha256": "47ed4c6a167985115dfdf16fcf45ba18ed3ca62c8976c72f39f2264b2ea8abac"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-tight.png",
+          "sha256": "16dee54a95b88362d603bf8f39586f6e984aae698bb640b42707c72224fc2a48"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-motion-stress.jpg",
+          "sha256": "dd6199b356d20657b0bf34ff6f960a8ce7a20c8c05afd1c170c762017902eb5a"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-alpha-bands.json",
+          "sha256": "7cfa0fc167eab4549abdea9306ef722cafca5f7baa8d773c26b4ba91b34b178d"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-alpha-bands.png",
+          "sha256": "47ed4c6a167985115dfdf16fcf45ba18ed3ca62c8976c72f39f2264b2ea8abac"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-07-established.png",
+          "sha256": "db556ea1f6d6d29bc6a1fa25271e607ae45dd5690d466949ca6fb8a4e109af20"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\parallax-rig-balanced-scene-07-balanced-scene-07-established.jpg",
+          "sha256": "6414b68baaca00650e0110bfeeb0e662b1fd6720afdbdf6ce100dc947884c68c"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\parallax-rig-balanced-scene-07-balanced-scene-07-established.jpg",
+          "sha256": "1e0765a5745092a5ea9685a1849be64380afb66413e57760a9f151076cb74cd1"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-07-transforming.png",
+          "sha256": "d063be283a7ab5c99d88de3ac945d4fdf6ba8b4cef51a217fca93583c059bd83"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\parallax-rig-balanced-scene-07-balanced-scene-07-transforming.jpg",
+          "sha256": "f69050ba248f624725079f3613c967f945cf4a388d6532d17dd1e7587fee0f25"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\parallax-rig-balanced-scene-07-balanced-scene-07-transforming.jpg",
+          "sha256": "98dd23fa48acd7c48723215ab32fb4a63b9c91649460429a75b6acd567bdda2b"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-07-resolved.png",
+          "sha256": "cda870ad8242e791e063cdcfbbe596264fb2723cb7c983dfd03e756a42f5ed61"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\parallax-rig-balanced-scene-07-balanced-scene-07-resolved.jpg",
+          "sha256": "12f61666645dec983a64cf089b7cffe4e99ca5189b69d8e1ea68cb557ce1acad"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\parallax-rig-balanced-scene-07-balanced-scene-07-resolved.jpg",
+          "sha256": "c23c2189f5ce329f397fa57669ffcd62f5a7f6732f9c8637fb038b57d1576760"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\state-sequence-balanced-scene-07-paper-person-balanced-scene-07-established.jpg",
+          "sha256": "bbc8a2a1ad149c608fd9a0118645a54cfe7be9e7009f91d9db14fc3f97f0b109"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\state-sequence-balanced-scene-07-paper-person-balanced-scene-07-established.jpg",
+          "sha256": "807dd7a99371f85ab15b4635e36eea881fa545a3234d3da7e2e1f019b19f5f26"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\state-sequence-balanced-scene-07-paper-person-balanced-scene-07-transforming.jpg",
+          "sha256": "8ac76fbcf3073c473be0f0e0c7ca62615e504c09224b7786172d1e38a3b3f8e0"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\state-sequence-balanced-scene-07-paper-person-balanced-scene-07-transforming.jpg",
+          "sha256": "cbed81b5f4a3b651879484a35478533cfb297145c015e1f3eda3b50042524b00"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\state-sequence-balanced-scene-07-paper-person-balanced-scene-07-resolved.jpg",
+          "sha256": "1b6417b1196688fc54d1940f353fe76447564799f27ca617098c0d7caff729de"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\state-sequence-balanced-scene-07-paper-person-balanced-scene-07-resolved.jpg",
+          "sha256": "49886b261a581379b63e9874ad5473aaf554c972f1f35e13846cfefa3689c123"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\event-balanced-scene-07-balanced-scene-07-establish-balanced-scene-07-established.jpg",
+          "sha256": "bbc8a2a1ad149c608fd9a0118645a54cfe7be9e7009f91d9db14fc3f97f0b109"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\event-balanced-scene-07-balanced-scene-07-establish-balanced-scene-07-established.jpg",
+          "sha256": "346f9c0a24d1c6497459940252cf67a9d55c239b8acbadd3a0715c045507e1b5"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-paper-person-identity-person-consistency-balanced-scene-07-established.jpg",
+          "sha256": "bbc8a2a1ad149c608fd9a0118645a54cfe7be9e7009f91d9db14fc3f97f0b109"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-paper-person-identity-person-consistency-balanced-scene-07-established.jpg",
+          "sha256": "d4663e4a4cd90ac5096e12533ae39867c81f66e7579f67627fa58a5568d0c80d"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-paper-person-identity-person-consistency-balanced-scene-07-transforming.jpg",
+          "sha256": "8ac76fbcf3073c473be0f0e0c7ca62615e504c09224b7786172d1e38a3b3f8e0"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-paper-person-identity-person-consistency-balanced-scene-07-transforming.jpg",
+          "sha256": "1baf8033ba4eb5245d495744852971823b3492fac7b4e38033d203237b4d96bd"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-paper-person-identity-person-consistency-balanced-scene-07-resolved.jpg",
+          "sha256": "1b6417b1196688fc54d1940f353fe76447564799f27ca617098c0d7caff729de"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-paper-person-identity-person-consistency-balanced-scene-07-resolved.jpg",
+          "sha256": "d40d759a31903c23c12e29fe1d4bc9863cdae94c4d0821175ceb8c8ebeaf1773"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-paper-person-topology-person-outline-balanced-scene-07-established.jpg",
+          "sha256": "bbc8a2a1ad149c608fd9a0118645a54cfe7be9e7009f91d9db14fc3f97f0b109"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-paper-person-topology-person-outline-balanced-scene-07-established.jpg",
+          "sha256": "3cdba672c63fef93141f97f6acc6a87eef40bd895436826fdb71ba695407a406"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-paper-person-topology-person-outline-balanced-scene-07-transforming.jpg",
+          "sha256": "8ac76fbcf3073c473be0f0e0c7ca62615e504c09224b7786172d1e38a3b3f8e0"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-paper-person-topology-person-outline-balanced-scene-07-transforming.jpg",
+          "sha256": "b1024f411f53f8497779e56e0eb2317a7c64d2002f2dfcf9fa78e035d47b589c"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-paper-person-topology-person-outline-balanced-scene-07-resolved.jpg",
+          "sha256": "1b6417b1196688fc54d1940f353fe76447564799f27ca617098c0d7caff729de"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-paper-person-topology-person-outline-balanced-scene-07-resolved.jpg",
+          "sha256": "cd2c7d5be03e21428cf23811033c360287ce893f3a3093b9db84dbf2579f7e88"
+        }
+      ],
+      "note": "已检查完整源状态表、透明棋盘底、轮廓、三时刻合成及身份参考：靛蓝外套与米白长裤保持一致；三种姿态顺序清晰，四肢完整、无实色背景。运行时以落脚位置为轴校正状态视觉比例。",
+      "targetFingerprint": "bfd8006196ce469b4784c6b408fc528d1ff1577d051f7161d96789b8e298fb87"
+    },
+    {
+      "assetId": "human-release-rising",
+      "reviewer": "host-vision",
+      "requiredChecks": [
+        "identity-family-consistent",
+        "silhouette-fidelity",
+        "negative-space-clean",
+        "background-leak-free",
+        "style-consistent",
+        "style-profile-conformant"
+      ],
+      "pendingChecks": [],
+      "passedChecks": [
+        "identity-family-consistent",
+        "silhouette-fidelity",
+        "negative-space-clean",
+        "background-leak-free",
+        "style-consistent",
+        "style-profile-conformant"
+      ],
+      "failedChecks": [],
+      "evidenceFiles": [
+        {
+          "file": "public\\projects\\time-patina-paper\\assets\\person-states\\human-release-rising.png",
+          "sha256": "15d719c146a845b9f9fe836776dfa61dec86b9bdb6f484cd96024bdd4cd09ee7"
+        },
+        {
+          "file": "public\\style-catalog\\archival-collage.png",
+          "sha256": "e96bec7f3d2a318e2459cacd0e53124a5f7c1d938c7043c754e6ea25d66a2b19"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-alpha.png",
+          "sha256": "5bd0095fae1affaa42e252e144daf5dec97e5439d8827fb81ec6b95c77d5240b"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-checkerboard.png",
+          "sha256": "d89961f333d1f046a583c3cf94e1233cff68abd279a387e0ec477dbf72864d2f"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-tight.png",
+          "sha256": "cebdeff7c2c28ba908fa1e00220c0f2ab4f49724863169c228521ad3fa97bb96"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-motion-stress.jpg",
+          "sha256": "12ef427dce06a31308ef4a1fce0f2af807dee3efa7e31c41df168a758a7030df"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-alpha-bands.json",
+          "sha256": "7cfa0fc167eab4549abdea9306ef722cafca5f7baa8d773c26b4ba91b34b178d"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-alpha-bands.png",
+          "sha256": "d89961f333d1f046a583c3cf94e1233cff68abd279a387e0ec477dbf72864d2f"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-07-established.png",
+          "sha256": "db556ea1f6d6d29bc6a1fa25271e607ae45dd5690d466949ca6fb8a4e109af20"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\parallax-rig-balanced-scene-07-balanced-scene-07-established.jpg",
+          "sha256": "6414b68baaca00650e0110bfeeb0e662b1fd6720afdbdf6ce100dc947884c68c"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\parallax-rig-balanced-scene-07-balanced-scene-07-established.jpg",
+          "sha256": "1e0765a5745092a5ea9685a1849be64380afb66413e57760a9f151076cb74cd1"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-07-transforming.png",
+          "sha256": "d063be283a7ab5c99d88de3ac945d4fdf6ba8b4cef51a217fca93583c059bd83"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\parallax-rig-balanced-scene-07-balanced-scene-07-transforming.jpg",
+          "sha256": "f69050ba248f624725079f3613c967f945cf4a388d6532d17dd1e7587fee0f25"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\parallax-rig-balanced-scene-07-balanced-scene-07-transforming.jpg",
+          "sha256": "98dd23fa48acd7c48723215ab32fb4a63b9c91649460429a75b6acd567bdda2b"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-07-resolved.png",
+          "sha256": "cda870ad8242e791e063cdcfbbe596264fb2723cb7c983dfd03e756a42f5ed61"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\parallax-rig-balanced-scene-07-balanced-scene-07-resolved.jpg",
+          "sha256": "12f61666645dec983a64cf089b7cffe4e99ca5189b69d8e1ea68cb557ce1acad"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\parallax-rig-balanced-scene-07-balanced-scene-07-resolved.jpg",
+          "sha256": "c23c2189f5ce329f397fa57669ffcd62f5a7f6732f9c8637fb038b57d1576760"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\state-sequence-balanced-scene-07-paper-person-balanced-scene-07-established.jpg",
+          "sha256": "bbc8a2a1ad149c608fd9a0118645a54cfe7be9e7009f91d9db14fc3f97f0b109"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\state-sequence-balanced-scene-07-paper-person-balanced-scene-07-established.jpg",
+          "sha256": "807dd7a99371f85ab15b4635e36eea881fa545a3234d3da7e2e1f019b19f5f26"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\state-sequence-balanced-scene-07-paper-person-balanced-scene-07-transforming.jpg",
+          "sha256": "8ac76fbcf3073c473be0f0e0c7ca62615e504c09224b7786172d1e38a3b3f8e0"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\state-sequence-balanced-scene-07-paper-person-balanced-scene-07-transforming.jpg",
+          "sha256": "cbed81b5f4a3b651879484a35478533cfb297145c015e1f3eda3b50042524b00"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\state-sequence-balanced-scene-07-paper-person-balanced-scene-07-resolved.jpg",
+          "sha256": "1b6417b1196688fc54d1940f353fe76447564799f27ca617098c0d7caff729de"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\state-sequence-balanced-scene-07-paper-person-balanced-scene-07-resolved.jpg",
+          "sha256": "49886b261a581379b63e9874ad5473aaf554c972f1f35e13846cfefa3689c123"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\event-balanced-scene-07-balanced-scene-07-establish-balanced-scene-07-established.jpg",
+          "sha256": "bbc8a2a1ad149c608fd9a0118645a54cfe7be9e7009f91d9db14fc3f97f0b109"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\event-balanced-scene-07-balanced-scene-07-establish-balanced-scene-07-established.jpg",
+          "sha256": "346f9c0a24d1c6497459940252cf67a9d55c239b8acbadd3a0715c045507e1b5"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-paper-person-identity-person-consistency-balanced-scene-07-established.jpg",
+          "sha256": "bbc8a2a1ad149c608fd9a0118645a54cfe7be9e7009f91d9db14fc3f97f0b109"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-paper-person-identity-person-consistency-balanced-scene-07-established.jpg",
+          "sha256": "d4663e4a4cd90ac5096e12533ae39867c81f66e7579f67627fa58a5568d0c80d"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-paper-person-identity-person-consistency-balanced-scene-07-transforming.jpg",
+          "sha256": "8ac76fbcf3073c473be0f0e0c7ca62615e504c09224b7786172d1e38a3b3f8e0"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-paper-person-identity-person-consistency-balanced-scene-07-transforming.jpg",
+          "sha256": "1baf8033ba4eb5245d495744852971823b3492fac7b4e38033d203237b4d96bd"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-paper-person-identity-person-consistency-balanced-scene-07-resolved.jpg",
+          "sha256": "1b6417b1196688fc54d1940f353fe76447564799f27ca617098c0d7caff729de"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-paper-person-identity-person-consistency-balanced-scene-07-resolved.jpg",
+          "sha256": "d40d759a31903c23c12e29fe1d4bc9863cdae94c4d0821175ceb8c8ebeaf1773"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-paper-person-topology-person-outline-balanced-scene-07-established.jpg",
+          "sha256": "bbc8a2a1ad149c608fd9a0118645a54cfe7be9e7009f91d9db14fc3f97f0b109"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-paper-person-topology-person-outline-balanced-scene-07-established.jpg",
+          "sha256": "3cdba672c63fef93141f97f6acc6a87eef40bd895436826fdb71ba695407a406"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-paper-person-topology-person-outline-balanced-scene-07-transforming.jpg",
+          "sha256": "8ac76fbcf3073c473be0f0e0c7ca62615e504c09224b7786172d1e38a3b3f8e0"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-paper-person-topology-person-outline-balanced-scene-07-transforming.jpg",
+          "sha256": "b1024f411f53f8497779e56e0eb2317a7c64d2002f2dfcf9fa78e035d47b589c"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-paper-person-topology-person-outline-balanced-scene-07-resolved.jpg",
+          "sha256": "1b6417b1196688fc54d1940f353fe76447564799f27ca617098c0d7caff729de"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-paper-person-topology-person-outline-balanced-scene-07-resolved.jpg",
+          "sha256": "cd2c7d5be03e21428cf23811033c360287ce893f3a3093b9db84dbf2579f7e88"
+        }
+      ],
+      "note": "已检查完整源状态表、透明棋盘底、轮廓、三时刻合成及身份参考：靛蓝外套与米白长裤保持一致；三种姿态顺序清晰，四肢完整、无实色背景。运行时以落脚位置为轴校正状态视觉比例。",
+      "targetFingerprint": "49b85d691477132d0e18a74bbc5ec9bffca22066ea6dd2a89cc30c76536ce294"
+    },
+    {
+      "assetId": "human-release-upright",
+      "reviewer": "host-vision",
+      "requiredChecks": [
+        "identity-family-consistent",
+        "silhouette-fidelity",
+        "negative-space-clean",
+        "background-leak-free",
+        "style-consistent",
+        "style-profile-conformant"
+      ],
+      "pendingChecks": [],
+      "passedChecks": [
+        "identity-family-consistent",
+        "silhouette-fidelity",
+        "negative-space-clean",
+        "background-leak-free",
+        "style-consistent",
+        "style-profile-conformant"
+      ],
+      "failedChecks": [],
+      "evidenceFiles": [
+        {
+          "file": "public\\projects\\time-patina-paper\\assets\\person-states\\human-release-upright.png",
+          "sha256": "f530deb45287bddeca7471382a585809420668433ec7733ef5c989058ff1f77b"
+        },
+        {
+          "file": "public\\style-catalog\\archival-collage.png",
+          "sha256": "e96bec7f3d2a318e2459cacd0e53124a5f7c1d938c7043c754e6ea25d66a2b19"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-alpha.png",
+          "sha256": "c5a68dee56762dd6887da7276ecf83826f33caa5157c6bebe4a1e12f42130813"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-checkerboard.png",
+          "sha256": "06b223a002843a21f7b531671e0ab85d929e76febaba0b599438f1e165a35add"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-tight.png",
+          "sha256": "7142e2efa9ef8839cae79154b2a5b8a0fb23d8a97e63a9658812e3070358f284"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-motion-stress.jpg",
+          "sha256": "894f14c20a46630f1a72e892a5b776e49b749b9141837be9049d3f792b4a62d0"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-alpha-bands.json",
+          "sha256": "7cfa0fc167eab4549abdea9306ef722cafca5f7baa8d773c26b4ba91b34b178d"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-alpha-bands.png",
+          "sha256": "06b223a002843a21f7b531671e0ab85d929e76febaba0b599438f1e165a35add"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-07-established.png",
+          "sha256": "db556ea1f6d6d29bc6a1fa25271e607ae45dd5690d466949ca6fb8a4e109af20"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\parallax-rig-balanced-scene-07-balanced-scene-07-established.jpg",
+          "sha256": "6414b68baaca00650e0110bfeeb0e662b1fd6720afdbdf6ce100dc947884c68c"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\parallax-rig-balanced-scene-07-balanced-scene-07-established.jpg",
+          "sha256": "1e0765a5745092a5ea9685a1849be64380afb66413e57760a9f151076cb74cd1"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-07-transforming.png",
+          "sha256": "d063be283a7ab5c99d88de3ac945d4fdf6ba8b4cef51a217fca93583c059bd83"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\parallax-rig-balanced-scene-07-balanced-scene-07-transforming.jpg",
+          "sha256": "f69050ba248f624725079f3613c967f945cf4a388d6532d17dd1e7587fee0f25"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\parallax-rig-balanced-scene-07-balanced-scene-07-transforming.jpg",
+          "sha256": "98dd23fa48acd7c48723215ab32fb4a63b9c91649460429a75b6acd567bdda2b"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-07-resolved.png",
+          "sha256": "cda870ad8242e791e063cdcfbbe596264fb2723cb7c983dfd03e756a42f5ed61"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\parallax-rig-balanced-scene-07-balanced-scene-07-resolved.jpg",
+          "sha256": "12f61666645dec983a64cf089b7cffe4e99ca5189b69d8e1ea68cb557ce1acad"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\parallax-rig-balanced-scene-07-balanced-scene-07-resolved.jpg",
+          "sha256": "c23c2189f5ce329f397fa57669ffcd62f5a7f6732f9c8637fb038b57d1576760"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\state-sequence-balanced-scene-07-paper-person-balanced-scene-07-established.jpg",
+          "sha256": "bbc8a2a1ad149c608fd9a0118645a54cfe7be9e7009f91d9db14fc3f97f0b109"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\state-sequence-balanced-scene-07-paper-person-balanced-scene-07-established.jpg",
+          "sha256": "807dd7a99371f85ab15b4635e36eea881fa545a3234d3da7e2e1f019b19f5f26"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\state-sequence-balanced-scene-07-paper-person-balanced-scene-07-transforming.jpg",
+          "sha256": "8ac76fbcf3073c473be0f0e0c7ca62615e504c09224b7786172d1e38a3b3f8e0"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\state-sequence-balanced-scene-07-paper-person-balanced-scene-07-transforming.jpg",
+          "sha256": "cbed81b5f4a3b651879484a35478533cfb297145c015e1f3eda3b50042524b00"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\state-sequence-balanced-scene-07-paper-person-balanced-scene-07-resolved.jpg",
+          "sha256": "1b6417b1196688fc54d1940f353fe76447564799f27ca617098c0d7caff729de"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\state-sequence-balanced-scene-07-paper-person-balanced-scene-07-resolved.jpg",
+          "sha256": "49886b261a581379b63e9874ad5473aaf554c972f1f35e13846cfefa3689c123"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\event-balanced-scene-07-balanced-scene-07-establish-balanced-scene-07-established.jpg",
+          "sha256": "bbc8a2a1ad149c608fd9a0118645a54cfe7be9e7009f91d9db14fc3f97f0b109"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\event-balanced-scene-07-balanced-scene-07-establish-balanced-scene-07-established.jpg",
+          "sha256": "346f9c0a24d1c6497459940252cf67a9d55c239b8acbadd3a0715c045507e1b5"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-paper-person-identity-person-consistency-balanced-scene-07-established.jpg",
+          "sha256": "bbc8a2a1ad149c608fd9a0118645a54cfe7be9e7009f91d9db14fc3f97f0b109"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-paper-person-identity-person-consistency-balanced-scene-07-established.jpg",
+          "sha256": "d4663e4a4cd90ac5096e12533ae39867c81f66e7579f67627fa58a5568d0c80d"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-paper-person-identity-person-consistency-balanced-scene-07-transforming.jpg",
+          "sha256": "8ac76fbcf3073c473be0f0e0c7ca62615e504c09224b7786172d1e38a3b3f8e0"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-paper-person-identity-person-consistency-balanced-scene-07-transforming.jpg",
+          "sha256": "1baf8033ba4eb5245d495744852971823b3492fac7b4e38033d203237b4d96bd"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-paper-person-identity-person-consistency-balanced-scene-07-resolved.jpg",
+          "sha256": "1b6417b1196688fc54d1940f353fe76447564799f27ca617098c0d7caff729de"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-paper-person-identity-person-consistency-balanced-scene-07-resolved.jpg",
+          "sha256": "d40d759a31903c23c12e29fe1d4bc9863cdae94c4d0821175ceb8c8ebeaf1773"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-paper-person-topology-person-outline-balanced-scene-07-established.jpg",
+          "sha256": "bbc8a2a1ad149c608fd9a0118645a54cfe7be9e7009f91d9db14fc3f97f0b109"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-paper-person-topology-person-outline-balanced-scene-07-established.jpg",
+          "sha256": "3cdba672c63fef93141f97f6acc6a87eef40bd895436826fdb71ba695407a406"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-paper-person-topology-person-outline-balanced-scene-07-transforming.jpg",
+          "sha256": "8ac76fbcf3073c473be0f0e0c7ca62615e504c09224b7786172d1e38a3b3f8e0"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-paper-person-topology-person-outline-balanced-scene-07-transforming.jpg",
+          "sha256": "b1024f411f53f8497779e56e0eb2317a7c64d2002f2dfcf9fa78e035d47b589c"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-paper-person-topology-person-outline-balanced-scene-07-resolved.jpg",
+          "sha256": "1b6417b1196688fc54d1940f353fe76447564799f27ca617098c0d7caff729de"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-paper-person-topology-person-outline-balanced-scene-07-resolved.jpg",
+          "sha256": "cd2c7d5be03e21428cf23811033c360287ce893f3a3093b9db84dbf2579f7e88"
+        }
+      ],
+      "note": "已检查完整源状态表、透明棋盘底、轮廓、三时刻合成及身份参考：靛蓝外套与米白长裤保持一致；三种姿态顺序清晰，四肢完整、无实色背景。运行时以落脚位置为轴校正状态视觉比例。",
+      "targetFingerprint": "f01828489f3933fac452a030e9f69abf4a090e942284aa651d6f61d7ddcad442"
+    },
+    {
+      "assetId": "rain-window-master",
+      "reviewer": "host-vision",
+      "requiredChecks": [
+        "no-text",
+        "no-watermark",
+        "style-consistent",
+        "style-profile-conformant",
+        "silhouette-fidelity",
+        "negative-space-clean",
+        "background-leak-free"
+      ],
+      "pendingChecks": [],
+      "passedChecks": [
+        "no-text",
+        "no-watermark",
+        "style-consistent",
+        "style-profile-conformant",
+        "silhouette-fidelity",
+        "negative-space-clean",
+        "background-leak-free"
+      ],
+      "failedChecks": [],
+      "evidenceFiles": [
+        {
+          "file": "public\\projects\\time-patina-paper\\assets\\rain-window-master.png",
+          "sha256": "55d1b56a1dc089f3f58d68787008be68742fbeca68d3524285ca34c50a4de0e6"
+        },
+        {
+          "file": "public\\style-catalog\\archival-collage.png",
+          "sha256": "e96bec7f3d2a318e2459cacd0e53124a5f7c1d938c7043c754e6ea25d66a2b19"
+        }
+      ],
+      "note": "已检查原始母版、完整背景、透明窗框/前景、重建对照、展开图和三画幅运动边界：窗格空隙干净，前中后层完整，扩大载体后边缘不露空；纸纹、网点与配色一致。",
+      "targetFingerprint": "6b07cbed4849256f43b8f7842d48ded29d0f73b9df97411699e7d231e7f2abf0"
+    },
+    {
+      "assetId": "rain-window-rear",
+      "reviewer": "host-vision",
+      "requiredChecks": [
+        "no-text",
+        "no-watermark",
+        "style-consistent",
+        "style-profile-conformant"
+      ],
+      "pendingChecks": [],
+      "passedChecks": [
+        "no-text",
+        "no-watermark",
+        "style-consistent",
+        "style-profile-conformant"
+      ],
+      "failedChecks": [],
+      "evidenceFiles": [
+        {
+          "file": "public\\projects\\time-patina-paper\\assets\\rain-window-rear.png",
+          "sha256": "b89c73c611d60cbc75fb0e84c377f09c12f129e823202c056e6674698463fecb"
+        },
+        {
+          "file": "public\\style-catalog\\archival-collage.png",
+          "sha256": "e96bec7f3d2a318e2459cacd0e53124a5f7c1d938c7043c754e6ea25d66a2b19"
+        }
+      ],
+      "note": "已检查原始母版、完整背景、透明窗框/前景、重建对照、展开图和三画幅运动边界：窗格空隙干净，前中后层完整，扩大载体后边缘不露空；纸纹、网点与配色一致。",
+      "targetFingerprint": "ec749c3ef6b5978b3a86658831668dd6057a88cd882a042e981be79d3b2eba4e"
+    },
+    {
+      "assetId": "rain-window-subject",
+      "reviewer": "host-vision",
+      "requiredChecks": [
+        "no-text",
+        "no-watermark",
+        "style-consistent",
+        "style-profile-conformant",
+        "silhouette-fidelity",
+        "negative-space-clean",
+        "background-leak-free"
+      ],
+      "pendingChecks": [],
+      "passedChecks": [
+        "no-text",
+        "no-watermark",
+        "style-consistent",
+        "style-profile-conformant",
+        "silhouette-fidelity",
+        "negative-space-clean",
+        "background-leak-free"
+      ],
+      "failedChecks": [],
+      "evidenceFiles": [
+        {
+          "file": "public\\projects\\time-patina-paper\\assets\\rain-window-subject.png",
+          "sha256": "c67e8045b2b88169f8fa60455c6c31078fab2ad5b8d592edfdfb0e3c9fc247ef"
+        },
+        {
+          "file": "public\\style-catalog\\archival-collage.png",
+          "sha256": "e96bec7f3d2a318e2459cacd0e53124a5f7c1d938c7043c754e6ea25d66a2b19"
+        }
+      ],
+      "note": "已检查原始母版、完整背景、透明窗框/前景、重建对照、展开图和三画幅运动边界：窗格空隙干净，前中后层完整，扩大载体后边缘不露空；纸纹、网点与配色一致。",
+      "targetFingerprint": "9f891654c90005a69fbfdb74d867e8739d7a5999bc35983e891b104ab3dbf812"
+    },
+    {
+      "assetId": "rain-window-front",
+      "reviewer": "host-vision",
+      "requiredChecks": [
+        "no-text",
+        "no-watermark",
+        "style-consistent",
+        "style-profile-conformant"
+      ],
+      "pendingChecks": [],
+      "passedChecks": [
+        "no-text",
+        "no-watermark",
+        "style-consistent",
+        "style-profile-conformant"
+      ],
+      "failedChecks": [],
+      "evidenceFiles": [
+        {
+          "file": "public\\projects\\time-patina-paper\\assets\\rain-window-front-v2.png",
+          "sha256": "5a2c3b53bd9ce0fe76d7c1ea845d7f5ff00c2dab60292a3c9bccbbc5f81f7d65"
+        },
+        {
+          "file": "public\\style-catalog\\archival-collage.png",
+          "sha256": "e96bec7f3d2a318e2459cacd0e53124a5f7c1d938c7043c754e6ea25d66a2b19"
+        }
+      ],
+      "note": "已检查原始母版、完整背景、透明窗框/前景、重建对照、展开图和三画幅运动边界：窗格空隙干净，前中后层完整，扩大载体后边缘不露空；纸纹、网点与配色一致。",
+      "targetFingerprint": "691347c24f63d80e73568af55b27df7b19ce9d8c36f1ca73ca2f40b165a169d2"
+    },
+    {
+      "assetId": "paper-person-reference",
+      "reviewer": "host-vision",
+      "requiredChecks": [
+        "no-text",
+        "no-watermark",
+        "style-consistent",
+        "style-profile-conformant",
+        "subject-complete",
+        "identity-family-consistent",
+        "silhouette-fidelity",
+        "negative-space-clean",
+        "background-leak-free"
+      ],
+      "pendingChecks": [],
+      "passedChecks": [
+        "no-text",
+        "no-watermark",
+        "style-consistent",
+        "style-profile-conformant",
+        "subject-complete",
+        "identity-family-consistent",
+        "silhouette-fidelity",
+        "negative-space-clean",
+        "background-leak-free"
+      ],
+      "failedChecks": [],
+      "evidenceFiles": [
+        {
+          "file": "public\\projects\\time-patina-paper\\assets\\paper-person-reference-v2.png",
+          "sha256": "a0fef410f4cc80a08a12639668e5ff9afe0435336d7bb77cec25a15006d4a205"
+        },
+        {
+          "file": "public\\style-catalog\\archival-collage.png",
+          "sha256": "e96bec7f3d2a318e2459cacd0e53124a5f7c1d938c7043c754e6ea25d66a2b19"
+        }
+      ],
+      "note": "已检查完整源状态表、透明棋盘底、轮廓、三时刻合成及身份参考：靛蓝外套与米白长裤保持一致；三种姿态顺序清晰，四肢完整、无实色背景。运行时以落脚位置为轴校正状态视觉比例。",
+      "targetFingerprint": "27a7e9983e9193c08c0bcdafa25176746ea6f64e0d1efcd39ca4e555b6d5121b"
+    },
+    {
+      "assetId": "human-release-sheet",
+      "reviewer": "host-vision",
+      "requiredChecks": [
+        "no-text",
+        "no-watermark",
+        "style-consistent",
+        "style-profile-conformant",
+        "subject-complete",
+        "identity-family-consistent",
+        "silhouette-fidelity",
+        "negative-space-clean",
+        "background-leak-free",
+        "cell-separation"
+      ],
+      "pendingChecks": [],
+      "passedChecks": [
+        "no-text",
+        "no-watermark",
+        "style-consistent",
+        "style-profile-conformant",
+        "subject-complete",
+        "identity-family-consistent",
+        "silhouette-fidelity",
+        "negative-space-clean",
+        "background-leak-free",
+        "cell-separation"
+      ],
+      "failedChecks": [],
+      "evidenceFiles": [
+        {
+          "file": "public\\projects\\time-patina-paper\\assets\\human-release-sheet.png",
+          "sha256": "cd345eb37c503aebce181839b29f33a5d8dc475853f16cbc5112ac22d813e418"
+        },
+        {
+          "file": "public\\style-catalog\\archival-collage.png",
+          "sha256": "e96bec7f3d2a318e2459cacd0e53124a5f7c1d938c7043c754e6ea25d66a2b19"
+        }
+      ],
+      "note": "已检查完整源状态表、透明棋盘底、轮廓、三时刻合成及身份参考：靛蓝外套与米白长裤保持一致；三种姿态顺序清晰，四肢完整、无实色背景。运行时以落脚位置为轴校正状态视觉比例。",
+      "targetFingerprint": "968667a2f7a6108f536a456e860aeaad459d808ac0235a7210c86d29321ab408"
+    },
+    {
+      "compositeId": "parallax-rig:balanced-scene-01",
+      "reviewer": "host-vision",
+      "requiredChecks": [
+        "depth-order-readable",
+        "camera-coupling-clean",
+        "registered-groups-stable",
+        "final-composition-readable"
+      ],
+      "pendingChecks": [],
+      "passedChecks": [
+        "depth-order-readable",
+        "camera-coupling-clean",
+        "registered-groups-stable",
+        "final-composition-readable"
+      ],
+      "failedChecks": [],
+      "evidenceFiles": [
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-01-established.png",
+          "sha256": "b0cd474242690209b2dbc8217b1f3b1e9cc613778cb0853f958483b4e1c0003e"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\parallax-rig-balanced-scene-01-balanced-scene-01-established.jpg",
+          "sha256": "a6357accf434f034e900cd64049acc7c0bf3df2b480fe5be08ce758326f35852"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\parallax-rig-balanced-scene-01-balanced-scene-01-established.jpg",
+          "sha256": "06c656402931152529a0b14128ef20a388eb2885f4ab2426590d8f84850b9ba4"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-01-transforming.png",
+          "sha256": "d1bbd07d78714314a6697916b308d95b548e3d93ba6f9859c99b77bc0e30a599"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\parallax-rig-balanced-scene-01-balanced-scene-01-transforming.jpg",
+          "sha256": "62900327980d329a9b9b0f0fd17ff1cecaae4d87ac113f9061550bc2a005c69c"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\parallax-rig-balanced-scene-01-balanced-scene-01-transforming.jpg",
+          "sha256": "5239715b8c9f92cb0b4d97f137b7a8c9e4115813450b92e6eb56d62d6941ee81"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-01-resolved.png",
+          "sha256": "945e596e9039c6ff68b57f426e93a0bcf3c053e056dbf908bc30e54f4a62883e"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\parallax-rig-balanced-scene-01-balanced-scene-01-resolved.jpg",
+          "sha256": "252ee1d6da115ab8b767644c0753d6db3a7efc4bca3a3581162a38868d5e0711"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\parallax-rig-balanced-scene-01-balanced-scene-01-resolved.jpg",
+          "sha256": "ba5a4c87debc6295c6967931c2850cb3951d822ae63e8c2bdd0f20acee985b59"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-rear-alpha.png",
+          "sha256": "ddf9dd33a181bfbb320f96afbcf2f79997c0aee19d108635d2cb8e0d560e051d"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-rear-checkerboard.png",
+          "sha256": "b0b2a0bb985b44339208b35faf3e092bf8a2ed9d50c4cebf98f67ff9e552e225"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-rear-tight.png",
+          "sha256": "b0b2a0bb985b44339208b35faf3e092bf8a2ed9d50c4cebf98f67ff9e552e225"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-rear-motion-stress.jpg",
+          "sha256": "6d189dc3f8c0eb115e33b9285ddb142993883c72b9ec8df8356be56aea1ebb66"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-rear-alpha-bands.json",
+          "sha256": "e043dffa479c97e05b77cda7d49e3b045e7f0dd66e930703bb586bb4c5550ac1"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-rear-alpha-bands.png",
+          "sha256": "b0b2a0bb985b44339208b35faf3e092bf8a2ed9d50c4cebf98f67ff9e552e225"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-subject-alpha.png",
+          "sha256": "c02e2692fd6979517ebfa2388c3643723ca01c635c76094392680a82392f2c0e"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-subject-checkerboard.png",
+          "sha256": "c8d589dcab80940a5c3393a80ca4eec5b59ac191608139a0f363792136c604a8"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-subject-tight.png",
+          "sha256": "8bc3706e0316d4f2760082d72fbe381f2b7f30e404c311ce8ead39bd25e51b0c"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-subject-motion-stress.jpg",
+          "sha256": "ec9be302b6e6eea6a4fd530b4be382c4d22c800ff19fada72cefc2ecbbb8842a"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-subject-alpha-bands.json",
+          "sha256": "cd8159f23e7d847bee47571a92f8bfbe6c04475cf7fd76d7ae56186b7af6ccb9"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-subject-alpha-bands.png",
+          "sha256": "1432c9ea98d90d61b8263fd8b41f6d7791e93fa33303db6e19a06e28fdd62b63"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-front-alpha.png",
+          "sha256": "d43c81e80a0f3cf8bd15eb04238ad6ca044f8fd53cef304631b5c0cc5dcd5299"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-front-checkerboard.png",
+          "sha256": "cb8547a3386a3eb4b7b27239f9b067f71dbd1bfb438f47e65192518c1cc7f1b5"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-front-tight.png",
+          "sha256": "efc8969a0451272e9266bcb9b76fbf4fb549603f4ad90cc67396225eb2da2e1a"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-front-motion-stress.jpg",
+          "sha256": "75a7a9533e795ef039d26b242be9cd5482c83232a75ab2c0fdf87aea32abecf5"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-front-alpha-bands.json",
+          "sha256": "cfa9e817441c0d9597ee7ff628ef01bc103b0dc0470c56f72f3cf73875da3497"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-front-alpha-bands.png",
+          "sha256": "cb8547a3386a3eb4b7b27239f9b067f71dbd1bfb438f47e65192518c1cc7f1b5"
+        }
+      ],
+      "note": "已检查当前绑定的样片与三个证明帧：镜头推进柔和、层间运动有深度，事件与证明时间对应，最终画面清楚；此审核限于风格样片，不代表全片验收。",
+      "targetFingerprint": "a5a5634a626fb8907514f5f7dadf394aacacc30a5e173ad180672769d631aa1b"
+    },
+    {
+      "compositeId": "motif-field:balanced-scene-01:dust-0",
+      "reviewer": "host-vision",
+      "requiredChecks": [
+        "field-density-readable",
+        "field-bounds-clean",
+        "field-exclusions-clean",
+        "field-motion-clean",
+        "field-loop-clean",
+        "final-composition-readable"
+      ],
+      "pendingChecks": [],
+      "passedChecks": [
+        "field-density-readable",
+        "field-bounds-clean",
+        "field-exclusions-clean",
+        "field-motion-clean",
+        "field-loop-clean",
+        "final-composition-readable"
+      ],
+      "failedChecks": [],
+      "evidenceFiles": [
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-01-established.png",
+          "sha256": "b0cd474242690209b2dbc8217b1f3b1e9cc613778cb0853f958483b4e1c0003e"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\motif-field-balanced-scene-01-dust-0-balanced-scene-01-established.jpg",
+          "sha256": "a6357accf434f034e900cd64049acc7c0bf3df2b480fe5be08ce758326f35852"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\motif-field-balanced-scene-01-dust-0-balanced-scene-01-established.jpg",
+          "sha256": "505ce06e4b6452e3f21d0298be71b8d7253d10895081e64ca818b66ab811f072"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-01-transforming.png",
+          "sha256": "d1bbd07d78714314a6697916b308d95b548e3d93ba6f9859c99b77bc0e30a599"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\motif-field-balanced-scene-01-dust-0-balanced-scene-01-transforming.jpg",
+          "sha256": "62900327980d329a9b9b0f0fd17ff1cecaae4d87ac113f9061550bc2a005c69c"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\motif-field-balanced-scene-01-dust-0-balanced-scene-01-transforming.jpg",
+          "sha256": "2f6fef2ed40e88d4e94ca627ed93d66950139a41435fa9d003d9f048b91831d6"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-01-resolved.png",
+          "sha256": "945e596e9039c6ff68b57f426e93a0bcf3c053e056dbf908bc30e54f4a62883e"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\motif-field-balanced-scene-01-dust-0-balanced-scene-01-resolved.jpg",
+          "sha256": "252ee1d6da115ab8b767644c0753d6db3a7efc4bca3a3581162a38868d5e0711"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\motif-field-balanced-scene-01-dust-0-balanced-scene-01-resolved.jpg",
+          "sha256": "facb77cac5aef2de8e4a9c02bb58c73727998a0f9440396085e76bbd4a183fd5"
+        }
+      ],
+      "note": "已查看三个时间点：稀疏微小纸屑处于上部范围，没有侵入下部留白区，密度克制。",
+      "targetFingerprint": "d1020ba60e01dc98361acd524da76fd3998561a51b40c0b4ea0acbc419097278"
+    },
+    {
+      "compositeId": "group:balanced-scene-01:world-1",
+      "reviewer": "host-vision",
+      "requiredChecks": [
+        "registration-aligned",
+        "layer-completeness-proven",
+        "depth-order-readable",
+        "neutral-reconstruction-readable",
+        "exploded-view-readable",
+        "responsive-motion-stress-clean",
+        "final-composition-readable"
+      ],
+      "pendingChecks": [],
+      "passedChecks": [
+        "registration-aligned",
+        "layer-completeness-proven",
+        "depth-order-readable",
+        "neutral-reconstruction-readable",
+        "exploded-view-readable",
+        "responsive-motion-stress-clean",
+        "final-composition-readable"
+      ],
+      "failedChecks": [],
+      "evidenceFiles": [
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-01-established.png",
+          "sha256": "b0cd474242690209b2dbc8217b1f3b1e9cc613778cb0853f958483b4e1c0003e"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\group-balanced-scene-01-world-1-balanced-scene-01-established.jpg",
+          "sha256": "a6357accf434f034e900cd64049acc7c0bf3df2b480fe5be08ce758326f35852"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\group-balanced-scene-01-world-1-balanced-scene-01-established.jpg",
+          "sha256": "6e0123b135e20d8429a444cbf50bdb70e7c665b8d84b4a8bed24b879a36177a6"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-01-transforming.png",
+          "sha256": "d1bbd07d78714314a6697916b308d95b548e3d93ba6f9859c99b77bc0e30a599"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\group-balanced-scene-01-world-1-balanced-scene-01-transforming.jpg",
+          "sha256": "62900327980d329a9b9b0f0fd17ff1cecaae4d87ac113f9061550bc2a005c69c"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\group-balanced-scene-01-world-1-balanced-scene-01-transforming.jpg",
+          "sha256": "b150d23cd088eb5d5f3a1aa33954f89f0bd0abfd736768faf59afd06a5c56ac4"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-01-resolved.png",
+          "sha256": "945e596e9039c6ff68b57f426e93a0bcf3c053e056dbf908bc30e54f4a62883e"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\group-balanced-scene-01-world-1-balanced-scene-01-resolved.jpg",
+          "sha256": "252ee1d6da115ab8b767644c0753d6db3a7efc4bca3a3581162a38868d5e0711"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\group-balanced-scene-01-world-1-balanced-scene-01-resolved.jpg",
+          "sha256": "76c607dd976c2283054a91eab635f493f220a2e32eeb89cfee3d59e5a528cc9e"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-world-1-layer-stack-neutral-reconstruction.png",
+          "sha256": "d1bf7c624f06396e53c4c4d531dc2d66cee08983195defae2389be35ee59f5a6"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-world-1-layer-stack-reference-comparison.png",
+          "sha256": "74dfce265ccaaf4ab67b543ffc45501720bde3451a16e81c967b2dfef1f423a5"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-world-1-layer-stack-exploded-view.png",
+          "sha256": "1384faf2d7ca2f51f5b9bea73004d96761e9160f21d85966792a1d24fe012772"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-world-1-layer-stack-envelope-16x9.png",
+          "sha256": "400e7dbabf011f6d257136a80a1abc9c74fce0813a5b5b41c195b489d0ef5ab5"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-world-1-layer-stack-envelope-9x16.png",
+          "sha256": "0f0404bfdf3c1c4759d0f17d8fc087d5f980450b83b7ae3121e38de423c9c314"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-world-1-layer-stack-envelope-1x1.png",
+          "sha256": "4d4202ba9b93385d4079ef5c8e7458c89fd5fdb551210259b954ad27de937a15"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-rear-alpha.png",
+          "sha256": "ddf9dd33a181bfbb320f96afbcf2f79997c0aee19d108635d2cb8e0d560e051d"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-rear-checkerboard.png",
+          "sha256": "b0b2a0bb985b44339208b35faf3e092bf8a2ed9d50c4cebf98f67ff9e552e225"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-rear-tight.png",
+          "sha256": "b0b2a0bb985b44339208b35faf3e092bf8a2ed9d50c4cebf98f67ff9e552e225"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-rear-motion-stress.jpg",
+          "sha256": "6d189dc3f8c0eb115e33b9285ddb142993883c72b9ec8df8356be56aea1ebb66"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-rear-alpha-bands.json",
+          "sha256": "e043dffa479c97e05b77cda7d49e3b045e7f0dd66e930703bb586bb4c5550ac1"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-rear-alpha-bands.png",
+          "sha256": "b0b2a0bb985b44339208b35faf3e092bf8a2ed9d50c4cebf98f67ff9e552e225"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-subject-alpha.png",
+          "sha256": "c02e2692fd6979517ebfa2388c3643723ca01c635c76094392680a82392f2c0e"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-subject-checkerboard.png",
+          "sha256": "c8d589dcab80940a5c3393a80ca4eec5b59ac191608139a0f363792136c604a8"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-subject-tight.png",
+          "sha256": "8bc3706e0316d4f2760082d72fbe381f2b7f30e404c311ce8ead39bd25e51b0c"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-subject-motion-stress.jpg",
+          "sha256": "ec9be302b6e6eea6a4fd530b4be382c4d22c800ff19fada72cefc2ecbbb8842a"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-subject-alpha-bands.json",
+          "sha256": "cd8159f23e7d847bee47571a92f8bfbe6c04475cf7fd76d7ae56186b7af6ccb9"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-subject-alpha-bands.png",
+          "sha256": "1432c9ea98d90d61b8263fd8b41f6d7791e93fa33303db6e19a06e28fdd62b63"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-front-alpha.png",
+          "sha256": "d43c81e80a0f3cf8bd15eb04238ad6ca044f8fd53cef304631b5c0cc5dcd5299"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-front-checkerboard.png",
+          "sha256": "cb8547a3386a3eb4b7b27239f9b067f71dbd1bfb438f47e65192518c1cc7f1b5"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-front-tight.png",
+          "sha256": "efc8969a0451272e9266bcb9b76fbf4fb549603f4ad90cc67396225eb2da2e1a"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-front-motion-stress.jpg",
+          "sha256": "75a7a9533e795ef039d26b242be9cd5482c83232a75ab2c0fdf87aea32abecf5"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-front-alpha-bands.json",
+          "sha256": "cfa9e817441c0d9597ee7ff628ef01bc103b0dc0470c56f72f3cf73875da3497"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-front-alpha-bands.png",
+          "sha256": "cb8547a3386a3eb4b7b27239f9b067f71dbd1bfb438f47e65192518c1cc7f1b5"
+        }
+      ],
+      "note": "已检查原始母版、完整背景、透明窗框/前景、重建对照、展开图和三画幅运动边界：窗格空隙干净，前中后层完整，扩大载体后边缘不露空；纸纹、网点与配色一致。",
+      "targetFingerprint": "5cde961915b2fc12e6f3fd5f9ddffe9483f4ebddcfa88fb3195fa20e8deb79a2"
+    },
+    {
+      "compositeId": "event:balanced-scene-01:balanced-scene-01-establish",
+      "reviewer": "host-vision",
+      "requiredChecks": [
+        "visual-event-visible",
+        "sound-event-bound",
+        "proof-time-bound",
+        "final-state-preserved"
+      ],
+      "pendingChecks": [],
+      "passedChecks": [
+        "visual-event-visible",
+        "sound-event-bound",
+        "proof-time-bound",
+        "final-state-preserved"
+      ],
+      "failedChecks": [],
+      "evidenceFiles": [
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-01-established.png",
+          "sha256": "b0cd474242690209b2dbc8217b1f3b1e9cc613778cb0853f958483b4e1c0003e"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\event-balanced-scene-01-balanced-scene-01-establish-balanced-scene-01-established.jpg",
+          "sha256": "a6357accf434f034e900cd64049acc7c0bf3df2b480fe5be08ce758326f35852"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\event-balanced-scene-01-balanced-scene-01-establish-balanced-scene-01-established.jpg",
+          "sha256": "31c1724a3aa66408b1790c796d7f7a8741b2d4c2efa711e521d3ce60614f07fa"
+        }
+      ],
+      "note": "已检查当前绑定的样片与三个证明帧：镜头推进柔和、层间运动有深度，事件与证明时间对应，最终画面清楚；此审核限于风格样片，不代表全片验收。",
+      "targetFingerprint": "9cac4de839d8d68ac668f4c52c6ee0834239140df92ba7b1df3c7ee6fb2e178b"
+    },
+    {
+      "compositeId": "parallax-rig:balanced-scene-07",
+      "reviewer": "host-vision",
+      "requiredChecks": [
+        "depth-order-readable",
+        "camera-coupling-clean",
+        "registered-groups-stable",
+        "final-composition-readable"
+      ],
+      "pendingChecks": [],
+      "passedChecks": [
+        "depth-order-readable",
+        "camera-coupling-clean",
+        "registered-groups-stable",
+        "final-composition-readable"
+      ],
+      "failedChecks": [],
+      "evidenceFiles": [
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-07-established.png",
+          "sha256": "db556ea1f6d6d29bc6a1fa25271e607ae45dd5690d466949ca6fb8a4e109af20"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\parallax-rig-balanced-scene-07-balanced-scene-07-established.jpg",
+          "sha256": "6414b68baaca00650e0110bfeeb0e662b1fd6720afdbdf6ce100dc947884c68c"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\parallax-rig-balanced-scene-07-balanced-scene-07-established.jpg",
+          "sha256": "1e0765a5745092a5ea9685a1849be64380afb66413e57760a9f151076cb74cd1"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-07-transforming.png",
+          "sha256": "d063be283a7ab5c99d88de3ac945d4fdf6ba8b4cef51a217fca93583c059bd83"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\parallax-rig-balanced-scene-07-balanced-scene-07-transforming.jpg",
+          "sha256": "f69050ba248f624725079f3613c967f945cf4a388d6532d17dd1e7587fee0f25"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\parallax-rig-balanced-scene-07-balanced-scene-07-transforming.jpg",
+          "sha256": "98dd23fa48acd7c48723215ab32fb4a63b9c91649460429a75b6acd567bdda2b"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-07-resolved.png",
+          "sha256": "cda870ad8242e791e063cdcfbbe596264fb2723cb7c983dfd03e756a42f5ed61"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\parallax-rig-balanced-scene-07-balanced-scene-07-resolved.jpg",
+          "sha256": "12f61666645dec983a64cf089b7cffe4e99ca5189b69d8e1ea68cb557ce1acad"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\parallax-rig-balanced-scene-07-balanced-scene-07-resolved.jpg",
+          "sha256": "c23c2189f5ce329f397fa57669ffcd62f5a7f6732f9c8637fb038b57d1576760"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-style-backdrop-alpha.png",
+          "sha256": "78bc77071beba4a7189d2821d0181eaccf4f988d32b904815d9590f5ec56e39d"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-style-backdrop-checkerboard.png",
+          "sha256": "da34cdea0518a2e25d34e28fca494a6c17ec802d56941748844c6815ee7ff0f6"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-style-backdrop-tight.png",
+          "sha256": "da34cdea0518a2e25d34e28fca494a6c17ec802d56941748844c6815ee7ff0f6"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-style-backdrop-motion-stress.jpg",
+          "sha256": "d11daf67f13f9e68a54e6e101c49935a43c6a8d36ae30ea13ab5c1908563f49f"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-style-backdrop-alpha-bands.json",
+          "sha256": "66685e23d54ce51fa470912cecc2f2e4e4836b4cdc02569517366fb0f73774e0"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-style-backdrop-alpha-bands.png",
+          "sha256": "da34cdea0518a2e25d34e28fca494a6c17ec802d56941748844c6815ee7ff0f6"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-alpha.png",
+          "sha256": "a15041829b615ab88cbfe33698d186afbac5978b31b1ad9dfb6046543cab41f8"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-checkerboard.png",
+          "sha256": "47ed4c6a167985115dfdf16fcf45ba18ed3ca62c8976c72f39f2264b2ea8abac"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-tight.png",
+          "sha256": "16dee54a95b88362d603bf8f39586f6e984aae698bb640b42707c72224fc2a48"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-motion-stress.jpg",
+          "sha256": "dd6199b356d20657b0bf34ff6f960a8ce7a20c8c05afd1c170c762017902eb5a"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-alpha-bands.json",
+          "sha256": "7cfa0fc167eab4549abdea9306ef722cafca5f7baa8d773c26b4ba91b34b178d"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-alpha-bands.png",
+          "sha256": "47ed4c6a167985115dfdf16fcf45ba18ed3ca62c8976c72f39f2264b2ea8abac"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-alpha.png",
+          "sha256": "5bd0095fae1affaa42e252e144daf5dec97e5439d8827fb81ec6b95c77d5240b"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-checkerboard.png",
+          "sha256": "d89961f333d1f046a583c3cf94e1233cff68abd279a387e0ec477dbf72864d2f"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-tight.png",
+          "sha256": "cebdeff7c2c28ba908fa1e00220c0f2ab4f49724863169c228521ad3fa97bb96"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-motion-stress.jpg",
+          "sha256": "12ef427dce06a31308ef4a1fce0f2af807dee3efa7e31c41df168a758a7030df"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-alpha-bands.json",
+          "sha256": "7cfa0fc167eab4549abdea9306ef722cafca5f7baa8d773c26b4ba91b34b178d"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-alpha-bands.png",
+          "sha256": "d89961f333d1f046a583c3cf94e1233cff68abd279a387e0ec477dbf72864d2f"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-alpha.png",
+          "sha256": "c5a68dee56762dd6887da7276ecf83826f33caa5157c6bebe4a1e12f42130813"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-checkerboard.png",
+          "sha256": "06b223a002843a21f7b531671e0ab85d929e76febaba0b599438f1e165a35add"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-tight.png",
+          "sha256": "7142e2efa9ef8839cae79154b2a5b8a0fb23d8a97e63a9658812e3070358f284"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-motion-stress.jpg",
+          "sha256": "894f14c20a46630f1a72e892a5b776e49b749b9141837be9049d3f792b4a62d0"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-alpha-bands.json",
+          "sha256": "7cfa0fc167eab4549abdea9306ef722cafca5f7baa8d773c26b4ba91b34b178d"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-alpha-bands.png",
+          "sha256": "06b223a002843a21f7b531671e0ab85d929e76febaba0b599438f1e165a35add"
+        }
+      ],
+      "note": "已检查当前绑定的样片与三个证明帧：镜头推进柔和、层间运动有深度，事件与证明时间对应，最终画面清楚；此审核限于风格样片，不代表全片验收。",
+      "targetFingerprint": "1b2b92f167b96ec5c455f314d0acbe2a27b18082b79b48a0067260efe7e14dda"
+    },
+    {
+      "compositeId": "state-sequence:balanced-scene-07:paper-person",
+      "reviewer": "host-vision",
+      "requiredChecks": [
+        "state-order-correct",
+        "pose-registration-stable",
+        "state-anchor-stable",
+        "state-facing-correct",
+        "state-identity-consistent",
+        "identity-reference-current",
+        "transition-clean",
+        "proof-time-bound"
+      ],
+      "pendingChecks": [],
+      "passedChecks": [
+        "state-order-correct",
+        "pose-registration-stable",
+        "state-anchor-stable",
+        "state-facing-correct",
+        "state-identity-consistent",
+        "identity-reference-current",
+        "transition-clean",
+        "proof-time-bound"
+      ],
+      "failedChecks": [],
+      "evidenceFiles": [
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-07-established.png",
+          "sha256": "db556ea1f6d6d29bc6a1fa25271e607ae45dd5690d466949ca6fb8a4e109af20"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\state-sequence-balanced-scene-07-paper-person-balanced-scene-07-established.jpg",
+          "sha256": "bbc8a2a1ad149c608fd9a0118645a54cfe7be9e7009f91d9db14fc3f97f0b109"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\state-sequence-balanced-scene-07-paper-person-balanced-scene-07-established.jpg",
+          "sha256": "807dd7a99371f85ab15b4635e36eea881fa545a3234d3da7e2e1f019b19f5f26"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-07-transforming.png",
+          "sha256": "d063be283a7ab5c99d88de3ac945d4fdf6ba8b4cef51a217fca93583c059bd83"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\state-sequence-balanced-scene-07-paper-person-balanced-scene-07-transforming.jpg",
+          "sha256": "8ac76fbcf3073c473be0f0e0c7ca62615e504c09224b7786172d1e38a3b3f8e0"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\state-sequence-balanced-scene-07-paper-person-balanced-scene-07-transforming.jpg",
+          "sha256": "cbed81b5f4a3b651879484a35478533cfb297145c015e1f3eda3b50042524b00"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-07-resolved.png",
+          "sha256": "cda870ad8242e791e063cdcfbbe596264fb2723cb7c983dfd03e756a42f5ed61"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\state-sequence-balanced-scene-07-paper-person-balanced-scene-07-resolved.jpg",
+          "sha256": "1b6417b1196688fc54d1940f353fe76447564799f27ca617098c0d7caff729de"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\state-sequence-balanced-scene-07-paper-person-balanced-scene-07-resolved.jpg",
+          "sha256": "49886b261a581379b63e9874ad5473aaf554c972f1f35e13846cfefa3689c123"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-alpha.png",
+          "sha256": "a15041829b615ab88cbfe33698d186afbac5978b31b1ad9dfb6046543cab41f8"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-checkerboard.png",
+          "sha256": "47ed4c6a167985115dfdf16fcf45ba18ed3ca62c8976c72f39f2264b2ea8abac"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-tight.png",
+          "sha256": "16dee54a95b88362d603bf8f39586f6e984aae698bb640b42707c72224fc2a48"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-motion-stress.jpg",
+          "sha256": "dd6199b356d20657b0bf34ff6f960a8ce7a20c8c05afd1c170c762017902eb5a"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-alpha-bands.json",
+          "sha256": "7cfa0fc167eab4549abdea9306ef722cafca5f7baa8d773c26b4ba91b34b178d"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-alpha-bands.png",
+          "sha256": "47ed4c6a167985115dfdf16fcf45ba18ed3ca62c8976c72f39f2264b2ea8abac"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-alpha.png",
+          "sha256": "5bd0095fae1affaa42e252e144daf5dec97e5439d8827fb81ec6b95c77d5240b"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-checkerboard.png",
+          "sha256": "d89961f333d1f046a583c3cf94e1233cff68abd279a387e0ec477dbf72864d2f"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-tight.png",
+          "sha256": "cebdeff7c2c28ba908fa1e00220c0f2ab4f49724863169c228521ad3fa97bb96"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-motion-stress.jpg",
+          "sha256": "12ef427dce06a31308ef4a1fce0f2af807dee3efa7e31c41df168a758a7030df"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-alpha-bands.json",
+          "sha256": "7cfa0fc167eab4549abdea9306ef722cafca5f7baa8d773c26b4ba91b34b178d"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-alpha-bands.png",
+          "sha256": "d89961f333d1f046a583c3cf94e1233cff68abd279a387e0ec477dbf72864d2f"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-alpha.png",
+          "sha256": "c5a68dee56762dd6887da7276ecf83826f33caa5157c6bebe4a1e12f42130813"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-checkerboard.png",
+          "sha256": "06b223a002843a21f7b531671e0ab85d929e76febaba0b599438f1e165a35add"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-tight.png",
+          "sha256": "7142e2efa9ef8839cae79154b2a5b8a0fb23d8a97e63a9658812e3070358f284"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-motion-stress.jpg",
+          "sha256": "894f14c20a46630f1a72e892a5b776e49b749b9141837be9049d3f792b4a62d0"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-alpha-bands.json",
+          "sha256": "7cfa0fc167eab4549abdea9306ef722cafca5f7baa8d773c26b4ba91b34b178d"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-alpha-bands.png",
+          "sha256": "06b223a002843a21f7b531671e0ab85d929e76febaba0b599438f1e165a35add"
+        }
+      ],
+      "note": "已检查完整源状态表、透明棋盘底、轮廓、三时刻合成及身份参考：靛蓝外套与米白长裤保持一致；三种姿态顺序清晰，四肢完整、无实色背景。运行时以落脚位置为轴校正状态视觉比例。",
+      "targetFingerprint": "2512e238ffd60785ba7b92489bdc71bbb341d943bfa634d836e807c368fb6590"
+    },
+    {
+      "compositeId": "event:balanced-scene-07:balanced-scene-07-establish",
+      "reviewer": "host-vision",
+      "requiredChecks": [
+        "visual-event-visible",
+        "sound-event-bound",
+        "proof-time-bound",
+        "final-state-preserved"
+      ],
+      "pendingChecks": [],
+      "passedChecks": [
+        "visual-event-visible",
+        "sound-event-bound",
+        "proof-time-bound",
+        "final-state-preserved"
+      ],
+      "failedChecks": [],
+      "evidenceFiles": [
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-07-established.png",
+          "sha256": "db556ea1f6d6d29bc6a1fa25271e607ae45dd5690d466949ca6fb8a4e109af20"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\event-balanced-scene-07-balanced-scene-07-establish-balanced-scene-07-established.jpg",
+          "sha256": "bbc8a2a1ad149c608fd9a0118645a54cfe7be9e7009f91d9db14fc3f97f0b109"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\event-balanced-scene-07-balanced-scene-07-establish-balanced-scene-07-established.jpg",
+          "sha256": "346f9c0a24d1c6497459940252cf67a9d55c239b8acbadd3a0715c045507e1b5"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-alpha.png",
+          "sha256": "a15041829b615ab88cbfe33698d186afbac5978b31b1ad9dfb6046543cab41f8"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-checkerboard.png",
+          "sha256": "47ed4c6a167985115dfdf16fcf45ba18ed3ca62c8976c72f39f2264b2ea8abac"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-tight.png",
+          "sha256": "16dee54a95b88362d603bf8f39586f6e984aae698bb640b42707c72224fc2a48"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-motion-stress.jpg",
+          "sha256": "dd6199b356d20657b0bf34ff6f960a8ce7a20c8c05afd1c170c762017902eb5a"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-alpha-bands.json",
+          "sha256": "7cfa0fc167eab4549abdea9306ef722cafca5f7baa8d773c26b4ba91b34b178d"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-alpha-bands.png",
+          "sha256": "47ed4c6a167985115dfdf16fcf45ba18ed3ca62c8976c72f39f2264b2ea8abac"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-alpha.png",
+          "sha256": "5bd0095fae1affaa42e252e144daf5dec97e5439d8827fb81ec6b95c77d5240b"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-checkerboard.png",
+          "sha256": "d89961f333d1f046a583c3cf94e1233cff68abd279a387e0ec477dbf72864d2f"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-tight.png",
+          "sha256": "cebdeff7c2c28ba908fa1e00220c0f2ab4f49724863169c228521ad3fa97bb96"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-motion-stress.jpg",
+          "sha256": "12ef427dce06a31308ef4a1fce0f2af807dee3efa7e31c41df168a758a7030df"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-alpha-bands.json",
+          "sha256": "7cfa0fc167eab4549abdea9306ef722cafca5f7baa8d773c26b4ba91b34b178d"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-alpha-bands.png",
+          "sha256": "d89961f333d1f046a583c3cf94e1233cff68abd279a387e0ec477dbf72864d2f"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-alpha.png",
+          "sha256": "c5a68dee56762dd6887da7276ecf83826f33caa5157c6bebe4a1e12f42130813"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-checkerboard.png",
+          "sha256": "06b223a002843a21f7b531671e0ab85d929e76febaba0b599438f1e165a35add"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-tight.png",
+          "sha256": "7142e2efa9ef8839cae79154b2a5b8a0fb23d8a97e63a9658812e3070358f284"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-motion-stress.jpg",
+          "sha256": "894f14c20a46630f1a72e892a5b776e49b749b9141837be9049d3f792b4a62d0"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-alpha-bands.json",
+          "sha256": "7cfa0fc167eab4549abdea9306ef722cafca5f7baa8d773c26b4ba91b34b178d"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-alpha-bands.png",
+          "sha256": "06b223a002843a21f7b531671e0ab85d929e76febaba0b599438f1e165a35add"
+        }
+      ],
+      "note": "已检查当前绑定的样片与三个证明帧：镜头推进柔和、层间运动有深度，事件与证明时间对应，最终画面清楚；此审核限于风格样片，不代表全片验收。",
+      "targetFingerprint": "4ffaf4f5a810cec8d969de4f07a78524c4d1895450fa85a49780bfffb9851260"
+    },
+    {
+      "compositeId": "semantic:paper-person-identity:person-consistency",
+      "reviewer": "host-vision",
+      "requiredChecks": [
+        "identity-family-consistent"
+      ],
+      "pendingChecks": [],
+      "passedChecks": [
+        "identity-family-consistent"
+      ],
+      "failedChecks": [],
+      "evidenceFiles": [
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-07-established.png",
+          "sha256": "db556ea1f6d6d29bc6a1fa25271e607ae45dd5690d466949ca6fb8a4e109af20"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-paper-person-identity-person-consistency-balanced-scene-07-established.jpg",
+          "sha256": "bbc8a2a1ad149c608fd9a0118645a54cfe7be9e7009f91d9db14fc3f97f0b109"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-paper-person-identity-person-consistency-balanced-scene-07-established.jpg",
+          "sha256": "d4663e4a4cd90ac5096e12533ae39867c81f66e7579f67627fa58a5568d0c80d"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-07-transforming.png",
+          "sha256": "d063be283a7ab5c99d88de3ac945d4fdf6ba8b4cef51a217fca93583c059bd83"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-paper-person-identity-person-consistency-balanced-scene-07-transforming.jpg",
+          "sha256": "8ac76fbcf3073c473be0f0e0c7ca62615e504c09224b7786172d1e38a3b3f8e0"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-paper-person-identity-person-consistency-balanced-scene-07-transforming.jpg",
+          "sha256": "1baf8033ba4eb5245d495744852971823b3492fac7b4e38033d203237b4d96bd"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-07-resolved.png",
+          "sha256": "cda870ad8242e791e063cdcfbbe596264fb2723cb7c983dfd03e756a42f5ed61"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-paper-person-identity-person-consistency-balanced-scene-07-resolved.jpg",
+          "sha256": "1b6417b1196688fc54d1940f353fe76447564799f27ca617098c0d7caff729de"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-paper-person-identity-person-consistency-balanced-scene-07-resolved.jpg",
+          "sha256": "d40d759a31903c23c12e29fe1d4bc9863cdae94c4d0821175ceb8c8ebeaf1773"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-alpha.png",
+          "sha256": "a15041829b615ab88cbfe33698d186afbac5978b31b1ad9dfb6046543cab41f8"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-checkerboard.png",
+          "sha256": "47ed4c6a167985115dfdf16fcf45ba18ed3ca62c8976c72f39f2264b2ea8abac"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-tight.png",
+          "sha256": "16dee54a95b88362d603bf8f39586f6e984aae698bb640b42707c72224fc2a48"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-motion-stress.jpg",
+          "sha256": "dd6199b356d20657b0bf34ff6f960a8ce7a20c8c05afd1c170c762017902eb5a"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-alpha-bands.json",
+          "sha256": "7cfa0fc167eab4549abdea9306ef722cafca5f7baa8d773c26b4ba91b34b178d"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-alpha-bands.png",
+          "sha256": "47ed4c6a167985115dfdf16fcf45ba18ed3ca62c8976c72f39f2264b2ea8abac"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-alpha.png",
+          "sha256": "5bd0095fae1affaa42e252e144daf5dec97e5439d8827fb81ec6b95c77d5240b"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-checkerboard.png",
+          "sha256": "d89961f333d1f046a583c3cf94e1233cff68abd279a387e0ec477dbf72864d2f"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-tight.png",
+          "sha256": "cebdeff7c2c28ba908fa1e00220c0f2ab4f49724863169c228521ad3fa97bb96"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-motion-stress.jpg",
+          "sha256": "12ef427dce06a31308ef4a1fce0f2af807dee3efa7e31c41df168a758a7030df"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-alpha-bands.json",
+          "sha256": "7cfa0fc167eab4549abdea9306ef722cafca5f7baa8d773c26b4ba91b34b178d"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-alpha-bands.png",
+          "sha256": "d89961f333d1f046a583c3cf94e1233cff68abd279a387e0ec477dbf72864d2f"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-alpha.png",
+          "sha256": "c5a68dee56762dd6887da7276ecf83826f33caa5157c6bebe4a1e12f42130813"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-checkerboard.png",
+          "sha256": "06b223a002843a21f7b531671e0ab85d929e76febaba0b599438f1e165a35add"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-tight.png",
+          "sha256": "7142e2efa9ef8839cae79154b2a5b8a0fb23d8a97e63a9658812e3070358f284"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-motion-stress.jpg",
+          "sha256": "894f14c20a46630f1a72e892a5b776e49b749b9141837be9049d3f792b4a62d0"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-alpha-bands.json",
+          "sha256": "7cfa0fc167eab4549abdea9306ef722cafca5f7baa8d773c26b4ba91b34b178d"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-alpha-bands.png",
+          "sha256": "06b223a002843a21f7b531671e0ab85d929e76febaba0b599438f1e165a35add"
+        }
+      ],
+      "note": "已检查完整源状态表、透明棋盘底、轮廓、三时刻合成及身份参考：靛蓝外套与米白长裤保持一致；三种姿态顺序清晰，四肢完整、无实色背景。运行时以落脚位置为轴校正状态视觉比例。",
+      "targetFingerprint": "725df21124cb2370e2308b1c2007123f76c4c2cf416799abe246aefde60bbae8"
+    },
+    {
+      "compositeId": "semantic:paper-person-topology:person-outline",
+      "reviewer": "host-vision",
+      "requiredChecks": [
+        "silhouette-fidelity",
+        "negative-space-clean",
+        "background-leak-free"
+      ],
+      "pendingChecks": [],
+      "passedChecks": [
+        "silhouette-fidelity",
+        "negative-space-clean",
+        "background-leak-free"
+      ],
+      "failedChecks": [],
+      "evidenceFiles": [
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-07-established.png",
+          "sha256": "db556ea1f6d6d29bc6a1fa25271e607ae45dd5690d466949ca6fb8a4e109af20"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-paper-person-topology-person-outline-balanced-scene-07-established.jpg",
+          "sha256": "bbc8a2a1ad149c608fd9a0118645a54cfe7be9e7009f91d9db14fc3f97f0b109"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-paper-person-topology-person-outline-balanced-scene-07-established.jpg",
+          "sha256": "3cdba672c63fef93141f97f6acc6a87eef40bd895436826fdb71ba695407a406"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-07-transforming.png",
+          "sha256": "d063be283a7ab5c99d88de3ac945d4fdf6ba8b4cef51a217fca93583c059bd83"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-paper-person-topology-person-outline-balanced-scene-07-transforming.jpg",
+          "sha256": "8ac76fbcf3073c473be0f0e0c7ca62615e504c09224b7786172d1e38a3b3f8e0"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-paper-person-topology-person-outline-balanced-scene-07-transforming.jpg",
+          "sha256": "b1024f411f53f8497779e56e0eb2317a7c64d2002f2dfcf9fa78e035d47b589c"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-07-resolved.png",
+          "sha256": "cda870ad8242e791e063cdcfbbe596264fb2723cb7c983dfd03e756a42f5ed61"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-paper-person-topology-person-outline-balanced-scene-07-resolved.jpg",
+          "sha256": "1b6417b1196688fc54d1940f353fe76447564799f27ca617098c0d7caff729de"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-paper-person-topology-person-outline-balanced-scene-07-resolved.jpg",
+          "sha256": "cd2c7d5be03e21428cf23811033c360287ce893f3a3093b9db84dbf2579f7e88"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-alpha.png",
+          "sha256": "a15041829b615ab88cbfe33698d186afbac5978b31b1ad9dfb6046543cab41f8"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-checkerboard.png",
+          "sha256": "47ed4c6a167985115dfdf16fcf45ba18ed3ca62c8976c72f39f2264b2ea8abac"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-tight.png",
+          "sha256": "16dee54a95b88362d603bf8f39586f6e984aae698bb640b42707c72224fc2a48"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-motion-stress.jpg",
+          "sha256": "dd6199b356d20657b0bf34ff6f960a8ce7a20c8c05afd1c170c762017902eb5a"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-alpha-bands.json",
+          "sha256": "7cfa0fc167eab4549abdea9306ef722cafca5f7baa8d773c26b4ba91b34b178d"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-curled-alpha-bands.png",
+          "sha256": "47ed4c6a167985115dfdf16fcf45ba18ed3ca62c8976c72f39f2264b2ea8abac"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-alpha.png",
+          "sha256": "5bd0095fae1affaa42e252e144daf5dec97e5439d8827fb81ec6b95c77d5240b"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-checkerboard.png",
+          "sha256": "d89961f333d1f046a583c3cf94e1233cff68abd279a387e0ec477dbf72864d2f"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-tight.png",
+          "sha256": "cebdeff7c2c28ba908fa1e00220c0f2ab4f49724863169c228521ad3fa97bb96"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-motion-stress.jpg",
+          "sha256": "12ef427dce06a31308ef4a1fce0f2af807dee3efa7e31c41df168a758a7030df"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-alpha-bands.json",
+          "sha256": "7cfa0fc167eab4549abdea9306ef722cafca5f7baa8d773c26b4ba91b34b178d"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-rising-alpha-bands.png",
+          "sha256": "d89961f333d1f046a583c3cf94e1233cff68abd279a387e0ec477dbf72864d2f"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-alpha.png",
+          "sha256": "c5a68dee56762dd6887da7276ecf83826f33caa5157c6bebe4a1e12f42130813"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-checkerboard.png",
+          "sha256": "06b223a002843a21f7b531671e0ab85d929e76febaba0b599438f1e165a35add"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-tight.png",
+          "sha256": "7142e2efa9ef8839cae79154b2a5b8a0fb23d8a97e63a9658812e3070358f284"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-motion-stress.jpg",
+          "sha256": "894f14c20a46630f1a72e892a5b776e49b749b9141837be9049d3f792b4a62d0"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-alpha-bands.json",
+          "sha256": "7cfa0fc167eab4549abdea9306ef722cafca5f7baa8d773c26b4ba91b34b178d"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-07-paper-person-upright-alpha-bands.png",
+          "sha256": "06b223a002843a21f7b531671e0ab85d929e76febaba0b599438f1e165a35add"
+        }
+      ],
+      "note": "已检查完整源状态表、透明棋盘底、轮廓、三时刻合成及身份参考：靛蓝外套与米白长裤保持一致；三种姿态顺序清晰，四肢完整、无实色背景。运行时以落脚位置为轴校正状态视觉比例。",
+      "targetFingerprint": "df40d29619ddd411abab002f80dad60aa2eac81826c70e2a01d3eb4289273445"
+    },
+    {
+      "compositeId": "semantic:rain-window-topology:window-outline",
+      "reviewer": "host-vision",
+      "requiredChecks": [
+        "silhouette-fidelity",
+        "negative-space-clean",
+        "background-leak-free"
+      ],
+      "pendingChecks": [],
+      "passedChecks": [
+        "silhouette-fidelity",
+        "negative-space-clean",
+        "background-leak-free"
+      ],
+      "failedChecks": [],
+      "evidenceFiles": [
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-01-established.png",
+          "sha256": "b0cd474242690209b2dbc8217b1f3b1e9cc613778cb0853f958483b4e1c0003e"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-rain-window-topology-window-outline-balanced-scene-01-established.jpg",
+          "sha256": "a6357accf434f034e900cd64049acc7c0bf3df2b480fe5be08ce758326f35852"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-rain-window-topology-window-outline-balanced-scene-01-established.jpg",
+          "sha256": "ee6fcdffc2515028a4f45ea8ae49bca690d095ceacdbfcc60c57c630238088e7"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-01-transforming.png",
+          "sha256": "d1bbd07d78714314a6697916b308d95b548e3d93ba6f9859c99b77bc0e30a599"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-rain-window-topology-window-outline-balanced-scene-01-transforming.jpg",
+          "sha256": "62900327980d329a9b9b0f0fd17ff1cecaae4d87ac113f9061550bc2a005c69c"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-rain-window-topology-window-outline-balanced-scene-01-transforming.jpg",
+          "sha256": "f57ea428413dc576425b25f2af5e767f75977c6a12f484d28948adb1b9dd8bae"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\frames\\balanced-scene-01-resolved.png",
+          "sha256": "945e596e9039c6ff68b57f426e93a0bcf3c053e056dbf908bc30e54f4a62883e"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\crops\\semantic-rain-window-topology-window-outline-balanced-scene-01-resolved.jpg",
+          "sha256": "252ee1d6da115ab8b767644c0753d6db3a7efc4bca3a3581162a38868d5e0711"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\debug\\semantic-rain-window-topology-window-outline-balanced-scene-01-resolved.jpg",
+          "sha256": "ad0e228d304fba44b64e7752572b0df31a212b1d74cc70760590d5735b1762f8"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-rear-alpha.png",
+          "sha256": "ddf9dd33a181bfbb320f96afbcf2f79997c0aee19d108635d2cb8e0d560e051d"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-rear-checkerboard.png",
+          "sha256": "b0b2a0bb985b44339208b35faf3e092bf8a2ed9d50c4cebf98f67ff9e552e225"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-rear-tight.png",
+          "sha256": "b0b2a0bb985b44339208b35faf3e092bf8a2ed9d50c4cebf98f67ff9e552e225"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-rear-motion-stress.jpg",
+          "sha256": "6d189dc3f8c0eb115e33b9285ddb142993883c72b9ec8df8356be56aea1ebb66"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-rear-alpha-bands.json",
+          "sha256": "e043dffa479c97e05b77cda7d49e3b045e7f0dd66e930703bb586bb4c5550ac1"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-rear-alpha-bands.png",
+          "sha256": "b0b2a0bb985b44339208b35faf3e092bf8a2ed9d50c4cebf98f67ff9e552e225"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-subject-alpha.png",
+          "sha256": "c02e2692fd6979517ebfa2388c3643723ca01c635c76094392680a82392f2c0e"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-subject-checkerboard.png",
+          "sha256": "c8d589dcab80940a5c3393a80ca4eec5b59ac191608139a0f363792136c604a8"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-subject-tight.png",
+          "sha256": "8bc3706e0316d4f2760082d72fbe381f2b7f30e404c311ce8ead39bd25e51b0c"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-subject-motion-stress.jpg",
+          "sha256": "ec9be302b6e6eea6a4fd530b4be382c4d22c800ff19fada72cefc2ecbbb8842a"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-subject-alpha-bands.json",
+          "sha256": "cd8159f23e7d847bee47571a92f8bfbe6c04475cf7fd76d7ae56186b7af6ccb9"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-subject-alpha-bands.png",
+          "sha256": "1432c9ea98d90d61b8263fd8b41f6d7791e93fa33303db6e19a06e28fdd62b63"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-front-alpha.png",
+          "sha256": "d43c81e80a0f3cf8bd15eb04238ad6ca044f8fd53cef304631b5c0cc5dcd5299"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-front-checkerboard.png",
+          "sha256": "cb8547a3386a3eb4b7b27239f9b067f71dbd1bfb438f47e65192518c1cc7f1b5"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-front-tight.png",
+          "sha256": "efc8969a0451272e9266bcb9b76fbf4fb549603f4ad90cc67396225eb2da2e1a"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-front-motion-stress.jpg",
+          "sha256": "75a7a9533e795ef039d26b242be9cd5482c83232a75ab2c0fdf87aea32abecf5"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-front-alpha-bands.json",
+          "sha256": "cfa9e817441c0d9597ee7ff628ef01bc103b0dc0470c56f72f3cf73875da3497"
+        },
+        {
+          "file": "dist\\time-patina-paper\\style-proof\\evidence\\balanced-scene-01-front-alpha-bands.png",
+          "sha256": "cb8547a3386a3eb4b7b27239f9b067f71dbd1bfb438f47e65192518c1cc7f1b5"
+        }
+      ],
+      "note": "已检查原始母版、完整背景、透明窗框/前景、重建对照、展开图和三画幅运动边界：窗格空隙干净，前中后层完整，扩大载体后边缘不露空；纸纹、网点与配色一致。",
+      "targetFingerprint": "7391b5c48e5a2cab175b0d6ba2d39748716d1067a3e6e3d918d431ee306f50b3"
+    }
+  ]
+}

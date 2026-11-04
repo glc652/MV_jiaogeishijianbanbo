@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "projectSlug": "time-patina-paper",
+  "sceneId": "balanced-scene-01",
+  "nodeId": "paper-person",
+  "poseFamilyId": "human-letter",
+  "sourceAssetId": "human-letter-sheet",
+  "input": "public/projects/time-patina-paper/assets/human-letter-sheet.png",
+  "outputDirectory": "public/projects/time-patina-paper/assets/character-v5",
+  "layout": {
+    "columns": 2,
+    "rows": 2
+  },
+  "registration": {
+    "id": "human-letter-registration",
+    "sourceMasterAssetId": "human-letter-sheet"
+  },
+  "identityReference": {
+    "assetId": "paper-person-reference"
+  },
+  "anchorPolicy": {
+    "requiredAnchorIds": [
+      "contact"
+    ],
+    "maximumDrift": 0.07
+  },
+  "states": [
+    {
+      "id": "letter-low",
+      "row": 0,
+      "column": 0,
+      "facing": "front",
+      "anchors": [
+        {
+          "id": "contact",
+          "x": 0.5,
+          "y": 0.88
+        }
+      ],
+      "registrationTransform": {
+        "scale": 0.6,
+        "anchorId": "contact",
+        "sourceContact": {
+          "x": 0.5215384615384615,
+          "y": 0.9538461538461539
+        }
+      }
+    },
+    {
+      "id": "letter-read",
+      "row": 0,
+      "column": 1,
+      "facing": "front",
+      "anchors": [
+        {
+          "id": "contact",
+          "x": 0.5,
+          "y": 0.88
+        }
+      ],
+      "registrationTransform": {
+        "scale": 0.6,
+        "anchorId": "contact",
+        "sourceContact": {
+          "x": 0.45153846153846156,
+          "y": 0.9538461538461539
+        }
+      }
+    },
+    {
+      "id": "letter-rest",
+      "row": 1,
+      "column": 0,
+      "facing": "front",
+      "anchors": [
+        {
+          "id": "contact",
+          "x": 0.5,
+          "y": 0.88
+        }
+      ],
+      "registrationTransform": {
+        "scale": 0.6,
+        "anchorId": "contact",
+        "sourceContact": {
+          "x": 0.5515384615384615,
+          "y": 0.8815384615384615
+        }
+      }
+    }
+  ],
+  "extraction": {
+    "mode": "explicit-source-rects",
+    "canvas": {
+      "width": 650,
+      "height": 650
+    },
+    "cells": [
+      {
+        "stateId": "letter-low",
+        "sourceRect": {
+          "left": 0,
+          "top": 0,
+          "width": 627,
+          "height": 627
+        },
+        "placement": {
+          "left": 0,
+          "top": 0
+        }
+      },
+      {
+        "stateId": "letter-read",
+        "sourceRect": {
+          "left": 627,
+          "top": 0,
+          "width": 627,
+          "height": 627
+        },
+        "placement": {
+          "left": 0,
+          "top": 0
+        }
+      },
+      {
+        "stateId": "letter-rest",
+        "sourceRect": {
+          "left": 0,
+          "top": 627,
+          "width": 627,
+          "height": 627
+        },
+        "placement": {
+          "left": 0,
+          "top": 0
+        }
+      }
+    ]
+  },
+  "keying": {
+    "keyColor": "#00ff00",
+    "transparentThreshold": 0,
+    "opaqueThreshold": 1,
+    "edgeFeather": 0,
+    "matteErode": 0,
+    "edgePadding": 2
+  }
+}

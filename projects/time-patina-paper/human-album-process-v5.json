@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "projectSlug": "time-patina-paper",
+  "sceneId": "balanced-scene-02",
+  "nodeId": "paper-person",
+  "poseFamilyId": "human-album",
+  "sourceAssetId": "human-album-sheet",
+  "input": "public/projects/time-patina-paper/assets/human-album-sheet.png",
+  "outputDirectory": "public/projects/time-patina-paper/assets/character-v5",
+  "layout": {
+    "columns": 2,
+    "rows": 2
+  },
+  "registration": {
+    "id": "human-album-registration",
+    "sourceMasterAssetId": "human-album-sheet"
+  },
+  "identityReference": {
+    "assetId": "paper-person-reference"
+  },
+  "anchorPolicy": {
+    "requiredAnchorIds": [
+      "contact"
+    ],
+    "maximumDrift": 0.07
+  },
+  "states": [
+    {
+      "id": "album-open",
+      "row": 0,
+      "column": 0,
+      "facing": "front",
+      "anchors": [
+        {
+          "id": "contact",
+          "x": 0.5,
+          "y": 0.88
+        }
+      ],
+      "registrationTransform": {
+        "scale": 0.6,
+        "anchorId": "contact",
+        "sourceContact": {
+          "x": 0.4653846153846154,
+          "y": 0.9723076923076923
+        }
+      }
+    },
+    {
+      "id": "album-turn",
+      "row": 0,
+      "column": 1,
+      "facing": "front",
+      "anchors": [
+        {
+          "id": "contact",
+          "x": 0.5,
+          "y": 0.88
+        }
+      ],
+      "registrationTransform": {
+        "scale": 0.6,
+        "anchorId": "contact",
+        "sourceContact": {
+          "x": 0.4592307692307692,
+          "y": 0.9723076923076923
+        }
+      }
+    },
+    {
+      "id": "album-held",
+      "row": 1,
+      "column": 0,
+      "facing": "front",
+      "anchors": [
+        {
+          "id": "contact",
+          "x": 0.5,
+          "y": 0.88
+        }
+      ],
+      "registrationTransform": {
+        "scale": 0.6,
+        "anchorId": "contact",
+        "sourceContact": {
+          "x": 0.48307692307692307,
+          "y": 0.9015384615384615
+        }
+      }
+    }
+  ],
+  "extraction": {
+    "mode": "explicit-source-rects",
+    "canvas": {
+      "width": 650,
+      "height": 650
+    },
+    "cells": [
+      {
+        "stateId": "album-open",
+        "sourceRect": {
+          "left": 0,
+          "top": 0,
+          "width": 627,
+          "height": 633
+        },
+        "placement": {
+          "left": 0,
+          "top": 0
+        }
+      },
+      {
+        "stateId": "album-turn",
+        "sourceRect": {
+          "left": 627,
+          "top": 0,
+          "width": 627,
+          "height": 633
+        },
+        "placement": {
+          "left": 0,
+          "top": 0
+        }
+      },
+      {
+        "stateId": "album-held",
+        "sourceRect": {
+          "left": 0,
+          "top": 633,
+          "width": 650,
+          "height": 621
+        },
+        "placement": {
+          "left": 0,
+          "top": 0
+        }
+      }
+    ]
+  },
+  "keying": {
+    "keyColor": "#00ff00",
+    "transparentThreshold": 0,
+    "opaqueThreshold": 1,
+    "edgeFeather": 0,
+    "matteErode": 0,
+    "edgePadding": 2
+  }
+}
